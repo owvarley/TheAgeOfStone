@@ -1,0 +1,71 @@
+In compiling this code, you have agreed to the following restrictions on
+any operating version of WoT code:
+
+1: 	Under NO circumstances is this code, or the names "Wheel of Time" 
+	"Robert Jordan", or "WoT" to be used for profit of any sort.  The
+	Name "Wheel of Time" and all related world data associated with
+	this name are copyright Robert Jordan and TOR Books, who have
+	granted Muds in general a limited license to use these names with
+	the stipulations that no money changes hands and proper credits
+	are given their due.
+
+2:	You must follow all guidelines in the following licenses;
+        WoT (license.wot) ROM (rom.license) diku (license.doc), Merc
+        (license.txt)
+
+3:	The login message to your mud must contain the following
+	statement.
+
+ 		 		   based on
+		WoT Mud v0.1b, copyright 1998-2000, Gary McNickle
+	       ROM Mud v2.4 beta, copyright 1993-1996, Russ Taylor.
+
+
+       example:
+
+				Welcome to
+		          Your Mud Name Here, v1.0
+
+                                 based on
+              WoT Mud v0.1b, copyright 1998-2000, Gary McNickle
+             ROM Mud v2.4 beta, copyright 1993-1996, Russ Taylor.
+
+
+	The above statement must be placed in the login screen (The screen
+	seen by a player when they first connect) in such a manner as to
+	be readable by both new and old characters on a 24-line terminal
+	with no scroll-back.  This means you cannot put these credits on
+	the top of a 24=line ascii graphic, as this wouid cause the
+	credits to scroll off the screen.  Final decision on compliance/
+        non-compliance with this requirement is left solely to the
+	judgement of the developers of the WoT and ROM Mud systems.
+
+4:	The help files must include entries for Diku, Merc, ROM and WoT
+	Muds, readable by all players, and unaltered from the file
+	included with the source code, except as authorized by the
+	prospective Mud system authors.
+
+5:	Before opening a WoT based mud, you must send email to the author
+	(gary@tarmongaidon.org), so that I can keep track of sites for future
+        code releases.
+
+6:	Any use of the term "Wheel of Time" is copyright Robert Jordan and
+	remains the exclusive rights of same.  Any use of the term "WoT"
+	is copyright Gary McNickle and Dark Harvest Systems and remains
+	their exlusive property.  This means you may not use either of
+	these terms as names for your MUD without the express permission
+	of the aforementioned parties.
+
+7:	As a coder, you have full rights to release your own derivatives 
+	of the WoT code, provided they follow the restrictions of this
+	license, contain all appropriate README and credits files, and are
+   	properly labelled as being derivatives of the WoT v1.0 code (just
+	as WoT is itself a derivative of ROM 2.4 beta code).  
+
+7:	Anyone not wishing to follow terms of the WoT license shall be
+	obligated to delete all copies of this code in their possession.
+	This includes, but is not limited to, failure to display full 
+	credits for WoT, ROM, Merc, and Diku.
+
+If you have any questions about this license, please send email to
+gary@tarmongaidon.org.  

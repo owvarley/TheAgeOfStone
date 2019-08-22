@@ -1,0 +1,6551 @@
+#AREADATA
+Name Whitebridge, Andor~
+Builders None~
+VNUMs 6300 6499
+Sector 1
+Credits [ 1 30] Whitebridge, Andor~
+Security 9
+LastSaved 10/20/100~
+Flags 0
+Version 5
+End
+
+
+
+#MOBILES
+#6300
+peasant woman~
+a peasant woman~
+A local peasant woman is walking by.
+~
+This woman is very poor and in bad health.  Her hacking cough keeps
+others away from her.  She is wearing a dirty brown dress and a tattered
+shawl.  
+~
+human~
+BJ|
+Wb|
+0 0
+15 0 5d30+161 0d0+0 3d5+11 none
+0 0 0 5
+|
+|
+|
+BCDEFGQ|
+stand stand female 1
+GKP|
+BCD|
+medium unknown
+#6301
+peasant man~
+a peasant man~
+A local peasant man is here.
+~
+This man looks tired and in need of a bath.  He is wearing a torn wool
+shirt and dirty wool trousers.  His hair and beard seem to be infested with
+lice.  
+~
+human~
+BJ|
+|
+0 0
+16 0 5d30+230 0d0+0 3d5+17 none
+0 0 0 5
+|
+|
+|
+DFG|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6302
+peasant child~
+a peasant child~
+A local peasant child is here, looking for food.
+~
+This child is so dirty, that it is hard to tell if it is a boy or girl. 
+The child looks to be in decent health, but needs to be bathed.  The child
+is wearing rags that could have been a dress, tunic, coat or almost
+anything, maybe even a sack at one time.  
+~
+human~
+BJ|
+|
+0 0
+9 0 3d22+96 0d0+0 2d3+5 none
+5 5 5 7
+G|
+|
+|
+CDFGHIJQ|
+stand stand male 0
+GKP|
+BCD|
+small unknown
+#6303
+dockworker ~
+a dockworker~
+A sweaty dockworker is here carrying a crate.
+~
+A strong, sweaty dockworker is here carrying cargo from the ship to the
+warehouse.  He has an odor of fish, ale and sweat.  
+~
+human~
+BFJ|
+|
+0 0
+20 0 6d45+244 0d0+0 4d5+20 none
+429496727 429496727 429496727 4
+DFGJ|
+|
+E|
+D|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6304
+lazy dockworker~
+a lazy dockworker~
+A lazy dockworker is lounging here.
+~
+Who does this man think he is?  He is just sitting here, while his
+comrades continue to do his share of the work, along with their own share. 
+It would be fitting if his employer saw him like this.  
+~
+human~
+BFJ|
+|
+0 0
+19 0 6d41+227 0d0+0 4d5+9 none
+429496727 429496727 429496727 4
+|
+|
+|
+D|
+sit sit male 1
+GKP|
+BCD|
+medium unknown
+#6305
+old fisherman~
+an old fisherman~
+An old fisherman is here mending his nets.
+~
+This old fisherman seems content in passing the day away mending an old
+net.  He smiles warmly and hums a tune to himself.  
+~
+human~
+BFJ|
+b|
+0 0
+16 0 5d35+150 0d0+0 3d5+9 none
+0 0 0 5
+|
+|
+|
+DE|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6306
+cargo master~
+the Cargo Master~
+The Cargo Master is here watching his workers unload the ships.
+~
+The Cargo Master is intent on keeping his men working.  Some tend to lie
+around on the job, and he has to keep a close eye on them.  He looks very
+upset for some reason, best not to anger him.  
+~
+human~
+BFJ|
+|
+0 0
+22 0 7d47+292 0d0+0 4d6+11 none
+429496726 429496726 429496726 1
+DG|
+|
+|
+|
+stand stand male 2
+GKP|
+BCD|
+medium unknown
+#6307
+harbor master~
+the Harbor Master~
+The Harbor Master is here counting the harbor taxes that he collected today.
+~
+The Harbor Master is taking great joy in counting the coins he has
+collected today in taxes.  He frequently leaves the room to deposit the
+coins in a locked chest.  
+~
+human~
+BFJ|
+|
+0 0
+22 0 7d47+292 0d0+0 4d6+11 none
+429496726 429496726 429496726 3
+DG|
+|
+|
+|
+sit sit male 2
+GKP|
+BCD|
+medium unknown
+#6308
+militia guard old~
+an old Militia Guard~
+An old Militia Guard is here to train the new guards.
+~
+This grizzled old man is here trying to teach the new recruits.  He seems
+to have given up on anything too difficult, and is concentrating on teaching
+them how to not cut themselves with their own weapons.  
+~
+human~
+BFJMNV|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+DFGILO|
+CDEFGHIT|
+|
+|
+stand stand male 1
+|
+|
+medium unknown
+#6309
+local merchant~
+a local merchant~
+A local merchant is here selling his wares.
+~
+This man is here trying to attract more customers to his shop.  He is
+very loud and extravagant, and boasts often of the quality of his wares.  He
+gestures often to the furniture he is selling and claims there is no equal
+for the price he asks.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+DGO|
+CDEFGHILQT|
+|
+|
+stand stand male 100
+GKP|
+BCD|
+medium unknown
+#6310
+butcher shop~
+a butcher~
+A large man who must be the butcher is standing here
+~
+The butcher is here holding a large cleaver and wearing a stained apron. 
+He is waiting for someone to purchase some of his meats.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+5 none
+429496629 429496629 429496629 429496629
+DFGHLO|
+CDEFGHILQT|
+|
+|
+stand stand male 100
+GKP|
+BCD|
+medium unknown
+#6313
+cobbler~
+a cobbler~
+A cobbler is here mending some boots.
+~
+While holding several tacks between his lips, this cobbler seems very
+busy in his task of repairing a fine set of boots.  He looks up every once
+and a while to check for customers in his shop.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+DGO|
+CDEFGHIQT|
+|
+|
+stand stand male 100
+GKP|
+BCD|
+medium unknown
+#6314
+tailor~
+a tailor~
+A tailor is here trying to thread a needle.
+~
+This woman is here trying to thread a needle.  She has a bolt of cloth
+over one shoulder, and she seems so involved in her work, that she hasn't
+seen the customers in her shop that need service.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+DGO|
+CDEFGHILT|
+|
+|
+stand stand female 100
+GKP|
+BCD|
+medium unknown
+#6315
+woman shop owner~
+a shopkeeper~
+A shopkeeper stands here eager to sell something.
+~
+This woman is overly eager to sell something.  It could possibly be
+because her fruits and vegetables are in such bad shape, that they aren't
+selling very well.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496708 429496708 429496708 429496724
+|
+BLT|
+|
+|
+stand stand female 100
+GKP|
+B|
+medium unknown
+#6316
+innkeeper bartim~
+an innkeeper~
+A fat, balding innkeeper is here drawing ale from a large barrel.
+~
+This fellow has seen better days.  His stomach covers his belt, and what
+is left of his hair has not seen a brush in a year at the least.  His palms
+sweat continuously, and his eyes dart about the room.  Whenever he talks, he
+licks his lips unknowingly, and acts as if he has said too much.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+|
+BLT|
+|
+|
+stand stand male 100
+GKP|
+B|
+medium unknown
+#6317
+workman man~
+a tired workman~
+A tired workman sits here at a table enjoying his ale.
+~
+This man is dressed in rough wool clothing.  He grunts sourly at all who
+pass by, yet smiles into his drink.  He seems to have had several mugs of
+ale already, as his speech is slurred as he mutters to himself.  
+~
+human~
+BFJ|
+|
+0 0
+19 0 6d41+200 0d0+0 4d5+9 none
+429496727 429496727 429496727 4
+D|
+|
+|
+CD|
+sit sit male 2
+GKP|
+BCD|
+medium unknown
+#6318
+serving girl~
+a serving girl~
+A harried serving girl is here.
+~
+This girl is running to and fro trying to tend to her customers and other
+duties.  She wears her hair in a long braid that reaches her waist.  She
+tries to smile sweetly at all around her, but now and then, she grimaces
+with a tired look on her face.  
+~
+human~
+BJ|
+|
+0 0
+17 0 6d33+195 0d0+0 4d4+8 none
+0 0 0 5
+|
+|
+|
+E|
+stand stand female 1
+GKP|
+BCD|
+medium unknown
+#6319
+patron man~
+a patron~
+A patron of the inn is here.
+~
+This man is pretty stout.  His girth is the same width as his shoulders,
+but not much of it is fat.  He looks casually about like he is either
+looking for someone, or looking for his room.  
+~
+human~
+BJ|
+|
+0 0
+20 0 6d45+244 0d0+0 4d5+10 none
+429496727 429496727 429496727 4
+D|
+|
+|
+|
+stand stand male 2
+GKP|
+BCD|
+medium unknown
+#6320
+cook woman~
+a cook~
+A short, chubby woman, who must be the head cook, is here cleaning a tabletop.
+~
+This woman looks to be about thirty years old, is short, chubby and has a
+gleam of defiance in her eyes.  Her dark brown hair is pulled up into a bun
+and she has flour on her face and apron.  Despite all of this, she still
+looks very attractive, and seems to have a pleasant manner.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+|
+BLT|
+|
+|
+stand stand female 100
+GKP|
+B|
+medium unknown
+#6321
+merchant guard man~
+a guard~
+An unemployed merchant guard is here resting.
+~
+This man is dressed in fine-cut clothes, yet somehow appears to be
+dressed like a slob.  He is on edge, and looks around suspiciously.  
+~
+human~
+BFIJ|
+|
+0 0
+24 0 7d56+315 0d0+0 4d6+12 none
+429496724 429496724 429496724 1
+DG|
+|
+|
+|
+stand stand male 3
+GKP|
+BCD|
+medium unknown
+#6322
+naked guard~
+a naked guard~
+A naked merchant guard is here getting into a bath tub.
+~
+This man is not too happy for being disturbed.  It is possible his next
+act, after getting out of the tub, will be murder.  
+~
+human~
+BFIJ|
+|
+0 0
+24 0 7d56+315 0d0+0 4d6+12 none
+429496726 429496726 429496726 4
+DG|
+|
+|
+FG|
+stand stand male 0
+GKP|
+B|
+medium unknown
+#6323
+merchant man~
+a merchant~
+A tired merchant is here undressing for bed.
+~
+This man is very weary and tired.  He looks to have travelled a long
+distance, and has passed on his bath for now so he can go straight to bed. 
+He is very angry at being disturbed.  
+~
+human~
+BFIJ|
+b|
+0 0
+21 0 7d43+261 0d0+0 4d5+10 none
+429496727 429496727 429496727 4
+|
+|
+|
+|
+stand stand male 3
+GKP|
+BCD|
+medium unknown
+#6324
+merchant man~
+a merchant~
+A merchant is here sleeping in his bed.
+~
+This man is sleeping very restlessly, and mumbles a few incoherent words
+from time to time.  He looks to be from Saldaea, from the heavy beard on his
+face.  
+~
+human~
+BFJ|
+|
+0 0
+21 0 7d43+200 0d0+0 4d5+10 none
+429496727 429496727 429496727 4
+|
+|
+|
+D|
+sleep sleep male 1
+GKP|
+BCD|
+medium unknown
+#6325
+merchant man~
+a naked merchant~
+A naked merchant is here preparing to enter his bath.
+~
+This man is very angry for being disturbed while bathing.  It is likely
+he will call for his guards, but his anger may cause him to attack before
+then.  
+~
+human~
+BFIJ|
+|
+0 0
+22 0 7d47+278 0d0+0 4d6+11 none
+429496727 429496727 429496727 4
+|
+|
+|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#6326
+merchant man~
+a merchant~
+A local merchant is here having dinner with some guests.
+~
+This man is over-fed and pompous.  His loud obnoxious laughter can be
+heard as far away as the city square.  
+~
+human~
+BJe|
+|
+0 0
+23 0 7d51+296 0d0+0 4d6+11 none
+429496725 429496725 429496725 2
+DG|
+|
+|
+|
+stand stand male 2
+GKP|
+BCD|
+medium unknown
+#6327
+dinner guest man male~
+a male guest~
+A male dinner guest is here having a conversation with the other guests.
+~
+This man is plain in appearance, and only talks when needed.  He talks
+openly, yet allows others to speak without interruption.  
+~
+human~
+BJ|
+|
+0 0
+20 0 6d45+244 0d0+0 4d5+10 none
+429496727 429496727 429496727 4
+G|
+|
+|
+|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6328
+dinner guest woman female~
+a female guest~
+A female dinner guest is here chatting with all who will listen.
+~
+This woman is very lively and talkative.  She tries to carry on a
+conversation with everyone who will listen to her endless chatter about
+nothing.  
+~
+human~
+BJ|
+|
+0 0
+19 0 6d41+227 0d0+0 4d5+9 none
+429496727 429496727 429496727 5
+|
+|
+|
+E|
+stand stand female 2
+GKP|
+BCD|
+medium unknown
+#6350
+cart donkey~
+a donkey~
+A donkey is here pulling a cart.
+~
+This donkey is covered in flies.  It swishes its tail trying to shoo
+them, but they still cover the donkey.  The donkey continues pulling its
+load after a brief rest.  
+~
+horse~
+BJ|
+|
+0 0
+12 0 4d25+124 0d0+0 3d4+6 none
+3 3 3 6
+|
+|
+|
+|
+stand stand male 0
+BFP|
+BDEFGKLP|
+medium unknown
+#6351
+ox cart~
+an ox~
+An ox is here pulling a cart.
+~
+This ox is slow and smells bad.  Manure is stuck on its hooves, and some
+more is stuck to its hind leg.  Flies surround this animal, and those who
+come near it.  
+~
+horse~
+BJS|
+|
+0 0
+12 0 4d25+124 0d0+0 3d4+6 none
+3 3 3 6
+|
+|
+|
+|
+stand stand male 0
+BFP|
+BDEFGKLP|
+medium unknown
+#6352
+traveller weary man~
+a traveller~
+A weary traveller is walking by.
+~
+This man is covered with dust from his travels and looks very tired.  He
+smiles grimly to those he sees, yet keeps moving on.  
+~
+human~
+BJ|
+|
+0 0
+18 0 6d37+211 0d0+0 4d5+9 none
+429496727 429496727 429496727 4
+G|
+|
+|
+|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6353
+peddler man~
+a peddler~
+A travelling peddler is here looking for a place to sell his wares.
+~
+This man is neat and clean and polite to those around him.  He walks
+around looking at places that he can either sell his goods or set up a shop
+of his own.  
+~
+human~
+BJ|
+|
+0 0
+17 0 6d33+195 0d0+0 4d4+8 none
+429496729 429496729 429496729 5
+G|
+|
+|
+|
+stand stand male 5
+GKP|
+BCD|
+medium unknown
+#6354
+rat~
+a rat~
+A beady-eyed rat is here skulking in the shadows.
+~
+With its matted and tattered fur, ringed tail, and beady little eyes,
+this is one of the ugliest creatures ever made.  
+~
+rat~
+BJ|
+X|
+0 0
+4 0 1d13+33 0d0+0 1d4+2 none
+8 8 8 9
+GI|
+|
+E|
+H|
+stand stand male 0
+BFLP|
+BDEFGIKLPQR|
+medium unknown
+#6355
+small dog~
+a small dog~
+A small dog is here growling and barking.
+~
+This dog looks scared and hungry.  It barks at everyone it sees, but
+seems to be afraid of them, and not intent on attacking.  
+~
+dog~
+BJK|
+|
+0 0
+9 0 3d19+82 0d0+0 2d5+4 none
+4 4 4 7
+GI|
+|
+|
+|
+stand stand male 0
+BFP|
+BDEFGIKLQR|
+medium unknown
+#6356
+merchant guard young man~
+a young guard~
+A young, inexperienced merchant guard is here looking for work.
+~
+This young man has set out into the world in hopes of travel and
+adventure.  His quest has led him to possibly becoming a merchants guard. 
+He has very little experience, and no training.  It is possible he might not
+ever find a merchant in Whitebridge willing to employ him.  
+~
+human~
+BJ|
+|
+0 0
+20 0 6d45+244 0d0+0 4d5+10 none
+429496727 429496727 429496727 4
+G|
+|
+|
+|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6357
+large dog~
+a large dog~
+A large dog is here sniffing around, looking for food.
+~
+This dog is extremely hungry.  Its ribs are very visible, and sometimes
+it stomache rumbles so loudly that bystanders can hear it.  
+~
+dog~
+BJ|
+|
+0 0
+11 0 3d28+111 0d0+0 3d4+5 none
+3 3 3 6
+GI|
+|
+|
+|
+stand stand female 0
+BFP|
+BDEFGIKLQR|
+medium unknown
+#6373
+innkeeper man~
+an innkeeper~
+A fat,balding innkeeper is here tending to his customers.
+~
+This man is fat and balding, yet maintains a dignified appearance.  He
+smiles gratefully to his patrons as he rents them their rooms or sells them
+meal or ale.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+|
+BCLT|
+|
+|
+stand stand male 100
+GKP|
+BCD|
+medium unknown
+#6374
+gleeman man~
+a gleeman~
+A Gleeman is here playing his flute for the patrons of the inn.
+~
+This man has sandy-brown hair, peppered with a little gray, a thick
+mustache of the same color, and deep blue eyes.  He is very cheerful and
+dances about while he plays, constantly swirling his multi-colored, patched
+cloak.  
+~
+human~
+BFJ|
+T|
+0 0
+26 0 8d57+353 0d0+0 4d6+13 none
+429496723 429496723 429496723 1
+CFIKW|
+|
+B|
+|
+stand stand male 3
+GKP|
+BCD|
+medium unknown
+#6375
+sailor man~
+a sailor~
+A sailor is here singing along with the music.
+~
+This man is very drunk and staggering, yet he still manages a few off-key
+verses to the song.  
+~
+human~
+BFJ|
+|
+0 0
+21 0 7d43+200 0d0+0 4d5+10 none
+429496726 429496726 429496726 3
+|
+|
+|
+|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6376
+drunk man~
+a drunk~
+A drunken dockworker is here passed out at a table.
+~
+This man has drank too much and has passed out where he sits.  He snores
+loudly, and drool runs down his cheek.  
+~
+human~
+BFJ|
+|
+0 0
+22 0 7d47+210 0d0+0 4d6+11 none
+429496726 429496726 429496726 3
+|
+|
+|
+|
+sleep sleep male 1
+GKP|
+BCD|
+medium unknown
+#6377
+cook woman~
+a cook~
+One of the cooks is here cleaning the kitchen before the next meal.
+~
+This woman is slender with plain features.  Her dark-brown hair is tied
+up into a bun, and her brown eyes are cast downward.  
+~
+human~
+BFJ|
+|
+0 0
+18 0 6d37+211 0d0+0 4d5+9 none
+429496728 429496728 429496728 4
+|
+|
+|
+E|
+stand stand female 1
+GKP|
+BCD|
+medium unknown
+#6378
+dicer loud~
+a loud dicer~
+A loud dicer is here jeering his opponents.
+~
+This man is loud and obnoxious.  He is being very rude with his jeering
+and taunts.  He often fingers the knife at his side and glares at those who
+mean him trouble.  
+~
+human~
+BJ|
+Y|
+0 0
+24 0 7d56+315 0d0+0 4d6+12 none
+429496724 429496724 429496724 2
+GIW|
+|
+|
+|
+stand stand male 5
+GKP|
+BCD|
+medium unknown
+#6379
+large dicer man~
+a large man~
+A very large man is here playing dice.
+~
+This man is huge.  He is at least a head taller than most others, with
+very broad shoulders and thick muscles.  His arms are covered with some very
+heavy leather bracers.  
+~
+human~
+BJ|
+|
+0 0
+25 0 8d53+334 0d0+0 4d6+12 none
+429496724 429496724 429496724 2
+DGJ|
+|
+E|
+|
+stand stand male 3
+GKP|
+BCD|
+medium unknown
+#6380
+naked woman ~
+a naked woman~
+A naked woman is here climbing into a tub for a bath.
+~
+This woman is screaming loudly at being walked in on.  She lifts her arms
+and tries to cover her ample breasts with her hands.  She is screaming for
+help and for the innkeeper.  Her long black hair hangs down to her waist as
+she screams more and more loudly.  
+~
+human~
+BJK|
+|
+0 0
+17 0 6d33+195 0d0+0 4d4+8 none
+429496729 429496729 429496729 4
+|
+|
+|
+|
+stand stand female 0
+GKP|
+BCD|
+medium unknown
+#6381
+guard merchant experienced~
+an experienced guard~
+An experienced merchant guard is here sleeping.
+~
+This man is very large, and very tired.  He is snoring loudly, and
+thrashes about as if he is having a nightmare.  
+~
+human~
+BJ|
+Q|
+0 0
+29 0 8d71+414 0d0+0 4d7+14 none
+429496721 429496721 429496721 1
+DFGI|
+|
+E|
+|
+sleep sleep male 1
+GKP|
+BCD|
+medium unknown
+#6382
+large deckhand man~
+a large deckhand~
+A very large deckhand is here preparing for bed.
+~
+This man is very large and very mean.  He seems to be upset for being
+disturbed.  His thick muscles ripple as he clenches his fist.  
+~
+human~
+BIJ|
+|
+0 0
+28 0 8d66+393 0d0+0 4d7+14 none
+429496721 429496721 429496721 1
+DGI|
+|
+E|
+|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6383
+deckhand man~
+a deckhand~
+A deckhand is here tending to the ships rigging.
+~
+This man is lean, and has a dangerous look about him.  He keeps very busy
+tending to the ships rigging and making sure it is in good shape for when it
+is time to leave.  
+~
+human~
+BFJ|
+|
+0 0
+26 0 8d57+353 0d0+0 4d6+13 none
+429496727 429496727 429496727 3
+DFG|
+|
+|
+|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6384
+captain ship man~
+the captain~
+The captain of the ship is here barking orders at his men.
+~
+This man is confident in his walk and speech.  Even the way he yells
+displayes his overabundance of confidence.  He carries himself tall, and
+manages to look every man in the eye and stare him down.  He has a short,
+curving sword at his side, but his stance dictates that he doesn't need the
+sword.  
+~
+human~
+BFJe|
+|
+0 0
+30 0 9d61+416 0d0+0 5d6+15 none
+429496720 429496720 429496720 0
+DFGL|
+|
+|
+|
+stand stand male 10
+GKP|
+BCD|
+medium unknown
+#6403
+guard militia~
+a militia guard~
+A local militia guard sits here while not on duty.
+~
+This guard is off-duty, and is acting as such.  He is being loud,
+annoying and just generally disrespectful.  He has removed his armor and
+weapons, but has left his red tunic on to show that he is a militia guard.  
+~
+human~
+BFJ|
+|
+0 0
+27 0 8d62+373 0d0+0 4d6+13 none
+429496723 429496723 429496723 0
+DG|
+|
+|
+|
+sit sit male 2
+GKP|
+BCD|
+medium unknown
+#6404
+gate militia guard man~
+a gate guard~
+A member of the local militia is here guarding the gate.
+~
+This man is very professional and courteous.  He stands his post proudly,
+and gives directions to travellers when they ask.  His armor is clean and
+polished, and he looks to be clean shaven.  
+~
+human~
+BEFJe|
+|
+0 0
+30 0 9d61+416 0d0+0 5d6+15 none
+429496720 429496720 429496720 0
+DFGI|
+|
+E|
+|
+stand stand male 2
+GKP|
+BCD|
+medium unknown
+#6405
+man guard militia~
+a militia guard~
+A local militia guard is here keeping the peace.
+~
+This man is proud and arrogant.  He walks about as if he is better than
+those around him.  His armor is clean, yet is in need of polishing.  He
+glares at those who are new to town and sometimes tells them to keep moving
+until they are out of the city.  
+~
+human~
+BEJe|
+|
+0 0
+30 0 9d61+416 0d0+0 5d6+15 none
+429496720 429496720 429496720 0
+DFG|
+|
+E|
+|
+stand stand male 3
+GKP|
+BCD|
+medium unknown
+#6410
+old weaponsmith smith~
+an old weaponsmith~
+An old weaponsmith is here selling his wares.
+~
+This old, gray haired weaponsmith talks proudly of his merchandise.  He
+rubs the weapons and armor affectionately with an oiled rag.  Occasionally,
+he stops bragging about the quality of his weapons and armor, and sells
+something to the customers in his shop.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+DGO|
+CDEFGHILQT|
+|
+|
+stand stand male 500
+GKP|
+BCD|
+medium unknown
+#6411
+weaponsmith smith son young man~
+a young man~
+A young man, who must be the weaponsmith's son, is here selling special weapons.
+~
+This young man keeps looking to the west to see if his father is checking
+up on him.  He knows that his father doesn't want him selling these strange
+weapons, no matter what profit can be made.  The young man wears a frown on
+his face, possibly from his father's disapproval of his trade.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+DGO|
+CDEFGHILQT|
+|
+|
+stand stand male 100
+GKP|
+BCD|
+medium unknown
+#6421
+farmer man old~
+a farmer~
+An old farmer sits here weeping silently.
+~
+This man seems to have given up on life.  He is very depressed, and
+looking at his home, there is no doubt why.  He sobs quietly, and at times
+curses himself for his failings.  
+~
+human~
+BJ|
+|
+0 0
+16 0 5d35+180 0d0+0 3d5+9 none
+0 0 0 5
+|
+|
+|
+|
+sit sit male 0
+GKP|
+BCD|
+medium unknown
+#6422
+calf~
+a calf~
+A young calf is here eating some grass.
+~
+This calf is brown all over except for a few spots of white on its
+under-belly.  It eats its grass noisily, and gives an occasional "moo".  
+~
+horse~
+BJ|
+|
+0 0
+8 0 2d22+69 0d0+0 2d4+4 none
+5 5 5 7
+|
+|
+|
+|
+stand stand female 0
+BFP|
+BDEFGKLP|
+medium unknown
+#6423
+cow~
+a cow~
+A full-grown cow is here eating some grass.
+~
+This cow is half-white, and half-brown, but all of it in large spots.  It
+looks around lazily while it munches on the grass.  
+~
+horse~
+BJ|
+|
+0 0
+9 0 3d19+82 0d0+0 2d5+4 none
+5 5 5 7
+|
+|
+|
+|
+stand stand female 0
+BFP|
+BDEFGKLP|
+medium unknown
+#6425
+small hog~
+a small hog~
+A small hog is here grunting loudly.
+~
+This small hog is a mottled brown and white in color.  It mostly grunts
+and noses around in the mud.  
+~
+pig~
+BJ|
+|
+0 0
+6 0 1d25+45 0d0+0 2d3+3 none
+6 6 6 8
+|
+|
+|
+|
+stand stand male 0
+BFP|
+BDEFGIKL|
+small unknown
+#6426
+large hog~
+a large hog~
+A large hog is here wallowing in the mud.
+~
+This hog is mostly brown in color, and spends its time laying in the mud
+grunting contently.  
+~
+pig~
+BJ|
+|
+0 0
+7 0 2d17+57 0d0+0 2d4+3 none
+6 6 6 8
+|
+|
+|
+|
+rest rest female 0
+BFP|
+BDEFGIKL|
+small unknown
+#6427
+small chicken~
+a small chicken~
+A small chicken is here pecking at the ground for food.
+~
+This chicken is all white, and does nothing but cluck and peck.  
+~
+(null)~
+BJ|
+|
+0 0
+4 0 1d13+33 0d0+0 1d4+2 none
+8 8 8 9
+GI|
+|
+|
+|
+stand stand female 0
+BFQ|
+BDEFGILO|
+small unknown
+#6428
+large chicken~
+a large chicken~
+A large chicken is here eating a worm.
+~
+This reddish-brown chicken is busy eating a worm, yet is still clucking.
+~
+(null)~
+BJ|
+|
+0 0
+5 0 1d17+42 0d0+0 2d3+2 none
+7 7 7 8
+GI|
+|
+|
+|
+stand stand female 0
+BFQ|
+BDEFGILO|
+small unknown
+#6436
+sleeping guard militia~
+a militia guard~
+A member of the local militia guard is here sleeping.
+~
+There is a member of the militia guard sleeping here.  He is wrapped up
+in a thick wool blanket, and is snoring loudly.  
+~
+human~
+BFJ|
+Q|
+0 0
+27 0 8d62+373 0d0+0 4d6+13 none
+429496724 429496724 429496724 2
+DGO|
+|
+|
+D|
+sleep sleep male 0
+GKP|
+BCD|
+medium unknown
+#6437
+captain guard militia~
+the Captain ~
+The Captain of the local militia is standing here next to his desk.
+~
+The Captain of the local militia guard is standing here next to his desk.
+He is dressed in full armor, and looks as if he is headed out into the city.
+He is in his mid-forties with dark hair and short mustache peppered with a
+touch of gray, and brown eyes.  
+~
+human~
+BEFJe|
+|
+0 0
+35 0 9d92+541 0d0+0 5d7+17 none
+429496717 429496717 429496717 429496728
+DFGIL|
+|
+|
+|
+stand stand male 10
+GKP|
+BCD|
+medium unknown
+#6440
+naked man~
+a naked man~
+A naked man is here, enraged at being disturbed.
+~
+This man has blonde hair and green eyes.  He is screaming and yelling for
+being interrupted, he also seems a bit embarrassed.  His face is red with
+rage, and he seems to be becoming violent.  
+~
+human~
+BIJ|
+Y|
+0 0
+21 0 7d43+261 0d0+0 4d5+10 none
+429496727 429496727 429496727 4
+G|
+|
+|
+|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6441
+naked woman~
+a naked woman~
+A naked woman sits here next to the bed.
+~
+With long blonde hair that covers her lush breasts, and blue eyes that
+seem to be deep pools of water, this woman sits in fear, but not of her
+nakedness.  She looks around the room, as if another interruption is
+expected.  She waits for everything to calm down so she can get back to what
+she was doing before she was interrupted.  
+~
+human~
+BJK|
+|
+0 0
+17 0 6d33+195 0d0+0 4d4+8 suction
+0 0 0 5
+|
+|
+|
+E|
+stand stand female 1
+GKP|
+BCD|
+medium unknown
+#6442
+cook~
+a cook~
+A woman is here that must be the cook.
+~
+This woman has dark-hair with more gray than less.  She has a kindly
+smile, and smells more of food than perfume.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 0d0+0 0d0+0 0d0+0 none
+429496629 429496629 429496629 429496629
+|
+BCDLT|
+|
+|
+stand stand female 100
+GKP|
+BCD|
+medium unknown
+#6443
+mistress woman~
+the mistress~
+The mistress of the house is here greeting the guests and visitors.
+~
+This woman is a little over-weight, but her good looks and more than
+ample bosom make up for it.  The dress she is wearing exposes more cleavage
+than covers, and outlines all of her curves with a tight fit.  She flutters
+her eyes at all of the guests, and frequently runs her hands through the
+men's hair and manages to expose more of her bosom in their direction.  
+~
+human~
+BFJ|
+|
+0 0
+19 0 6d41+227 0d0+0 4d5+9 none
+429496727 429496727 429496727 4
+|
+|
+|
+|
+stand stand female 20
+GKP|
+BCD|
+medium unknown
+#6444
+guard man house bouncer~
+a bouncer~
+A large man is here to protect the house guests.
+~
+This man is big and burly.  He looks like he enjoys thrashing anyone he
+can.  He grunts sourly at anyone who even looks like they may cause trouble.
+~
+human~
+BJe|
+|
+0 0
+26 0 8d57+353 0d0+0 4d6+13 none
+429496723 429496723 429496723 1
+DFG|
+|
+E|
+|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#6445
+guest house man~
+a guest~
+A guest of the house is here looking for more women.
+~
+This man is smiling a lot, and is constantly looking around for more
+women.  The women he does find, he looks over with great interest.  Most of
+the women, he runs his hands over, when they greet him.  
+~
+human~
+BJ|
+|
+0 0
+23 0 7d51+296 0d0+0 4d6+11 none
+429496725 429496725 429496725 3
+G|
+|
+|
+|
+stand stand male 20
+GKP|
+BCD|
+medium unknown
+#6446
+woman house~
+a woman~
+A woman is seductively standing here, wearing a thin, transparent gown.
+~
+This woman is one step away from being nude.  The gown she is wearing
+hides nothing at all, if anything it accentuates her figure and displayes
+her body in a provocative manner.  Her long brown hair touches her waist and
+sways as she walks.  She looks seductively at the men in the room,
+attempting to entice them with her charm and great looks.  
+~
+human~
+BJ|
+|
+0 0
+17 0 6d33+195 0d0+0 4d4+8 none
+429496729 429496729 429496729 4
+|
+|
+|
+E|
+stand stand female 1
+GKP|
+BCD|
+medium unknown
+#6447
+teenager girl local~
+a teenage girl~
+A local teenage girl is here looking for a place to shop at.
+~
+This girl has long blonde hair and beautiful green eyes, yet her face is
+plain, and she is a bit too skinny.  She seems intent on her day out
+shopping, and ignores all who pass by that have nothing to sell.  
+~
+human~
+BJ|
+|
+0 0
+14 0 5d27+151 0d0+0 3d5+7 none
+1 1 1 6
+G|
+|
+|
+E|
+stand stand female 1
+GKP|
+BCD|
+medium unknown
+#6448
+teenage boy local~
+a teenage boy~
+A local teenage boy is here looking to cause mischief.
+~
+This young man looks as if he has mischief on the mind.  He looks around
+at those near him as potential targets of his pranks.  He grins in an
+unsettling manner.  
+~
+human~
+BJ|
+|
+0 0
+15 0 5d30+161 0d0+0 3d5+8 none
+0 0 0 5
+GI|
+|
+|
+|
+stand stand male 1
+GKP|
+BCD|
+medium unknown
+#0
+
+
+
+#OBJECTS
+#6300
+well stone~
+a stone well~
+A large stone well.~
+stone~
+fountain O 0
+10000 10000 'water' 0 0
+1 1000 10 P
+#6301
+apple~
+a small apple~
+A small, mottled apple is laying here.~
+fruit~
+food 0 AO
+AB AB 0 0 0
+1 1 1 P
+#6302
+bag~
+a bag of coins~
+A leather bag full of coins.~
+leather~
+money 0 AO
+CEFGHI 0 0 0 0
+1 2 100 P
+#6303
+pear~
+a small pear~
+A small, mostly-brown pear is lying here.~
+fruit~
+food 0 AO
+AB AB 0 0 0
+1 1 1 P
+#6304
+tomato~
+a tomato~
+A bruised tomato is lying here.~
+fruit~
+food 0 AO
+AB AB 0 0 0
+1 1 1 P
+#6305
+potato~
+a potato~
+A large potato is lying here.~
+vegetable~
+food 0 AO
+AC AC 0 0 0
+1 1 1 P
+#6306
+steak beef~
+a steak~
+A large beef steak on a hot plate.~
+beef~
+food 0 A
+BD BD 0 0 0
+1 2 6 P
+#6307
+hog leg~
+a hog leg~
+A large, smoked leg of hog in a large bowl.~
+pork~
+food 0 A
+AD AD 0 0 0
+1 2 6 P
+#6308
+fresh chicken small plucked~
+a small, whole chicken~
+A small, whole, freshly plucked chicken.~
+chicken~
+food 0 A
+ABCD ABCD 0 0 0
+1 3 7 P
+#6309
+boots~
+a pair of brown leather boots~
+A pair of finely-crafted brown boots.~
+leather~
+armor S AG
+C C C 0 0
+1 2 50 P
+#6310
+hat~
+a wool hat~
+A heavy, wool hat.~
+wool~
+armor S AE
+A A A 0 0
+1 1 12 P
+#6311
+chair~
+a chair~
+An elegantly carved, padded oak chair.~
+wood~
+furniture 0 AO
+A EHI E ADFG ACFG
+1 15 200 P
+#6312
+dagger long~
+a half-moon engraved dagger~
+A long, slender dagger, with a half-moon engraved on the pommel.~
+steel~
+weapon 0 AN
+dagger 4 3 slash D
+10 2 60 P
+#6313
+halberd~
+a large, dangerous-looking halberd~
+A large, heavy halberd with runes encircling the shaft.~
+steel~
+weapon 0 AN
+polearm 5 9 cleave DF
+40 20 600 P
+E
+halberd~
+This halberd has a good balance to it, but its weight makes it difficult
+to wield.  The dark oak haft sets off the gleaming head of this halberd. 
+The very sharp blade of the head is opposed by a large spike on the back,
+with another long spike on top that allows this weapon to be used for
+piercing an opponent.  There are no identifying marks on the head of the
+halberd, but the haft has several markings etched into it.  The etchings on
+the haft seem to be roses with their vine and thorns, climbing the length of
+the haft.  Mixed in with the carved roses on the haft, are several other
+carvings of rampant lions.  These carvings suggest that this halberd is
+originally from Andor, and it was possibly a weapon owned by a member of the
+Queen's Guard.  A skilled warrior, with this weapon, would be hard to match.
+~
+#6314
+bunks~
+a soft bunk~
+A row of bunks are here for the guards to sleep on.~
+wood~
+furniture 0 0
+AC CDEGHIK EHK ABEFG ADFG
+1 10000 1 P
+#6315
+blanket~
+a blanket~
+A warm, wool blanket is spread out on the ground.~
+wool~
+furniture S AKO
+A CEFGHI EHK ADFG ACFG
+1 1 5 P
+A
+14 25 -1
+A
+5 2 -1
+#6316
+table~
+a long table~
+A large oak table with several stools placed around it.~
+wood~
+furniture 0 0
+BC DFGHIJ D ADFG ACFG
+1 10000 1 P
+#6317
+red tunic~
+a red tunic~
+A red wool tunic with a small white lion emboidered on the chest.~
+wool~
+armor S AD
+D D D C 0
+20 2 50 P
+A
+14 20 -1
+#6318
+desk~
+a desk~
+A small, plain desk is here.~
+wood~
+furniture 0 0
+B CDFI E ADFG ACFG
+1 10000 1 P
+#6319
+stool~
+a stool~
+A small stool is here next to the desk.~
+wood~
+furniture 0 0
+A DGH E ADFG ACFG
+1 10000 1 P
+#6320
+peaked helmet~
+a peaked steel helmet~
+A peaked steel helmet.~
+steel~
+armor 0 AE
+BD BD BD BD 0
+35 3 100 P
+A
+1 2 -1
+#6321
+look determination~
+a look of determination~
+A long, hard look of determination.~
+human skin~
+clothing S AT
+0 0 0 0 0
+35 1 1 P
+A
+18 2 -1
+A
+2 2 -1
+#6322
+breastplate~
+a burnished breastplate~
+A burnished breastplate, engraved with a small lion on the chest.~
+steel~
+armor 0 AD
+BCD BCD BCD BCD 0
+35 5 200 P
+A
+20 1 -1
+#6323
+chainmail leggings~
+a pair of chainmail leggings~
+A finely crafted pair of chainmail leggings.~
+iron~
+armor 0 AF
+CD CD CD CD 0
+35 5 300 P
+A
+20 1 -1
+#6324
+rapier~
+a wide-bladed rapier~
+A cup-hilted rapier, with long, thin quillions, and a blade slightly wider than normal.~
+steel~
+weapon 0 AN
+sword 5 6 thrust D
+35 4 200 P
+#6325
+short sword~
+a well-made short sword~
+A sharp, well-made short sword.~
+steel~
+weapon 0 AN
+sword 5 6 slash D
+20 3 200 P
+E
+short~
+This sword is well-balanced and easy to use.  Its craftmanship is
+apparent in its ease of handling, and its fine steel.  The leather-wrapped
+hilt gives good grip, and the silver pommel has a rising sun made of gold
+inlaid in it.  The design on the pommel deems that this sword must have come
+from Cairhien.  Although somewhat plain for a Cairhienin officer, this sword
+may have once been owned by a soldier, merchant or merchant guard.  This
+sword would be good for an average or better swordsman looking for a fine
+weapon.  
+~
+E
+sword~
+This sword is well-balanced and easy to use.  Its craftmanship is
+apparent in its ease of handling, and its fine steel.  The leather-wrapped
+hilt gives good grip, and the silver pommel has a rising sun made of gold
+inlaid in it.  The design on the pommel deems that this sword must have come
+from Cairhien.  Although somewhat plain for a Cairhienin officer, this sword
+may have once been owned by a soldier, merchant or merchant guard.  This
+sword would be good for an average or better swordsman looking for a fine
+weapon.  
+~
+#6326
+hand axe~
+a well-balanced hand axe~
+A well-balanced, double-bladed axe with a short haft for use with one hand.~
+steel~
+weapon 0 AN
+axe 4 8 chop 0
+25 9 180 P
+A
+1 1 -1
+A
+18 2 -1
+E
+hand~
+This axe has been precision balanced for use with one hand.  Similar in
+size to a hatchet, this axe has two blades that greatly resemble those of a
+woodsman's axe.  Each blade is roughly the size of a man's hand, and the
+haft a little longer than a forearm.  This axe looks as if it originated in
+Saldaea, because its construction is much like that which Salaean
+woodcutters use, except this axe is meant for combat.  In combat, this axe
+would prove useful for severing an enemies limbs, and combined with another
+lighter weapon, this axe would be exceptional in battle.  
+~
+E
+axe~
+This axe has been precision balanced for use with one hand.  Similar in
+size to a hatchet, this axe has two blades that greatly resemble those of a
+woodsman's axe.  Each blade is roughly the size of a man's hand, and the
+haft a little longer than a forearm.  This axe looks as if it originated in
+Saldaea, because its construction is much like that which Salaean
+woodcutters use, except this axe is meant for combat.  In combat, this axe
+would prove useful for severing an enemies limbs, and combined with another
+lighter weapon, this axe would be exceptional in battle.  
+~
+#6327
+small hand axe~
+a small, well-balanced hand axe~
+A small, very well-balanced, double-bladed axe with a short haft.~
+steel~
+weapon 0 AN
+axe 4 7 cleave 0
+25 4 160 P
+A
+1 1 -1
+A
+18 2 -1
+E
+hand~
+This small axe has been precision balanced for use with one hand. 
+Similar in size to a hatchet, this axe has two blades that greatly resemble
+those of a woodsman's axe.  Each blade is almost the size of a man's hand,
+and the haft a little shorter than a forearm.  This axe looks as if it
+originated in Saldaea, because its construction is much like that which
+Salaean woodcutters use, except this axe is meant for combat.  If this axe
+were to be used in combination with a heavier weapon, the results would be
+impressive and devestating to an opponent.  
+~
+E
+small~
+This small axe has been precision balanced for use with one hand. 
+Similar in size to a hatchet, this axe has two blades that greatly resemble
+those of a woodsman's axe.  Each blade is almost the size of a man's hand,
+and the haft a little shorter than a forearm.  This axe looks as if it
+originated in Saldaea, because its construction is much like that which
+Salaean woodcutters use, except this axe is meant for combat.  If this axe
+were to be used in combination with a heavier weapon, the results would be
+impressive and devestating to an opponent.  
+~
+E
+axe~
+This small axe has been precision balanced for use with one hand. 
+Similar in size to a hatchet, this axe has two blades that greatly resemble
+those of a woodsman's axe.  Each blade is almost the size of a man's hand,
+and the haft a little shorter than a forearm.  This axe looks as if it
+originated in Saldaea, because its construction is much like that which
+Salaean woodcutters use, except this axe is meant for combat.  If this axe
+were to be used in combination with a heavier weapon, the results would be
+impressive and devestating to an opponent.  
+~
+#6328
+battle axe~
+a two-handed battle axe~
+A very large, two-handed battle axe with a long oak haft.~
+steel~
+weapon 0 AN
+axe 6 8 chop DF
+44 25 400 P
+E
+battle~
+This axe is very heavy and unbalanced.  Its long oak haft is darkened
+with blood and sweat, and is three fingers thick.  Several notches and
+scratches scar the haft, yet do not weaken it.  The large, steel axe head
+has been blackened from use, yet is still so sharp it draws blood to the
+touch.  The large axe head has a wide blade that curves wickedly, and has a
+long spike, nearly a foot long, opposite the blade.  The axe is very plain,
+yet very functional.  It is meant for killing and combat, but requires a
+large man to wield it.  The plain style, yet excellent craftmanship of this
+weapon, coupled with the blackened axe head and haft, could possibly mean
+that this battle axe originated in Saldaea, yet any of the borderlands could
+have produced it as there are no identifying marks.  This an excellent
+weapon for an experienced warrior that can handle the weight.  
+~
+E
+axe~
+This axe is very heavy and unbalanced.  Its long oak haft is darkened
+with blood and sweat, and is three fingers thick.  Several notches and
+scratches scar the haft, yet do not weaken it.  The large, steel axe head
+has been blackened from use, yet is still so sharp it draws blood to the
+touch.  The large axe head has a wide blade that curves wickedly, and has a
+long spike, nearly a foot long, opposite the blade.  The axe is very plain,
+yet very functional.  It is meant for killing and combat, but requires a
+large man to wield it.  The plain style, yet excellent craftmanship of this
+weapon, coupled with the blackened axe head and haft, could possibly mean
+that this battle axe originated in Saldaea, yet any of the borderlands could
+have produced it as there are no identifying marks.  This an excellent
+weapon for an experienced warrior that can handle the weight.  
+~
+#6329
+falchion~
+a jade-hilted falchion with silver-chased quillions~
+A beautiful, jade-hilted falchion with silver-chased quillions.~
+steel~
+weapon 0 AN
+sword 5 6 slash D
+20 8 400 P
+E
+falchion~
+This sword is long and cumbersome, yet exquisite in design and beauty. 
+The wide, curving blade is forged from the finest steel and is extremely
+sharp.  The blade looks to be covered with markings of some type.  Upon
+closer inspections, the markings seem to be several star-shaped, and moon,
+half-moon and quarter-moon shaped markings that cover the entire blade on
+both sides.  The pattern of the markings is unrecognizable, yet look to
+possibly have originated with the Sea Folk, as they use such symbols at
+times.  If this fine sword did originate with the Sea Folk, it must have
+travelled a strange but interesting story to have ended up here.  This sword
+is quite cumbersome and long, yet after a while, lends itself to easy use. 
+With some practice, this sword could become very deadly in the right hands. 
+~
+#6330
+short sword shining~
+a half-moon engraved shortsword~
+A shining short sword, with a half-moon engraved on the pommel.~
+steel~
+weapon 0 AN
+sword 4 5 slice D
+10 4 80 P
+#6331
+sword longsword shining~
+a half-moon engraved longsword~
+A longsword with a half-moon engraved upon the blade.~
+steel~
+weapon 0 AN
+sword 7 3 slash D
+10 6 125 P
+#6332
+helmet~
+a fur-lined helmet~
+A shining, fur-lined helmet, with a small half-moon engraved on the back.~
+steel~
+armor 0 AE
+D D D D 0
+10 6 50 P
+A
+13 10 -1
+#6333
+chainmail tunic~
+a chainmail tunic~
+A finely crafted chainmail tunic with a small half-moon burnished on the shoulder.~
+steel~
+armor 0 AD
+BD BD BD AC 0
+10 12 80 P
+A
+13 10 -1
+#6334
+shield kite~
+a half-moon engraved kite shield~
+A large steel kite shield with a small half-moon engraved near the top.~
+steel~
+armor 0 AJ
+BD BD BD AC 0
+10 10 50 P
+A
+13 10 -1
+#6335
+neckguard~
+a fur-lined neck guard~
+A fur-lined steel neckguard with a small half-moon engraved on the back.~
+steel~
+armor 0 AC
+AC AC AC AC 0
+10 2 20 P
+A
+13 10 -1
+#6336
+black knee boots~
+a pair of black knee-high leather boots~
+A soft pair of black, knee-high leather boots.~
+leather~
+armor S AG
+BC BC BC B 0
+20 3 100 P
+A
+2 1 -1
+#6337
+sandals~
+a pair of sandals~
+A pair of open-toe sandals with wood soles.~
+wood~
+armor S AG
+B B B B 0
+1 1 10 P
+A
+2 -1 -1
+#6338
+hip boots black~
+a pair of black hip-boots~
+A pair of black, hardened-leather hip-boots.~
+leather~
+armor S AG
+D D ABC BC 0
+25 8 150 P
+A
+13 5 -1
+A
+14 20 -1
+#6339
+brown shoes~
+a pair of brown leather shoes~
+A pair of the finest brown leather shoes.~
+leather~
+armor S AG
+AB C AB B 0
+10 1 50 P
+A
+2 1 -1
+A
+14 15 -1
+#6340
+scarf~
+a wool scarf~
+A wool scarf knit with various shades of green and gray.~
+wool~
+armor S AC
+B B B A 0
+1 1 5 P
+A
+13 10 -1
+#6341
+wool pants~
+a pair of wool pants~
+A pair of brown, thick, wool pants.~
+wool~
+armor S AF
+D D D C 0
+1 4 30 P
+A
+13 10 -1
+#6342
+cloak~
+a thick brown wool cloak~
+A heavy, hooded, brown wool cloak.~
+wool~
+armor S AK
+D D D BC 0
+1 6 20 P
+A
+13 10 -1
+#6343
+shirt~
+a white linen shirt~
+A thin, white linen shirt.~
+linen~
+armor S AD
+B B B A 0
+1 1 15 P
+A
+13 10 -1
+#6344
+gloves~
+a pair of thin wool gloves~
+A pair of tightly-knit, thin wool gloves.~
+wool~
+armor S AH
+B B B A 0
+1 1 8 P
+A
+13 5 -1
+#6346
+fish stripe red-striped~
+a red-striped fish~
+A red-striped fish, caught fresh today at the River Arinelle.~
+fish~
+food 0 AO
+ABC ABC 0 0 0
+1 2 3 P
+#6347
+fish silverfish~
+a large silver fish~
+A large silver fish caught fresh today at the River Arinelle.~
+fish~
+food 0 AO
+ABC ABC 0 0 0
+1 2 4 P
+#6348
+blanket~
+a thick wool blanket~
+A thick, wool blanket is spread out here.~
+wool~
+furniture S AKO
+A DEGJ EHK BCDFG ADFG
+1 5 72 P
+#6349
+chandelier~
+a small brass chandelier~
+A beautifully-crafted, small brass chandelier with several lit candles is hanging here.~
+brass~
+light I AO
+0 0 EHI 0 0
+20 25 60 P
+A
+3 2 -1
+#6350
+trunk~
+a large storage trunk~
+A strong, brass-bound, storage trunk has been set here.~
+brass~
+container 0 AO
+600 A 6351 100 75
+1 60 400 P
+#6351
+brass key~
+a small brass key~
+A small brass key has been dropped here.~
+brass~
+key 0 AO
+0 0 0 0 0
+1 1 5 P
+#6352
+teapot~
+a silver teapot~
+A beautiful silver teapot has been set here.~
+silver~
+drink 0 AO
+80 0 'water' 0 0
+1 10 200 P
+#6353
+bed~
+a brass bed~
+A brass bed, with a thick, down-filled mattress has been set here.~
+brass~
+furniture 0 AO
+B DFGHIJ EHK ABEFG ABEFG
+20 200 500 P
+A
+14 -30 -1
+#6354
+mug wine~
+a mug of red wine~
+A mug of red wine has been set here.~
+wood~
+drink 0 AO
+10 10 'red wine' 0 0
+1 1 5 P
+#6355
+mug ale~
+a mug of ale~
+A small mug of ale has been set here.~
+wood~
+drink 0 AO
+10 10 'ale' 0 0
+1 1 5 P
+#6356
+barrel ale~
+a large barrel of ale~
+A large barrel of ale has been set here next to the wall.~
+wood~
+drink 0 0
+1000 1000 'ale' 0 0
+1 200 100 P
+#6357
+mug milk~
+a mug of milk~
+A mug of cold milk has been set here.~
+wood~
+drink 0 AO
+10 10 'milk' 0 0
+1 1 3 P
+#6358
+bowl stew~
+a bowl of stew~
+A hot bowl of stew has been set here.~
+wood~
+food 0 AO
+BC BC 0 0 0
+1 1 6 P
+#6359
+table chair~
+a table~
+A large oak table with two chairs set next to it.~
+wood~
+furniture 0 0
+B DEGJ D ADFG ACFG
+1 500 200 P
+#6360
+pantry~
+a pantry~
+A large oak pantry is here set against the wall.~
+wood~
+container 0 0
+1000 AC 0 0 0
+1 1000 100 P
+#6361
+flour~
+a sack of flour~
+A large sack of flour.~
+flour~
+food 0 AO
+C A 0 0 0
+1 2 2 P
+#6362
+sugar~
+a bag of sugar~
+A large bag of sugar.~
+sugar~
+food 0 AO
+AB A 0 0 0
+1 2 2 P
+#6363
+cornmeal~
+a sack of cornmeal~
+A large sack of cornmeal.~
+corn~
+food 0 AO
+AB A 0 0 0
+1 2 2 P
+#6364
+table~
+a large table~
+A large oak table with several chairs set around it.~
+wood~
+furniture 0 0
+BD DHIJM D ADFG ACFG
+1 1000 100 P
+#6365
+table ~
+a dirty table~
+Several tables and chairs are set to the north of a short wall that divides the room.~
+wood~
+furniture 0 0
+CE EIJKN D ADFG ACFG
+1 1000 100 P
+#6366
+table ~
+a dirty table~
+Several tables and chairs are set to the south of a short wall that divides the room.~
+wood~
+furniture 0 0
+CE EIJKN D ADFG ACFG
+1 1000 100 P
+#6367
+key black~
+a black key~
+A black key.~
+iron~
+key 0 AO
+0 0 0 0 0
+1 1 5 P
+#6368
+chest~
+a chest~
+A small chest has been set here in the corner.~
+iron wood~
+container 0 0
+200 AC 0 0 0
+1 1000 100 P
+#6369
+table~
+a table~
+A small table with one chair sits here in the middle of the room.~
+wood~
+furniture 0 0
+A CEFGHI D ADFG ACFG
+1 1000 100 P
+#6370
+bed~
+a small bed~
+A small bed has been set here next to the wall.~
+wood~
+furniture 0 0
+A CEFGHI EHK ABEFG ABEFG
+1 1000 100 P
+#6371
+bed~
+a bed~
+A simple, oak-framed bed with clean bedding.~
+wood~
+furniture 0 0
+B DFGHIJ EHK DEFG DEFG
+1 1000 100 P
+#6372
+bedpan pan~
+a bedpan~
+An empty bedpan has been set under the edge of the bed.~
+pottery~
+drink 0 AO
+20 0 'water' 0 0
+1 3 10 P
+#6373
+tub copper~
+a copper tub~
+A large copper tub full of steaming hot water.~
+copper~
+furniture 0 0
+A CEFGHI FI ACDEFG ACDEFG
+1 1000 100 P
+#6374
+hay~
+a pile of hay~
+Several large piles of hay.~
+hay~
+furniture 0 0
+BD DHIJM FIL BCDFG ADFG
+1 1000 10 P
+#6375
+pitchfork~
+a pitchfork~
+A long-handled pitchfork stands here thrust into a pile of hay.~
+wood iron~
+weapon 0 AN
+spear 4 6 pierce 0
+1 4 20 P
+#6376
+dirk~
+a dirk~
+A brass-hilted dirk~
+steel~
+weapon 0 AN
+dagger 4 6 stab 0
+20 3 50 P
+A
+18 1 -1
+A
+2 1 -1
+#6377
+cudgel~
+an iron cudgel~
+A heavy, black-iron cudgel.~
+iron~
+weapon 0 AN
+mace 5 6 thwack 0
+20 8 20 P
+A
+19 2 -1
+#6378
+crates~
+several crates~
+Several large crates are stacked here.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 10000 1 P
+#6379
+cabinets~
+a cabinet~
+A series of small cabinets and shelves are built into a wall here.~
+wood~
+container 0 0
+1000 AC 0 0 0
+1 10000 10 P
+#6380
+bunk~
+a small bunk~
+A small bunk is here, built into a wall.~
+wood~
+furniture 0 0
+A CEFGHI EHKN ABEFG ABEFG
+1 10000 10 P
+#6381
+painting~
+a painting~
+A large oil painting, of a river-view at sunset, has been set here against the east wall.~
+wood canvas~
+trash 0 0
+0 0 0 0 0
+1 10000 100 P
+#6382
+desk chair~
+a desk~
+A small desk is here with a chair set next to it.~
+wood~
+furniture 0 0
+A CEFGHI D ADFG ACFG
+1 10000 10 P
+#6383
+box strongbox~
+a strongbox~
+A large iron-bound strongbox is here bolted to the floor.~
+iron wood~
+container 0 0
+1000 ACD 6384 0 0
+1 10000 10 P
+#6384
+key iron~
+a key~
+A small iron key.~
+iron~
+key 0 AO
+0 0 0 0 0
+1 1 5 P
+#6385
+fried red fish~
+a fried red-fish~
+A fried red-fish~
+fish~
+food 0 AO
+AC AC 0 0 0
+1 2 5 P
+#6386
+biscuits gravy~
+a plate of biscuits and gravy~
+A large plate of biscuits and gravy.~
+gravy~
+food 0 AO
+BC BC 0 0 0
+1 2 8 P
+#6387
+sandwich mutton cheese~
+a mutton and cheese sandwich~
+A mutton and cheese sandwich.~
+mutton~
+food 0 AO
+C C 0 0 0
+1 1 5 P
+#6388
+table chair~
+a small table~
+Several tables and chairs are set all around the room.~
+wood~
+furniture 0 0
+CE FJKLO D ADFG ACFG
+1 10000 10 P
+#6389
+cloak patched~
+a multi-colored patched cloak~
+A multi-colored patched cloak.~
+cloth~
+armor S AK
+AC AC AC AC 0
+20 4 100 P
+A
+2 2 -1
+A
+20 1 -1
+#6390
+slim dagger~
+a slim dagger~
+A slim dagger with a silver hilt.~
+steel~
+weapon 0 AN
+dagger 4 6 stab D
+20 2 200 P
+#6391
+shirt~
+a white shirt~
+A thin, white shirt.~
+cloth~
+armor S AD
+B B B B 0
+1 1 5 P
+A
+14 20 -1
+#6392
+knife large~
+a large, serrated knife~
+A large knife with a serrated back edge.~
+steel~
+weapon 0 AN
+dagger 4 5 wrath 0
+25 3 80 P
+A
+19 2 -1
+#6393
+table stool~
+a circular table~
+A large circular table is here surrounded by several small stools.~
+wood~
+furniture 0 0
+BD EIJKN D ADFG ACFG
+1 1000 10 P
+#6394
+leather bracer heavy~
+a heavy leather bracer~
+A heavy leather bracer, worn with years of use.~
+leather~
+armor S AM
+C C C C 0
+25 3 40 P
+A
+1 1 -1
+#6395
+belt knife~
+a belt knife~
+A small belt knife in its sheath.~
+steel~
+weapon 0 AN
+dagger 4 6 stab 0
+25 1 20 P
+A
+2 1 -1
+#6396
+sword curving short~
+a short curving sword~
+A short curving sword with a brass pommel.~
+steel~
+weapon 0 AN
+sword 6 4 slash D
+30 4 100 P
+A
+18 1 -1
+#6397
+bed~
+a fluffy bed~
+A large bed is here, covered with fluffy pillows on a down-filled mattress.~
+wood~
+furniture 0 0
+C EGHIJK EHKN ACDEFG ACDEFG
+1 10000 10 P
+#6398
+strawberries~
+a bowl of fresh strawberries~
+A bowl of fresh strawberries.~
+fruit~
+food 0 AO
+AB AB 0 0 0
+1 1 10 P
+#6399
+whipped cream~
+a plate of whipped cream~
+A plate of whipped cream.~
+cream~
+food 0 AO
+A A 0 0 0
+1 1 10 P
+#6400
+oysters~
+a small plate of oysters~
+A small plate of oysters.~
+oysters~
+food 0 AO
+AB AB 0 0 0
+1 1 15 P
+#6401
+glass wine~
+a small glass of wine~
+A small glass of wine.~
+glass~
+drink 0 AO
+10 10 'white wine' 0 0
+1 1 5 P
+#6402
+table chair~
+a long table~
+A long table is here, surrounded by several chairs.~
+wood~
+furniture 0 0
+CE EIJKN DN ADFG ACFG
+1 10000 10 P
+#6403
+chair elegant padded~
+a padded chair~
+Several elegant, padded chairs line the walls on each side of the room.~
+wood~
+furniture 0 0
+CE EIJKN EHK BCDFG ADFG
+1 10000 10 P
+#6404
+dress tight~
+a tight-fitting dress that exposes most of the bosom~
+A tight-fitting dress that exposes most of the bosom.~
+cloth~
+clothing S AD
+0 0 0 0 0
+15 1 50 P
+A
+5 2 -1
+#6405
+heavy bar~
+a heavy iron bar~
+A heavy iron bar.~
+iron~
+weapon 0 AN
+mace 5 6 thrash 0
+20 10 10 P
+A
+1 2 -1
+A
+19 2 -1
+#6406
+transparent gown sheer~
+a sheer, transparent gown~
+A sheer, transparent gown.~
+sheer~
+clothing S AD
+0 0 0 0 0
+15 1 20 P
+A
+4 2 -1
+#6407
+halberd~
+a halberd with a long handle~
+A halberd with a long handle.~
+steel~
+weapon 0 AN
+polearm 6 7 cleave F
+30 10 100 P
+A
+18 1 -1
+#6408
+helmet conical~
+an open-faced conical helmet~
+An open-faced conical helmet.~
+steel~
+armor 0 AE
+BD BD BD BD 0
+30 4 50 P
+A
+13 10 -1
+#6409
+chainmail tunic~
+a suit of chainmail armor with a red-collared tunic worn underneath~
+A suit of chainmail armor with a red-collared tunic worn underneath.~
+steel~
+armor 0 AD
+BCD BCD BCD BD 0
+30 15 200 P
+A
+13 10 -1
+#6410
+gauntlets~
+a pair of leather-lined chainmail gauntlets~
+A pair of leather-lined chainmail gauntlets.~
+steel leather~
+armor 0 AH
+CD CD CD BC 0
+30 3 50 P
+A
+13 5 -1
+#6411
+neckguard iron~
+a heavy, leather-backed, iron neckguard~
+A heavy, leather-backed, iron neckguard.~
+iron~
+armor 0 AC
+BC BC BC BC 0
+30 5 50 P
+A
+1 1 -1
+#6412
+boots iron bound~
+a pair of heavy, iron-bound boots~
+A pair of heavy, iron-bound boots.~
+leather iron~
+armor 0 AG
+CD CD CD BC 0
+30 4 50 P
+A
+13 10 -1
+#6413
+sword longsword~
+a plain longsword with a brass pommel~
+A plain longsword with a brass pommel.~
+iron~
+weapon 0 AN
+sword 5 6 slash D
+30 5 100 P
+A
+18 1 -1
+#6414
+lamp oil~
+an oil-burning lamp~
+An oil-burning lamp.~
+brass~
+light 0 AO
+0 0 CDEFHJ 0 0
+30 5 50 P
+#6415
+club short~
+a short, oak club~
+A short, oak club.~
+wood~
+weapon 0 AN
+mace 4 6 thwack 0
+20 2 5 P
+A
+2 1 -1
+A
+21 -1 -1
+#6416
+flute~
+a flute~
+A plain, yet silver-chased flute has been set here in an open case.~
+silver brass~
+treasure 0 AO
+0 0 0 0 0
+20 1 100 P
+#6417
+well balanced longsword sword curve curving~
+a longsword with a slightly curving blade~
+A well-balanced longsword with a slightly curving blade is laying here gleaming.~
+steel~
+weapon 0 AN
+sword 5 7 slash D
+40 7 1500 P
+A
+18 1 -1
+A
+2 1 -1
+E
+long~
+This beautifully crafted sword is remarkable in every aspect.  Its
+excellent balance lends itself to ease of use, but also allows an
+experienced swordsman to be more capable and deadly.  This sword was
+obviously not crafted in Whitebridge, thus needs a closer examination that
+reveals markings on the blade.  The small, nearly hidden markings are of a
+black hawk, possibly indicating that this sword was, in fact, forged in
+Shienar, and not Andor.  The blade is extremely sharp, but does not seem to
+have been created by Aes Sedai, only forged by a master weaponsmith and
+taken care of.  The blade has an edge on only one side, and curves slightly,
+there are no decorations or markings to be seen other than the single, small
+black hawk.  The sheath is made of simple black leather, and only hides a
+magnificent weapon that any swordsman would be proud to own.  
+~
+E
+sword~
+This beautifully crafted sword is remarkable in every aspect.  Its
+excellent balance lends itself to ease of use, but also allows an
+experienced swordsman to be more capable and deadly.  This sword was
+obviously not crafted in Whitebridge, thus needs a closer examination that
+reveals markings on the blade.  The small, nearly hidden markings are of a
+black hawk, possibly indicating that this sword was, in fact, forged in
+Shienar, and not Andor.  The blade is extremely sharp, but does not seem to
+have been created by Aes Sedai, only forged by a master weaponsmith and
+taken care of.  The blade has an edge on only one side, and curves slightly,
+there are no decorations or markings to be seen other than the single, small
+black hawk.  The sheath is made of simple black leather, and only hides a
+magnificent weapon that any swordsman would be proud to own.  
+~
+E
+longsword~
+This beautifully crafted sword is remarkable in every aspect.  Its
+excellent balance lends itself to ease of use, but also allows an
+experienced swordsman to be more capable and deadly.  This sword was
+obviously not crafted in Whitebridge, thus needs a closer examination that
+reveals markings on the blade.  The small, nearly hidden markings are of a
+black hawk, possibly indicating that this sword was, in fact, forged in
+Shienar, and not Andor.  The blade is extremely sharp, but does not seem to
+have been created by Aes Sedai, only forged by a master weaponsmith and
+taken care of.  The blade has an edge on only one side, and curves slightly,
+there are no decorations or markings to be seen other than the single, small
+black hawk.  The sheath is made of simple black leather, and only hides a
+magnificent weapon that any swordsman would be proud to own.  
+~
+#6418
+barrel~
+a stout barrel~
+An iron-banded oak barrel has been set here.~
+wood~
+drink 0 AO
+150 150 'water' 0 0
+1 50 100 P
+#6419
+credit~
+`CCredit: Whitebridge`w~
+For credits, please see added desc CREDIT.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+credit~
+Area: Whitebridge, Andor.
+Based on the WoT series written by Robert Jordan.  
+Builder: Matt Peregrine
+~
+#0
+
+
+
+#ROOMS
+#6300
+Center of Whitebridge Square~
+Here at the center of the city of Whitebridge there are people moving in
+every direction.  Some are headed west towards the White Bridge that looms
+beyond the city, and some are headed east towards the Caemlyn Road.  The
+entire square and streets of Whitebridge are paved in worn cobblestone . 
+The cobblestone seems to be in good repair here, as there are very little
+weeds or grass growing through the cracks.  There is a large stone well here
+that is full of sweet tasting, cool water.  
+~
+0 0 1
+D0
+~
+~
+0 0 6301
+D1
+~
+~
+0 0 6303
+D2
+~
+~
+0 0 6304
+D3
+~
+~
+0 0 6302
+S
+#6301
+North Whitebridge Square~
+There are not many people travelling through here.  Most are on their way
+to the center of the square, or going north towards the Wharf Road.  The
+entire square and streets of Whitebridge are paved in worn cobblestone.  The
+cobblestone seems to be in good repair here, as there are very little weeds
+or grass growing through the cracks.  There are a few shops to the west and
+an inn close by to the east.  
+~
+0 0 1
+D0
+~
+~
+0 0 6428
+D1
+~
+~
+0 0 6307
+D2
+~
+~
+0 0 6300
+D3
+~
+~
+0 0 6305
+S
+#6302
+West Whitebridge Square~
+There are a few people here, most of them moving either east or west. 
+Some of the people are headed west towards the White Bridge that looms
+beyond the city.  Others are headed east towards the Caemlyn Road.  The
+entire square and streets of Whitebridge are paved in worn cobblestone.  The
+cobblestone seems to be in good repair here, as there are very little weeds
+or grass growing through the cracks.  There are a few shops nearby to the
+north and to the south.  
+~
+0 0 1
+D0
+~
+~
+0 0 6305
+D1
+~
+~
+0 0 6300
+D2
+~
+~
+0 0 6306
+D3
+~
+~
+0 0 6341
+S
+#6303
+East Whitebridge Square~
+There are a few people here, most of them moving either east or west. 
+Some of the people are headed east towards the Caemlyn Road.  Others are
+headed west towards the White Bridge that looms beyond the city.  The entire
+square and streets of Whitebridge are paved in worn cobblestone.  The
+cobblestone seems to be in good repair here, as there are very little weeds
+or grass growing through the cracks.  There is an inn nearby to the north
+and a shop close by to the south.  
+~
+0 0 1
+D0
+~
+~
+0 0 6307
+D1
+~
+~
+0 0 6415
+D2
+~
+~
+0 0 6308
+D3
+~
+~
+0 0 6300
+S
+#6304
+South Whitebridge Square~
+There are very few people travelling through here.  Most are on their way
+to the center of the square.  The entire square and streets of Whitebridge
+are paved in worn cobblestone.  The cobblestone seems to be in good repair
+here, as there are very little weeds or grass growing through the cracks. 
+There are a few shops to the east and to the west.  
+~
+0 0 1
+D0
+~
+~
+0 0 6300
+D1
+~
+~
+0 0 6308
+D2
+~
+~
+0 0 6407
+D3
+~
+~
+0 0 6306
+S
+#6305
+Northwest Corner of Whitebridge Square~
+There are very few people here.  Most of the people are going in or out
+of the shops to the north and to the west.  The entire square and streets of
+Whitebridge are paved in worn cobblestone.  The cobblestone seems to be in
+good repair here, as there are very little weeds or grass growing through
+the cracks.  The smell of fish is coming from the west.  
+~
+0 0 1
+D0
+~
+~
+0 0 6309
+D1
+~
+~
+0 0 6301
+D2
+~
+~
+0 0 6302
+D3
+~
+~
+0 0 6310
+S
+#6306
+Southwest Corner of Whitebridge Square~
+There are very few people here.  Most of them are going in or out of the
+shops nearby to the west and to the south.  The entire square and streets of
+Whitebridge are paved in worn cobblestone.  The cobblestone seems to be in
+good repair here, as there are very little weeds or grass growing through
+the cracks.  The pungent odor of rotten fruit is coming from the west.  
+~
+0 0 1
+D0
+~
+~
+0 0 6302
+D1
+~
+~
+0 0 6304
+D2
+~
+~
+0 0 6314
+D3
+~
+~
+0 0 6315
+S
+#6307
+Northeast Corner of Whitebridge Square~
+There are very few people here.  Most are either going in, or coming out
+of the inn to the east.  The entire square and streets are paved in worn
+cobblestone.  The cobblestone seems to be in good repair here, as there are
+very little weeds or grass growing through the cracks.  There is a smell of
+manure coming from the north.  
+~
+0 0 1
+D0
+~
+~
+3 0 6311
+D1
+~
+~
+3 0 6316
+D2
+~
+~
+0 0 6303
+D3
+~
+~
+0 0 6301
+S
+#6308
+Southeast Corner of Whitebridge Square~
+There are not many people here at all.  The few that do happen to be here
+are either walking into, or out of the shop to the south.  The entire square
+and streets of Whitebridge are paved in worn cobblestone.  The cobblestone
+seems to be in good repair here, as there are very little weeds or grass
+growing through the cracks.  A soft smell of tanned leather is coming from
+the south.  
+~
+0 0 1
+D0
+~
+~
+0 0 6303
+D2
+~
+~
+0 0 6313
+D3
+~
+~
+0 0 6304
+S
+#6309
+Dry Goods Store~
+This shop has been swept clean and has been kept very neat and tidy. 
+Even though the selection of wares vary greatly, they are arranged in a way
+that makes the room look like a home, and not a store.  All of the wares
+have been cleaned and polished to perfection, showing that the merchant
+takes great pride in his goods.  The exit to the south leads back outside to
+the square.  
+~
+0 8 0
+D2
+~
+~
+0 0 6305
+S
+#6310
+Meat and Fish Market~
+There is an odor of blood and fish here.  Several meats and fish are
+displayed here on the clean, cool counters, covered with paper to keep the
+insects away.  The floors are swept clean, possibly having even been
+scrubbed and mopped.  The exit to the east leads back outside to the square.
+~
+0 8 0
+D1
+~
+~
+0 0 6305
+S
+#6311
+Stables~
+Here in the stable, there are several hitches to tie the horses to, and
+several stalls for paying customers.  The floor is covered in straw, with
+piles of manure strewn about everywhere.  Several holes can be seen through
+the thatched roof from here.  There is a ladder here that leads up to the
+hayloft.  The large stable door to the south leads back to the square.  
+~
+0 536870920 0
+D2
+~
+~
+3 0 6307
+D4
+~
+~
+0 0 6312
+S
+#6312
+Hayloft~
+Here in the hayloft, the holes in the roof's thatching can be seen very
+clearly.  Several birds have made their nest up here near the rafters. 
+Piles of hay lay everywhere, and it is hard to walk without tripping in the
+hay.  The ladder leads back down to the stable.  
+~
+0 8 0
+D5
+~
+~
+0 0 6311
+S
+#6313
+Cobbler~
+Here in the Cobbler's shop, there is a rich aroma of tanned leather in
+the air.  The floors are neatly-swept, and the shop is kept very clean and
+tidy.  Everything seems to be in order and in its place.  The shelves around
+the room are lined with different types of shoes and boots that are either
+for sale or have been brought to the cobbler for repair.  The work benches
+are covered with various sheets of tanned leather and assorted boxes of
+tacks set neatly beside them.  The exit to the north leads back outside to
+the square.  
+~
+0 8 0
+D0
+~
+~
+0 0 6308
+S
+#6314
+Tailor~
+This shop is very brightly lit, as there are several lanterns burning in
+addition to the open windows.  The shop is not swept very clean, as there
+are stray threads laying everywhere, and scraps of cloth and wool dropped
+carelessly about the room.  The shelves and benches are covered in assorted
+fabrics, pincushions and scissors.  Several pieces of clothing, hanging on
+wall pegs, are displayed for sale.  The exit to the north leads back outside
+to the square.  
+~
+0 8 0
+D0
+~
+~
+0 0 6306
+S
+#6315
+Food Market~
+Here in the Food Market, the sweet, pungent odor of fruit is in the air,
+followed occasionally by the smell of the rotting fruit thrown out behind
+the market.  The floor is covered with debris and garbage, mostly bad pieces
+of fruit just dropped to the ground.  The baskets set around the room are
+filled with browned and bruised fruits and vegetables.  The exit to the east
+leads back outside to the square.  
+~
+0 8 0
+D1
+~
+~
+0 0 6306
+S
+#6316
+Reception Area of the Wayfarers' Rest~
+Here at the Wayfarers' Rest, the air is stale and smells of ale and bad
+wine.  The floors look like they have not been swept for a week, or more. 
+There is a stairway that leads upstairs to the guest rooms.  To the east is
+the common room.  The exit to the west leads back outside to the square.  
+~
+0 8 0
+D1
+~
+~
+0 0 6317
+D3
+~
+~
+3 0 6307
+D4
+~
+~
+0 0 6323
+S
+#6317
+Common Room of the Wayfarers' Rest~
+Here in the common room of the Wayfarers' Rest, there is a smell of
+spilled wine and ale.  The floors look like they have not been swept in a
+week, or more.  Spilled food and drink are just pushed to the side or kicked
+under a table.  There is a short wall that runs the length of the room and
+seperates the north half from the south half.  Fireplaces are at the center
+of the north and south walls, and bring warmth to cold patrons.  To the west
+is the reception area and stairway.  To the east is the kitchen.  The doors
+to the north and to the south lead to the private dining rooms.  
+~
+0 8 0
+D0
+~
+~
+3 0 6319
+D1
+~
+~
+0 0 6320
+D2
+~
+~
+3 0 6318
+D3
+~
+~
+0 0 6316
+S
+#6318
+Dining Room~
+Here in the dining room, the air smells a bit better.  The floors are a
+little cleaner also, if you consider a light coating of dirt cleaner. 
+Candles in brass holders line the walls and provide plenty of light to dine
+by.  The clean linens on the table show that this room is reserved for
+special guests, and not the typical patrons of this inn.  The door to the
+north leads back to the common room.  
+~
+0 8 0
+D0
+~
+~
+3 0 6317
+S
+#6319
+Dining Room~
+Here in the dining room, the air smells a bit better.  The floors are a
+little cleaner also, if you consider a light coating of dirt cleaner. 
+Candles in brass holders line the walls and provide plenty of light to dine
+by.  The clean linens on the table show that this room is reserved for
+special guests, and not the typical patrons of this inn.  The door to the
+south leads back to the common room.  
+~
+0 8 0
+D2
+~
+~
+3 0 6317
+S
+#6320
+The Kitchen of the Wayfarers' Rest~
+Here in the kitchen, the air actually has a fragrance that is pleasing. 
+Although no food is being prepared at the moment, the smell of beef stew
+lingers in the air.  The floors are swept clean also, a definite difference
+compared to the common room.  A small room is to the north.  The door to the
+south leads to a small office.  To the west is the common room.  
+~
+0 8 0
+D0
+~
+~
+0 0 6322
+D2
+~
+~
+3 6367 6321
+D3
+~
+~
+0 0 6317
+S
+#6321
+Innkeepers Office~
+Here in the innkeepers office, the air is clean and pleasant smelling. 
+The floor is swept clean, and there are no cobwebs hanging from the ceiling.
+The room has no decorations and no windows.  The door to the north leads
+back to the kitchen.  
+~
+0 9 0
+D0
+~
+~
+3 6367 6320
+S
+#6322
+Storage Room~
+This room is very dusty and dirty.  Cobwebs line the ceiling and walls. 
+The floor is covered in dirt, except for where footprints have brushed a
+path to the pantry that is set against the far wall.  The exit to the south
+leads back to the kitchen.  
+~
+0 9 0
+D2
+~
+~
+0 0 6320
+S
+#6323
+Second Floor of the Wayfarers' Rest~
+This is the second floor hallway of the inn.  There is very little light
+here in the hallway, as the only light comes from a few candles in brass
+holders on the wall.  The floor is covered with a light coating of dust, and
+a few cobwebs can be seen in the corners of the ceiling.  The stairway
+continues up to the third floor, or back down to the first floor of the inn.
+The hallway continues to the east, and there are doors to the guest rooms to
+the north and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6324
+D1
+~
+~
+0 0 6326
+D2
+~
+~
+3 0 6325
+D4
+~
+~
+0 0 6332
+D5
+~
+~
+0 0 6316
+S
+#6324
+Guests' Room~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of the red brick and stone-walled homes
+of Whitebridge.  The door to the south leads back to the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6323
+S
+#6325
+Guests' Room~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of Whitebridge Square, and the shops
+that surround the square.  The door to the north leads back to the hallway. 
+~
+0 8 0
+D0
+~
+~
+3 0 6323
+S
+#6326
+Second Floor Hallway~
+This is the second floor hallway of the inn.  There is very little light
+here in the hallway, as the only light comes from a few candles in brass
+holders on the wall.  The floor is covered with a light coating of dust, and
+a few cobwebs can be seen in the corners of the ceiling.  The hallway
+continues to the east and to the west.  There are doors to the guest rooms
+to the north and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6327
+D1
+~
+~
+0 0 6329
+D2
+~
+~
+3 0 6328
+D3
+~
+~
+0 0 6323
+S
+#6327
+Guests' Room~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of the red brick and stone-walled homes
+of Whitebridge.  The door to the south leads back to the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6326
+S
+#6328
+Guests' Room~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of Whitebridge Square, and the shops
+that surround the square.  The door to the north leads back to the hallway. 
+~
+0 8 0
+D0
+~
+~
+3 0 6326
+S
+#6329
+End of the Second Floor Hallway~
+This is the second floor hallway of the inn.  There is very little light
+here in the hallway, as the only light comes from a few candles in brass
+holders on the wall.  The floor is covered with a light coating of dust, and
+a few cobwebs can be seen in the corners of the ceiling.  The hallway
+continues to the west, and there are doors to the guest rooms to the north
+and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6330
+D2
+~
+~
+3 0 6331
+D3
+~
+~
+0 0 6326
+S
+#6330
+Bathing Room~
+This room is lit very well with several candles in brass holders on the
+walls.  There are no windows, and the room has no decorations.  The floors
+are scrubbed clean, and there are no cobwebs.  The only thing in the room is
+a large copper tub full of steaming hot water.  The door to the south leads
+back to the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6329
+S
+#6331
+Guests' Room~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of Whitebridge Square, and the shops
+that surround the square.  The door to the north leads back to the hallway. 
+~
+0 8 0
+D0
+~
+~
+3 0 6329
+S
+#6332
+Third Floor of the Wayfarers' Rest~
+This is the third floor hallway of the inn.  There is very little light
+here in the hallway, as the only light comes from a few candles in brass
+holders on the wall.  The floor is covered with a light coating of dust, and
+a few cobwebs can be seen in the corners of the ceiling.  The stairway leads
+back down to the second floor of the inn.  The hallway continues to the
+east, and there are doors to the guest rooms to the north and to the south. 
+~
+0 8 0
+D0
+~
+~
+3 0 6333
+D1
+~
+~
+0 0 6335
+D2
+~
+~
+3 0 6334
+D5
+~
+~
+0 0 6323
+S
+#6333
+Guests' Room~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of the red brick and stone-walled homes
+of Whitebridge.  The door to the south leads back to the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6332
+S
+#6334
+Guests' Room~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of Whitebridge Square, and the shops
+that surround the square.  The door to the north leads back to the hallway. 
+~
+0 8 0
+D0
+~
+~
+3 0 6332
+S
+#6335
+Third Floor Hallway~
+This is the third floor hallway of the inn.  There is very little light
+here in the hallway, as the only light comes from a few candles in brass
+holders on the wall.  The floor is covered with a light coating of dust, and
+a few cobwebs can be seen in the corners of the ceiling.  The hallway
+continues to the east and to the west.  There are doors to the guest rooms
+to the north and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6336
+D1
+~
+~
+0 0 6338
+D2
+~
+~
+3 0 6337
+D3
+~
+~
+0 0 6332
+S
+#6336
+Guests' Room~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of the red brick and stone-walled homes
+of Whitebridge.  The door to the south leads back to the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6335
+S
+#6337
+An Empty Guest Room~
+This room has been cleaned and prepared for the next guest.  The floors
+are clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of Whitebridge Square, and the shops
+that surround the square.  The door to the north leads back to the hallway. 
+~
+0 8 0
+D0
+~
+~
+3 0 6335
+S
+#6338
+End of Third floor Hallway~
+This is the third floor hallway of the inn.  There is very little light
+here in the hallway, as the only light comes from a few candles in brass
+holders on the wall.  The floor is covered with a light coating of dust, and
+a few cobwebs can be seen in the corners of the ceiling.  The hallway
+continues to the west, and there are doors to the guest rooms to the north
+and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6339
+D2
+~
+~
+3 0 6340
+D3
+~
+~
+0 0 6335
+S
+#6339
+Bathing Room~
+This room is lit very well with several candles in brass holders on the
+walls.  There are no windows, and the room has no decorations.  The floors
+are scrubbed clean, and there are no cobwebs.  The only thing in the room is
+a large copper tub full of steaming hot water.  The door to the south leads
+back to the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6338
+S
+#6340
+An Empty Guest Room~
+This room has been cleaned and prepared for the next guest.  The floors
+are clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of Whitebridge Square, and the shops
+that surround the square.  The door to the north leads back to the hallway. 
+~
+0 8 0
+D0
+~
+~
+3 0 6338
+S
+#6341
+The West Gate to the City of Whitebridge~
+Here at the west gate to the city of Whitebridge, there are two extremely
+large doors, banded with thick black iron, standing open to allow passage in
+or out of the city.  The stone walls that surround the city are over twice
+the height of a full-grown man, and made of large stones dragged from the
+banks of the River Arinelle.  Travelling to the west will lead out of the
+city to the east foot of the White Bridge.  To the east is the Whitebridge
+Square.  
+~
+0 0 1
+D0
+~
+~
+0 0 6346
+D1
+~
+~
+0 0 6302
+D2
+~
+~
+0 0 6347
+D3
+~
+~
+0 0 6342
+S
+#6342
+East Foot of the White Bridge~
+The cobblestone street meets the east foot of the White Bridge here.  To
+the north and to the south, the sloping banks of the River Arinelle fall
+steeply into the waters below.  To the west, the glass-appearing White
+Bridge spans the river towards the west bank of the River Arinelle.  To the
+east, the west gate to the city of Whitebridge stands with its thick,
+iron-bound, wooden doors open.  The large stone wall that surrounds the city
+is over twice the height of a full-grown man, and made from large stones
+dragged from the banks of the River Arinelle.  The pleasant smell of the
+river mixed in with the harsh odor of fish from the docks waft from below.  
+~
+0 0 1
+D1
+~
+~
+0 0 6341
+D3
+~
+~
+0 0 6446
+S
+#6343
+Above the River Arinelle on the White Bridge~
+Here high above the River Arinelle on the White Bridge there is a wide
+view of the river and the docks below.  The surface of the bridge is
+deceiving as it looks like glass, yet is never slippery.  The bridge will
+not even chip under any circumstance, let alone crack, its strength is
+amazing and makes this bridge bring wonder to the minds of all.  To the east
+is the east foot of the bridge and the city of Whitebridge.  To the west is
+the west foot of the bridge and a dirt road that continues beyond.  The
+pleasant smell of the river mixed with the harsh odor of fish from the docks
+waft from below.  
+~
+0 0 1
+D1
+~
+~
+0 0 6446
+D3
+~
+~
+0 0 6447
+S
+#6344
+West Foot of the White Bridge~
+The hard packed dirt road meets the west foot of the White Bridge here. 
+To the north and to the south, the sloping banks of the River Arinelle fall
+steeply into the waters below.  To the east, the glass-appearing White
+Bridge spans the river towards the east bank and the city of Whitebridge. 
+The pleasant smell of the river mixed with the harsh odor of fish from the
+docks waft from below.  
+~
+0 0 1
+D1
+~
+~
+0 0 6447
+D3
+~
+~
+0 0 6345
+S
+#6345
+First View of the White Bridge~
+There is a fine view of the White Bridge from here.  The spidery lacework
+of the bridge gleam milky-white with a grace that inspires awe.  The bridge
+looks to be crafted from a single piece of glass.  The River Arinelle rushes
+along the base of the White Bridge.  The hard packed dirt road meets with
+the foot of the White Bridge to the east, where the bridge seems to almost
+dwarf the city of Whitebridge beyond.  
+~
+0 0 2
+D1
+~
+~
+0 0 6344
+D3
+~
+~
+0 0 4239
+S
+#6346
+Towards the Docks~
+Here the cobblestone street ends at a wood stairway that leads down the
+bank of the River Arinelle towards the docks.  The stairway is made from
+large timbers driven into the bank with planks nailed across the top for
+steps.  From here, most of the rooftops of the buildings on the dock are at
+eye level.  Several piers and warehouses can be seen from here, as well as a
+few boats.  To the south is the west gate to the city.  
+~
+0 1 1
+D2
+~
+~
+0 0 6341
+D5
+~
+~
+0 0 6348
+S
+#6347
+South West Wall Road~
+There are very few people here at all.  This street, just like all the
+streets of Whitebridge, are paved in worn cobblestone.  The cobblestone
+seems to be in need of repair here, as weeds and grass is growing out
+through the cracks.  This road follows along the inside of the city wall,
+and continues on to the north and to the south.  The stone walls that
+surround the city are over twice the height of a full-grown man, and made of
+large stones dragged from the banks of the River Arinelle.  
+~
+0 0 1
+D0
+~
+~
+0 0 6341
+D2
+~
+~
+0 0 6401
+S
+#6348
+The Docks~
+The air smells like fish here on the docks.  The docks are made from
+large timbers tied to tar-coated pilings.  All around, workers rush about
+with their work, and fishermen mend their nets, while merchants transfer
+their goods from boat to carriage and prepare for travel.  A large inn is to
+the east.  A wide set of wooden stairs, set into the River Bank, lead up
+into the city.  The docks continue on to the north.  
+~
+0 0 1
+D0
+~
+~
+0 0 6349
+D1
+~
+~
+3 0 6373
+D4
+~
+~
+0 0 6346
+S
+#6349
+Onto the Docks~
+The air smells like fish here on the docks.  The docks are made from
+large timbers tied to tar-coated pilings.  All around, workers rush about
+with their work, and fishermen mend their nets, while merchants transfer
+their goods from boat to carriage and prepare for travel.  To the east is a
+large building which is used for a warehouse.  The docks continue on to the
+north and to the south.  
+~
+0 0 1
+D0
+~
+~
+0 0 6351
+D1
+~
+~
+3 0 6350
+D2
+~
+~
+0 0 6348
+S
+#6350
+A Large Warehouse~
+There are several wooden crates here, stacked all around.  There are no
+windows, so the warehouse is very dark.  Sawdust and dirt cover the floor
+everywhere.  Several rats run for the shadows when the light enters the
+room.  
+~
+0 9 0
+D3
+~
+~
+3 0 6349
+S
+#6351
+Further Down the Docks~
+The air smells like fish here on the docks.  The docks are made from
+large timbers tied to tar-coated pilings.  All around, workers rush about
+with their work, and fishermen mend their nets, while merchants transfer
+their goods from boat to carriage and prepare for travel.  To the east is a
+large building which is used for a warehouse.  One of the piers continue out
+onto the River Arinelle to the west.  The docks continue to the north and to
+the south.  
+~
+0 0 1
+D0
+~
+~
+0 0 6353
+D1
+~
+~
+3 0 6352
+D2
+~
+~
+0 0 6349
+D3
+~
+~
+0 0 6360
+S
+#6352
+An Empty Warehouse~
+This warehouse is completely empty of any crates, and there are no
+workers here either.  There are no windows, so the warehouse is very dark. 
+Sawdust and dirt cover the floor everywhere.  Several rats run for the
+shadows when the light enters the room.  
+~
+0 9 0
+D3
+~
+~
+3 0 6351
+S
+#6353
+A Busy Area of the Docks~
+The air smells like fish here on the docks.  The docks are made from
+large timbers tied to tar-coated pilings.  All around, workers rush about
+with their work, and fishermen mend their nets, while merchants transfer
+their goods from boat to carriage and prepare for travel.  To the east is a
+large building which is used for a warehouse.  The docks continue to the
+north and to the south.  
+~
+0 0 1
+D0
+~
+~
+0 0 6355
+D1
+~
+~
+3 0 6354
+D2
+~
+~
+0 0 6351
+S
+#6354
+A Warehouse Filled to the Ceiling~
+There are several wooden crates here, some stacked as high as the
+ceiling.  There are no windows, so the warehouse is very dark.  Sawdust and
+dirt cover the floor everywhere.  Several rats run for the shadows when the
+light enters the room.  
+~
+0 9 0
+D3
+~
+~
+3 0 6353
+S
+#6355
+The North End of the Docks~
+The air smells like fish here on the docks.  The docks are made from
+large timbers tied to tar-coated pilings.  All around, workers rush about
+with their work, and fishermen mend their nets, while merchants transfer
+their goods from boat to carriage and prepare for travel.  To the east, the
+cobblestone of the Wharf Road meets the wooden dock.  Directly to the north
+is a small wood building that is owned by the Harbor Master.  One of the
+piers continue out onto the River Arinelle to the west.  The docks continue
+to the south.  
+~
+0 0 1
+D0
+~
+~
+3 0 6357
+D1
+~
+~
+0 0 6356
+D2
+~
+~
+0 0 6353
+D3
+~
+~
+0 0 6358
+S
+#6356
+West Wharf Road~
+All of the people here are headed towards, or away from the docks to the
+west, where the strong odor of fish seems to be coming from.  The
+cobblestone seems to be in need of repair here, as the weeds and grass are
+growing out through the cracks.  The Wharf Road continues on to the east and
+to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 6430
+D3
+~
+~
+0 0 6355
+S
+#6357
+The Office of the Harbor Master~
+This room is very clean, yet the smell of fish seems stronger here than
+anywhere else.  The single, small desk with one small chair are centered
+towards the back of the room.  A large oil painting of a river-view at
+sunset, assumedly the River Arinelle, is set against the east wall covering
+from floor to ceiling, and twice the width of a full-grown man.  The door to
+the south leads back out to the docks.  
+~
+0 8 0
+D1
+~
+~
+11 0 6400
+D2
+~
+~
+3 0 6355
+S
+#6358
+Onto the Piers~
+Here on the pier, there is a smell of fish in the air.  The pier is made
+similar to the docks, large wooden timbers tied to the tar-coated pilings,
+but the pier is not as wide as the dock.  All around, workmen rush about
+carrying crates and keeping busy, while fishermen sit idly about and mend
+their nets.  The pier continues further out onto the River Arinelle to the
+west.  To the east are the docks.  
+~
+0 0 1
+D1
+~
+~
+0 0 6355
+D3
+~
+~
+0 0 6359
+S
+#6359
+End of the Pier~
+Here on the pier, there is a smell of fish in the air.  The pier is made
+similar to the docks, large wooden timbers tied to the tar-coated pilings,
+but the pier is not as wide as the dock.  All around, workmen rush about
+carrying crates and keeping busy, while fishermen sit idly about and mend
+their nets.  The pier continues to the east, back towards the docks.  To the
+south, one of the merchant vessels is moored to the pier.  
+~
+0 0 1
+D1
+~
+~
+0 0 6358
+D2
+~
+~
+0 0 6362
+S
+#6360
+The Piers~
+Here on the pier, there is a smell of fish in the air.  The pier is made
+similar to the docks, large wooden timbers tied to the tar-coated pilings,
+but the pier is not as wide as the dock.  All around, workmen rush about
+carrying crates and keeping busy, while fishermen sit idly about and mend
+their nets.  The pier continues further out onto the River Arinelle to the
+west.  To the east are the docks.  
+~
+0 0 1
+D1
+~
+~
+0 0 6351
+D3
+~
+~
+0 0 6361
+S
+#6361
+End of the Pier~
+Here on the pier, there is a smell of fish in the air.  The pier is made
+similar to the docks, large wooden timbers tied to the tar-coated pilings,
+but the pier is not as wide as the dock.  All around, workmen rush about
+carrying crates and keeping busy, while fishermen sit idly about and mend
+their nets.  The pier continues to the east, back towards the docks.  To the
+south, one of the merchant vessels is moored to the pier.  
+~
+0 0 1
+D1
+~
+~
+0 0 6360
+D2
+~
+~
+0 0 6367
+S
+#6362
+Mid-deck on a Merchant Vessel~
+Here on the deck of the merchant vessel, there is a smell of fish in the
+air.  The mast and sails tower high above the deck.  The sails are lowered
+while the ship is docked.  To the south is a door to a small cabin.  An open
+hatch leads below-deck to the cargo hold.  The deck continues to the west
+and to the east.  To the north is the pier.  
+~
+0 0 1
+D0
+~
+~
+0 0 6359
+D1
+~
+~
+0 0 6364
+D2
+~
+~
+3 0 6363
+D3
+~
+~
+0 0 6365
+D5
+~
+~
+3 0 6366
+S
+#6363
+Captain's Quarters~
+Everything here in the Captain's quarters is built for function only. 
+The drawers, cabinets and bunk are all built into the walls of the cabin. 
+The entire room, floor to ceiling, has been scrubbed clean, and the entire
+room smells clean.  The door to the north leads back out onto the deck.  
+~
+0 9 0
+D0
+~
+~
+3 0 6362
+S
+#6364
+Fore-deck on a Merchant Vessel~
+Here on the deck of the merchant vessel, there is a smell of fish in the
+air.  Several fish can be seen splashing in the water around the ship.  The
+mast and sails tower high above the deck.  The sails are lowered while the
+ship is docked.  The mid-deck is back to the west.  
+~
+0 0 1
+D3
+~
+~
+0 0 6362
+S
+#6365
+Aft-deck on a Merchant Vessel~
+Here on the deck of the merchant vessel, there is a smell of fish in the
+air.  The mast and sails tower high above the deck.  The sails are lowered
+while the ship is docked.  The mid-deck is back to the east.  Several fish
+can be seen splashing in the water around the ship.  
+~
+0 0 1
+D1
+~
+~
+0 0 6362
+S
+#6366
+Cargo Hold~
+It is dark here in the cargo hold of the ship, and the air is damp and
+musty.  The framework that the ship is built on is visible from down here. 
+All around, there are heavy timbers and beams that form the backbone of the
+ship.  Several rats can be seen scurrying into the shadows.  A small ladder
+leads back up through the hatch and onto the deck.  
+~
+0 9 0
+D4
+~
+~
+3 0 6362
+S
+#6367
+Mid-deck on a Large Trading Ship~
+Here on the deck of the merchant vessel, there is a smell of fish in the
+air.  The mast and sails tower high above the deck.  The sails are lowered
+while the ship is docked.  To the south is a door to a small cabin.  An open
+hatch leads below-deck to the cargo hold.  The deck continues to the west
+and to the east.  To the north is the pier.  
+~
+0 0 1
+D0
+~
+~
+0 0 6361
+D1
+~
+~
+0 0 6369
+D2
+~
+~
+3 0 6368
+D3
+~
+~
+0 0 6370
+D5
+~
+~
+3 0 6371
+S
+#6368
+Captain's Quarters~
+Everything here in the Captain's quarters is built for function only. 
+The drawers, cabinets and bunk are all built into the walls of the cabin. 
+The entire room, floor to ceiling, has been scrubbed clean, and the entire
+room smells clean.  The door to the north leads back out onto the deck.  
+~
+0 9 0
+D0
+~
+~
+3 0 6367
+S
+#6369
+Fore-deck on a Large Trading Ship~
+Here on the deck of the merchant vessel, there is a smell of fish in the
+air.  Several fish can be seen splashing in the water around the ship.  The
+mast and sails tower high above the deck.  The sails are lowered while the
+ship is docked.  The mid-deck is back to the west.  
+~
+0 0 1
+D3
+~
+~
+0 0 6367
+S
+#6370
+Aft-deck on a Large Trading Ship~
+Here on the deck of the merchant vessel, there is a smell of fish in the
+air.  Several fish can be seen splashing in the water around the ship.  The
+mast and sails tower high above the deck.  The sails are lowered while the
+ship is docked.  The mid-deck is back to the east.  
+~
+0 0 1
+D1
+~
+~
+0 0 6367
+S
+#6371
+Cargo Hold~
+It is dark here in the cargo hold of the ship, and the air is damp and
+musty.  The framework that the ship is built on is visible from down here. 
+All around, there are heavy timbers and beams that form the backbone of the
+ship.  Several rats can be seen scurrying into the shadows.  A small ladder
+leads back up through the hatch and onto the deck.  
+~
+0 9 0
+D4
+~
+~
+3 0 6367
+D5
+~
+~
+267 0 6372
+S
+#6372
+A Secret Cargo Hold!~
+It is dark here in the cargo hold of the ship, and the air is damp and
+musty.  The framework that the ship is built on is visible from down here. 
+All around, there are heavy timbers and beams that form the backbone of the
+ship.  Several rats can be seen scurrying into the shadows.  This secret
+cargo hold is often used to carry illegal cargo or untaxed cargo.  The
+planks have been removed from above to allow access back to the main cargo
+hold.  
+~
+0 9 0
+D4
+~
+~
+267 0 6371
+S
+#6373
+Reception Area of the Dockside Inn~
+This inn has some very noisy patrons.  A loud bit of cheering and hooting
+is coming from the room to the south, and a lot of singing is coming from
+the common room to the east.  Overall the room is faily clean, yet the odor
+of fish still lingers in the air, along with the odor of ale.  A set of
+stairs leads upstairs to the guest rooms.  
+~
+0 8 0
+D0
+~
+~
+3 0 6375
+D1
+~
+~
+0 0 6374
+D2
+~
+~
+3 0 6399
+D3
+~
+~
+3 0 6348
+D4
+~
+~
+0 0 6381
+S
+#6374
+Common Room of the Dockside Inn~
+This room is very noisy.  The patrons are all mostly drunk, yet try to
+sing along with the Gleeman's music, each trying to be louder than the next.
+The room is pretty dirty, with spilled food and ale covering most of the
+floor.  The air here is rank with the combined odors of fish, ale and tabac.
+The reception area of the inn is to the west.  The door to the north leads
+to one of the private dining rooms.  The kitchen is to the east.  The room
+to the south is a small sitting room set off to the side of the common room.
+~
+0 8 0
+D0
+~
+~
+3 0 6377
+D1
+~
+~
+0 0 6378
+D2
+~
+~
+0 0 6376
+D3
+~
+~
+0 0 6373
+S
+#6375
+Dining Room~
+This room is much quieter, as the noise of the dicers and the common are
+damped by the heavy door, and muffled with the thick tapestries that are on
+the walls.  The room is very clean, as the floor looks to have been scrubbed
+before the dinner guests arrived.  The odor of fish still lingers in the
+air.  The large door to the east leads to the adjoining dining room, and the
+door to the south leads back out to the reception area of the inn.  
+~
+0 8 0
+D1
+~
+~
+3 0 6377
+D2
+~
+~
+3 0 6373
+S
+#6376
+A Small Sitting Room.~
+This is a small room set off to the south of the common room.  It is used
+mostly for the guests of the inn who are waiting their turn to take a bath. 
+The floor is a bit cleaner here, as it looks to have been scrubbed recently,
+and the spillage from the common room has not been tracked in here to badly.
+The common room is to the north and the bathing to the east.  
+~
+0 8 0
+D0
+~
+~
+0 0 6374
+D1
+~
+~
+3 0 6379
+S
+#6377
+Dining Room~
+This room is much quieter, as the noise of the dicers and the common are
+damped by the heavy door, and muffled with the thick tapestries that are on
+the walls.  The room is very clean, as the floor looks to have been scrubbed
+before the dinner guests arrived.  The odor of fish still lingers in the
+air.  The large door to the west leads to the adjoining dining room, and the
+door to the south leads back out to the common room of the inn.  
+~
+0 8 0
+D2
+~
+~
+3 0 6374
+D3
+~
+~
+3 0 6375
+S
+#6378
+Kitchen of the Dockside Inn~
+This room has been scrubbed clean, yet still smells like fish.  There are
+two fireplaces on the east wall that are used for cooking.  Nothing is being
+cooked at the moment, but the juices from the last meal are splattered all
+over the firebricks.  The common room is to the west and a small storage
+room is to the north.  
+~
+0 8 0
+D0
+~
+~
+0 0 6380
+D3
+~
+~
+0 0 6374
+S
+#6379
+Bathing Room~
+This room is lit very well with several candles in brass holders on the
+walls.  There are no windows, and the room has no decorations.  The floors
+are scrubbed clean, and there are no cobwebs.  The only thing in the room is
+a large copper tub full of steaming hot water.  The door to the west leads
+back out to the sitting room.  
+~
+0 8 0
+D3
+~
+~
+3 0 6376
+S
+#6380
+Storage Room~
+This room is very dusty and dirty.  Cobwebs line the ceiling and walls. 
+The floor is covered in dirt, except for where footprints have brushed a
+path to the pantry that is set against the far wall.  The exit to the south
+leads back to the kitchen.  
+~
+0 9 0
+D2
+~
+~
+0 0 6378
+S
+#6381
+Second Floor of the Dockside Inn~
+This is the second floor hallway of the inn.  There is very little light
+here in the hallway, as the only light comes from a few candles in brass
+holders on the wall.  The floor is covered with a light coating of dust, and
+a few cobwebs can be seen in the corners of the ceiling.  The stairway
+continues up to the third floor, or back down to the first floor of the inn.
+The hallway continues to the east, and there are doors to the guest rooms to
+the north and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6383
+D1
+~
+~
+0 0 6384
+D2
+~
+~
+3 0 6382
+D4
+~
+~
+0 0 6390
+D5
+~
+~
+0 0 6373
+S
+#6382
+An Occupied Chamber~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of the White Bridge and the river bank.
+The door to the north leads back to the hallway.  
+~
+0 8 0
+D0
+~
+~
+3 0 6381
+S
+#6383
+An Occupied Chamber~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a poor view that only shows the large warehouses that
+line the docks.  The door to the south leads back to the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6381
+S
+#6384
+Second Floor Hallway of the Dockside Inn~
+This is the second floor hallway of the inn.  There is very little light
+here in the hallway, as the only light comes from a few candles in brass
+holders on the wall.  The floor is covered with a light coating of dust, and
+a few cobwebs can be seen in the corners of the ceiling.  The hallway
+continues to the east and to the west, and there are doors to the guest
+rooms to the north and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6386
+D1
+~
+~
+0 0 6387
+D2
+~
+~
+3 0 6385
+D3
+~
+~
+0 0 6381
+S
+#6385
+An Occupied Chamber~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of the White Bridge and the river bank.
+The door to the north leads back to the hallway.  
+~
+0 8 0
+D0
+~
+~
+3 0 6384
+S
+#6386
+An Occupied Chamber~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a poor view that only shows the large warehouses that
+line the docks.  The door to the south leads back to the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6384
+S
+#6387
+End of the Second Floor Hallway of the Dockside Inn~
+This is the end of the second floor hallway of the inn.  There is very
+little light here in the hallway, as the only light comes from a few candles
+in brass holders on the wall.  The floor is covered with a light coating of
+dust, and a few cobwebs can be seen in the corners of the ceiling.  The
+hallway continues to the west, and there are doors to the guest rooms to the
+north and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6389
+D2
+~
+~
+3 0 6388
+D3
+~
+~
+0 0 6384
+S
+#6388
+An Occupied Chamber~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of the White Bridge and the river bank.
+The door to the north leads back to the hallway.  
+~
+0 8 0
+D0
+~
+~
+3 0 6387
+S
+#6389
+An Empty Chamber~
+This room has been cleaned and prepared in the hopes that a guest will
+stay here.  The floors are clean, and there are no cobwebs.  The bed has
+clean blankets, and the chamber pot has been emptied and cleaned.  The small
+window on the other side of the room gives a poor view that only shows the
+large warehouses that line the docks.  The door to the south leads back to
+the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6387
+S
+#6390
+Third Floor of the Dockside Inn~
+This is the third floor hallway of the inn.  There is very little light
+here in the hallway, as the only light comes from a few candles in brass
+holders on the wall.  The floor is covered with a light coating of dust, and
+a few cobwebs can be seen in the corners of the ceiling.  The stairway leads
+back down to the second floor.  The hallway continues to the east, and there
+are doors to the guest rooms to the north and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6392
+D1
+~
+~
+0 0 6393
+D2
+~
+~
+3 0 6391
+D5
+~
+~
+0 0 6381
+S
+#6391
+An Occupied Chamber~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of the White Bridge and the river bank.
+The door to the north leads back to the hallway.  
+~
+0 8 0
+D0
+~
+~
+3 0 6390
+S
+#6392
+An Empty Chamber~
+This room has been cleaned and prepared in the hopes that a guest will
+stay here.  The floors are clean, and there are no cobwebs.  The bed has
+clean blankets, and the chamber pot has been emptied and cleaned.  The small
+window on the other side of the room gives a poor view that only shows the
+large warehouses that line the docks.  The door to the south leads back to
+the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6390
+S
+#6393
+Third Floor Hallway of the Dockside Inn~
+This is the third floor hallway of the inn.  There is very little light
+here in the hallway, as the only light comes from a few candles in brass
+holders on the wall.  The floor is covered with a light coating of dust, and
+a few cobwebs can be seen in the corners of the ceiling.  The hallway
+continues to the east and to the west, and there are doors to the guest
+rooms to the north and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6395
+D1
+~
+~
+0 0 6396
+D2
+~
+~
+3 0 6394
+D3
+~
+~
+0 0 6390
+S
+#6394
+An Occupied Chamber~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of the White Bridge and the river bank.
+The door to the north leads back to the hallway.  
+~
+0 8 0
+D0
+~
+~
+3 0 6393
+S
+#6395
+An Occupied Chamber~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a poor view that only shows the large warehouses that
+line the docks.  The door to the south leads back to the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6393
+S
+#6396
+End of the Third Floor Hallway of the Dockside Inn~
+This is the end of the third floor hallway of the inn.  There is very
+little light here in the hallway, as the only light comes from a few candles
+in brass holders on the wall.  The floor is covered with a light coating of
+dust, and a few cobwebs can be seen in the corners of the ceiling.  The
+hallway continues to the west, and there are doors to the guest rooms to the
+north and to the south.  
+~
+0 8 0
+D0
+~
+~
+3 0 6398
+D2
+~
+~
+3 0 6397
+D3
+~
+~
+0 0 6393
+S
+#6397
+An Occupied Chamber~
+This room has been cleaned and prepared for a guest.  The floors are
+clean, and there are no cobwebs.  The bed has clean blankets, and the
+chamber pot has been emptied and cleaned.  The small window on the other
+side of the room gives a decent view of the White Bridge and the river bank.
+The door to the north leads back to the hallway.  
+~
+0 8 0
+D0
+~
+~
+3 0 6396
+S
+#6398
+An Empty Chamber~
+This room has been cleaned and prepared in the hopes that a guest will
+stay here.  The floors are clean, and there are no cobwebs.  The bed has
+clean blankets, and the chamber pot has been emptied and cleaned.  The small
+window on the other side of the room gives a poor view that only shows the
+large warehouses that line the docks.  The door to the south leads back to
+the hallway.  
+~
+0 8 0
+D2
+~
+~
+3 0 6396
+S
+#6399
+Dicing!~
+The rowdy laughter and cheering in this room has overpowered the sounds
+of singing coming from the common room.  The air is somewhat rank with the
+mixed odors of fish, ale and tabac.  The room is pretty dirty, as there is
+spilled ale and food all over the floor.  The door to the north leads back
+out to the reception area of the inn.  
+~
+0 8 0
+D0
+~
+~
+3 0 6373
+S
+#6400
+A Hidden Room~
+This is the room that was hidden behind the large painting.  This room is
+very small, and the air is stale and musty.  The only thing in the room is a
+large strongbox that is bolted to the floor with large iron bands and bolts.
+The exit is to the west, past the painting that blocks the opening.  
+~
+0 9 0
+D3
+~
+~
+11 0 6357
+S
+#6401
+South West Wall Road~
+There are very few people here at all.  This street, just like all the
+streets of Whitebridge, are paved in worn cobblestone.  The cobblestone
+seems to be in need of repair here, as weeds and grass are growing out
+through the cracks.  This road follows along the inside of the city wall,
+and continues on to the north and to the south.  The stone walls that
+surround the city are over twice the height of a full-grown man, and made of
+large stones dragged from the banks of the River Arinelle.  
+~
+0 0 1
+D0
+~
+~
+0 0 6347
+D2
+~
+~
+0 0 6402
+S
+#6402
+Corner of West Wall Road and Oak Lane~
+Here at the corner of West Wall Road and Oak Lane, the street is almost
+empty and very quiet.  This street, just like all the streets of
+Whitebridge, are paved in worn cobblestone.  The cobblestone seems to be in
+need of repair here, as weeds and grass are growing out through the cracks. 
+The west wall road follows along the inside of the city wall, and continues
+on to the north.  The stone walls that surround the city are over twice the
+height of a full-grown man, and made of large stones dragged from the banks
+of the River Arinelle.  Oak Lane continues on to the east.  To the south is
+a large brick building with a tiled roof that serves as the barracks for the
+local militia.  
+~
+0 0 1
+D0
+~
+~
+0 0 6401
+D1
+~
+~
+0 0 6405
+D2
+~
+~
+3 0 6403
+S
+#6403
+Militia Guard Barracks~
+Here in the militia barracks, there is a strong, musty odor of sweat and
+tabac.  This room has not been kept very neat or clean.  There is a lot of
+dirt on the floor, and several cobwebs hang from the ceiling.  The door to
+the west has the title "Captain" carved into the door.  The door to the
+south leads outside to the training grounds.  The door to the north leads
+back outside to the street.  To the east are the sleeping quarters.  
+~
+0 8 0
+D0
+~
+~
+3 0 6402
+D1
+~
+~
+0 0 6436
+D2
+~
+~
+3 0 6404
+D3
+~
+~
+3 0 6437
+S
+#6404
+Militia Training Grounds~
+The smell of sweat lingers in the air here.  The grass all around the
+area has been worn and beaten down from the training that goes on here.  A
+lot of open room has been set aside here, so that when the guards are
+training, they will have enough room for their exercises and drills.  The
+door to the north leads back inside the barracks.  
+~
+0 0 2
+D0
+~
+~
+3 0 6403
+S
+#6405
+West Oak Lane~
+Here on Oak Lane, the street is almost empty and very quiet.  This
+street, just like all the streets of Whitebridge, are paved in worn
+cobblestone.  The cobblestone seems to be in need of repair here, as weeds
+and grass are growing out through the cracks.  Oak Lane continues on to the
+east and to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 6406
+D3
+~
+~
+0 0 6402
+S
+#6406
+Intersection of Center Street and Oak Lane~
+Here at the intersection of Center Street and Oak Lane, the street is
+almost empty and very quiet.  This street, just like all the streets of
+Whitebridge, are paved in worn cobblestone.  The cobblestone seems to be in
+need of repair here, as weeds and grass are growing out through the cracks. 
+Oak Lane continues on to the east and to the west.  Center Street continues
+on to the north.  
+~
+0 0 1
+D0
+~
+~
+0 0 6407
+D1
+~
+~
+0 0 6408
+D3
+~
+~
+0 0 6405
+S
+#6407
+South Center Street~
+There are not many people here at all.  This street is paved in the same
+worn cobblestone that all of the streets of Whitebridge are paved in.  The
+cobblestone is in fair condition here, as there are only a few weeds and
+grass growing through the cracks.  The street continues on to the north and
+to the south.  
+~
+0 0 1
+D0
+~
+~
+0 0 6304
+D2
+~
+~
+0 0 6406
+S
+#6408
+East Oak Lane~
+Here on Oak Lane, the street is almost empty and very quiet.  This
+street, just like all the streets of Whitebridge, are paved in worn
+cobblestone.  The cobblestone seems to be in need of repair here, as weeds
+and grass are growing out through the cracks.  Oak Lane continues on to the
+east and to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 6409
+D3
+~
+~
+0 0 6406
+S
+#6409
+Corner of East Wall Road and Oak Lane~
+Here at the corner of the East Wall Road and Oak Lane, the street is
+almost empty and very quiet.  This street, just like all the streets of
+Whitebridge, are paved in worn cobblestone.  The cobblestone seems to be in
+need of repair here, as weeds and grass are growing out through the cracks. 
+The east wall road follows along the inside of the city wall, and continues
+on to the north.  The stone walls that surround the city are over twice the
+height of a full-grown man, and made of large stones dragged from the banks
+of the River Arinelle.  Oak Lane continues on to the west.  To the south is
+a small weapons and armor shop with a half-moon painted on the sign and the
+front door.  
+~
+0 0 1
+D0
+~
+~
+0 0 6412
+D2
+~
+~
+0 0 6410
+D3
+~
+~
+0 0 6408
+S
+#6410
+Weapon and Armor Shop~
+Here in the weapon and armor shop, there is a faint odor of oil.  The
+floor is lined with thick oak planks, but still squeaks when walked on. 
+Several shelves line the walls displaying the weapons and armor throughout
+the room.  The craftmanship of the shopkeeper's wares are of the finest
+quality.  A thin coating of oil on the weapons and armor give them a
+luminescent glow as they reflect the light brilliantly.  Covering most of
+the east wall from floor to ceiling, is a large tapestry with small
+half-moons embroidered along the edge and a large half-moon in the center
+set on a dark-blue background.  The exit to the north leads back outside to
+the street.  
+~
+0 8 0
+D0
+~
+~
+0 0 6409
+D1
+~
+~
+11 0 6411
+S
+#6411
+Special Weapons Shop~
+Here in the room hidden behind the tapestry, the air is stale and dusty,
+and the little light that there is comes from a few candles.  The shadows
+cover piles of unusual weapons laying in the corners.  The weapons seem to
+be from other countries.  The weapons are of the best quality, yet have not
+been taken care of properly.  The exit is to the west, beyond the tapestry. 
+~
+0 8 0
+D3
+~
+~
+11 0 6410
+S
+#6412
+South East Wall Road~
+There are very few people here at all.  This street, just like all the
+streets of Whitebridge, are paved in worn cobblestone.  The cobblestone
+seems to be in need of repair here, as weeds and grass are growing out
+through the cracks.  This road follows along the inside of the city wall,
+and continues on to the north and to the south.  The stone walls that
+surround the city are over twice the height of a full-grown man, and made of
+large stones dragged from the banks of the River Arinelle.  
+~
+0 0 1
+D0
+~
+~
+0 0 6413
+D2
+~
+~
+0 0 6409
+S
+#6413
+South East Wall Road~
+There are very few people here at all.  This street, just like all the
+streets of Whitebridge, are paved in worn cobblestone.  The cobblestone
+seems to be in need of repair here, as weeds and grass are growing out
+through the cracks.  This road follows along the inside of the city wall,
+and continues on to the north and to the south.  The stone walls that
+surround the city are over twice the height of a full-grown man, and made of
+large stones dragged from the banks of the River Arinelle.  
+~
+0 0 1
+D0
+~
+~
+0 0 6414
+D2
+~
+~
+0 0 6412
+S
+#6414
+The East Gate to the City of Whitebridge~
+Here at the east gate to the city of Whitebridge, there are two extremely
+large doors, banded with thick black iron, standing open to allow passage in
+or out of the city.  The stone walls that surround the city are over twice
+the height of a full-grown man, and made of large stones dragged from the
+banks of the River Arinelle.  Through the gate to the east, the Caemlyn Road
+continues onward.  To the west is the Whitebridge Square.  
+~
+0 0 1
+D0
+~
+~
+0 0 6435
+D1
+~
+~
+0 0 6416
+D2
+~
+~
+0 0 6413
+D3
+~
+~
+0 0 6415
+S
+#6415
+East Whitebridge at the beginning of the Caemlyn Road~
+There are a few people here, some are moving east towards the east gate
+and the Caemlyn Road, others are coming from the gate and headed towards the
+Whitebridge Square.  The entire streets of Whitebridge are paved in worn
+cobblestone.  The cobblestone seems to be in fair condition here as there
+are no weeds or grass growing through the cracks, yet the stone has worn
+loose in some places.  To the west, the Whitebridge Square is encircled by
+small shops and an inn.  To the east is the east gate and the Caemlyn Road. 
+~
+0 0 1
+D1
+~
+~
+0 0 6414
+D3
+~
+~
+0 0 6303
+S
+#6416
+Outside the East Gate of Whitebridge on the Caemlyn Road~
+Here outside the east gate of Whitebridge, the cobblestone street of the
+city fades into the rough, hard packed dirt known as the Caemlyn Road.  The
+two large wooden gate doors are banded with straps of thick black iron and
+are standing wide open to allow passage in or out of the city.  The wall
+that surrounds the city is over twice the height of a full-grown man, and
+made from large stones dragged from the banks of the River Arinelle. 
+Through the gate to the west is the city of Whitebridge.  The Caemlyn Road
+continues on to the east.  
+~
+0 0 1
+D1
+~
+~
+0 0 6417
+D3
+~
+~
+0 0 6414
+S
+#6417
+The Caemlyn Road east of Whitebridge~
+This section of the Caemlyn Road is nothing more than a slightly rutted,
+hard packed dirt road.  There is a thick hedge of bushes to both the north
+and to the south that act as a fence of sorts to keep travellers on the road
+out of the farmers' fields.  Beyond the hedges, to both the north and to the
+south, there are several haystacks that can be seen dotting the horizon.  To
+the west is the city of Whitebridge.  The Caemlyn Road continues on to the
+east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6418
+D3
+~
+~
+0 0 6416
+S
+#6418
+Intersection of the Caemlyn Road and a Dirt Path~
+Here a heavily rutted dirt path, that leads to the south, intersects with
+the Caemlyn Road.  A strong smell of manure is coming from the south.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that can be seen dotting the horizon.  To the
+west is the city of Whitebridge.  The Caemlyn Road continues on to the east.
+~
+0 0 2
+D1
+~
+~
+0 0 6448
+D2
+~
+~
+0 0 6420
+D3
+~
+~
+0 0 6417
+S
+#6419
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 1503
+D3
+~
+~
+0 0 6458
+S
+#6420
+The Dirt Road to the Farm~
+The dirt path here is heavily rutted and has weeds and brush growing up
+onto the sides of the path.  At several spots along the path, the thorn
+bushes that have grown onto the path hinder movement.  The path appears to
+have not have had much travel lately.  The strong smell of manure is coming
+from the small farm that is to the south.  Several haystacks can be seen in
+the distance, dotting the horizon.  The Caemlyn Road is to the north.  
+~
+0 0 2
+D0
+~
+~
+0 0 6418
+D2
+~
+~
+0 0 6421
+S
+#6421
+Center of the Farm Yard~
+Here at the center of the farm yard, the smell of manure seems to be
+coming from every direction.  The front door to a small, neglected,
+thatched-roof farmhouse is to the south.  There is a large wooden gate to
+the west that leads into a pasture.  The rutted path leads to the north, and
+to the east is a large yard.  
+~
+0 0 2
+D0
+~
+~
+0 0 6420
+D1
+~
+~
+0 0 6424
+D2
+~
+~
+3 0 6423
+D3
+~
+~
+3 0 6422
+S
+#6422
+Cow Pasture~
+The grass here in the pasture is high in some spots, and bare in others. 
+The only consistency in the pasture is that the manure piles seem to be
+everywhere.  There is a rickety fence that surrounds the pasture, although
+it is still in a good enough condition to keep in the cows.  Beyond the
+fence, several haystacks can be seen dotting the horizon.  The large wooden
+gate to the east leads out of the pasture.  
+~
+0 0 2
+D1
+~
+~
+3 0 6421
+S
+#6423
+The Farm House~
+This house needs a serious cleaning.  Dust lines every surface, and
+several dust motes can be seen in the daylight that streams in from the
+windows.  The furnishings are almost completely gone, only a few broken
+items remain, even the draperies are missing.  Several of the floor boards
+are broken, rotted or missing completely.  The door to the north leads back
+outside.  
+~
+0 8 0
+D0
+~
+~
+3 0 6421
+S
+#6424
+Barn Yard~
+Here in the barn yard, the grass is worn down to bare earth in most
+places.  The sound of grunting and squealing is coming from the hog pen to
+the east.  A large, thatched-roof barn, with several holes in the thatching,
+is to the south.  The clucking sound of chickens is to the south also.  To
+the east, a small wooden gate leads into the hog pen.  
+~
+0 0 2
+D1
+~
+~
+3 0 6425
+D2
+~
+~
+0 0 6426
+D3
+~
+~
+0 0 6421
+S
+#6425
+Hog Pen~
+Here in the hog pen, it is difficult to tell the mud from the manure. 
+The smell is overwhelming.  The low, wooden fence that surrounds the pen is
+in serious need of mending.  There are several spots in the fence that are
+weak enough for a hog to break through if found.  The small wooden gate to
+the west leads back to the barn yard.  
+~
+0 0 2
+D3
+~
+~
+3 0 6424
+S
+#6426
+The Barn~
+Here in the barn, there is a smell of wet, moldy hay.  The hay is stacked
+to the ceiling, which has holes that are showing daylight.  The holes in the
+thatching must have let enough rain in to get the hay wet and grow mold.  To
+the east is a door that leads to the chicken coop.  The exit to the north
+leads back outside to the barn yard.  
+~
+0 8 0
+D0
+~
+~
+0 0 6424
+D1
+~
+~
+3 0 6427
+S
+#6427
+The Chicken Coop~
+The chicken coop is built mostly from tree branches that are strapped
+together to form the walls and roof.  There are several spots where a good
+view can be seen between the slats of the fields outside.  The white
+splatterings of chicken droppings seem to line the entire floor, and even
+part of the walls.  The door to the west leads back to the barn.  
+~
+0 8 0
+D3
+~
+~
+3 0 6426
+S
+#6428
+North Center Street~
+There are not many people travelling through here.  Most are on their way
+south towards the square, but a few are headed north towards the Wharf Road.
+This street is paved in the same worn cobblestone that all of the streets of
+Whitebridge are paved in.  The cobblestone is in fair condition here, as
+there are only a few weeds and grass growing through the cracks.  
+~
+0 0 1
+D0
+~
+~
+0 0 6429
+D2
+~
+~
+0 0 6301
+S
+#6429
+Intersection of Center Street and the Wharf Road~
+Here at the intersection of Wharf Road and North Center Street, there is
+a smell of fish coming from the west, and the faint odor of perfume wafting
+from the east.  Most of the traffic here is either headed to, or from the
+docks to the west.  There are a few smiling men coming from the east though.
+This street is paved in the same worn cobblestone that all of the streets of
+Whitebridge are paved in.  The cobblestone is in fair condition here, as
+there are only a few weeds and grass growing through the cracks.  The Wharf
+Road continues to the east and to the west.  Center Street continues on to
+the south.  
+~
+0 0 1
+D1
+~
+~
+0 0 6431
+D2
+~
+~
+0 0 6428
+D3
+~
+~
+0 0 6430
+S
+#6430
+West Wharf Road~
+All of the people here are headed towards, or away from the docks to the
+west, where the strong odor of fish seems to be coming from.  The
+cobblestone seems to be in need of repair here, as the weeds and grass are
+growing out through the cracks.  The Wharf Road continues on to the east and
+to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 6429
+D3
+~
+~
+0 0 6356
+S
+#6431
+East Wharf Road~
+The only people travelling through here are going to, or coming from the
+east.  Most of the men coming from the east have smiles on their faces.  The
+cobblestone seems to be in need of repair here, as the weeds and grass are
+growing out through the cracks.  The Wharf Road continues on to the east and
+to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 6432
+D3
+~
+~
+0 0 6429
+S
+#6432
+Corner of East Wall Road and Wharf Road~
+The only people travelling through here are going into, or coming out of
+the boarding house to the north.  The boarding house is a large brick
+building with a tile roof, and a strong odor of perfume wafting from its
+windows.  The cobblestone seems to be in need of repair here, as the weeds
+and grass are growing out through the cracks.  The Wharf Road continues on
+to the west.  The East Wall Road follows along the inside of the city wall,
+and continues on to the south.  The stone walls that surround the city are
+over twice the height of a full-grown man, and made of large stones dragged
+from the banks of the River Arinelle.  
+~
+0 0 1
+D0
+~
+~
+3 0 6433
+D2
+~
+~
+0 0 6434
+D3
+~
+~
+0 0 6431
+S
+#6433
+Reception Area of the Boarding House~
+This room is dimly lit, with only a few candles in their holders for
+light.  The smell of perfume is almost overpowering, yet sweet none the
+less.  The dark oak planks that line the floor and walls also lend to the
+dim lighting.  There are several tapestries hanging from the walls, most of
+them dark-red or violet with white lace trim.  The common room is to the
+north.  
+~
+0 8 0
+D0
+~
+~
+0 0 6438
+D2
+~
+~
+3 0 6432
+S
+#6434
+North East Wall Road~
+There are very few people here at all.  This street, just like all the
+streets of Whitebridge, are paved in worn cobblestone.  The cobblestone
+seems to be in need of repair here, as the weeds and grass are growing out
+through the cracks.  This road follows along the inside of the city wall,
+and continues on to the north and to the south.  The stone walls that
+surround the city are over twice the height of a full-grown man, and made of
+large stones dragged from the banks of the River Arinelle.  
+~
+0 0 1
+D0
+~
+~
+0 0 6432
+D2
+~
+~
+0 0 6435
+S
+#6435
+North East Wall Road~
+There are very few people here at all.  This street, just like all the
+other streets in Whitebridge, are paved in worn cobblestone.  The
+cobblestone seems to be in need of repair here, as the weeds and grass are
+growing out of the cracks.  This road follows along the inside of the city
+wall, and continues on to the north and to the south.  The stone walls that
+surround the city are over twice the height of a full-grown man, and made of
+large stones dragged from the banks of the River Arinelle.  
+~
+0 0 1
+D0
+~
+~
+0 0 6434
+D2
+~
+~
+0 0 6414
+S
+#6436
+Sleeping Quarters~
+This room smells of sweat and tabac, and the snores of the sleeping men
+fill the air.  The room has not been cleaned in a while, as dirt and debris
+cover the floor and the cobwebs dominate most of the ceiling.  The exit to
+the west leads back to the main room of the barracks.  
+~
+0 8 0
+D3
+~
+~
+0 0 6403
+S
+#6437
+Office of the Captain of the Militia Guard~
+This room is a lot cleaner than the rest of the barracks.  The floor has
+been scrubbed clean and there are no cobwebs.  The simple furnishings have
+also been kept neat and clean in an almost methodical manner.  The door to
+the east leads back to the main room of the barracks.  
+~
+0 8 0
+D1
+~
+~
+3 0 6403
+S
+#6438
+Common Room of the Boarding House~
+This room is dimly lit, with only a few candles in their holders for
+light.  The dark oak planks that line the floor and walls also lend to the
+dim lighting.  The smell of perfume is almost overpowering, yet sweet none
+the less.  There are several tapestries hanging from the walls, most of them
+dark-red or violet with white lace trim.  There is a stairway here that
+leads upstairs to the rooms.  The kitchen is to the north and the reception
+area is to the south.  
+~
+0 8 0
+D0
+~
+~
+0 0 6439
+D2
+~
+~
+0 0 6433
+D4
+~
+~
+0 0 6440
+S
+#6439
+Kitchen of the Boarding House~
+This room has a little more light than the others.  The walls are lined
+with several candles that brighten the room greatly.  The floors have been
+scrubbed clean, and the smells of the last meal cooked seem to cover the
+smell of perfume here.  There are two fireplaces on the north wall that are
+used for cooking, although they are both cold now and unused.  The common
+room is to the south.  
+~
+0 8 0
+D2
+~
+~
+0 0 6438
+S
+#6440
+Second Floor of the Boarding House~
+Here on the second floor, the smell of perfume is almost overpowering,
+yet sweet none the less.  It is very dimly lit, as the only light is coming
+from two candles in their brass holders, one on the west wall, and one on
+the east wall.  The doors to the north and to the south lead to the private
+guest rooms.  The stairway leads up to the third floor, and back down to the
+common room.  
+~
+0 8 0
+D0
+~
+~
+3 0 6441
+D2
+~
+~
+3 0 6442
+D4
+~
+~
+0 0 6443
+D5
+~
+~
+0 0 6438
+S
+#6441
+An Occupied Room~
+This room is dark because the candles are not lit, and the single, small
+window on the other side of the room, is covered with a dark shade.  The
+floor is the same dark oak that lines the rest of the buildings floors, but
+the walls are completely covered with tapestries and decorations.  The sweet
+smell of perfume is stronger here in the room.  The door to the south leads
+back out to the hallway and stairs.  
+~
+0 9 0
+D2
+~
+~
+3 0 6440
+S
+#6442
+An Occupied Room~
+This room is dark because the candles are not lit, and the single, small
+window on the other side of the room, is covered with a dark shade.  The
+floor is the same dark oak that lines the rest of the buildings floors, but
+the walls are completely covered with tapestries and decorations.  The sweet
+smell of perfume is stronger here in the room.  The door to the north leads
+back out to the hallway and stairs.  
+~
+0 9 0
+D0
+~
+~
+3 0 6440
+S
+#6443
+Third Floor of the Boarding House~
+Here on the third floor, the smell of perfume is almost overpowering, yet
+sweet none the less.  It is very dimly lit, as the only light is coming from
+two candles in their brass holders, one on the west wall, and one on the
+east wall.  The doors to the north and to the south lead to the private
+guest rooms.  The stairway leads back down to the second floor.  
+~
+0 8 0
+D0
+~
+~
+3 0 6445
+D2
+~
+~
+3 0 6444
+D5
+~
+~
+0 0 6440
+S
+#6444
+An Occupied Room~
+This room is dark because the candles are not lit, and the single, small
+window on the other side of the room, is covered with a dark shade.  The
+floor is the same dark oak that lines the rest of the buildings floors, but
+the walls are completely covered with tapestries and decorations.  The sweet
+smell of perfume is stronger here in the room.  The door to the north leads
+back out to the hallway and stairs.  
+~
+0 9 0
+D0
+~
+~
+3 0 6443
+S
+#6445
+An Occupied Room~
+This room is dark because the candles are not lit, and the single, small
+window on the other side of the room, is covered with a dark shade.  The
+floor is the same dark oak that lines the rest of the buildings floors, but
+the walls are completely covered with tapestries and decorations.  The sweet
+smell of perfume is stronger here in the room.  The door to the south leads
+back out to the hallway and stairs.  
+~
+0 9 0
+D2
+~
+~
+3 0 6443
+S
+#6446
+Above the River Arinelle on the White Bridge~
+Here high above the River Arinelle on the White Bridge there is a wide
+view of the river and the docks below.  The surface of the bridge is
+deceiving as it looks like glass, yet is never slippery.  The bridge will
+not even chip under any circumstance, let alone crack, its strength is
+amazing and makes this bridge bring wonder to the minds of all.  To the east
+is the east foot of the bridge and the city of Whitebridge.  To the west is
+the west foot of the bridge and a dirt road that continues beyond.  The
+pleasant smell of the river mixed with the harsh odor of fish from the docks
+waft from below.  
+~
+0 0 1
+D1
+~
+~
+0 0 6342
+D3
+~
+~
+0 0 6343
+S
+#6447
+Above the River Arinelle on the White Bridge~
+Here high above the River Arinelle on the White Bridge there is a wide
+view of the river and the docks below.  The surface of the bridge is
+deceiving as it looks like glass, yet is never slippery.  The bridge will
+not even chip under any circumstance, let alone crack, its strength is
+amazing and makes this bridge bring wonder to the minds of all.  To the east
+is the east foot of the bridge and the city of Whitebridge.  To the west is
+the west foot of the bridge and a dirt road that continues beyond.  The
+pleasant smell of the river mixed with the harsh odor of fish from the docks
+waft from below.  
+~
+0 0 1
+D1
+~
+~
+0 0 6343
+D3
+~
+~
+0 0 6344
+S
+#6448
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6449
+D3
+~
+~
+0 0 6418
+S
+#6449
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6450
+D3
+~
+~
+0 0 6448
+S
+#6450
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6451
+D3
+~
+~
+0 0 6449
+S
+#6451
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6452
+D3
+~
+~
+0 0 6450
+S
+#6452
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6453
+D3
+~
+~
+0 0 6451
+S
+#6453
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6454
+D3
+~
+~
+0 0 6452
+S
+#6454
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6455
+D3
+~
+~
+0 0 6453
+S
+#6455
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6456
+D3
+~
+~
+0 0 6454
+S
+#6456
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6457
+D3
+~
+~
+0 0 6455
+S
+#6457
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6458
+D3
+~
+~
+0 0 6456
+S
+#6458
+The Caemlyn Road~
+Here the Caemlyn Road is a slightly rutted, hard packed dirt road.  There
+is a thick hedge of bushes lining the road to the north and to the south
+that act as a fence of sorts to keep travellers on the road and out of the
+farmers' fields.  Beyond the hedges, to both the north and to the south,
+there are several haystacks that dot the horizon.  Far to the west is the
+city of Whitebridge.  The Caemlyn Road continues on to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 6419
+D3
+~
+~
+0 0 6457
+S
+#0
+
+
+
+#SPECIALS
+M 6405 spec_patrolman
+S
+
+
+
+#RESETS
+D 6307 0 3 0 0
+D 6307 1 3 0 0
+D 6311 2 3 0 0
+D 6316 3 3 0 0
+D 6317 0 3 0 0
+D 6317 2 3 0 0
+D 6318 0 3 0 0
+D 6319 2 3 0 0
+D 6320 2 3 0 0
+D 6321 0 3 0 0
+D 6323 0 3 0 0
+D 6323 2 3 0 0
+D 6324 2 3 0 0
+D 6325 0 3 0 0
+D 6326 0 3 0 0
+D 6326 2 3 0 0
+D 6327 2 3 0 0
+D 6328 0 3 0 0
+D 6329 0 3 0 0
+D 6329 2 3 0 0
+D 6330 2 3 0 0
+D 6331 0 3 0 0
+D 6332 0 3 0 0
+D 6332 2 3 0 0
+D 6333 2 3 0 0
+D 6334 0 3 0 0
+D 6335 0 3 0 0
+D 6335 2 3 0 0
+D 6336 2 3 0 0
+D 6337 0 3 0 0
+D 6338 0 3 0 0
+D 6338 2 3 0 0
+D 6339 2 3 0 0
+D 6340 0 3 0 0
+D 6348 1 3 0 0
+D 6349 1 3 0 0
+D 6350 3 3 0 0
+D 6351 1 3 0 0
+D 6352 3 3 0 0
+D 6353 1 3 0 0
+D 6354 3 3 0 0
+D 6355 0 3 0 0
+D 6357 1 11 0 0
+D 6357 2 3 0 0
+D 6362 2 3 0 0
+D 6362 5 3 0 0
+D 6363 0 3 0 0
+D 6366 4 3 0 0
+D 6367 2 3 0 0
+D 6367 5 3 0 0
+D 6368 0 3 0 0
+D 6371 4 3 0 0
+D 6371 5 267 0 0
+D 6372 4 267 0 0
+D 6373 0 3 0 0
+D 6373 2 3 0 0
+D 6373 3 3 0 0
+D 6374 0 3 0 0
+D 6375 1 3 0 0
+D 6375 2 3 0 0
+D 6376 1 3 0 0
+D 6377 2 3 0 0
+D 6377 3 3 0 0
+D 6379 3 3 0 0
+D 6381 0 3 0 0
+D 6381 2 3 0 0
+D 6382 0 3 0 0
+D 6383 2 3 0 0
+D 6384 0 3 0 0
+D 6384 2 3 0 0
+D 6385 0 3 0 0
+D 6386 2 3 0 0
+D 6387 0 3 0 0
+D 6387 2 3 0 0
+D 6388 0 3 0 0
+D 6389 2 3 0 0
+D 6390 0 3 0 0
+D 6390 2 3 0 0
+D 6391 0 3 0 0
+D 6392 2 3 0 0
+D 6393 0 3 0 0
+D 6393 2 3 0 0
+D 6394 0 3 0 0
+D 6395 2 3 0 0
+D 6396 0 3 0 0
+D 6396 2 3 0 0
+D 6397 0 3 0 0
+D 6398 2 3 0 0
+D 6399 0 3 0 0
+D 6400 3 11 0 0
+D 6402 2 3 0 0
+D 6403 0 3 0 0
+D 6403 2 3 0 0
+D 6403 3 3 0 0
+D 6404 0 3 0 0
+D 6410 1 11 0 0
+D 6411 3 11 0 0
+D 6421 2 3 0 0
+D 6421 3 3 0 0
+D 6422 1 3 0 0
+D 6423 0 3 0 0
+D 6424 1 3 0 0
+D 6425 3 3 0 0
+D 6426 1 3 0 0
+D 6427 3 3 0 0
+D 6432 0 3 0 0
+D 6433 2 3 0 0
+D 6437 1 3 0 0
+D 6440 0 3 0 0
+D 6440 2 3 0 0
+D 6441 2 3 0 0
+D 6442 0 3 0 0
+D 6443 0 3 0 0
+D 6443 2 3 0 0
+D 6444 0 3 0 0
+D 6445 2 3 0 0
+O 6300 0 6300 0 100
+M 6302 15 6300 1 100
+M 6301 15 6300 1 100
+M 6300 15 6300 1 100
+M 6350 5 6300 1 100
+M 6351 5 6300 1 100
+M 6352 10 6300 1 100
+M 6353 10 6300 1 100
+M 6355 10 6300 1 100
+M 6356 10 6300 1 100
+E 6415 0 16 0 100
+M 6357 10 6300 1 100
+M 6447 10 6300 1 100
+M 6448 10 6300 1 100
+M 6309 1 6309 1 100
+G 6311 0 0 0 100
+G 6348 0 0 0 100
+G 6349 0 0 0 100
+G 6350 0 0 0 100
+G 6351 0 0 0 100
+G 6352 0 0 0 100
+G 6353 0 0 0 100
+G 6418 0 0 0 100
+M 6310 1 6310 1 100
+G 6306 0 0 0 100
+G 6307 0 0 0 100
+G 6308 0 0 0 100
+G 6346 0 0 0 100
+G 6347 0 0 0 100
+O 6375 0 6312 1 100
+O 6374 0 6312 1 100
+M 6313 1 6313 1 100
+G 6309 0 0 0 100
+G 6336 0 0 0 100
+G 6337 0 0 0 100
+G 6338 0 0 0 100
+G 6339 0 0 0 100
+M 6314 1 6314 1 100
+G 6310 0 0 0 100
+G 6340 0 0 0 100
+G 6341 0 0 0 100
+G 6342 0 0 0 100
+G 6343 0 0 0 100
+G 6344 0 0 0 100
+M 6315 1 6315 1 100
+G 6301 0 0 0 100
+G 6303 0 0 0 100
+G 6304 0 0 0 100
+G 6305 0 0 0 100
+M 6319 20 6316 2 100
+M 6316 1 6316 1 100
+G 6354 0 0 0 100
+G 6355 0 0 0 100
+O 6356 0 6316 1 100
+M 6317 3 6317 3 100
+E 6355 0 17 0 100
+M 6317 3 6317 3 100
+E 6355 0 17 0 100
+M 6317 3 6317 3 100
+E 6355 0 17 0 100
+O 6366 0 6317 1 100
+O 6365 0 6317 1 100
+M 6328 10 6318 3 100
+M 6327 10 6318 3 100
+M 6328 10 6318 3 100
+M 6327 10 6318 3 100
+M 6328 10 6318 3 100
+M 6327 10 6318 3 100
+M 6326 5 6318 1 100
+O 6364 0 6318 1 100
+M 6327 10 6319 3 100
+M 6328 10 6319 3 100
+M 6327 10 6319 3 100
+M 6328 10 6319 3 100
+M 6327 10 6319 3 100
+M 6328 10 6319 3 100
+M 6326 5 6319 1 100
+O 6364 0 6319 1 100
+M 6318 20 6320 2 100
+M 6320 1 6320 1 100
+G 6358 0 0 0 100
+G 6357 0 0 0 100
+O 6359 0 6320 1 100
+O 6370 0 6321 1 100
+O 6369 0 6321 1 100
+O 6368 0 6321 1 100
+P 6367 1 6368 1 100
+O 6360 0 6322 1 100
+P 6361 1 6360 1 100
+P 6362 1 6360 1 100
+P 6363 1 6360 1 100
+M 6323 3 6324 1 100
+O 6372 0 6324 1 100
+O 6371 0 6324 1 100
+M 6324 2 6325 1 100
+O 6372 0 6325 1 100
+O 6371 0 6325 1 100
+M 6323 3 6327 1 100
+O 6372 0 6327 1 100
+O 6371 0 6327 1 100
+M 6323 3 6328 1 100
+O 6372 0 6328 1 100
+O 6371 0 6328 1 100
+M 6325 1 6330 1 100
+O 6373 0 6330 1 100
+M 6324 2 6331 1 100
+O 6372 0 6331 1 100
+O 6371 0 6331 1 100
+M 6321 5 6333 1 100
+O 6372 0 6333 1 100
+O 6371 0 6333 1 100
+M 6321 5 6334 1 100
+E 6377 0 16 0 100
+O 6372 0 6334 1 100
+O 6371 0 6334 1 100
+M 6321 5 6336 1 100
+E 6376 0 16 0 100
+O 6372 0 6336 1 100
+O 6371 0 6336 1 100
+O 6372 0 6337 1 100
+O 6371 0 6337 1 100
+M 6322 1 6339 1 100
+O 6373 0 6339 1 100
+O 6372 0 6340 1 100
+O 6371 0 6340 1 100
+M 6404 4 6341 2 100
+E 6412 0 8 0 100
+E 6411 0 3 0 100
+E 6410 0 9 0 100
+E 6409 0 5 0 100
+E 6408 0 6 0 100
+E 6407 0 16 0 100
+M 6404 4 6341 2 100
+E 6412 0 8 0 100
+E 6411 0 3 0 100
+E 6410 0 9 0 100
+E 6409 0 5 0 100
+E 6408 0 6 0 100
+E 6407 0 16 0 100
+M 6300 1 6348 1 100
+M 6303 10 6349 1 100
+O 6378 0 6350 1 100
+M 6304 6 6350 1 100
+M 6303 10 6350 1 100
+M 6354 20 6350 1 100
+M 6303 10 6351 1 100
+M 6354 20 6352 2 100
+M 6304 6 6352 1 100
+M 6306 1 6353 1 100
+M 6303 10 6353 1 100
+O 6378 0 6354 1 100
+M 6303 10 6354 1 100
+M 6304 6 6354 1 100
+M 6354 20 6354 1 100
+M 6303 10 6355 1 100
+O 6381 0 6357 1 100
+O 6382 0 6357 1 100
+M 6307 1 6357 1 100
+E 6384 0 17 0 100
+M 6303 10 6358 1 100
+M 6304 6 6358 1 100
+M 6303 10 6359 1 100
+M 6303 10 6359 1 100
+M 6304 6 6359 1 100
+M 6305 4 6359 1 100
+M 6303 10 6360 1 100
+M 6304 6 6360 1 100
+M 6303 10 6361 1 100
+M 6303 10 6361 1 100
+M 6304 6 6361 1 100
+M 6305 4 6361 1 100
+M 6384 2 6362 1 100
+E 6396 0 16 0 100
+M 6383 10 6362 2 100
+E 6395 0 16 0 100
+M 6383 10 6362 2 100
+E 6395 0 16 0 100
+O 6379 0 6363 1 100
+O 6380 0 6363 1 100
+M 6383 10 6364 2 100
+E 6395 0 16 0 100
+M 6383 10 6365 2 100
+E 6395 0 16 0 100
+M 6354 20 6366 2 100
+M 6354 20 6366 2 100
+O 6378 0 6366 1 100
+M 6384 2 6367 1 100
+E 6396 0 16 0 100
+M 6383 10 6367 2 100
+E 6395 0 16 0 100
+M 6383 10 6367 2 100
+E 6395 0 16 0 100
+O 6379 0 6368 1 100
+O 6380 0 6368 1 100
+M 6383 10 6369 2 100
+E 6395 0 16 0 100
+M 6383 10 6370 2 100
+E 6395 0 16 0 100
+M 6354 20 6371 2 100
+M 6354 20 6371 2 100
+O 6378 0 6371 1 100
+M 6354 20 6372 2 100
+M 6354 20 6372 2 100
+O 6378 0 6372 1 100
+M 6373 1 6373 1 100
+G 6387 0 0 0 100
+G 6355 0 0 0 100
+G 6385 0 0 0 100
+G 6386 0 0 0 100
+M 6319 20 6373 2 100
+M 6318 20 6374 2 100
+O 6388 0 6374 1 100
+M 6374 1 6374 1 100
+E 6416 0 17 0 100
+E 6389 0 12 0 100
+E 6390 0 16 0 100
+M 6376 5 6374 5 100
+M 6375 5 6374 5 100
+E 6391 0 5 0 100
+M 6376 5 6374 5 100
+M 6375 5 6374 5 100
+E 6391 0 5 0 100
+M 6376 5 6374 5 100
+M 6375 5 6374 5 100
+E 6391 0 5 0 100
+M 6376 5 6374 5 100
+M 6375 5 6374 5 100
+M 6376 5 6374 5 100
+E 6391 0 5 0 100
+M 6375 5 6374 5 100
+E 6391 0 5 0 100
+M 6328 10 6375 3 100
+M 6327 10 6375 3 100
+M 6328 10 6375 3 100
+M 6327 10 6375 3 100
+M 6326 5 6375 1 100
+O 6364 0 6375 1 100
+M 6327 10 6377 3 100
+M 6328 10 6377 3 100
+M 6327 10 6377 3 100
+M 6328 10 6377 3 100
+M 6326 5 6377 1 100
+O 6364 0 6377 1 100
+O 6364 0 6378 1 100
+M 6377 5 6378 5 100
+M 6377 5 6378 5 100
+M 6377 5 6378 5 100
+M 6377 5 6378 5 100
+M 6377 5 6378 5 100
+O 6373 0 6379 1 100
+M 6380 1 6379 1 100
+O 6360 0 6380 1 100
+P 6361 1 6360 1 100
+P 6362 1 6360 1 100
+P 6363 1 6360 1 100
+M 6381 10 6382 1 100
+O 6372 0 6382 1 100
+O 6371 0 6382 1 100
+M 6382 10 6383 1 100
+O 6372 0 6383 1 100
+O 6371 0 6383 1 100
+M 6382 10 6385 1 100
+O 6372 0 6385 1 100
+O 6371 0 6385 1 100
+M 6381 10 6386 1 100
+O 6372 0 6386 1 100
+O 6371 0 6386 1 100
+M 6381 10 6388 1 100
+O 6372 0 6388 1 100
+O 6371 0 6388 1 100
+O 6372 0 6389 1 100
+O 6371 0 6389 1 100
+M 6381 10 6391 1 100
+O 6372 0 6391 1 100
+O 6371 0 6391 1 100
+O 6372 0 6392 1 100
+O 6371 0 6392 1 100
+M 6382 10 6394 1 100
+O 6372 0 6394 1 100
+O 6371 0 6394 1 100
+M 6381 10 6395 1 100
+O 6372 0 6395 1 100
+O 6371 0 6395 1 100
+M 6381 10 6397 1 100
+O 6372 0 6397 1 100
+O 6371 0 6397 1 100
+O 6372 0 6398 1 100
+O 6371 0 6398 1 100
+O 6393 0 6399 1 100
+M 6378 5 6399 5 100
+E 6392 0 16 0 100
+M 6379 5 6399 5 100
+E 6394 0 15 0 100
+E 6394 0 14 0 100
+M 6378 5 6399 5 100
+E 6392 0 16 0 100
+M 6379 5 6399 5 100
+E 6394 0 14 0 100
+E 6394 0 15 0 100
+M 6378 5 6399 5 100
+E 6392 0 16 0 100
+M 6379 5 6399 5 100
+E 6394 0 15 0 100
+E 6394 0 14 0 100
+M 6378 5 6399 5 100
+E 6392 0 16 0 100
+M 6379 5 6399 5 100
+E 6394 0 14 0 100
+E 6394 0 15 0 100
+M 6378 5 6399 5 100
+E 6392 0 16 0 100
+M 6379 5 6399 5 100
+E 6394 0 15 0 100
+E 6394 0 14 0 100
+O 6383 0 6400 1 100
+P 6302 1 6383 1 100
+O 6316 0 6403 0 100
+M 6403 5 6403 5 100
+E 6317 0 5 0 100
+M 6403 5 6403 5 100
+E 6317 0 5 0 100
+M 6403 5 6403 5 100
+E 6317 0 5 0 100
+M 6403 5 6403 5 100
+E 6317 0 5 0 100
+M 6403 5 6403 5 100
+E 6317 0 5 0 100
+M 6308 1 6404 1 100
+M 6405 15 6406 1 100
+E 6414 0 0 0 100
+E 6408 0 6 0 100
+E 6409 0 5 0 100
+E 6410 0 9 0 100
+E 6411 0 3 0 100
+E 6412 0 8 0 100
+E 6413 0 16 0 100
+M 6410 1 6410 1 100
+G 6312 0 0 0 100
+G 6330 0 0 0 100
+G 6331 0 0 0 100
+G 6332 0 0 0 100
+G 6333 0 0 0 100
+G 6334 0 0 0 100
+G 6335 0 0 0 100
+M 6411 5 6411 1 100
+G 6313 0 0 0 100
+G 6325 0 0 0 100
+G 6326 0 0 0 100
+G 6327 0 0 0 100
+G 6328 0 0 0 100
+G 6329 0 0 0 100
+G 6417 0 0 0 100
+M 6404 4 6414 2 100
+E 6412 0 8 0 100
+E 6411 0 3 0 100
+E 6410 0 9 0 100
+E 6409 0 5 0 100
+E 6408 0 6 0 100
+E 6407 0 16 0 100
+M 6404 4 6414 2 100
+E 6412 0 8 0 100
+E 6411 0 3 0 100
+E 6410 0 9 0 100
+E 6409 0 5 0 100
+E 6408 0 6 0 100
+E 6407 0 16 0 100
+M 6423 5 6422 5 100
+M 6422 5 6422 5 100
+M 6423 5 6422 5 100
+M 6422 5 6422 5 100
+M 6423 5 6422 5 100
+M 6422 5 6422 5 100
+M 6423 5 6422 5 100
+M 6422 5 6422 5 100
+M 6423 5 6422 5 100
+M 6422 5 6422 5 100
+M 6421 1 6423 1 100
+M 6426 5 6425 5 100
+M 6425 5 6425 5 100
+M 6426 5 6425 5 100
+M 6425 5 6425 5 100
+M 6426 5 6425 5 100
+M 6425 5 6425 5 100
+M 6426 5 6425 5 100
+M 6425 5 6425 5 100
+M 6426 5 6425 5 100
+M 6425 5 6425 5 100
+M 6354 20 6426 2 100
+M 6354 20 6426 2 100
+M 6428 5 6427 5 100
+M 6427 5 6427 5 100
+M 6428 5 6427 5 100
+M 6427 5 6427 5 100
+M 6428 5 6427 5 100
+M 6427 5 6427 5 100
+M 6428 5 6427 5 100
+M 6427 5 6427 5 100
+M 6428 5 6427 5 100
+M 6427 5 6427 5 100
+M 6405 15 6429 1 100
+E 6408 0 6 0 100
+E 6409 0 5 0 100
+E 6410 0 9 0 100
+E 6411 0 3 0 100
+E 6412 0 8 0 100
+E 6413 0 16 0 100
+E 6414 0 0 0 100
+M 6443 1 6433 1 100
+E 6404 0 5 0 100
+O 6314 0 6436 0 100
+M 6436 5 6436 5 100
+E 6315 0 12 0 100
+M 6436 5 6436 5 100
+E 6315 0 12 0 100
+M 6436 5 6436 5 100
+E 6315 0 12 0 100
+M 6436 5 6436 5 100
+E 6315 0 12 0 100
+M 6436 5 6436 5 100
+E 6315 0 12 0 100
+O 6319 0 6437 0 100
+O 6318 0 6437 0 100
+M 6437 1 6437 1 100
+E 6320 0 6 0 100
+E 6321 0 21 0 100
+E 6322 0 5 0 100
+E 6323 0 7 0 100
+E 6324 0 16 0 100
+M 6446 6 6438 2 100
+E 6406 0 5 0 100
+M 6446 6 6438 2 100
+E 6406 0 5 0 100
+M 6445 5 6438 2 100
+M 6445 5 6438 2 100
+M 6444 10 6438 2 100
+E 6405 0 16 0 100
+M 6444 10 6438 2 100
+E 6405 0 16 0 100
+O 6402 0 6438 1 100
+O 6403 0 6438 1 100
+M 6442 1 6439 1 100
+G 6398 0 0 0 100
+G 6399 0 0 0 100
+G 6400 0 0 0 100
+G 6401 0 0 0 100
+O 6359 0 6439 1 100
+M 6441 10 6441 1 100
+M 6440 10 6441 1 100
+O 6397 0 6441 1 100
+M 6441 10 6442 1 100
+M 6440 10 6442 1 100
+O 6397 0 6442 1 100
+M 6441 10 6444 1 100
+M 6440 10 6444 1 100
+O 6397 0 6444 1 100
+M 6441 10 6445 1 100
+M 6440 10 6445 1 100
+O 6397 0 6445 1 100
+S
+
+
+
+#SHOPS
+6309 1 12 17 15 0 100 70 0 24
+6310 19 0 0 0 0 100 100 0 24
+6313 11 9 0 0 0 100 80 0 24
+6314 11 9 0 0 0 100 70 0 24
+6315 19 0 0 0 0 150 75 0 24
+6316 17 0 0 0 0 100 10 0 24
+6320 17 19 0 0 0 100 10 0 24
+6373 0 0 0 0 0 100 50 0 24
+6410 9 5 0 0 0 100 80 0 24
+6411 5 0 0 0 0 200 50 0 24
+6442 19 17 0 0 0 100 50 0 24
+0
+
+
+
+#MOBPROGS
+#6300
+~
+~
+~
+#0
+
+#$

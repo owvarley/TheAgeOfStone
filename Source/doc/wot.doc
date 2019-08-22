@@ -1,0 +1,212 @@
+
+WoT Mud Document Project						v0.2a
+Main Documentation				     Last Updated on: 9/30/98
+
+
+
+Table of Contents
+
+	Introduction
+
+	Copyrights
+		WoT Mud
+		Your Rights and Responsibilities
+
+	Credits
+
+	Contents
+
+	Scope
+	
+	Features
+	
+
+	Implementing a WoT Mud
+
+		Pep Talk
+
+		Installing
+		
+			Selecting Path names other than default
+
+			Compiling for the first time
+		
+			The startup file
+
+			Running the Mud
+	
+			Creating your implementor character
+
+
+		Security Issues
+
+		Configuring the Various Features
+			config.h
+			ansi.h
+			Editing Groups
+			Editing Guilds
+			Banning Names
+			Editing Socials
+			Editing Weaves
+			bank.dat
+			countries.dat
+			liquids.dat
+			races.dat
+			sounds.dat
+
+		Setting up your sound files
+
+		Commands
+
+			Implementor
+
+			Immortal
+
+			Player
+	
+		Backing up your Mud
+
+		Understanding the Magic System
+
+			Definitions
+
+			Turning features on/off
+
+		Player Killing
+
+			Toggling on/off
+
+			Peaceful flag
+
+			Violence Timer
+
+			Old method
+
+			Banning losers name
+
+			Deleting losers pfile
+
+			Restoring losers pfile		
+
+		Hiring your staff
+			Setting up Immortal Levels
+			Setting up Builder Securities
+
+		Advertising
+			MudConnector
+			The WoT Mud Ring
+
+	Coding Documentation
+
+		Supported Operating Systems
+			*nix
+			Windoze
+
+		So, you want to be a coder?
+			Compiling your code
+				Make
+
+			Debugging your code
+				GDB
+
+			Profiling your code
+				GPROF
+
+		What's where
+			The Source and header files
+			Common global variables and constants
+
+		Memory handling
+			Common reasons for memory leaks
+			Memory usage considerations
+
+		Creating new skills
+
+		Understanding the Weave editor
+
+		Understanding "nanny()"
+
+		The Mud Sound Protocol
+
+		Ticks and Pulses
+
+		Tick based updates
+
+		Versioning
+
+
+		Coding Considerations
+			Game Balance
+			Adding "snippets"
+			Writing "snippets"
+						
+		File formats
+			Data Files
+				bank.dat
+				copyover.dat
+				countries.dat
+				groups.dat
+				guilds.dat
+				liquids.dat
+				mud.dat
+				names.dat
+				player.dat
+				races.dat
+				social.dat
+				sounds.dat
+				weaves.dat
+
+			Area file format
+				#AREADATA
+				#MOBILES
+				#OBJECTS
+				#ROOMS
+				#SPECIALS
+				#RESETS
+				#SHOPS
+				#SHIPS
+				#MOBPROGS
+				#OBJPROGS
+				
+
+	Building Documentation
+
+		Helpful commands
+
+		Mobs
+			Medit
+
+		Objects
+			Oedit
+			Understanding Equipment Points
+
+		Rooms
+			Redit
+
+		Areas
+			Aedit
+
+		Resets
+			reset
+			mreset/oreset
+
+		Shops
+
+		Ships
+
+		Pets and Mounts
+			
+		Mob Programs
+			Mpedit
+
+		Object Programs
+			Opedit
+
+
+	Where to find updates and support
+		Contacting the Project Team
+		Project FTP site and mirrors
+		Mailing Lists
+
+		
+	

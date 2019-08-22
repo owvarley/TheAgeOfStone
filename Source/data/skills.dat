@@ -1,0 +1,108 @@
+#6
+## Skill Table Data file
+## Written Wed Dec 27 22:32:37 2000
+## Contains 4 skills.
+## File Format
+#
+# Skill          // The Name of this skill.
+# sLevels        // The level each class may use this skill at.
+# sRates         // The rate at wich a class improves in this skill
+#                // and also the creation cost per class.
+# Targets        // Determines what/who this skill may be used on
+# MinPos         // The minimum position the user must be in to use this skill.
+# Beats          // The # of pulses to pause the user after using this skill.
+# DamMsg         // The damage message used when successful.
+# MsgOff         // The message sent to the user when the skill wears off.
+# MsgObj         // The message seen when the skill wears off of an object.
+# cPoints		 // The class points for the skill.
+# sClass		 // The class of the skill class being: COMBAT, CRAFT, MUSIC, KNOWLEDGE,
+#				 // SURVIVAL, STEALTH
+# Prereq		 // The sn of any prerequired skills.
+#
+
+
+Skill   axe~
+sLevels 1 1 1
+sRates  5
+Targets 0
+MinPos  7
+Beats   0
+DamMsg  ~
+MsgOff  !axe!~
+MsgObj  ~
+cPoints 1 1 1
+sClass 1 1 1
+Prereq 0 0 0 0 0 0 0 0 0 0 0
+sFlags  |
+
+Skill   sword~
+sLevels 1 1 1
+sRates  5
+Targets 0
+MinPos  7
+Beats   0
+DamMsg  ~
+MsgOff  !sword!~
+MsgObj  ~
+cPoints 1 1 1
+sClass 1 1 1
+Prereq 0 0 0 0 0 0 0 0 0 0 0
+sFlags  |
+
+Skill   parry~
+sLevels 10 1 1
+sRates  8
+Targets 0
+MinPos  7
+Beats   0
+DamMsg  ~
+MsgOff  !Parry!~
+MsgObj  ~
+cPoints 1 1 1
+sClass 1 1 1
+Prereq 0 0 0 0 0 0 0 0 0 0 0
+sFlags  |
+
+Skill   dodge~
+sLevels 1 1 1
+sRates  7
+Targets 0
+MinPos  7
+Beats   0
+DamMsg  ~
+MsgOff  !Dodge!~
+MsgObj  ~
+cPoints 1 1 1
+sClass 1 1 1
+Prereq 0 0 0 0 0 0 0 0 0 0 0
+sFlags  |
+
+Skill   shield block~
+sLevels 10 1 1
+sRates  6
+Targets 0
+MinPos  7
+Beats   0
+DamMsg  ~
+MsgOff  !Shield!~
+MsgObj  ~
+cPoints 1 1 1
+sClass 1 1 1
+Prereq 0 0 0 0 0 0 0 0 0 0 0
+sFlags  |
+
+Skill forage~
+sLevels 1 1 1
+sRates 25
+Targets 0
+MinPos 8
+Beats 12
+DamMsg ~
+MsgOff ~
+MsgObj ~
+cPoints 1 1 1
+sClass 5 5 5
+Prereq 0 0 0 0 0 0 0 0 0 0 0
+sFlags |
+
+End

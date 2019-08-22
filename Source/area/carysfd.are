@@ -1,0 +1,3610 @@
+#AREADATA
+Name Carysford, Andor~
+Builders None~
+VNUMs 19301 19400
+Sector 1
+Credits [10 30] Carysford, Andor~
+Security 9
+LastSaved 00/22/101~
+Flags 0
+Version 5
+End
+
+
+
+#MOBILES
+#19304
+innkeeper man thin old~
+an old innkeeper~
+A thin, old innkeeper is here serving his guests.
+~
+This kindly old man looks as thin as a rail.  He smiles graciously to the
+patrons of his inn as he passes by them or serves them their drinks.  Never
+quite standing still, he wipes off tables whenever he is not busy to keep
+himself occupied.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+|
+BCDELQT|
+|
+|
+stand stand male 100
+GKP|
+|
+medium unknown
+#19305
+shopkeeper man~
+an aged shopkeeper~
+An elderly man is here tending to his customers.
+~
+This old man is content in working this store day in and day out.  He
+smiles a happy smile and whistles a tune while he looks after his customers.
+If this man lives out the rest of his days the same as always, he will die a
+happy man.  The only thing that would truly crush this peaceful man would be
+change of any sort to his life.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+|
+CDELT|
+|
+|
+stand stand male 100
+GKP|
+B|
+medium unknown
+#19306
+shopkeeper woman~
+an old woman~
+An elderly woman is here selling food and grain.
+~
+This elderly woman is happy selling food and grain to her customers. 
+Yet, the look in her eye suggests she has always wished for more.  She does
+not seem upset with her current life, but knows she might have had something
+more if she had only made her decisions differently.  She gives a quiet sigh
+and helps another customer.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+|
+CDELT|
+|
+|
+stand stand female 50
+GKP|
+B|
+medium unknown
+#19307
+serving girl~
+a serving girl~
+A serving girl is here going about her duties.
+~
+This young girl is very beautiful with her long straw-colored hair and
+blue eyes.  She casts a pretty smile at all of her customers, hoping for a
+little additional tip to make up for her hard labors.  
+~
+human~
+BJ|
+|
+0 0
+17 0 6d33+195 0d0+0 4d4+8 none
+429496729 429496729 429496729 5
+|
+|
+|
+|
+stand stand female 5
+GKP|
+BCD|
+medium unknown
+#19308
+patron man~
+a patron~
+A patron of the inn is here looking for good food and rest.
+~
+This man looks hungry and tired.  He looks around to see if he is in the
+right place for a warm meal, some ale and a good nights sleep.  He casually
+dusts off his pants before finding a place to sit down.  
+~
+human~
+BJ|
+|
+0 0
+20 0 6d45+244 0d0+0 4d5+10 none
+429496727 429496727 429496727 4
+G|
+|
+|
+|
+stand stand male 70
+GKP|
+BCD|
+medium unknown
+#19309
+male diner~
+a male diner~
+A male diner is here enjoying his meal and wine.
+~
+Dressed in a fine coat, this man looks to be enjoying a tasty meal and
+wine while he rests from travelling.  He talks to the others at the table
+while he chews his food.  He seems content on gorging himself rather than
+quitting once he is full.  
+~
+human~
+BJ|
+|
+0 0
+20 0 6d45+244 0d0+0 4d5+10 none
+429496727 429496727 429496727 4
+G|
+|
+|
+|
+sit sit male 80
+GKP|
+BCD|
+medium unknown
+#19310
+female diner~
+a female diner~
+A female diner is here picking at her meal.
+~
+Surrounded by others, this woman still looks lonely.  She casually picks
+at her dinner and sips at her wine.  Listening to her companion's
+conversations, she sighs regretfully.  
+~
+human~
+BJ|
+|
+0 0
+19 0 6d41+227 0d0+0 4d5+9 none
+429496727 429496727 429496727 4
+G|
+|
+|
+|
+sit sit female 60
+GKP|
+BCD|
+medium unknown
+#19311
+sleeping man~
+a sleepy man~
+A man is here sleeping in a bed.
+~
+This man is snoring quite loudly while he is enjoying a rest from a long
+day's travelling.  He grunts a few times, then turns over to sleep a restful
+sleep.  
+~
+human~
+BFJ|
+Qb|
+0 0
+20 0 6d45+244 0d0+0 4d5+10 none
+429496727 429496727 429496727 4
+G|
+|
+|
+|
+sleep sleep male 0
+GKP|
+BCD|
+medium unknown
+#19312
+sleeping woman~
+a sleepy woman~
+A woman is here sleeping in a bed.
+~
+With a peaceful look on her face, this woman is lost in a deep dreamless
+sleep.  Still as stone, she sleeps very quietly.  The only way to tell that
+she is not a corpse, is the rise and fall of her voluptuous chest.  
+~
+human~
+BFJ|
+Qb|
+0 0
+19 0 6d41+227 0d0+0 4d5+9 none
+429496727 429496727 429496727 4
+G|
+|
+|
+|
+sleep sleep female 0
+GKP|
+BCD|
+medium unknown
+#19313
+girl young~
+a young girl~
+A young girl is here playing games.
+~
+This young girl is humming to herself as she plays a silly children's
+game alone.  Always smiling and happy, the girl is content to spend the day
+playing like this.  
+~
+human~
+BFJ|
+|
+0 0
+11 0 3d28+111 0d0+0 3d4+5 none
+3 3 3 6
+G|
+|
+|
+D|
+stand stand female 0
+GKP|
+BCD|
+medium unknown
+#19314
+young boy~
+a young boy~
+A young boy is here looking for mischief.
+~
+This boy is has a mischievous grin as he looks around for something to
+do.  No matter what he is doing, he quickly becomes bored with it and is
+looking for something else to do within minutes.  
+~
+human~
+BFJ|
+|
+0 0
+12 0 4d25+124 0d0+0 3d4+6 none
+3 3 3 6
+G|
+|
+|
+D|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#19315
+old grandmother woman~
+a grandmother~
+An old grandmotherly woman is here preparing some pies.
+~
+This old woman smiles kindly and hums a soft melody while she prepares
+her pies.  She is dressed in simple wool, yet holds herself with noble
+dignity.  Her dignity comes from a life of hard work, and pride of doing
+what needs done without complaint.  
+~
+human~
+BFJ|
+b|
+0 0
+13 0 4d29+137 0d0+0 3d5+6 none
+2 2 2 6
+|
+|
+|
+D|
+stand stand female 5
+GKP|
+BCD|
+medium unknown
+#19316
+old grandfather man~
+a grandfather~
+An old grandfatherly man is here sleeping in his chair.
+~
+A gnarled and weathered old man, the wrinkles on his face tell of a life
+of hard work and worry.  He snores with his mouth wide open, and keeps
+sleeping soundly.  
+~
+human~
+BFJ|
+Qb|
+0 0
+14 0 5d27+151 0d0+0 3d5+7 none
+1 1 1 6
+|
+|
+|
+D|
+sleep sleep male 10
+GKP|
+BCD|
+medium unknown
+#19317
+mother woman~
+a mother~
+A mother is here cleaning her home.
+~
+This woman takes pride in her clean home.  She does not seem to mind the
+time required to keep her home clean.  She smiles and hums while she tends
+to her home.  
+~
+human~
+BFJ|
+|
+0 0
+15 0 5d30+161 0d0+0 3d5+8 none
+0 0 0 5
+G|
+|
+|
+|
+stand stand female 8
+GKP|
+BCD|
+medium unknown
+#19318
+man father~
+a father~
+A father is here repairing a window.
+~
+This man is not very old, yet the lines on his face are from a life of
+worry.  He tends to his home with pride, and looks forward to the day when
+he might be able to rest a bit.  
+~
+human~
+BFJ|
+|
+0 0
+16 0 5d35+180 0d0+0 3d5+9 none
+0 0 0 5
+G|
+|
+|
+|
+stand stand male 23
+GKP|
+BCD|
+medium unknown
+#19319
+girl young~
+a young girl~
+A young girl is here looking for her friends.
+~
+This young girl walks through the streets looking for her friends to play
+with.  She skips and hops her way up and down the street.  Her dark hair
+flings in every direction with her playful antics.  
+~
+human~
+BJ|
+|
+0 0
+11 0 3d28+111 0d0+0 3d4+5 none
+3 3 3 6
+G|
+|
+|
+D|
+stand stand female 0
+GKP|
+BCD|
+medium unknown
+#19320
+young boy~
+a young boy~
+A young boy is here running around playfully.
+~
+This young boy is running wild through the streets looking for fun.  This
+boy is has a mischievous grin as he looks around for something to do.  No
+matter what he is doing, he quickly becomes bored with it and is looking for
+something else to do within minutes.  
+~
+human~
+BJ|
+|
+0 0
+12 0 4d25+124 0d0+0 3d4+6 none
+3 3 3 6
+G|
+|
+|
+D|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#19321
+local woman~
+a local woman~
+A local woman is walking by here.
+~
+This woman is plain in appearance from her face to her dress.  Her hair
+is pulled up in a tight bun in back, and her eyes are cast downward as she
+walks by.  She hums a little tune to herself as she walks along.  
+~
+human~
+BJ|
+|
+0 0
+15 0 5d30+161 0d0+0 3d5+8 none
+0 0 0 5
+G|
+|
+|
+|
+stand stand female 8
+GKP|
+BCD|
+medium unknown
+#19322
+man local~
+a local man~
+A local man is here.
+~
+This man is still quite young, but the tired look on his face tells that
+he is older than his years.  He walks through with an even step, but his
+tired legs cannot seem to pick his feet up enough to avoid getting dirt all
+over his boots and the hem of his trousers.  
+~
+human~
+BJ|
+|
+0 0
+16 0 5d35+180 0d0+0 3d5+9 none
+0 0 0 5
+G|
+|
+|
+|
+stand stand male 23
+GKP|
+BCD|
+medium unknown
+#19323
+weary man traveller~
+a traveller~
+A weary traveller is here slowly walking by.
+~
+This man is so tired that he is dragging his feet as he walks, kicking up
+quite a bit of dust.  Covered in dirt and dust, the man looks to have been
+walking for several days, and without a bath throughout his travelling.  He
+grins tiredly and continues on.  
+~
+human~
+BJ|
+b|
+0 0
+18 0 6d37+211 0d0+0 4d5+9 none
+429496727 429496727 429496727 4
+GJ|
+|
+|
+E|
+stand stand male 12
+GKP|
+BCD|
+medium unknown
+#19353
+cook woman old~
+an old woman~
+An old woman stands here preparing the meals for the guests.
+~
+Looking very old and tired, this old woman still has enough in her to
+smile at those around her.  She hands the prepared meals to the serving
+girls and patrons alike, all with a warm smile on her face and kind words to
+all.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496629 429496629 429496629 429496629
+|
+BCDELQT|
+|
+|
+stand stand female 100
+GKP|
+|
+medium unknown
+#19354
+naked man dirty traveller~
+a naked man~
+A dirty traveller is here undressed and ready for his bath.
+~
+This man is as naked as the day he was born *blush*.  He is very verbal
+about his need for privacy.  Such extreme usage of the words "flaming" and
+"bloody" should be banned.  
+~
+human~
+BFJ|
+|
+0 0
+18 0 6d37+211 0d0+0 4d5+9 none
+429496727 429496727 429496727 4
+|
+|
+|
+DE|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#19367
+merchant man~
+a merchant~
+An upset merchant is here.
+~
+This man is obviously a merchant by his clothing and demeanor.  He orders
+his men around like animals, and gets angry when they don't make the repairs
+fast enough to suit him.  A small man like him should be wary of angering
+large men like he employs.  
+~
+human~
+BFJK|
+|
+0 0
+22 0 7d47+278 0d0+0 4d6+11 none
+429496726 429496726 429496726 3
+GO|
+|
+|
+|
+stand stand male 550
+GKP|
+BCD|
+medium unknown
+#19368
+merchant guard~
+a merchant guard~
+A loyal merchant guard is here protecting his employer.
+~
+This man is a guard for a merchant.  He is very loyal to his employer,
+despite being regularly verbally abused by his boss.  He will protect the
+man to the end just because of his loyalties.  
+~
+human~
+BFJ|D
+|
+0 0
+28 0 8d66+393 0d0+0 4d7+14 none
+429496722 429496722 429496722 1
+DFGIJL|
+|
+E|
+|
+stand stand male 120
+GKP|
+BCD|
+medium unknown
+#19377
+young bandit guard~
+a young bandit~
+A young bandit is here standing guard over the campsite.
+~
+This young man must be a bandit by his appearance.  He looks very unclean
+and grubby, his hair is a mess, and what little hair there is on his face is
+unshaved.  He looks around with contempt and hate at all he sees.  He is
+complete attitude and beligerance.  The dirty clothing and armor he is
+wearing are well worn and stink.  He fingers his sword hilt in a nervous
+manner as if he is eager to make his first kill.  
+~
+human~
+BFJ|D
+Y|
+0 0
+31 0 9d72+431 0d0+0 5d6+15 none
+429496720 429496720 429496720 0
+EIJO|
+|
+|
+|
+stand stand male 100
+GKP|
+BCD|
+medium unknown
+#19378
+drunken bandit young~
+a drunken young bandit~
+A drunken young bandit staggers around groggily.
+~
+This young man looks to have learned the compromise of gaining his dark
+side.  Trying to drink off the memory of his first kill, he seems to have
+drank off his memory of where his tent is also.  He staggers about, looking
+with blurred vision for his tent before he ends up sleeping where he drops. 
+~
+human~
+BJ|
+b|
+0 0
+30 0 9d61+416 0d0+0 5d6+15 punch
+429496720 429496720 429496720 0
+D|
+|
+|
+|
+stand stand male 82
+GKP|
+BCD|
+medium unknown
+#19379
+sleepy old bandit~
+a sleepy old bandit~
+A sleepy old bandit is getting some air before going back to sleep.
+~
+This old man is yawning a lot and peering about with sleepy eyes as he
+slowly walks back to his tent.  His gray hair and beard are matted down with
+the beans he had for dinner.  He is wearing a wide, black, leather band on
+his forehead that covers part of his eyes, and is probably used to cover his
+eyes while he sleeps normally.  
+~
+human~
+BJ|
+b|
+0 0
+32 0 9d77+453 0d0+0 5d6+16 punch
+429496719 429496719 429496719 0
+DO|
+|
+|
+|
+stand stand male 77
+GKP|
+BCD|
+medium unknown
+#19380
+surly old bandit man~
+a surly bandit~
+A surly old bandit is here looking for leftovers.
+~
+This grizzled old man looks to have a bit of experience.  The wicked look
+in his eyes tells a tale of horror and mayhem.  The stance he has while
+standing still, and the swagger he has when he walks tells the tale of a man
+who once served as infantry in an army long ago.  He spits sourly as he
+realizes that the few beans left from dinner are burnt badly.  
+~
+human~
+BFJ|D
+|
+0 0
+36 0 9d97+564 0d0+0 5d7+19 none
+429496717 429496717 429496717 429496728
+FGLOW|
+|
+E|
+|
+stand stand male 110
+GKP|
+BCD|
+medium unknown
+#19381
+bandit man leader~
+the bandit leader~
+The leader of the bandits is here sharpening and oiling his sword.
+~
+Much like a spring that is ready to bounce, this man looks as if he is
+ready to explode in anticipation of anything.  His eyes seem to see
+everything, and take in every detail.  By his actions, he may have once been
+a very powerful military figure.  The story of how he came to this life of
+crime would be a tale for a gleeman.  He concentrates on oiling and
+sharpening his most prized possession, his sword.  
+~
+human~
+BEFJ|D
+TY|
+0 0
+45 0 10d137+891 0d0+0 5d9+22 none
+429496711 429496711 429496711 429496725
+DEFGIJLOW|
+|
+E|
+|
+stand stand male 4000
+GKP|
+BCD|
+medium unknown
+#19382
+bandit man~
+a bandit~
+A bandit is here sleeping under a blanket.
+~
+This man is snoring loudly with his mouth wide open and drool dripping
+off of his cheek.  He is fairly ugly, unshaven, and in serious need of a
+bath.  He grunts sourly as if having a bad dream, mumbling something about
+the little bunny getting away.  What a weird bandit.  
+~
+human~
+BFJ|
+Qb|
+0 0
+34 0 9d87+518 0d0+0 5d7+17 punch
+429496718 429496718 429496718 429496729
+O|
+|
+|
+|
+sleep sleep male 100
+GKP|
+BCD|
+medium unknown
+#19383
+bandit man dice dicing~
+a drunk bandit~
+A drunk bandit is losing his coin at dice.
+~
+This man sits here with the other bandits, gambling what coin he has on
+the dice.  By the grim look on his face, he must be losing more than he is
+winning.  
+~
+human~
+BDFJ|DE
+b|
+0 0
+34 0 9d87+518 0d0+0 5d7+17 none
+429496718 429496718 429496718 429496729
+DGLO|
+|
+E|
+|
+sit sit male 120
+GKP|
+BCD|
+medium unknown
+#19384
+bandit man wiry~
+a wiry bandit~
+A wiry bandit is here sleeping restlessly.
+~
+This man is as thin as a rail, and sinewy with muscle.  He tosses around
+in his blanket, alternating between cursing, and cooing over the women he
+must be dreaming of.  He is clean shaven, but his thin hair is long and
+shaggy, and he smells like a hog pen.  
+~
+human~
+BFJ|
+Qb|
+0 0
+33 0 9d82+485 0d0+0 5d6+16 pound
+429496718 429496718 429496718 0
+O|
+|
+|
+|
+sleep sleep male 80
+GKP|
+BCD|
+medium unknown
+#19385
+bandit dice dicing man smiling~
+a smiling bandit~
+A drunken bandit is smiling over his winnings.
+~
+This man is has a smile of victory on his face.  He is winning more than
+he loses, and has much more coin now than before he started dicing.  When it
+is his turn to toss the dice, this bandit has a tendency to palm the dice a
+moment longer than normal.  Do all bandits have no ethics?  
+~
+human~
+BDFJ|DE
+b|
+0 0
+35 0 9d92+541 0d0+0 5d7+17 none
+429496717 429496717 429496717 429496728
+DGJO|
+|
+|
+|
+sit sit male 330
+GKP|
+BCD|
+medium unknown
+#0
+
+
+
+#OBJECTS
+#19301
+well~
+a small, clay-bricked well~
+A small clay-bricked well has been dug here next to the road.~
+brick clay~
+fountain O 0
+10000 10000 'water' 0 0
+1 1000 10 P
+#19302
+brimmed hat~
+a wide-brimmed straw hat~
+A wide-brimmed, straw hat has been dropped here.~
+straw~
+armor S AE
+B B B B 0
+10 1 10 P
+A
+2 1 -1
+#19303
+leather vest~
+a leather blacksmith's vest~
+A heavy, leather blacksmith's vest has been dropped here.~
+leather~
+armor S AD
+D D D D 0
+15 4 30 P
+#19304
+gloves leather~
+a pair of leather blacksmith's gloves~
+A pair of leather blacksmith's gloves have been dropped here.~
+leather~
+armor S AH
+AC AC AC AC 0
+15 1 25 P
+A
+1 2 -1
+#19305
+large hammer~
+a large forging hammer~
+A very large forging hammer has been dropped here.~
+steel~
+weapon 0 AN
+mace 4 4 smash 0
+15 15 50 P
+A
+19 1 -1
+#19306
+basket~
+a large wicker basket~
+A large wicker basket has been dropped here.~
+wood~
+container 0 AO
+200 0 0 50 90
+1 10 20 P
+#19307
+barrel oak~
+a large, oak, water barrel~
+A large, oak, water barrel has been dropped here.~
+wood~
+drink S AO
+200 200 'water' 0 0
+20 100 50 P
+#19308
+bedroll~
+a doe-skin bedroll~
+A doe-skin bedroll has been spread out on the ground here.~
+leather~
+furniture S AO
+A CEFGHI EHK BCDFG BCDFG
+10 10 50 P
+#19309
+grain sack~
+a sack full of grain~
+A sack full of grain has been dropped here.~
+grain~
+food S AO
+CD CD 0 0 0
+1 10 20 P
+#19310
+sack potato~
+a sack of potatoes~
+A sack of potatoes have been dropped here.~
+potato~
+food S AO
+CD CD 0 0 0
+1 8 12 P
+#19311
+sack beans~
+a sack of fresh green beans~
+A sack of fresh green beans has been dropped here.~
+green bean~
+food S AO
+BD BD 0 0 0
+1 10 15 P
+#19312
+dried beans sack~
+a sack full of dried beans~
+A sack full of dried beans have been dropped here.~
+beans~
+food S AO
+BCD BCD 0 0 0
+1 10 16 P
+#19313
+sack flour~
+a sack full of flour~
+A sack full of flour has been dropped here.~
+flour~
+food S AO
+D D 0 0 0
+1 20 10 P
+#19314
+sack sugar~
+a sack full of sugar~
+A sack full of sugar has been dropped here.~
+sugar~
+food S AO
+AC AC 0 0 0
+1 20 15 P
+#19315
+sack corn meal~
+a sack full of corn meal~
+A sack full of corn meal has been dropped here.~
+corn~
+food 0 AO
+CD CD 0 0 0
+1 14 10 P
+#19316
+sack green peas~
+a sack of fresh green peas~
+A sack of fresh green peas have been dropped here.~
+green peas~
+food S AO
+BD BD 0 0 0
+1 11 15 P
+#19317
+sack onions~
+a sack of onions~
+A sack of onions have been dropped here.~
+onion~
+food S AO
+D D 0 0 0
+1 8 20 P
+#19318
+sack oats~
+a sack full of oats~
+A sack full of oats have been dropped here.~
+oats~
+food S AO
+BD BD 0 0 0
+1 10 8 P
+#19319
+cot canvas tent~
+a large canvas tent~
+A large canvas tent has been set up here, with a soft down-mattress cot inside.~
+canvas~
+furniture S AO
+C EGHIJK FIL ABEFG ABEFG
+20 100 150 P
+#19320
+pick axe~
+a steel pick-axe with a solid oak handle~
+A pick-axe has been carelessly dropped here.~
+steel~
+weapon 0 AN
+axe 4 5 cleave 0
+1 10 52 P
+A
+5 2 -1
+#19321
+tables chairs~
+a plain wooden chair set next to a small table~
+Several small tables with plain wooden chairs are here for the patrons.~
+wood~
+furniture 0 0
+CE EIJKN EH ADFG ACFG
+1 1000 100 P
+#19322
+table chairs~
+a chair next to a large wooden table~
+Several chairs are pulled up next to a large wooden table.~
+wood~
+furniture 0 0
+BD DHIJM D BCFG ACFG
+1 1000 100 P
+#19323
+table chairs~
+a nicely carves chair set next to a long dining table~
+Many hand-carved chairs surround a very long dining table.~
+wood~
+furniture 0 0
+CE EIJKN D DFG ACFG
+1 1000 100 P
+#19324
+oak tub wash~
+a heavy oak tub filled with soothing hot water~
+A heavy oak tub full of hot water is here to be used for bathing.~
+wood~
+furniture 0 0
+B DFGHIJ FIL BCDFG ADFG
+1 1000 100 P
+#19325
+mug ale~
+a large mug of ale~
+A large wooden mug has been carelessly dropped here.~
+wood ale~
+drink S AO
+10 10 'ale' 0 0
+1 1 5 P
+#19326
+steak beans plate~
+a plate of steak and beans~
+A plate of steak and beans have been dropped here.~
+steak beans~
+food S AO
+D D 0 0 0
+1 4 10 P
+#19327
+bed~
+a simple bed~
+A simple bed with a thick, quilted bedspread covering it.~
+wood~
+furniture 0 0
+B DFGHIJ EHK DEFG DEFG
+1 1000 100 P
+#19328
+clothes~
+a pile of clothing~
+Several pieces of clothing lay strewn casually about the room.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 1 0 P
+#19329
+clothes~
+a few pieces of clothing and baggage~
+A few pieces of clothing and baggage have been casually dropped here.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 1 0 P
+#19330
+fire pot~
+a large pot next to the fire~
+A large pot with a few remaining beans in it sits here next to a small cooking fire.~
+fire~
+container 0 0
+0 0 0 0 0
+0 1 0 P
+#19331
+cot~
+a small cot~
+A small cot is here covered with heavy wool blankets.~
+wood~
+furniture 0 0
+A CEFGHI EHK ADFG ACFG
+1 1000 100 P
+#19332
+bed~
+a comfortable bed~
+A few beds are here with their covers turned down.~
+wood~
+furniture 0 0
+C EGHIJK EHK ABEFG BCDFG
+1 1000 100 P
+#19333
+table chairs~
+a chair next to a dining table~
+A simple dining table with a few chairs pulled up next to it.~
+wood~
+furniture 0 0
+BC DEFHIJL EH ADFG BCFG
+1 1000 100 P
+#19334
+chair comfortable padded~
+a comfortably padded chair~
+A few comfortable-looking, padded chairs.~
+wood~
+furniture 0 0
+B DFGHIJ EHK CDFG DFG
+1 1000 100 P
+#19335
+chair comfortable padded~
+a comfortably padded chair~
+Several nicely padded chairs are here for comfortable lounging.~
+wood~
+furniture 0 0
+BC DEFHIJL EHK CDFG DFG
+1 1000 100 P
+#19336
+bed~
+a comfortable bed~
+Several beds are at each side of the house with their covers turned down.~
+wood~
+furniture 0 0
+BD DHIJM EHK DEFG BCDFG
+1 1000 100 P
+#19337
+table chairs~
+a chair next to a large dining table~
+A large dining table is here with several chairs pulled up next to it.~
+wood~
+furniture 0 0
+BD DHIJM EH ADFG BCFG
+1 1000 100 P
+#19338
+two handed sword large heavy battle~
+a two-handed battle sword~
+A heavy two-handed battle sword, engraved with ravens on the blade.~
+steel~
+weapon 0 AN
+sword 6 9 cleave DF
+45 30 600 P
+A
+19 1 -1
+A
+1 1 -1
+E
+battle~
+This is a very nice, yet unusual sword.  Extremely sharp, the blade is
+covered with many ravens of different sizes engraved into the blade itself. 
+A deep blood-groove runs the entire length of the blade.  The hilt is
+freshly wound with copper wire, giving an extra-firm grip on this sword. 
+The silver-chased pommel and short quillions are beautifully polished.  The
+sword has an exceptional feel and balance for a weapon of its size and
+weight.  This sword was intended for cavalry use in battle, most likely by
+an officer of considerable rank.  
+~
+E
+sword~
+This is a very nice, yet unusual sword.  Extremely sharp, the blade is
+covered with many ravens of different sizes engraved into the blade itself. 
+A deep blood-groove runs the entire length of the blade.  The hilt is
+freshly wound with copper wire, giving an extra-firm grip on this sword. 
+The silver-chased pommel and short quillions are beautifully polished.  The
+sword has an exceptional feel and balance for a weapon of its size and
+weight.  This sword was intended for cavalry use in battle, most likely by
+an officer of considerable rank.  
+~
+#19339
+chestplate layered~
+a layered chestplate~
+A well-crafted chestplate, layered for excellent strength and flexibility.~
+steel leather~
+armor 0 AD
+ACD BD ACD BD 0
+45 18 750 P
+A
+2 1 -1
+A
+18 1 -1
+E
+chestplate~
+This exquisite chestplate has many layers of thickness, and many layers
+of plate, segmented together to form a single, very flexible piece of armor.
+Each segment is held to the next with chainmail links, and leather backing
+that connects the entire chestplate as a whole.  Along the edges of the
+chestplate, bottom and top, several small ravens are engraved as border.  
+~
+#19340
+belt~
+a segmented, steel belt~
+A wide belt made from segmented steel plates.~
+steel leather~
+armor 0 AL
+BD BD BD BD 0
+45 10 200 P
+A
+2 2 -1
+A
+19 1 -1
+E
+belt~
+This is a fine piece of armor.  Basically it is a wide leather belt, that
+has been attached to several segmented steel plates.  There is also a large
+belt-buckle that depicts a raven with an eyeball in its beak.  
+~
+#19341
+bracer steel~
+a padded steel bracer~
+A padded steel bracer, encrusted with dirt.~
+steel~
+armor 0 AM
+BC BC BC AB 0
+31 2 40 P
+A
+2 1 -1
+#19342
+tabard leather~
+a dark green leather tabard~
+This dark green leather tabard has seen better days.~
+leather~
+armor S AK
+BC BC BC C 0
+31 6 60 P
+A
+1 1 -1
+A
+2 2 -1
+#19343
+worn longsword sword~
+a worn longsword~
+An old longsword, scratched and worn, yet still sharp.~
+steel~
+weapon 0 AN
+sword 5 7 slash 0
+31 8 45 A
+A
+18 1 -1
+A
+19 1 -1
+#19344
+lightweight short sword~
+a lightweight short sword~
+A lightweight short sword with a deep blood-groove.~
+steel~
+weapon 0 AN
+sword 5 6 slice D
+34 3 78 P
+A
+17 -2 -1
+#19345
+long slender dagger~
+a long, slender dagger~
+A long, slender dagger with a blackened blade.~
+steel~
+weapon 0 AN
+dagger 4 5 stab D
+35 2 45 P
+A
+19 1 -1
+#19346
+mug milk~
+a mug of milk~
+A mug of milk has been dropped here.~
+milk~
+drink S AO
+6 6 'milk' 0 0
+1 1 6 P
+#19347
+glass rum~
+a small glass of rum~
+A small glass of rum has been dropped here.~
+rum~
+drink S AO
+3 3 'rum' 0 0
+1 1 10 P
+#19348
+bowl soup~
+a bowl of tomato and bean soup~
+A bowl of tomato and bean soup has been dropped here.~
+tomato bean~
+food S AO
+D D 0 0 0
+1 1 8 P
+#19349
+plate fried beans~
+a plate of fried beans~
+A plate of fried beans have been dropped here.~
+beans~
+food S AO
+D D 0 0 0
+1 1 9 P
+#19350
+bowl mutton stew~
+a bowl of mutton stew~
+A bowl of mutton stew has been dropped here.~
+mutton~
+food S AO
+AD AD 0 0 0
+1 1 10 P
+#19351
+glass wine~
+a glass of wine~
+A glass of wine has been dropped here.~
+wine~
+drink S AO
+4 4 'red wine' 0 0
+1 1 10 P
+#19365
+belt wide leather~
+a wide leather belt~
+A wide leather belt has been dropped here.~
+leather~
+armor S AL
+AC AC AC AC 0
+22 2 22 P
+A
+1 2 -1
+#19366
+candle holder brass~
+a brass candle holder~
+An unlit candle in a brass candle holder is laying here.~
+brass~
+light 0 AO
+0 0 DGH 0 0
+22 2 12 P
+A
+17 -2 -1
+A
+4 1 -1
+#19367
+wagons~
+a wagon~
+Three wagon teams are here, with the largest having lost a wheel to a deep rut.~
+wood~
+trash 0 0
+0 0 0 0 0
+1 1000 100 P
+#19368
+oak quarter staff~
+a quarter-staff~
+A thick, oak quarter-staff~
+wood~
+weapon S AN
+staff 5 5 thwack DF
+28 5 10 P
+#19369
+earring~
+a small, brass earring~
+A small, brass earring has been dropped here.~
+brass~
+jewelry 0 AU
+0 0 0 0 0
+28 1 6 P
+A
+1 1 -1
+A
+17 -4 -1
+#19378
+signet ring blood~
+a bloody signet ring~
+A blood-covered signet ring has been dropped here.~
+silver~
+jewelry 0 AB
+0 0 AB AB 0
+30 1 260 P
+A
+17 -3 -1
+A
+4 2 -1
+#19379
+band leather black eye mask~
+a black face mask~
+A black piece of leather to mask a person's eyes while sleeping is laying here.~
+leather~
+clothing S AT
+0 0 0 0 0
+32 1 5 P
+A
+17 -4 -1
+A
+5 1 -1
+#19380
+heavy broadsword sword~
+a heavy broadsword~
+A sharp, heavy broadsword has been dropped here.~
+steel~
+weapon 0 AN
+sword 4 9 slash D
+31 18 120 P
+A
+19 1 -1
+A
+1 1 -1
+#19381
+long wide knife~
+a wide, long knife~
+A wide-bladed long knife.~
+steel~
+weapon 0 AN
+dagger 4 5 stab D
+36 2 60 P
+A
+18 1 -1
+#19382
+surly look~
+a surly look~
+An air of a bittered life lingers in the air.~
+unknown~
+protect 0 AT
+0 0 0 0 0
+36 1 1 P
+A
+5 2 -1
+A
+4 2 -1
+#19383
+mess mugs ale~
+a mess of ale mugs~
+Several empty and half-full mugs of ale are set about creating a mess.~
+wood ale~
+trash 0 0
+0 0 0 0 0
+1 1000 100 P
+#19384
+switch branch thorn~
+a switch from a thorn bush~
+Lying here is a branch from a thorn bush with a little blood on it.~
+branch~
+weapon S AN
+flail 3 4 scratch D
+0 5 3 P
+#19385
+credit~
+`cCredit: Carysford`w~
+For credits, please see added desc CREDITS.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+credits~
+Area: Carysford, Andor
+Based on the WoT series written by Robert Jordan. 
+Builder: Matthew Peregrine
+~
+#0
+
+
+
+#ROOMS
+#19301
+The Center of Carysford on the Caemlyn Road~
+This is a peaceful town, but not much larger than most villages. 
+Carysford is but a few homes and farms that grew up around what once was the
+closest ford of the River Cary.  That ford has long since been replaced with
+a simple bridge, yet the town has not grown much past its beginnings.  There
+are only a handful of shops or inns in the entire city.  The small,
+clay-bricked well that has been dug here beside the road is adequate for the
+townspeople, yet most still get their water from the river.  A small, brick
+inn is to the north, with most of the brick neatly covered with vines.  A
+small shop or store is to the south, and seems to be the nearest, or
+possibly the only one in the town.  The dirt road here is lightly covered
+with some gravel and stone that seem to keep the dust to a minimum, and
+likely to lessen the mud in the rainy season also.  The Caemlyn Road
+continues on to the east and to the west.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+ x       x 
+ x `W# `cs `W# `wx 
+ x x `RX `wx x 
+ x `W# `ms `W# `wx 
+ x       x 
+ 
+-----------
+ 
+~
+D0
+~
+~
+3 0 19304
+D1
+~
+~
+0 0 19302
+D2
+~
+~
+3 0 19305
+D3
+~
+~
+0 0 19303
+S
+#19302
+Through Carysford on the Caemlyn Road~
+A quiet, peaceful town, Carysford has not grown much larger than a
+village.  Carysford is but a few homes and farms that grew up around what
+once was the closest ford of the River Cary.  That ford has long since been
+replaced with a simple bridge, yet the town has not grown much past its
+beginnings.  There are homes to both the north, and to the south.  The home
+to the north is a vine-covered, brick home, large for Carysford, yet small
+compared to the homes of larger cities.  The home to the south is much like
+that to the north, yet larger still.  An inn and a small shop are close by
+to the west.  The Caemlyn Road continues through Carysford to the east and
+to the west.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+       x  
+ `W# `cs `W# `wx   
+ x `Bw `RX `wx x
+ `W# `ms `W# `wx   
+       x  
+ 
+-----------
+~
+D0
+~
+~
+3 0 19307
+D1
+~
+~
+0 0 19308
+D2
+~
+~
+3 0 19306
+D3
+~
+~
+0 0 19301
+S
+#19303
+Through Carysford on the Caemlyn Road~
+A quiet a town as any, Carysford has not grown much larger than a
+village.  Carysford is but a few homes and farms that grew up around what
+once was the closest ford of the River Cary.  That ford has long since been
+replaced with a simple bridge, yet the town has not grown much past its
+beginnings.  There are homes to both the north, and to the south.  The home
+to the north is a bit smallish, yet seems to be kept neat, as most of the
+rubbish has been cleaned away from around the home, and the vines have been
+cleared away from the brick walls.  The home to the south is quite large,
+and appears to be well taken care of, yet the vines have grown over most of
+the homes brick walls.  An inn and a small shop are close by to the east. 
+The Caemlyn Road continues through Carysford to the east and to the west.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+   x       
+ `W# `wx `W# `cs `W# `w
+`w x x `RX `Bw `wx
+ `W# `wx `W# `ms `W# `w
+   x       
+ 
+-----------
+ 
+~
+D0
+~
+~
+3 0 19318
+D1
+~
+~
+0 0 19301
+D2
+~
+~
+3 0 19319
+D3
+~
+~
+0 0 19320
+S
+#19304
+Common Room of the Wayward Traveler~
+This is the common room of the Wayward Traveler, a small Carysford inn
+that provides food and rest for travelers on the Caemlyn Road who have coin.
+The common room seems clean enough, with very little dust at all on the
+floors.  There is a faint smell of ale and wine in the air, mixed with the
+aroma of warm meals coming from the kitchen.  There is a stairway here that
+leads upstairs to the guest rooms.  The kitchen is the next room to the
+north.  The door to the west leads to the dining room, and the door to the
+east leads to the bathing room.  Be especially careful not to mix them up.  
+~
+0 8 0
+D0
+~
+~
+0 0 19353
+D1
+~
+~
+3 0 19354
+D2
+~
+~
+3 0 19301
+D3
+~
+~
+3 0 19355
+D4
+~
+~
+0 0 19356
+S
+#19305
+The General Supply Store~
+This supply store seems to have a wide variety of tools, clothing and
+other items for sale.  The smell of the different woods, oils, and leathers
+fill the air.  The walls are lined with several oak shelves that are
+over-filled with the stores goods.  The shop is decent and neat throughout,
+and has a warm, almost home-like quality.  The food supplies are sold in
+another large room to the south.  The exit to the north leads back outside
+to the Caemlyn Road and the center of Carysford.  
+~
+0 8 0
+D0
+~
+~
+3 0 19301
+D2
+~
+~
+0 0 19360
+S
+#19306
+One of the Larger Homes in Carysford~
+A little bit larger than most of the homes in Carysford, this house is
+still just one very large room.  The two large fireplaces, one on each side
+of the home, are used for both heating and cooking.  Several beds are set up
+at each side of the house to sleep in.  There is a large table to eat at,
+and several comfortable chairs to lounge or read in.  The whole house
+overall is very neat and in decent repair.  The door to the north leads back
+outside.  
+~
+0 8 0
+D0
+~
+~
+3 0 19302
+S
+#19307
+A Large Carysford Home~
+A little bit larger than most of the homes in Carysford, this house is
+still not much more than one very large room.  The two large fireplaces, one
+on each side of the home, are used for both heating and cooking.  There is a
+large table to eat at, and several comfortable chairs to lounge or read in. 
+Several beds are set up at each side of the house to sleep in.  The whole
+house overall is very neat and in decent repair.  The door to the south
+leads back outside.  
+~
+0 8 0
+D2
+~
+~
+3 0 19302
+S
+#19308
+Through Carysford on the Caemlyn Road~
+Several vine-covered, brick and stone homes can be seen in Carysford from
+here.  The road is not much more than dust and dirt with some stone
+scattered around in some places.  The sidestreets to the north and to the
+south seem to leads only to more homes.  The Caemlyn Road continues on to
+the west, further into Carysford, and to the east, toward the River Cary.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+`w     x     
+ `cs `W# `wx    
+`B w `wx `RX `wx `y=
+ `ms `W# `wx    
+`w     x     
+ 
+-----------
+ 
+~
+D0
+~
+~
+0 0 19309
+D1
+~
+~
+0 0 19311
+D2
+~
+~
+0 0 19310
+D3
+~
+~
+0 0 19302
+S
+#19309
+A Sidestreet~
+This narrow sidestreet is fairly smooth, mostly due to the lack of travel
+and the gravel scattered across road.  Several small bushes and flower
+gardens seperate the street from the nearby homes and small vegetable
+gardens.  The sidestreet leads to the north to join with another street, and
+south towards the Caemlyn Road.  
+~
+0 0 1
+D0
+~
+~
+0 0 19343
+D2
+~
+~
+0 0 19308
+S
+#19310
+A Sidestreet~
+This sidestreet is narrow and smooth, mostly due to the lack of travel
+and the gravel scattered across road.  Several small bushes and flower
+gardens seperate the street from the nearby homes and small vegetable
+gardens.  The sidestreet leads to the south to join with another street, and
+to the north, back towards the Caemlyn Road.  
+~
+0 0 1
+D0
+~
+~
+0 0 19308
+D2
+~
+~
+0 0 19342
+S
+#19311
+The West Bank of the River Cary~
+The light sounds of flowing water come soothingly from the River Cary to
+the east.  The River Cary is but only thirty paces across here, with its
+slow, easy currents flowing over what used to be the long-unused ford.  The
+bridge, directly to the east, seems to be in poor condition, and in need of
+repairs to its boards and planks.  The Caemlyn Road continues on to the west
+into the town, and east across the bridge towards Caemlyn.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+   x      
+ `W# `wx     
+`w x x `RX `y= = `w
+ `W# `wx     
+   x      
+ 
+-----------
+ 
+~
+D1
+~
+~
+0 0 19312
+D3
+~
+~
+0 0 19308
+S
+#19312
+On the Bridge Above the River Cary~
+The worn thick wooden planks of this bridge creak and rattle underfoot as
+travellers and cart pass over it.  The River Cary is but only thirty paces
+across here, with its slow, easy currents flowing over what used to be the
+long-unused ford.  The bridge and its stone abutments have been worn by
+centuries of exposure to rain and wind.  The bridge seems to lacking any
+repair as of late, because there seems to be more loose boards than solid
+ones.  The Caemlyn Road continues to the west into the town, and to the east
+towards Caemlyn.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+ x         
+`w x       `W# `w
+`w x x `RX `y= `wx 
+`w x       `W# `w
+ x         
+ 
+-----------
+ 
+~
+D1
+~
+~
+0 0 19313
+D3
+~
+~
+0 0 19311
+S
+#19313
+On the Bridge Above the River Cary~
+The worn thick wooden planks of this bridge creak and rattle underfoot as
+travellers and cart pass over it.  The River Cary is but only thirty paces
+across here, with its slow, easy currents flowing over what used to be the
+long-unused ford.  The bridge and its stone abutments have been worn by
+centuries of exposure to rain and wind.  The bridge seems to lacking any
+repair as of late, because there seems to be more loose boards than solid
+ones.  The Caemlyn Road continues to the west into the town, and to the east
+towards Caemlyn.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+`w    
+ 
+       `W# `w 
+ x `y= `RX `wx x 
+       `W# `w 
+ 
+ 
+-----------
+ 
+~
+D1
+~
+~
+0 0 19314
+D3
+~
+~
+0 0 19312
+S
+#19314
+The East Bank of the River Cary~
+The light sounds of flowing water come soothingly from the River Cary to
+the west.  The River Cary is but only thirty paces across here, with its
+slow, easy currents flowing over what used to be the long-unused ford.  The
+bridge, directly to the west, seems to be in poor condition, and in need of
+repairs to its boards and planks.  The Caemlyn Road continues on west across
+the bridge into the town, and east towards Caemlyn.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+ 
+     `W# `w 
+ `y= = `RX `wx x 
+     `W# `w 
+ 
+ 
+-----------
+ 
+~
+D0
+~
+~
+3 0 19315
+D1
+~
+~
+0 0 19317
+D2
+~
+~
+3 0 19316
+D3
+~
+~
+0 0 19313
+S
+#19315
+Inside a Small Home Outside of Carysford~
+This is one of the smaller homes in Carysford.  Everything is clean and
+in decent repair, but there is not enough room for any more furnishings than
+what there are now.  The house is just one room, with a fireplace for
+cooking and heating on the other side of the room.  There is a table to eat
+at, beds to sleep in, and a couple of comfortable chairs to lounge in.  The
+door to the south leads back outside.  
+~
+0 8 0
+D2
+~
+~
+3 0 19314
+S
+#19316
+Inside a Cozy Home Outside of Carysford~
+This is one of the smaller homes in Carysford, yet there is a warm and
+cozy feeling here.  Everything is clean and in decent repair, but there is
+not enough room for any more furnishings than what there are now.  The house
+is just one room, with a fireplace for cooking and heating on the other side
+of the room.  There is a table to eat at, beds to sleep in, and a couple of
+comfortable chairs to lounge in.  The door to the north leads back outside. 
+~
+0 8 0
+D0
+~
+~
+3 0 19314
+S
+#19317
+East of Carysford on the Caemlyn Road~
+Here the Caemlyn Road is not much more than a rutted dirt road, that is
+not much more than twice the width of a merchants wagon.  The town of
+Carysford is close by to the west, built next to the River Cary.  The road
+seems to get smoother closer to the town of Carysford as gravel has been
+spread out onto the road.  Several hedges line the sides of the road, and
+seem to get thicker further to the east, hindering any travel off of the
+road.  The Caemlyn Road continues into Carysford to the west, and towards
+Caemlyn to the east.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+ 
+   `W# `w   
+ `y= `wx `RX `wx x 
+   `W# `w   
+ 
+ 
+-----------
+ 
+~
+D1
+~
+~
+0 0 19366
+D3
+~
+~
+0 0 19314
+S
+#19318
+A Tidy Carysford Home~
+A very neat home this is, as everything looks to be in its place.  No
+dust is visible, and everything looks to be in good repair.  The house is
+mainly just one large room, with a fireplace for cooking and heating, a few
+beds for sleeping, a table to eat at, and a few comfortable chairs to lounge
+in.  The door to the south leads back outside.  
+~
+0 8 0
+D2
+~
+~
+3 0 19303
+S
+#19319
+A Large Carysford Home~
+A little bit larger than most the homes in Carysford, this house is still
+not much more than one very large room.  The two large fireplaces, one on
+each side of the home, are used for both heating and cooking.  There is a
+large table to eat at, and several comfortable chairs to lounge or read in. 
+Several beds are set up at each side of the house to sleep in.  The whole
+house overall is very neat and in decent repair.  The door to the north
+leads back outside.  
+~
+0 8 0
+D0
+~
+~
+3 0 19303
+S
+#19320
+Through Carysford on the Caemlyn Road~
+The road is not much more than dust and dirt here, with some stone
+scattered around in some places.  Several vine-covered, brick and stone
+Carysford homes can be seen from here.  The alleyways to the north and to
+the south seem to lead only to more homes.  The Caemlyn Road continues on to
+the east, further into Carysford and toward the River Cary, and to the west,
+out of Carysford.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+ x   x    
+ x `W# `wx `W# `cs `w
+ x x `RX `wx `Bw `w
+ x `W# `wx `W# `ms `w
+ x   x    
+ 
+-----------
+ 
+~
+D0
+~
+~
+0 0 19321
+D1
+~
+~
+0 0 19303
+D2
+~
+~
+0 0 19322
+D3
+~
+~
+0 0 19323
+S
+#19321
+An Alleyway Between the Houses~
+This alley is too narrow for anything larger than a horse and rider to
+pass through.  The walls of the homes to the east and west are almost close
+enough for a grown man to touch at the same time.  The alley leads north to
+another street, and south to the Caemlyn Road.  
+~
+0 0 1
+D0
+~
+~
+0 0 19349
+D2
+~
+~
+0 0 19320
+S
+#19322
+An Alleyway Between the Houses~
+This alley is too narrow for anything larger than a horse and rider to
+pass through.  The walls of the homes to the east and west are almost close
+enough for a grown man to touch at the same time.  The alley leads south to
+another street, and north to the Caemlyn Road.  
+~
+0 0 1
+D0
+~
+~
+0 0 19320
+D2
+~
+~
+0 0 19336
+S
+#19323
+Through Carysford on the Caemlyn Road~
+The road here is mostly dust and dirt, with a few ruts and holes filled
+in with stone.  The house to the north is made from fieldstone, and seems to
+be uncared for, as there is rubbish strewn about the outside of its
+vine-covered walls.  The house to the south seems to be vacant and untended,
+as there are several visible holes in the roof, and a few bricks missing
+from the vine-engulfed walls.  The Caemlyn Road continues further into
+Carysford to the east, and towards the outskirts of Carysford to the west.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+   x   x   
+ `W# `wx `W# `wx `W# `w
+ x x `RX `wx x 
+ `W# `wx `W# `wx `W# `w
+   x   x   
+ 
+-----------
+ 
+~
+D0
+~
+~
+3 0 19324
+D1
+~
+~
+0 0 19320
+D2
+~
+~
+3 0 19325
+D3
+~
+~
+0 0 19326
+S
+#19324
+A Dirty Carysford Home~
+This home is intolerable.  The whole house stinks of rotten garbage, and
+a thick layer of dust coats the floor and walls.  A window or two look to be
+in need of some repair, but there is nothing wrong with this home that a
+little cleaning could not fix.  The house is mainly just one large room,
+with a fireplace for cooking and heating, a few beds for sleeping, a table
+to eat at, and a few comfortable chairs to lounge in.  The door to the south
+leads back outside.  
+~
+0 8 0
+D2
+~
+~
+3 0 19323
+S
+#19325
+A Worn Carysford Home~
+This house looks to be abandoned.  Daylight can be seen coming in through
+the thatch on the roof in some places.  Most of the windows are broken
+badly.  The rubbish that covers the floor might have been furniture at one
+time.  The fireplace has long since collapsed.  The door to the north leads
+back outside.  
+~
+0 8 0
+D0
+~
+~
+3 0 19323
+S
+#19326
+Through Carysford on the Caemlyn Road~
+This rutted road is not much more than dust and dirt here, with some
+stone scattered around in some places.  Several vine-covered, brick and
+stone Carysford homes can be seen from here.  The sidestreets to the north
+and to the south seem to leads only to more homes.  The Caemlyn Road
+continues on to the east, further into Carysford and toward the River Cary,
+and to the west, out of Carysford.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+     x   x 
+   `W# `wx `W# `wx    
+ x x `RX `wx x 
+   `W# `wx `W# `wx    
+     x   x 
+ 
+-----------
+ 
+~
+D0
+~
+~
+0 0 19327
+D1
+~
+~
+0 0 19323
+D2
+~
+~
+0 0 19328
+D3
+~
+~
+0 0 19329
+S
+#19327
+A Sidestreet~
+This narrow sidestreet is fairly smooth, mostly due to the lack of travel
+and the thin layer of small stone and gravel covering the road.  Several
+small bushes and flower gardens seperate the street from the nearby homes
+and small vegetable gardens.  The sidestreet leads to the north to join with
+another street, and to the south, back towards the Caemlyn Road.  
+~
+0 0 1
+D0
+~
+~
+0 0 19352
+D2
+~
+~
+0 0 19326
+S
+#19328
+A Sidestreet~
+This sidestreet is narrow and almost smooth, mostly due to the lack of
+travel and the thin layer of small stone and gravel covering the road. 
+Several small bushes and flower gardens seperate the street from the nearby
+homes and small vegetable gardens.  The sidestreet leads to the south to
+join with another street, and to the north, back towards the Caemlyn Road.  
+~
+0 0 1
+D0
+~
+~
+0 0 19326
+D2
+~
+~
+0 0 19333
+S
+#19329
+Through Carysford on the Caemlyn Road~
+The road here is rutted, but not too badly.  The dust is kept down with
+the little stone that is scattered over the road.  The small house to the
+north is made of brick, and covered with vines from ground to roof.  The
+small house to the south is made of fieldstone, and has a few vines and ivy
+climbing its walls in some places.  The Caemlyn Road continues further into
+Carysford to the east, and out of town to the west.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+       x   
+     `W# `wx `W# `w
+ x x `RX `wx x 
+     `W# `wx `W# `w
+       x   
+ 
+-----------
+ 
+~
+D0
+~
+~
+3 0 19330
+D1
+~
+~
+0 0 19326
+D2
+~
+~
+3 0 19331
+D3
+~
+~
+0 0 19332
+S
+#19330
+A Small Home on the Edge of Carysford~
+This small home has been kept very clean, and in good shape.  The floors
+are all swept, the whole house dusted, and nothing seems to be in need of
+repair.  The house is mainly just one large room, with a fireplace for
+cooking and heating, a few beds for sleeping, a table to eat at, and a few
+comfortable chairs to lounge in.  The door to the south leads back outside. 
+~
+0 8 0
+D2
+~
+~
+3 0 19329
+S
+#19331
+A Cozy Home on the Edge of Carysford~
+This home needs a little tending to, as the floors and walls have dust on
+them, and a few shelves and windows look to be in need of some repair.  The
+house is mainly just one large room, with a fireplace for cooking and
+heating, a few beds for sleeping, a table to eat at, and a few comfortable
+chairs to lounge in.  The door to the north leads back outside.  
+~
+0 8 0
+D0
+~
+~
+3 0 19329
+S
+#19332
+Outside the Town of Carysford on the Caemlyn Road~
+The Caemlyn Road is not much more than a rutted dirt road that is not
+much more than twice the width of a merchants wagon.  The town of Carysford
+is close by to the east, built next to the River Cary.  The road seems to
+get smoother closer to the town of Carysford as gravel has been spread out
+onto the road.  Several hedges line the sides of the road, and seem to get
+thicker further to the west, hindering any travel off of the road.  The
+Caemlyn road continues on to the east towards Carysford, and to the west
+towards Four Kings, Whitebridge and other small villages and towns.  
+~
+0 0 1
+E
+amap~
+--- MAP ---
+ 
+         x 
+       `W# `wx 
+ x x `RX `wx x 
+       `W# `wx 
+         x 
+ 
+-----------
+ 
+~
+D1
+~
+~
+0 0 19329
+D3
+~
+~
+0 0 19361
+S
+#19333
+South Lane~
+This gravel-covered narrow lane is little wider than a merchants wagon. 
+This lane must keep smooth because of the limited travel through here due to
+the narrow road.  This part of Carysford, much like the rest, contains
+vine-covered brick and stone houses, but no shops.  The lane continues on to
+the east, and a small sidestreet leads on to the north.  
+~
+0 0 1
+D0
+~
+~
+0 0 19328
+D1
+~
+~
+0 0 19334
+S
+#19334
+South Lane~
+This gravel-covered narrow lane is little wider than a merchants wagon. 
+This lane must keep smooth because of the limited travel through here due to
+the narrow road.  This part of Carysford, much like the rest, contains
+vine-covered brick and stone houses, but no shops.  There is a small,
+vine-covered house to the south.  The lane continues on to the east and to
+the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 19336
+D2
+~
+~
+3 0 19335
+D3
+~
+~
+0 0 19333
+S
+#19335
+A Cramped Carysford Home~
+This home is smaller than most in Carysford.  Everything is clean and in
+decent repair, but there is not enough room for any more furnishings than
+what there are now.  The house is just one room, with a fireplace for
+cooking and heating on the other side of the room.  There is a table to eat
+at, beds to sleep in, and a couple of comfortable chairs to lounge in.  The
+door to the north leads back outside.  
+~
+0 8 0
+D0
+~
+~
+3 0 19334
+S
+#19336
+South Lane~
+This gravel-covered narrow lane is little wider than a merchants wagon. 
+This lane must keep smooth because of the limited travel through here due to
+the narrow road.  This part of Carysford, much like the rest, contains
+vine-covered brick and stone houses, but no shops.  The small alley to the
+north is not much wider than the flanks on a large horse.  The lane
+continues on to the east and to the west.  
+~
+0 0 1
+D0
+~
+~
+0 0 19322
+D1
+~
+~
+0 0 19337
+D3
+~
+~
+0 0 19334
+S
+#19337
+South Lane~
+This gravel-covered narrow lane is little wider than a merchants wagon. 
+This lane must keep smooth because of the limited travel through here due to
+the narrow road.  This part of Carysford, much like the rest, contains
+vine-covered brick and stone houses, but no shops.  There is a small,
+vine-covered brick house to the south.  The lane continues on to the east
+and to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 19339
+D2
+~
+~
+3 0 19338
+D3
+~
+~
+0 0 19336
+S
+#19338
+A Small Carysford Home~
+This is one of the smaller homes in Carysford.  Everything is clean and
+in decent repair, but there is not enough room for any more furnishings than
+what there are now.  The house is just one room, with a fireplace for
+cooking and heating on the other side of the room.  There is a table to eat
+at, beds to sleep in, and a couple of comfortable chairs to lounge in.  The
+door to the north leads back outside.  
+~
+0 8 0
+D0
+~
+~
+3 0 19337
+S
+#19339
+South Lane~
+This gravel-covered narrow lane is little wider than a merchants wagon. 
+This lane must keep smooth because of the limited travel through here due to
+the narrow road.  This part of Carysford, much like the rest, contains
+vine-covered brick and stone houses, but no shops.  The lane continues on to
+the east and to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 19340
+D3
+~
+~
+0 0 19337
+S
+#19340
+South Lane~
+This gravel-covered narrow lane is little wider than a merchants wagon. 
+This lane must keep smooth because of the limited travel through here due to
+the narrow road.  This part of Carysford, much like the rest, contains
+vine-covered brick and stone houses, but no shops.  The small house to the
+south has vine-covered, fieldstone walls and a thatched roof.  The lane
+continues on to the east and to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 19342
+D2
+~
+~
+3 0 19341
+D3
+~
+~
+0 0 19339
+S
+#19341
+A Cozy Carysford Home~
+This is one of the smaller homes in Carysford, yet there is a warm and
+cozy feeling here.  Everything is clean and in decent repair, but there is
+not enough room for any more furnishings than what there are now.  The house
+is just one room, with a fireplace for cooking and heating on the other side
+of the room.  There is a table to eat at, beds to sleep in, and a couple of
+comfortable chairs to lounge in.  The door to the north leads back outside. 
+~
+0 8 0
+D0
+~
+~
+3 0 19340
+S
+#19342
+South Lane~
+This gravel-covered narrow lane is little wider than a merchants wagon. 
+This lane must keep smooth because of the limited travel through here due to
+the narrow road.  This part of Carysford, much like the rest, contains
+vine-covered brick and stone houses, but no shops.  The lane continues on to
+the west, and a small sidestreet leads on to the north.  
+~
+0 0 1
+D0
+~
+~
+0 0 19310
+D3
+~
+~
+0 0 19340
+S
+#19343
+North Lane~
+This narrow lane is smooth, but little wider than a merchants wagon,
+which limits the amount of travel through here.  This part of Carysford,
+much like the rest, contains vine-covered brick and stone houses, but no
+shops.  The lane continues on to the west, and a small sidestreet leads on
+to the south.  
+~
+0 0 1
+D2
+~
+~
+0 0 19309
+D3
+~
+~
+0 0 19344
+S
+#19344
+North Lane~
+This narrow lane is smooth, but little wider than a merchants wagon,
+which limits the amount of travel through here.  This part of Carysford,
+much like the rest, contains vine-covered brick and stone houses, but no
+shops.  The small, vine-covered brick home to the north smells of fresh
+baked bread and pies.  The lane continues on to the east and to the west.  
+~
+0 0 1
+D0
+~
+~
+3 0 19345
+D1
+~
+~
+0 0 19343
+D3
+~
+~
+0 0 19346
+S
+#19345
+A Cozy Carysford Home~
+This house is a little smaller than most in Carysford, but it has a very
+warm and cozy feeliing.  Everything is clean and in decent repair, but there
+is not enough room for any more furnishings than what there are now.  The
+house is just one room, with a fireplace for cooking and heating on the
+other side of the room.  There is a table to eat at, beds to sleep in, and a
+couple of comfortable chairs to lounge in.  The door to the south leads back
+outside.  
+~
+0 8 0
+D2
+~
+~
+3 0 19344
+S
+#19346
+North Lane~
+This narrow lane is smooth, but little wider than a merchants wagon,
+which limits the amount of travel through here.  This part of Carysford,
+much like the rest, contains vine-covered brick and stone houses, but no
+shops.  The lane continues on to the east and to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 19344
+D3
+~
+~
+0 0 19347
+S
+#19347
+North Lane~
+This narrow lane is smooth, but little wider than a merchants wagon,
+which limits the amount of travel through here.  This part of Carysford,
+much like the rest, contains vine-covered brick and stone houses, but no
+shops.  The small, stone house to the north has very little vines or ivy
+covering its walls.  The lane continues on to the east and to the west.  
+~
+0 0 1
+D0
+~
+~
+3 0 19348
+D1
+~
+~
+0 0 19346
+D3
+~
+~
+0 0 19349
+S
+#19348
+A Small Carysford Home~
+This house is a little smaller than most in Carysford.  Everything is
+clean and in decent repair, but there is not enough room for any more
+furnishings than what there are now.  The house is just one room, with a
+fireplace for cooking and heating on the other side of the room.  There is a
+table to eat at, beds to sleep in, and a couple of comfortable chairs to
+lounge in.  The door to the south leads back outside.  
+~
+0 8 0
+D2
+~
+~
+3 0 19347
+S
+#19349
+North Lane~
+This narrow lane is smooth, but little wider than a merchants wagon,
+which limits the amount of travel through here.  This part of Carysford,
+much like the rest, contains vine-covered brick and stone houses, but no
+shops.  The small alley to the south is not much wider than the flanks on a
+large horse.  The lane continues on to the east and to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 19347
+D2
+~
+~
+0 0 19321
+D3
+~
+~
+0 0 19350
+S
+#19350
+North Lane~
+This narrow lane is smooth, but little wider than a merchants wagon,
+which limits the amount of travel through here.  This part of Carysford,
+much like the rest, contains vine-covered brick and stone houses, but no
+shops.  A very small, vine-covered brick house is to the north.  The lane
+continues on to the east and to the west.  
+~
+0 0 1
+D0
+~
+~
+3 0 19351
+D1
+~
+~
+0 0 19349
+D3
+~
+~
+0 0 19352
+S
+#19351
+A Cramped Carysford Home~
+This home is much smaller than most in Carysford.  Everything is clean
+and in decent repair, yet there is not enough room for everything.  The
+house is just one room, with a fireplace for cooking and heating on the
+other side of the room.  There is a table to eat at, beds to sleep in, and a
+couple of comfortable chairs to lounge in.  The door to the south leads back
+outside.  
+~
+0 8 0
+D2
+~
+~
+3 0 19350
+S
+#19352
+North Lane~
+This narrow lane is smooth, but little wider than a merchants wagon,
+which limits the amount of travel through here.  This part of Carysford,
+much like the rest, contains vine-covered brick and stone houses, but no
+shops.  The lane continues to the east and a small sidestreet leads to the
+south.  
+~
+0 0 1
+D1
+~
+~
+0 0 19350
+D2
+~
+~
+0 0 19327
+S
+#19353
+The Kitchen~
+There is a wonderful smell of meals being cooked coming from both of the
+firepits in use at the moment.  The heavy aroma hangs in the air like
+perfume to a hungry man.  Several pots and pans are hung on the walls
+throughout the kitchen.  Everything seems to be in its place, and the entire
+room is clean-swept and neat.  The common room is the next room to the
+south.  
+~
+0 8 0
+D2
+~
+~
+0 0 19304
+S
+#19354
+The Bathing Room~
+This room is used for bathing.  There is not much room here, so the
+patrons must use this room one at a time.  The walls, floor and ceiling are
+tiled with smooth, flat stones, and the grout has been scrubbed clean of
+mildew leaving the room smelling fresh.  There are several candelabra lining
+the walls, providing the only illumination in the room.  The door to the
+west leads back to the common room.  
+~
+0 8 0
+D3
+~
+~
+3 0 19304
+S
+#19355
+The Dining Room~
+This room is as neat as the rest of the inn.  The walls are lined with
+white-washed pine planks with two candelabra on each wall.  This dining room
+is large enough to accomodate a large group of people needing a private room
+while they dine.  The walls do well to quiet the sounds coming from the
+common room to the east.  
+~
+0 8 0
+D1
+~
+~
+3 0 19304
+S
+#19356
+Second Floor of the Wayward Traveler~
+Here at the top of the stairs, the second floor begins as a small
+hallway.  A few candles line the walls and glow warmly.  The floor has been
+swept clean and the hallway has been dusted recently.  The doors to the
+north, east and west lead to the guest rooms.  The stairway leads back
+downstairs to the common room.  
+~
+0 8 0
+D0
+~
+~
+3 0 19358
+D1
+~
+~
+3 0 19359
+D3
+~
+~
+3 0 19357
+D5
+~
+~
+0 0 19304
+S
+#19357
+Guest Room~
+This room is neat and clean, despite the current occupant having left
+belongings strewn about.  There are a few simple rugs covering a part of the
+floor.  The open window has a nice view of Carysford.  Several of the town's
+vine-covered homes are visible from here.  The Caemlyn Road can be seen
+leading west out of Carysford from this window.  This seems to be quite a
+comfortable room to rest in.  
+~
+0 8 0
+D1
+~
+~
+3 0 19356
+S
+#19358
+Guest Room~
+This room is neat and clean, and ready for the next guest to occupy it. 
+There are a few simple rugs covering a part of the floor.  The open window
+has a nice view of Carysford.  Several of the town's vine-covered homes are
+visible from here.  This room will provide someone with a good night's rest.
+This room is available to rent for all paying guests (type help_rent).  The
+door to the south leads back out to the hallway.  
+~
+0 1048584 0
+D2
+~
+~
+3 0 19356
+S
+#19359
+Guest Room~
+This room is clean, despite the occupant having left their belongings
+strewn about.  There are several threadbare rugs covering a part of the
+floor.  The room's only window has a nice view of Carysford.  Several of the
+town's vine-covered homes and the River Cary can be seen from this window. 
+This seems to be quite a comfortable room to rest in.  
+~
+0 8 0
+D3
+~
+~
+3 0 19356
+S
+#19360
+Food and Grain~
+The air in this room is very heavy with the odors from the fresh
+vegetables, and the dust from the grains.  Several sacks of grain,
+vegetables, and other foods are neatly stacked and lining every wall.  This
+room is very neat and tidy.  It has much the appearance and feel of a
+grandmother's kitchen.  The large room to the north is where the other
+supplies are sold, and where the exit exhists.  
+~
+0 8 0
+D0
+~
+~
+0 0 19305
+S
+#19361
+The Caemlyn Road~
+This section of the Caemlyn Road is wide enough to accomodate two
+merchants' wagons riding abreast of each other.  Although, with how many
+ruts there seem to be, it would not be a wise decision.  A thick hedge lines
+the road to the north and to the south, limiting any travel off of the road
+and into the neighboring fields.  The small town of Carysford is close to
+the east.  Several small towns and villages are to the west before the
+Caemlyn Road reaches Whitebridge.  
+~
+0 0 2
+D1
+~
+~
+0 0 19332
+D3
+~
+~
+0 0 19362
+S
+#19362
+The Caemlyn Road~
+Several ruts make a mess of this section of the Caemlyn Road.  The dust
+is always heavy when the merchant wagons travel through, and the rain never
+helps, only turns the dust into a thick mud.  A thick hedge lines the road
+to the north and to the south, limiting any travel off of the road and into
+the neighboring fields.  The small town of Carysford is nearby the east. 
+Several small towns and villages are to the west before the Caemlyn Road
+finally reaches Whitebridge.  
+~
+0 0 4
+D1
+~
+~
+0 0 19361
+D3
+~
+~
+0 0 19363
+S
+#19363
+The Caemlyn Road~
+The many ruts make a mess of this section of the Caemlyn Road.  The dust
+is always heavy when the merchant wagons travel through, and the rain never
+helps, only turns the dust into a thick mud.  A thick hedge lines the road
+to the south.  To the north, a dense stand of trees, thorn bushes and
+thickets look virtually impassable, and block any view much past a few feet
+into them.  The small town of Carysford is a short distance to the east. 
+Several small towns and villages are to the west before the Caemlyn Road
+finally reaches Whitebridge.  
+~
+0 0 4
+E
+north~
+Upon closer inspection, there seems to be a possible opening in the
+bushes to the north.  A few branches and thorn bushes have been placed
+across a narrow opening in the hedge to the north.  It is possible that
+there is a trail or path behind this hedge that leads back further to the
+north.  
+~
+D0
+~
+~
+11 0 19371
+D1
+~
+~
+0 0 19362
+D3
+~
+~
+0 0 19364
+S
+#19364
+The Caemlyn Road~
+A lot of ruts here hamper travel along the Caemlyn Road.  The dust is
+always heavy when the merchant wagons travel through, and the rain never
+helps, only turns the dust into a thick mud.  A thick hedge lines the road
+to the north and to the south, limiting any travel off of the road and into
+the neighboring fields.  The small town of Carysford is a short distance to
+the east.  Several small towns and villages are to the west before the
+Caemlyn Road finally reaches Whitebridge.  
+~
+0 0 4
+D1
+~
+~
+0 0 19363
+D3
+~
+~
+0 0 19365
+S
+#19365
+The Caemlyn Road~
+The ruts and dust hamper travel along this section of the Caemlyn Road. 
+The dust is always heavy when the merchant wagons travel through, and the
+rain never helps, only turns the dust into a thick mud.  A thick hedge lines
+the road to the north and to the south, limiting any travel off of the road
+and into the neighboring fields.  Several small towns and villages lie along
+the Caemlyn Road before it finally reaches Whitebridge to the west, and
+Caemlyn to the east.  
+~
+0 0 4
+D1
+~
+~
+0 0 19364
+D3
+~
+~
+0 0 1181
+S
+#19366
+The Caemlyn Road~
+This section of the Caemlyn Road is twice as wide as a merchants wagon. 
+The road is rutted, and dusty.  Several large trees line the side of the
+road providing temporary shade for weary travelers.  Between trees, there
+are several hedges and thickets lining the roadside, limiting travel off of
+the road.  The Caemlyn Road continues on towards Carysford to the west, and
+toward Caemlyn to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 19367
+D3
+~
+~
+0 0 19317
+S
+#19367
+The Caemlyn Road~
+This length of the Caemlyn Road is over twice the width of a merchants
+wagon.  The road is very rutted, and dusty.  Several large trees line the
+side of the road providing temporary shade for weary travelers.  Between
+trees, there are several hedges and thickets lining the roadside, limiting
+travel off of the road.  The Caemlyn Road continues on towards Carysford to
+the west, and toward Caemlyn to the east.  
+~
+0 0 2
+D1
+~
+~
+0 0 19368
+D3
+~
+~
+0 0 19366
+S
+#19368
+The Caemlyn Road~
+The ruts and dust consume this section of the Caemlyn Road.  The road is
+more than wide enough for the many travelers and merchants who frequent this
+highway.  Several large trees line the side of the road providing temporary
+shade for weary travelers.  Between trees, there are several hedges and
+thickets lining the roadside, limiting travel off of the road.  The Caemlyn
+Road continues on towards Carysford to the west, and toward Caemlyn to the
+east.  
+~
+0 0 2
+D1
+~
+~
+0 0 19369
+D3
+~
+~
+0 0 19367
+S
+#19369
+The Caemlyn Road~
+Mostly dust and ruts make up this section of the Caemlyn Road.  The road
+is more than wide enough for the many travelers and merchants who frequent
+this highway.  Several large trees line the side of the road providing
+temporary shade for weary travelers.  Between trees, there are several
+hedges and thickets lining the roadside, limiting travel off of the road. 
+Several haystacks dot the horizon to the north and to the south.  The
+Caemlyn Road continues on to the east and to the west.  
+~
+0 0 2
+D1
+~
+~
+0 0 19370
+D3
+~
+~
+0 0 19368
+S
+#19370
+The Caemlyn Road~
+The many ruts and dust make up this section of the Caemlyn Road.  The
+road is more than wide enough for the many travelers and merchants who
+frequent this highway.  Several large trees line the side of the road
+providing temporary shade for weary travelers.  Between trees, there are
+several hedges and thickets lining the roadside, limiting travel off of the
+road.  Several haystacks dot the horizon to the north and to the south.  The
+Caemlyn Road continues on to the east and to the west.  
+~
+0 0 4
+D1
+~
+~
+0 0 1180
+D3
+~
+~
+0 0 19369
+S
+#19371
+A Small Opening in the Brush~
+Several large branches cross overhead making travel through this brush an
+exercise in learning to walk like a duck.  Thorn bushes scratch from every
+side.  Dead leaves and twigs crunch underfoot noisily.  Even in broad
+daylight, this thicket is still dark.  The Caemlyn Road was somewhere nearby
+to the south, but is not visible at the moment.  A narrow game trail to the
+north seems to be the only path of any sort nearby.  
+~
+0 1 3
+D0
+~
+~
+0 0 19372
+D2
+~
+~
+11 0 19363
+S
+#19372
+A Path Through the Brush~
+Dead leaves and twigs crunch underfoot noisily, and thorn bushes scratch
+continuously from every side.  Even in broad daylight, this thicket is still
+dark.  In the distance, small animals can be heard scampering through the
+thicket.  Not much more than a game trail, this path leads on to the west
+and to the south.  
+~
+0 1 3
+D2
+~
+~
+0 0 19371
+D3
+~
+~
+0 0 19373
+S
+#19373
+A Path Through the Brush~
+Dead leaves and twigs crunch underfoot noisily, and thorn bushes scratch
+continuously from every side.  Even in broad daylight, this thicket is still
+dark.  In the distance, small animals can be heard scampering through the
+thicket.  Not much more than a game trail, this path leads on to the north
+and to the east.  
+~
+0 1 3
+D0
+~
+~
+0 0 19374
+D1
+~
+~
+0 0 19372
+S
+#19374
+A Path Through the Brush~
+The travel forward seems unchanged as before.  Dead leaves and twigs
+crunch underfoot noisily, and thorn bushes scratch continuously from every
+side.  Even in broad daylight, this thicket is still dark.  In the distance,
+small animals can be heard scampering through the thicket.  Not much more
+than a game trail, this path leads on to the east and to the south.  
+~
+0 1 3
+D1
+~
+~
+0 0 19375
+D2
+~
+~
+0 0 19373
+S
+#19375
+A Path Through the Brush~
+This path is unchanged and frighteningly disorienting as all the
+surroundings look alike.  Dead leaves and twigs crunch underfoot noisily,
+and thorn bushes scratch continuously from every side.  Even in broad
+daylight, this thicket is still dark.  In the distance, small animals can be
+heard scampering through the thicket.  Not much more than a game trail, this
+path leads on to the north and to the west.  
+~
+0 1 3
+D0
+~
+~
+0 0 19376
+D3
+~
+~
+0 0 19374
+S
+#19376
+Nearing a Small Clearing~
+The game trail widens a bit here into something that more than appears to
+be a path.  The sounds of people can be heard coming from a small clearing
+to the north.  A small fire is visible, and so are a few low tents.  The
+twigs and leaves are worn into the ground here, so movement is not as noisy
+as the rest of the thicket.  Even in broad daylight, this thicket is still
+dark.  In the distance, small animals can be heard scampering through the
+thicket, and away from the clearing.  The path continues north into the
+clearing, and south, into the dense thicket surrounding the game trail.  
+~
+0 1 3
+D0
+~
+~
+0 0 19377
+D2
+~
+~
+0 0 19375
+S
+#19377
+A Small Clearing~
+The brush opens wide to reveal a small encampment here.  The bushes,
+trees and brush have been cut back and trampled down to the bare earth.  By
+the way the ground has been worn to hard packed dirt, it is very likely that
+this camp has been here for several months.  A few long, yet not very tall
+tents have been set up around the clearing.  There is a small cooking fire
+set up to the northwest.  The game trail to the south is not very visible
+from here.  
+~
+0 1 2
+D0
+~
+~
+0 0 19379
+D2
+~
+~
+0 0 19376
+D3
+~
+~
+0 0 19378
+S
+#19378
+A Small Clearing~
+There is a small encampment here in the clearing.  The bushes, trees and
+brush have been cut back and trampled down to the bare earth.  By the way
+the ground has been worn to hard packed dirt, it is very likely that this
+camp has been here for several months.  A few long, yet not very tall tents
+have been set up around the clearing.  There is a small cooking fire set up
+to the north.  
+~
+0 1 2
+D0
+~
+~
+0 0 19380
+D1
+~
+~
+0 0 19377
+S
+#19379
+A Small Clearing~
+There is a small encampment here in the clearing.  The bushes, trees and
+brush have been cut back and trampled down to the bare earth.  By the way
+the ground has been worn to hard packed dirt, it is very likely that this
+camp has been here for several months.  A few long, yet not very tall tents
+have been set up to the north and to the east.  There is a small cooking
+fire set up to the west.  
+~
+0 1 2
+D0
+~
+~
+0 0 19383
+D1
+~
+~
+0 0 19384
+D2
+~
+~
+0 0 19377
+D3
+~
+~
+0 0 19380
+S
+#19380
+A Small Clearing~
+There is a small encampment here in the clearing.  The bushes, trees and
+brush have been cut back and trampled down to the bare earth.  By the way
+the ground has been worn to hard packed dirt, it is very likely that this
+camp has been here for several months.  A few long, yet not very tall tents
+have been set up to the north and to the west.  There is a small cooking
+fire set up here.  
+~
+0 1 2
+D0
+~
+~
+3 0 19381
+D1
+~
+~
+0 0 19379
+D2
+~
+~
+0 0 19378
+D3
+~
+~
+0 0 19382
+S
+#19381
+A Finer Low Tent~
+This tent is a bit taller than the others, and of a finer quality.  Not
+quite as large, this tent seems to house only one person at the moment.  The
+ground is covered with wooden planks making a decent floor for the tent.  A
+small cot has been set up for more comfortable sleeping, rather than on the
+ground like the others do.  A single candle provides a little light to see
+by.  
+~
+0 8 0
+D2
+~
+~
+3 0 19380
+S
+#19382
+A Large, Low Tent~
+This low tent is only tall enough for a grown man to stand upright near
+the peak of the tent, along the sides, a person must squat or stoop.  The
+walls and roof of the tent are made from heavy canvas, and a large pole is
+in the center of the tent holding up the peak.  Several blankets and pallets
+are strewn about the tent for many men to sleep on.  
+~
+0 9 0
+D1
+~
+~
+0 0 19380
+S
+#19383
+A Large, Low Tent~
+This low tent is only tall enough for a grown man to stand upright near
+the peak of the tent, along the sides, a person must squat or stoop.  The
+walls and roof of the tent are made from heavy canvas, and a large pole is
+in the center of the tent holding up the peak.  Several blankets and pallets
+are strewn about the tent walls for men to sleep on.  The center area of the
+tent is cleared away for a game of dice, and several mugs of ale are strewn
+about in drunken disarray.  A single candle provides a little light to see
+by.  
+~
+0 8 0
+D2
+~
+~
+0 0 19379
+S
+#19384
+A Large, Low Tent~
+This low tent is only tall enough for a grown man to stand upright near
+the peak of the tent, along the sides, a person must squat or stoop.  The
+walls and roof of the tent are made from heavy canvas, and a large pole is
+in the center of the tent holding up the peak.  Several blankets and pallets
+are strewn about the tent for many men to sleep on.  
+~
+0 9 0
+D3
+~
+~
+0 0 19379
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 19301 0 3 0 0
+D 19301 2 3 0 0
+D 19302 0 3 0 0
+D 19302 2 3 0 0
+D 19303 0 3 0 0
+D 19303 2 3 0 0
+D 19304 1 3 0 0
+D 19304 2 3 0 0
+D 19304 3 3 0 0
+D 19305 0 3 0 0
+D 19306 0 3 0 0
+D 19307 2 3 0 0
+D 19314 0 3 0 0
+D 19314 2 3 0 0
+D 19315 2 3 0 0
+D 19316 0 3 0 0
+D 19318 2 3 0 0
+D 19319 0 3 0 0
+D 19323 0 3 0 0
+D 19323 2 3 0 0
+D 19324 2 3 0 0
+D 19325 0 3 0 0
+D 19329 0 3 0 0
+D 19329 2 3 0 0
+D 19330 2 3 0 0
+D 19331 0 3 0 0
+D 19334 2 3 0 0
+D 19335 0 3 0 0
+D 19337 2 3 0 0
+D 19338 0 3 0 0
+D 19340 2 3 0 0
+D 19341 0 3 0 0
+D 19344 0 3 0 0
+D 19345 2 3 0 0
+D 19347 0 3 0 0
+D 19348 2 3 0 0
+D 19350 0 3 0 0
+D 19351 2 3 0 0
+D 19354 3 3 0 0
+D 19355 1 3 0 0
+D 19356 0 3 0 0
+D 19356 1 3 0 0
+D 19356 3 3 0 0
+D 19357 1 3 0 0
+D 19358 2 3 0 0
+D 19359 3 3 0 0
+D 19363 0 11 0 0
+D 19371 2 11 0 0
+D 19380 0 3 0 0
+D 19381 2 3 0 0
+O 19301 0 19301 0 100
+M 19320 20 19301 2 100
+M 19319 20 19301 2 100
+M 19321 20 19302 1 100
+M 19322 20 19302 1 100
+M 19323 20 19302 1 100
+M 19321 20 19303 1 100
+M 19322 20 19303 1 100
+O 19321 0 19304 0 100
+M 19304 1 19304 1 100
+G 19325 0 0 0 100
+G 19346 0 0 0 100
+G 19347 0 0 0 100
+G 19351 0 0 0 100
+M 19308 8 19304 3 100
+M 19308 8 19304 3 100
+M 19308 8 19304 3 100
+M 19305 1 19305 1 100
+G 19308 0 0 0 100
+G 19307 0 0 0 100
+G 19306 0 0 0 100
+G 19305 0 0 0 100
+G 19304 0 0 0 100
+G 19303 0 0 0 100
+G 19302 0 0 0 100
+G 19319 0 0 0 100
+G 19320 0 0 0 100
+O 19337 0 19306 0 100
+O 19335 0 19306 0 100
+O 19336 0 19306 0 100
+M 19318 20 19306 1 100
+M 19317 20 19306 1 100
+M 19316 20 19306 1 100
+M 19315 20 19306 1 100
+M 19313 20 19306 3 100
+M 19313 20 19306 3 100
+M 19313 20 19306 3 100
+M 19314 20 19306 1 100
+O 19337 0 19307 0 100
+O 19336 0 19307 0 100
+O 19335 0 19307 0 100
+M 19318 20 19307 1 100
+M 19317 20 19307 1 100
+M 19316 20 19307 1 100
+M 19315 20 19307 1 100
+M 19314 20 19307 3 100
+M 19314 20 19307 3 100
+M 19314 20 19307 3 100
+M 19319 20 19308 2 100
+M 19320 20 19308 2 100
+O 19332 0 19315 0 100
+O 19333 0 19315 0 100
+O 19334 0 19315 0 100
+M 19313 20 19315 1 100
+M 19316 20 19315 1 100
+M 19317 20 19315 1 100
+M 19318 20 19315 1 100
+O 19334 0 19316 0 100
+O 19333 0 19316 0 100
+O 19332 0 19316 0 100
+M 19315 20 19316 1 100
+M 19316 20 19316 1 100
+O 19333 0 19318 0 100
+O 19332 0 19318 0 100
+O 19334 0 19318 0 100
+M 19315 20 19318 1 100
+M 19318 20 19318 1 100
+M 19317 20 19318 1 100
+M 19314 20 19318 1 100
+M 19313 20 19318 2 100
+M 19313 20 19318 2 100
+O 19335 0 19319 0 100
+O 19336 0 19319 0 100
+O 19337 0 19319 0 100
+M 19314 20 19319 2 100
+M 19314 20 19319 2 100
+M 19313 20 19319 2 100
+M 19313 20 19319 2 100
+M 19318 20 19319 1 100
+M 19317 20 19319 1 100
+M 19316 20 19319 1 100
+M 19315 20 19319 1 100
+M 19319 20 19320 2 100
+M 19320 20 19320 2 100
+M 19323 20 19323 1 100
+O 19334 0 19324 0 100
+O 19332 0 19324 0 100
+O 19333 0 19324 0 100
+M 19314 20 19324 2 100
+M 19314 20 19324 2 100
+M 19318 20 19324 1 100
+O 19332 0 19330 0 100
+O 19333 0 19330 0 100
+O 19334 0 19330 0 100
+M 19316 20 19330 1 100
+M 19313 20 19330 1 100
+M 19314 20 19330 1 100
+M 19317 20 19330 1 100
+O 19334 0 19331 0 100
+O 19333 0 19331 0 100
+O 19332 0 19331 0 100
+M 19316 20 19331 1 100
+M 19318 20 19331 1 100
+M 19314 20 19331 1 100
+M 19313 20 19331 1 100
+O 19332 0 19335 0 100
+O 19334 0 19335 0 100
+O 19333 0 19335 0 100
+M 19315 20 19335 1 100
+M 19317 20 19335 1 100
+M 19318 20 19335 1 100
+M 19314 20 19335 1 100
+O 19334 0 19338 0 100
+O 19332 0 19338 0 100
+O 19333 0 19338 0 100
+M 19314 20 19338 1 100
+M 19318 20 19338 1 100
+M 19317 20 19338 1 100
+O 19332 0 19341 0 100
+O 19333 0 19341 0 100
+O 19334 0 19341 0 100
+M 19316 20 19341 1 100
+M 19315 20 19341 1 100
+O 19334 0 19345 0 100
+O 19333 0 19345 0 100
+O 19332 0 19345 0 100
+M 19315 20 19345 1 100
+M 19316 20 19345 1 100
+O 19332 0 19348 0 100
+O 19333 0 19348 0 100
+O 19334 0 19348 0 100
+M 19316 20 19348 1 100
+M 19315 20 19348 1 100
+O 19332 0 19351 0 100
+O 19334 0 19351 0 100
+O 19333 0 19351 0 100
+M 19313 20 19351 1 100
+M 19316 20 19351 1 100
+M 19318 20 19351 1 100
+M 19317 20 19351 1 100
+O 19322 0 19353 0 100
+M 19353 1 19353 1 100
+G 19326 0 0 0 100
+G 19348 0 0 0 100
+G 19349 0 0 0 100
+G 19350 0 0 0 100
+M 19307 6 19353 2 100
+M 19307 6 19353 2 100
+O 19324 0 19354 0 100
+M 19354 1 19354 1 100
+O 19323 0 19355 0 100
+M 19310 5 19355 5 100
+M 19309 5 19355 5 100
+M 19310 5 19355 5 100
+M 19309 5 19355 5 100
+M 19310 5 19355 5 100
+M 19309 5 19355 5 100
+M 19310 5 19355 5 100
+M 19309 5 19355 5 100
+M 19310 5 19355 5 100
+M 19309 5 19355 5 100
+O 19327 0 19357 0 100
+O 19328 0 19357 0 100
+M 19311 1 19357 1 100
+O 19327 0 19358 0 100
+O 19327 0 19359 0 100
+O 19329 0 19359 0 100
+M 19312 1 19359 1 100
+M 19306 1 19360 1 100
+G 19311 0 0 0 100
+G 19310 0 0 0 100
+G 19309 0 0 0 100
+G 19312 0 0 0 100
+G 19315 0 0 0 100
+G 19314 0 0 0 100
+G 19313 0 0 0 100
+G 19317 0 0 0 100
+G 19316 0 0 0 100
+G 19318 0 0 0 100
+O 19384 0 19363 0 100
+O 19367 0 19367 0 100
+M 19367 1 19367 1 100
+E 19365 0 13 0 100
+E 19366 0 0 0 100
+M 19368 3 19367 3 100
+E 19369 0 23 0 100
+E 19368 0 16 0 100
+M 19368 3 19367 3 100
+E 19369 0 23 0 100
+E 19368 0 16 0 100
+M 19368 3 19367 3 100
+E 19369 0 22 0 100
+E 19368 0 16 0 100
+M 19377 4 19377 1 100
+E 19341 0 14 0 100
+E 19341 0 15 0 100
+E 19342 0 12 0 100
+E 19343 0 16 0 100
+M 19377 4 19378 1 100
+E 19341 0 14 0 100
+E 19341 0 15 0 100
+E 19342 0 12 0 100
+E 19343 0 16 0 100
+M 19377 4 19379 1 100
+E 19341 0 14 0 100
+E 19341 0 15 0 100
+E 19342 0 12 0 100
+E 19343 0 16 0 100
+M 19379 5 19379 5 100
+E 19379 0 21 0 100
+M 19378 5 19379 5 100
+E 19378 0 1 0 100
+M 19377 4 19380 1 100
+E 19341 0 14 0 100
+E 19341 0 15 0 100
+E 19342 0 12 0 100
+E 19380 0 16 0 100
+O 19330 0 19380 0 100
+M 19380 1 19380 1 100
+E 19381 0 16 0 100
+E 19382 0 21 0 100
+O 19331 0 19381 0 100
+M 19381 1 19381 1 100
+E 19338 0 16 0 100
+E 19339 0 5 0 100
+E 19340 0 13 0 100
+M 19384 10 19382 5 100
+M 19382 10 19382 5 100
+M 19384 10 19382 5 100
+M 19382 10 19382 5 100
+M 19384 10 19382 5 100
+M 19382 10 19382 5 100
+M 19384 10 19382 5 100
+M 19382 10 19382 5 100
+M 19384 10 19382 5 100
+M 19382 10 19382 5 100
+O 19383 0 19383 0 100
+M 19383 5 19383 5 100
+E 19344 0 16 0 100
+M 19385 5 19383 5 100
+E 19345 0 16 0 100
+M 19383 5 19383 5 100
+E 19344 0 16 0 100
+M 19385 5 19383 5 100
+E 19345 0 16 0 100
+M 19383 5 19383 5 100
+E 19344 0 16 0 100
+M 19385 5 19383 5 100
+E 19345 0 16 0 100
+M 19383 5 19383 5 100
+E 19344 0 16 0 100
+M 19385 5 19383 5 100
+E 19345 0 16 0 100
+M 19383 5 19383 5 100
+E 19344 0 16 0 100
+M 19385 5 19383 5 100
+E 19345 0 16 0 100
+M 19382 10 19384 5 100
+M 19384 10 19384 5 100
+M 19382 10 19384 5 100
+M 19384 10 19384 5 100
+M 19382 10 19384 5 100
+M 19384 10 19384 5 100
+M 19382 10 19384 5 100
+M 19384 10 19384 5 100
+M 19382 10 19384 5 100
+M 19384 10 19384 5 100
+S
+
+
+
+#SHOPS
+19304 17 0 0 0 0 100 100 0 24
+19305 9 5 15 17 12 115 80 0 24
+19306 19 0 0 0 0 115 80 0 24
+19353 19 0 0 0 0 100 100 0 24
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

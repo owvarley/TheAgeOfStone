@@ -1,0 +1,4 @@
+#!/bin/bash
+
+diff -C 2 -P -x '*.o' -x '*.wot' -x 'wot' -x 'texts' ../last/ . > patch.wot
+

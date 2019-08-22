@@ -1,0 +1,577 @@
+#20
+## Guild Table Data file
+## Written Wed May 08 08:58:34 2002
+## Contains 20 guilds.
+## File Format
+#
+# Guild  (string)           // The Name of this guild.
+# Who    (string)           // The name shown in 'who' listing.
+# Rooms # # # (numeric)     // The hall|morgue&temple room vnums.
+# Rank  # (number) (string) // The rank name and number of this rank.
+# Skill # (number) (string) // The skill associated with rank (number)
+# ML # # # # (all numeric)  // The Mortal leader bits for this guild.
+# Flags x (bitarray)        // This guilds flags.
+#
+
+Guild	Storage~
+Who	~
+Rooms	0	0	0
+Rank	1	Unassigned~
+Rank	2	Unassigned~
+Rank	3	Unassigned~
+Rank	4	Unassigned~
+Rank	5	Unassigned~
+Rank	6	Unassigned~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+ML	0  0  0  0
+Flags | 
+
+
+Guild	Elements~
+Who	Immortal~
+Rooms	9309	9309	9309
+Rank	1	Newbie Helper~
+Rank	2	Editor~
+Rank	3	Quest Immortal~
+Rank	4	Watcher~
+Rank	5	Head Builder~
+Rank	6	Coding Assistant~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+ML	0  0  0  0
+Flags F| 
+
+
+Guild	Council~
+Who	`CC`counci`Cl`w~
+Rooms	9309	9309	9309
+Rank	1	`CI`cmpl`Wem`cent`Cor`w~
+Rank	2	`gB`Gr`Noth`Ge`gr to `gB`Wa`Ntt`Wl`ge`w~
+Rank	3	`NF`wo`Wr`Ys`ya`Nk`we`Nn`w~
+Rank	4	`WThe `YU`yn`W-crown`ye`Yd `YK`wi`Wn`Yg`w~
+Rank	5	`NThe `RD`Yr`Nag`Yo`Rn`N~
+Rank	6	`NThe `rD`Na`Wr`Nk `rO`Nn`We`N~
+Rank	7	`WThe `YC`yr`Weat`yo`Yr`w~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+ML	0  0  0  0
+Flags F| 
+
+
+Guild	Testers~
+Who	`mT`Me`Nste`Mr`ms`w~
+Rooms	9309	9309	9309
+Rank	1	`MC`mra`Wsh Du`mmm`My`w!~
+Rank	2	Gai'shan~
+Rank	3	Aiel~
+Rank	4	Sept Chief~
+Rank	5	Clan Chief~
+Rank	6	Wise One~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+Skill	17	spears dance~
+ML	0  0  0  0
+Flags H| 
+
+
+Guild	Gaidin~
+Who	Gaidin~
+Rooms	9309	9309	9309
+Rank	1	Student~
+Rank	2	Towerguard~
+Rank	3	Intended~
+Rank	4	Warder~
+Rank	5	Gaidin Master~
+Rank	6	Master at Arms~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Big Bad Mofo~
+Skill	3	detect hidden~
+Skill	4	cloak~
+Skill	5	none~
+ML	0  0  0  0
+Flags G| 
+
+
+Guild	Shae'din~
+Who	Shae'din~
+Rooms	9309	9309	9309
+Rank	1	Cub~
+Rank	2	Pack Stalker~
+Rank	3	Pack Runner~
+Rank	4	Wolfbrother~
+Rank	5	Pack Leader~
+Rank	6	Alpha Wolf~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+Skill	1	infravision~
+Skill	2	animal ferocity~
+Skill	3	detect hidden~
+Skill	4	callwolf~
+ML	0  0  0  0
+Flags E| 
+
+
+Guild	Wansho~
+Who	Wansho~
+Rooms	9309	9309	9309
+Rank	1	Apprentice~
+Rank	2	Journeyman~
+Rank	3	Stonemason~
+Rank	4	Treesinger~
+Rank	5	Elder~
+Rank	6	Eldest~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+Skill	1	read~
+Skill	2	lore~
+Skill	3	stonemasonry~
+Skill	4	treesinging~
+ML	0  0  0  0
+Flags M| 
+
+
+Guild	Aes Sedai~
+Who	Aes Sedai~
+Rooms	9309	9309	9309
+Rank	1	Novice~
+Rank	2	Accepted~
+Rank	3	Aes Sedai~
+Rank	4	Sitter~
+Rank	5	Keeper of Chronicles~
+Rank	6	Amyrlin Seat~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+ML	0  0  0  0
+Flags I| 
+
+
+Guild	Children~
+Who	Children~
+Rooms	9309	9309	9309
+Rank	1	Recruit~
+Rank	2	Child~
+Rank	3	Lieutenant~
+Rank	4	Captain~
+Rank	5	Lord Captain~
+Rank	6	Lord Captain Commander~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+Skill	2	wrath~
+ML	0  0  0  0
+Flags J| 
+
+
+Guild	Tuatha'an~
+Who	Tuatha'an~
+Rooms	9309	9309	9309
+Rank	1	Follower~
+Rank	2	Believer~
+Rank	3	Tinker~
+Rank	4	Wayfarer~
+Rank	5	Mahdi's Consort
+Rank    6       Mahdi~
+Rank	6	Unassigned~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+Skill	2	tiganza~
+ML	0  0  0  0
+Flags N| 
+
+
+Guild	Shadar~
+Who	Shadar~
+Rooms	9309	9309	9309
+Rank	1	Minion~
+Rank	2	Darkfriend~
+Rank	3	Dreadlord~
+Rank	4	General~
+Rank	5	Forsaken~
+Rank	6	Nae'blis~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+ML	0  0  0  0
+Flags O| 
+
+
+Guild	Illuminator~
+Who	Illuminator~
+Rooms	9309	9309	9309
+Rank	1	Dabbler~
+Rank	2	Apprentice~
+Rank	3	Illuminator~
+Rank	4	Master Illuminator~
+Rank	5	Master of Houses~
+Rank	6	Guildmaster~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+ML	0  0  0  0
+Flags Q| 
+
+
+Guild	Gleemen~
+Who	Gleeman~
+Rooms	9309	9309	9309
+Rank	1	Entertainer~
+Rank	2	Wanderer~
+Rank	3	Gleeman~
+Rank	4	Loresman~
+Rank	5	Master Gleeman~
+Rank	6	Court Bard~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+Skill	2	auto dodge~
+ML	0  0  0  0
+Flags R| 
+
+
+Guild	Asha'man~
+Who	Asha'man~
+Rooms	9309	9309	9309
+Rank	1	Soldier~
+Rank	2	Dedicated~
+Rank	3	Asha'man~
+Rank	4	Baijan'm'hael~
+Rank	5	Tsorovan'm'hael~
+Rank	6	M'Hael~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+Skill	3	rolling ring~
+ML	0  0  0  0
+Flags S| 
+
+
+Guild	Red Hand~
+Who	Red Hand~
+Rooms	9309	9309	9309
+Rank	1	Scout~
+Rank	2	Footman~
+Rank	3	Red Arm~
+Rank	4	Bannerman~
+Rank	5	General~
+Rank	6	Marshal General~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+Skill	1	autododge~
+Skill	3	none~
+ML	0  0  0  0
+Flags T| 
+
+
+Guild	Hailene~
+Who	Hailene~
+Rooms	9309	9309	9309
+Rank	1	Damane~
+Rank	2	Sul'dam~
+Rank	3	Soldier~
+Rank	4	So'jihn~
+Rank	5	Blood~
+Rank	6	High Lord~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+Skill	1	Blood~
+ML	0  0  0  0
+Flags L| 
+
+
+Guild	Atha'an Miere~
+Who	Atha'an Miere~
+Rooms	9309	9309	9309
+Rank	1	Deckhand~
+Rank	2	Deckmaster~
+Rank	3	Windfinder Apprentice~
+Rank	4	Cargomaster~
+Rank	5	Windfinder~
+Rank	6	Mistress of Ships~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+Skill	2	auto dodge~
+ML	0  0  0  0
+Flags c| 
+
+
+Guild	Unassigned~
+Who	~
+Rooms	0	0	0
+Rank	1	Unassigned~
+Rank	2	Unassigned~
+Rank	3	Unassigned~
+Rank	4	Unassigned~
+Rank	5	Unassigned~
+Rank	6	Unassigned~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+ML	0  0  0  0
+Flags | 
+
+
+Guild	Unassigned~
+Who	~
+Rooms	0	0	0
+Rank	1	Unassigned~
+Rank	2	Unassigned~
+Rank	3	Unassigned~
+Rank	4	Unassigned~
+Rank	5	Unassigned~
+Rank	6	Unassigned~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+ML	0  0  0  0
+Flags | 
+
+
+Guild	Unassigned~
+Who	~
+Rooms	0	0	0
+Rank	1	Unassigned~
+Rank	2	Unassigned~
+Rank	3	Unassigned~
+Rank	4	Unassigned~
+Rank	5	Unassigned~
+Rank	6	Unassigned~
+Rank	7	Unassigned~
+Rank	8	Unassigned~
+Rank	9	Unassigned~
+Rank	10	Unassigned~
+Rank	11	Unassigned~
+Rank	12	Unassigned~
+Rank	13	Unassigned~
+Rank	14	Unassigned~
+Rank	15	Unassigned~
+Rank	16	Unassigned~
+Rank	17	Unassigned~
+Rank	18	Unassigned~
+Rank	19	Unassigned~
+Rank	20	Unassigned~
+ML	0  0  0  0
+Flags | 
+
+
+End

@@ -1,0 +1,33 @@
+#MUDDATA
+# This 'muddata' file is used to keep track of various
+# 'states' and settings of the mud.  This is where the
+# commands 'mudstate' & 'mudcfg' get their information.
+Version              10
+Logins               203
+NewChars             19
+Newbies              24
+Deletions            13
+Unlinks              0
+CopyoverLast         0
+Flags                0
+#--Configuration Settings
+MudName              The Stone of Ages~
+Exp_Mod              1.000000
+Courageous           10
+LevelNoPeace         15
+PkLimit              5
+BoxCost              3000
+ShareValue           180
+MaxPCTalents         1
+MaxPCSpecialties     1
+WaitTimer            3
+ViolenceTimer        5
+MaxCreationPoints    200
+BaseSoundURL         http://yourmud.com/sounds/~
+RedirectMSG          ;ñ~
+RedirectURL          ;ñ~
+WelcomeMSG           `WWelcome to The `CS`cton`Ce`W of `CA`cge`Cs`w (Taos-v001a)~
+ConfigFlags          BCDEFGHIJLMNPQRSTU|
+#0
+
+End

@@ -1,0 +1,2498 @@
+#AREADATA
+Name Tel'aran'rhiod~
+Builders None~
+VNUMs 1 299
+Sector 0
+Credits [ 1 50] Tel'aran'rhiod~
+Security 9
+LastSaved 03/21/102~
+Flags AF
+Version 5
+End
+
+
+
+#MOBILES
+#3
+sleek black jaguar~
+a sleek and sexy jaguar~
+A sleek black jaguar paces restlessly, testing the boundaries of its chains.
+~
+~
+human~
+B|
+|
+0 0
+25 0 50d50+3 4d6+6 8d2+10 none
+0 0 0 0
+|
+FGR|
+|
+|
+stand stand female 0
+P|
+KLPR|
+medium unknown
+#10
+slave girl~
+A slave girl~
+A girl, dressed in a gown of transparent silk, awaits the orders of her Master.
+~
+Flowing chestnut hair frames a oval face of perfect beauty.  Her eyes are
+a rich shade of brown so deep they seem almost black in the soft light of
+the room.  Her slender figure is merely enhanced by the gown of pale blue
+silk that ripples like a pond even in the slightest breath of air.  She
+stands next to a table that holds a decanter of wine and goblets of fine
+crystal.  Her bright eyes are cast slightly downward and her posture is
+relaxed, as she awaits Moridin's slightest word or gesture.  
+~
+human~
+BW|
+|
+-1000 0
+25 25 12d30+250 2d3+3 8d2+12 none
+-7 -7 -7 -2
+|
+CD|
+|
+|
+stand stand female 0
+|
+|
+medium unknown
+M SPEECH 10 girl~
+#12
+lkjlj~
+(no short description)~
+(no long description)
+~
+~
+human~
+B|
+|
+0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+|
+|
+|
+|
+stand stand none 0
+|
+|
+medium unknown
+M GRALL 12 100~
+#16
+annoying tormentor sicko {Team Evul} mobile~
+the Torturer of {Team Evul}~
+A man cloaked as an executioner stands here.
+~
+This enormous man stands here, cold and angry. He represents the wrath of
+the Immortal Team here at Tarmon Gai'don. A large tattoo is branded on his
+arm, @
+~
+human~
+BEFG|
+CDEFGHMN|
+0 0
+100 200 100d60+2000 4d6+6 33d2+100 none
+-116 -116 -116 -74
+|
+BCDELQT|
+|
+|
+stand stand male 0
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M ACT 4 drink~
+M ACT 3 sit~
+M ACT 2 look~
+M ACT 6 sleep~
+M DELAY 1 100~
+#17
+boy child andor~
+a young child~
+A young Andoran boy runs recklessly through the streets.
+~
+A young Andoran boy with short blond hair runs through the streets with a
+reckless abandon.  He is quick to dodge out of the way of any of the older
+citizens, including yourself.  
+~
+human~
+BK|
+|
+0 0
+10 10 5d30+100 2d4+4 3d2+10 none
+2 2 2 4
+GO|
+|
+|
+|
+stand stand male 10
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M RANDOM 17 10~
+#20
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+B|
+|
+0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+|
+|
+|
+|
+stand stand none 0
+|
+|
+medium unknown
+#40
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+B|
+|
+0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+|
+|
+|
+|
+stand stand none 0
+|
+|
+medium unknown
+#51
+war horse warhorse Cair'cue~
+Cair'cue, the sleek warhorse~
+A large sleek horse keeps a wary eye on you.
+~
+A sleek, pure white horse, of Tairen stock prances and dances before your
+view.  Large muscular legs and flared lips give evidence of this horse's
+true purpose: not show, not fun.  It's a warhorse.  Plain and simple.  
+~
+horse~
+BEFH|
+GMOPa|
+500 0
+60 60 30d30+600 2d4+4 20d2+30 charge
+-30 -30 -30 -18
+FGHIJN|
+BCEHIP|
+|
+|
+stand stand male 0
+BFP|
+BDEFGKLP|
+medium unknown
+#63
+Megida~
+a white war mare~
+A pure white mare stands here with it's master.
+~
+The legendary warhorse `YM`Wegid`Ya`w stands here majestically, filling
+most of the room.  The mount of `YL`Wor`Yd `YC`Waptai`Yn `YM`Wathala`Yr `YT`Warna`Yn`w,
+this is one of the best trained and most fearless mounts in all
+the realm.  Under her watchful eye no harm shall come to the 
+`YL`Wor`Yd C`Waptai`Yn`w.  Her coat glows a pure `Wwhite`w and the `ytack`w she is
+adorned with is the best money can buy.
+~
+horse~
+BH|
+|
+500 0
+55 55 27d30+550 2d3+3 18d2+27 none
+-28 -28 -28 -16
+GI|
+|
+|
+|
+stand stand female 0
+BFP|
+BDEFGKLP|
+medium unknown
+#150
+sergeant arms~
+a Sergeant of the Queen's Guard~
+A Sergeant of the Queen's Guard stands here, cold and silent.
+~
+~
+human~
+BEFMNUVX|
+DFGNTa|
+1000 0
+56 56 28d30+560 2d3+3 18d2+28 punch
+-28 -28 -28 -17
+BDEFGIJLP|
+BDEFGHIKLMNOPQRTU|
+|
+|
+stand stand male 30000
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#171
+no name~
+(no short description)~
+(no long description)
+~
+~
+human~
+B|
+|
+0 0
+0 0 0d0+0 0d0+0 0d0+0 none
+0 0 0 0
+|
+|
+|
+|
+stand stand none 0
+|
+|
+medium unknown
+#299
+Timberwolf~
+a large Timberwolf~
+A large, grisled Timberwolf
+~
+Dark `Yyellow`w eyes glare back at you as it crouches, ready to jump for
+your throat.  
+ 
+~
+wolf~
+B|D
+X|
+0 0
+30 0 4d30+900 4d6+6 4d20+80 bite
+0 0 0 0
+IM|
+|
+|
+|
+stand stand none 0
+BFP|
+BDEFGKLPR|
+medium unknown
+#0
+
+
+
+#OBJECTS
+#1
+coin silver gcash~
+a silver coin~
+One miserable silver coin.~
+silver~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#2
+coin gold gcash~
+a gold coin~
+One valuable gold coin.~
+gold~
+money 0 A
+0 A 0 0 0
+0 10 0 P
+#3
+gold coins gcash~
+%d gold coins~
+A pile of gold coins lies here.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#4
+coins silver gcash~
+%d silver coins~
+A pile of silver coins.~
+silver~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#5
+coins silver gold gcash~
+%d silver coins and %d gold coins~
+A pile of coins.~
+gold~
+money 0 A
+0 0 0 0 0
+0 10 0 P
+#6
+generic qgen item~
+generic qgen item~
+Generic qgen item- DO NOT DELETE~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#7
+Sungwood Bookcase~
+a Sungwood Bookcase~
+A beautiful Sungwood Bookcase is here~
+unknown~
+container SY 0
+500 0 0 -1 0
+0 100 0 P
+E
+sungwood~
+A softly flowing Bookcase is here,
+seeming to grow out of the Wwalls, so
+perfect is the Work of Ogier.
+It's owner must either appreciate the Ogier's
+Art of Singing Wood, or agree with their
+attitude of furniture that doesn't
+harm the tree in it's making, or both.
+~
+#8
+couch fancloth~
+a `Nf`wa`wn`Wc`cl`wo`Nt`gh`w-covered couch~
+A `Nf`wa`wn`Wc`cl`wo`Nt`gh`w-covered couch almost escapes notice.~
+fancloth and chora wood~
+furniture 0 0
+ABFG ABCDEFJOQRST BEH 0 0
+0 0 0 P
+#9
+quest_weapon Moridin use ONLY! You will be demoted!~
+.~
+.~
+unknown~
+weapon HMPYb AN
+exotic 20 5 slash ACD
+58 20 0 P
+A
+19 50 -1
+A
+18 50 -1
+#10
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+npc_corpse 0 A
+0 0 0 A 0
+0 1000 0 D
+#11
+corpse~
+the corpse of %s~
+The corpse of %s is lying here.~
+meat~
+pc_corpse O A
+0 0 0 A 0
+0 1000 0 D
+#12
+head~
+the head of %s~
+The severed head of %s is lying here.~
+meat~
+trash 0 A
+0 0 0 0 0
+0 50 0 D
+#13
+heart~
+the heart of %s~
+The torn-out heart of %s is lying here.~
+meat~
+food 0 A
+E E 0 0 0
+0 20 0 D
+#14
+arm~
+the arm of %s~
+The sliced-off arm of %s is lying here.~
+meat~
+food 0 A
+CE CE 0 0 0
+0 50 0 D
+#15
+leg~
+the leg of %s~
+The sliced-off leg of %s is lying here.~
+meat~
+food 0 A
+CE CE 0 0 0
+0 50 0 D
+#16
+guts entrails~
+the guts of %s~
+A steaming pile of %s's entrails is lying here.~
+meat~
+food 0 A
+AC AC 0 A 0
+0 20 0 D
+#17
+brains brain~
+the brains of %s~
+The splattered brains of %s are lying here.~
+meat~
+food 0 A
+BD BD 0 0 0
+0 20 0 D
+#20
+mushroom~
+a large toadstool~
+A large toadstool lies here.~
+food~
+food 0 A
+D D 0 0 0
+0 10 0 P
+#21
+ball light~
+a bright ball of light~
+A bright ball of light shimmers in the air.~
+energy~
+light APUde A
+0 0 ABCFGHIJ 0 0
+0 0 0 P
+#22
+spring~
+a pool of water~
+Seemingly out of place, a pool of fresh water is here.~
+water~
+fountain G 0
+100000 100000 'water' 0 0
+0 0 0 P
+#23
+disc disk floating black~
+a floating disc~
+A floating black disc hangs in the air.~
+energy~
+container GMPUYZ AQ
+0 E 0 0 0
+0 0 0 P
+#25
+gate portal~
+a shimmering gate~
+A shimmering black gate rises from the ground, leading to parts unknown.~
+shadow~
+portal GOT 0
+0 0 0 0 0
+0 0 0 P
+#26
+trail blood~
+a blood trail~
+Blood splatters the ground here in a trail heading off to the .~
+blood~
+fountain 0 0
+2 2 'blood' 0 0
+0 0 0 P
+#27
+Tears of a Maiden~
+a Maiden's tears~
+The `cTears`w of a Maiden~
+unknown~
+herb 0 A
+60 '' '' '' ''
+30 1 0 P
+#28
+painting monet~
+an original Monet~
+A self-portrait of the artist, Monet~
+canvas and paint~
+protect A 0
+0 0 0 0 0
+60 0 100000000 P
+E
+painting~
+Done in soft, shadowed highlights, the artists rare style comes boldly 
+forward in this self-portrait.  Finished after the height of his career, Monet
+is portrayed older, wise, and full of mischief.
+ 
+~
+#29
+canvas easel~
+a paint covered easel, holding a large canvas.~
+A paint covered easel, holding a large canvas.~
+canvas and wood~
+furniture I 0
+0 0 0 0 0
+10 0 0 P
+E
+canvas~
+Touched by the art of one truly inspired, the painting slowly taking form
+on the canvas is breathtaking in the extreme.  Vibrant colors bring out the
+crash of waves against a tall crag, seagulls soar in exquisite detail above
+a sky the creator himself would have been proud to paint.  
+ 
+The Baby Grand piano on the beach shines with the glare of a midsummers day,
+the artists work bringing the sounds of a hauntingly sweet melody to your heart.
+ 
+~
+#30
+bowl of butterscotch icecream~
+a chilled bowl of `ybutterscotch`w icecream~
+A chilled bowl of `ybutterscotch`w icecream~
+icecream~
+food 0 A
+B B 0 0 0
+0 0 0 P
+#31
+cuendilar bracer~
+`NC`wu`Ne`wn`Nd`wi`Nl`wl`Na`wr backed bracer.~
+`NC`wu`Ne`wn`Nd`wi`Nl`wl`Na`wr backed bracer.~
+Cuendillar~
+armor Y AM
+CD CD CD CD 0
+40 4 4000 P
+A
+19 3 -1
+A
+18 3 -1
+A
+1 2 -1
+#32
+HeronMarked long sword~
+a `gHeron`w marked, `yB`No`w`yr`Nd`w`ye`Nr`w`yl`Na`w`yn`Nd`w`ys`w long sword~
+A `gHeron`w marked, `yB`No`w`yr`Nd`w`ye`Nr`w`yl`Na`w`yn`Nd`w`ys`w long sword~
+Steel~
+weapon HMY AN
+exotic 6 8 slash D
+40 10 5000 P
+A
+19 5 -1
+A
+18 5 -1
+#33
+a couch~
+a comfortable couch~
+A comfortable couch, built for two is here~
+leather~
+furniture 0 0
+B 0 DEGHS DGH DGH
+0 0 0 P
+#35
+no name~
+(no short description)~
+(no description)~
+unknown~
+portal 0 0
+0 D ACDEHIJKLMNOPQRSTUVWXYZabcdef 0 0
+0 0 0 P
+#37
+quest flag official~
+`Wan `Yoff`Rici`ral Q`Rues`Yt fl`Wag`w~
+A flag of pulsing grandness has been planted here majestically.~
+unknown~
+trash ABHIMUZa A
+0 0 0 0 0
+0 0 0 P
+E
+flag~
+This is an ooc object used by immortals for the purpose of keeping score
+in certain types of quests.  If you have one of these, it is likely you have
+a reward coming.  Do NOT try to replicate this object or pass it to anyone. 
+Any violations in conduct regarding this flag, be they ethical or
+behavioral, will be severely punished.  Ignorance of the law does not make
+one exempt from it.  Thank you for playing Tarmon Gaidon, and may all your
+tomorrows be better than your yesterdays.  
+~
+E
+quest~
+This is an ooc object used by immortals for the purpose of keeping score
+in certain types of quests.  If you have one of these, it is likely you have
+a reward coming.  Do NOT try to replicate this object or pass it to anyone. 
+Any violations in conduct regarding this flag, be they ethical or
+behavioral, will be severely punished.  Ignorance of the law does not make
+one exempt from it.  Thank you for playing Tarmon Gaidon, and may all your
+tomorrows be better than your yesterdays.  
+~
+#38
+turning~
+a turning of the Wheel~
+(no description)~
+unknown~
+protect MNYZ AQW
+0 0 0 0 0
+0 0 0 P
+A
+21 -1 -1
+A
+13 20 -1
+A
+19 3 -1
+A
+18 3 -1
+A
+4 2 -1
+A
+5 2 -1
+A
+3 2 -1
+#40
+vortex dream swirling~
+`Wa `cd`Cre`Wamg`Cat`ce`w~
+`CA `Ws`ww`Wi`wr`Wl`wi`Wn`wg `mvortex `Ccoalesces `Wh`we`Wr`we.~
+unknown~
+portal ABFY A
+0 0 C ABEFGJKLN 0
+0 0 0 P
+#50
+crystal goblet~
+a `Wcrystal`w goblet `Wen`wcr`Nu`wst`Wed`w with `bs`Ba`bp`Bp`bh`Bi`br`Be`bs`w~
+A stuuning goblet worked in crystal and encrusted with tiny sapphires.~
+crystal~
+drink 0 A
+10 10 'red wine' 0 0
+1 1 0 P
+#51
+moridins chair~
+`NM`wor`Wid`win'`Ns`w chair~
+`NM`wor`Wid`win'`Ns`w LA-Z-BOY chair. A relic from the Age of Legends.~
+leather~
+furniture O P
+A CEFGHI E 0 0
+58 10000 0 P
+#52
+uncomfortable iron couch~
+the couch of punishment~
+A hideously uncomfortable looking couch sits here ponderously.~
+Karma~
+furniture E 0
+AC EIJKN BEHK CFG CFG
+0 10000 0 P
+E
+couch~
+This couch must have been created by the Dark One himself, for only the
+most evil soul in existence could have designed such a thing.  Made of rough
+iron, the structure has been sculpted to resemble a pile of bones with
+pieces of flesh still attatched.  
+~
+#53
+fountain black marble ancient sinners~
+the fountain of sin~
+An ancient black marble fountain has been placed here. ~
+unknown~
+fountain E 0
+-1 -1 'blood' 0 0
+0 10000 0 P
+E
+fountain~
+This fountain is made from stone as dark as the inside of a coffin on a
+moonless night.  Carved to resemble two giant cupped hands, the detail
+rendered on the object is amazing.  Each individual pore can be made out,
+making the fountain appear nearly alive.  The liquid held within the hands
+is reddish in hue, though it is identifiable as water to the taste.  
+~
+#54
+tree skeletal repentance~
+the tree of repentance~
+A skeletal tree covered with prickly fruit grows here.~
+unknown~
+container E 0
+1000 0 0 100 0
+0 10000 0 P
+E
+tree~
+This tree looks like the skeleton of one of the Nym, little more than
+scraggly branches and sharp twigs.  The bark on its surface is a mottled and
+unhealthy-looking black and grey, perhaps caused by a fungus of some sort. 
+On each branch grow several pieces of a prickly fruit, though none of it
+looks terribly appetizing.  
+~
+#55
+fruit spiny prickly despair piece~
+the fruit of despair~
+A spiny piece of fruit has fallen to the ground here.~
+unknown~
+food EWe A
+CE CE 0 0 0
+0 0 0 P
+E
+fruit~
+The seeds of depression, this fruit has been known to cause suicidal
+impulses in even the most arrogant and egotistical of people.  Perhaps this
+is because the fruit possesses the ability to force those who eat it to see
+themselves as who they truly are, rather than who they would like to be. 
+The result is usually catastrophic.  
+~
+#56
+daniel computer~
+daniel's Computer~
+`RDaniel's Computer`w is here, connected to everyone's favorite mud.~
+plastic~
+treasure ABO 0
+0 0 0 0 0
+56 900 0 P
+#57
+daniel stereo~
+daniel's Stereo~
+`cDaniel's Stereo`w is here, supplying his will to live.~
+plastic~
+musicbox BO 0
+0 0 0 0 0
+56 900 0 P
+#58
+chair high-backed high back~
+a high-backed chair~
+A heavy, high-backed chair stands alone behind the desk.~
+wood~
+furniture 0 0
+A CEFGHI DG ABEFG CFG
+51 900 0 P
+#59
+desk paper covered~
+a desk~
+A desk covered with papers lies in the corner.~
+wood~
+furniture 0 0
+A CEFGHI BEH CFG CFG
+0 0 5000 P
+#60
+small coffee table~
+a small coffee table~
+A small coffee table sits here in front of the chair.~
+wood~
+furniture O 0
+A CEFGHI BEHN BCDFG BCDFG
+0 0 0 P
+#61
+fireplace~
+a stone fireplace~
+A stone `Rfireplace`w provides `Rw`ra`wr`rmt`Rh`w here.~
+stone~
+light AO 0
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+0 1000 0 P
+#62
+An over-stuffed `RC`rhai`Rr`w~
+an over-stuffed `Rc`rhai`Rr`w~
+An over-stuffed `Rc`rhai`Rr`w~
+leather~
+furniture O A
+A CEFGHI BEHN BCDFG BCDFG
+56 0 0 P
+#63
+pillar~
+a twining pillar~
+(no description)~
+unknown~
+furniture 0 0
+A DFGHIJ 0 0 0
+0 0 0 P
+#64
+A hooded, colour-shifting cloak~
+`NA h`wo`Wo`Nd`we`Nd`w, `gc`Wo`Nlo`Wu`gr-`gs`Nh`Wifti`Nn`gg `Nc`Wl`wo`Nak`w~
+`NA h`wo`Wo`Nd`we`Nd`w, `gc`Wo`Nlo`Wu`gr-`gs`Nh`Wifti`Nn`gg `Nc`Wl`wo`Nak lies here, phasing in and out of view`w~
+unknown~
+hoodedcloak ABKb AK
+0 0 0 0 0
+60 12 15000 P
+#90
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#91
+jade sapphire ter'angreal stone~
+a sapphire and jade ter'angreal~
+An ancient stone that resonates of the Power.~
+stone~
+treasure Sae AO
+0 0 0 0 0
+0 0 0 P
+A
+3 15 -1
+A
+5 15 -1
+A
+4 15 -1
+#95
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#96
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#100
+card fang dragon~
+a card, the Dragon's Fang~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+fang~
+`n.`w____________
+|`&%%%%%%%%%%%%`n`w|
+|`&%%%%`n   `&%%%%%`n`w|
+|`&%%`n       `&%%%`n`w|
+|`&%%`n        `&%%`n`w|
+|`&%%%`n       `&%%`n`w|
+|`&%%%%%`n     `&%%`n`w|
+|`&%%%%%%`n    `&%%`n`w|
+|`&%%%%%%`n   `&%%%`n`w|
+|`&%%%%`n   `&%%%%%`n`w|
+|`&%%%%%%%%%%%%`n`w|
+~
+#101
+card fool~
+a card, the Fool~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+sword~
+`n.`w____________
+|            |         
+|   o   `N|_|) `w|         
+|   `y|`w        |         
+|  -+-       |         
+|   `&H`n`N   |_|) `w|         
+|   `&H`n`w        |         
+|   `&H`n`w        |         
+|   `&H`n`N   |_|) `w|         
+|   V        |         
+|____________|         
+~
+#102
+card twoofcups~
+a card, the Two of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+two~
+`n.`w____________
+|            |
+| `y2     +---`w |         
+|     __     |
+|    /  \    |
+|       /    |
+|     /      |
+|    ----    |
+|            |
+| `y+---     2`w |         
+|____________|
+~
+#103
+card threeofcups~
+a card, the Three of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+three~
+`n.`w____________
+|            |
+| `y3     +---`w |         
+|     __     |
+|    /  \    |
+|      _/    |
+|       \    |
+|    \__/    |
+|            |
+| `y+---     3`w |         
+|____________|
+~
+#104
+card fourofcups~
+a card, the Four of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+four~
+`n.`w____________
+|            |
+| `y4     +---`w |         
+|            |
+|    |  |    |
+|    |__|    |
+|       |    |
+|       |    |
+|            |
+| `y+---     4`w |         
+|____________|
+~
+#105
+card fiveofcups~
+a card, the Five of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+five~
+`n.`w____________          
+|            |         
+| `y5     +---`w |         
+|     ___    |         
+|    |       |         
+|    |__     |         
+|       \    |         
+|    \__/    |         
+|            |         
+| `y+---     5`w |         
+|____________|         
+~
+#106
+card sixofcups~
+a card, the Six of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+six~
+`n.`w____________
+|            |         
+| `Y._._. `N|_|) `w|         
+| `Y___/       `w|         
+| `N. .`w)       `w|         
+| `y > `w)  `N|_|) `w|         
+| `y\_/        `w|         
+| `b-`w^`b--_      `w|         
+~
+#107
+card sevenofcups~
+a card, the Seven of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+seven~
+I know you are really busy, but when you get a chance, set me up with 75
+vnum for carysford, I am ready to start on it.  
+ 
+thanks
+ 
+Matt
+~
+#108
+card eightofcups~
+a card, the Eight of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+eight~
+`n.`w____________          
+|            |         
+| `N8     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|    /  \    |         
+|    \__/    |         
+|            |         
+| `N|_|)     8`w |         
+|____________|       
+~
+#109
+card nineofcups~
+a card, the Nine of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+nine~
+`n.`w____________          
+|            |         
+| `N9     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|      /     |         
+|     /      |         
+|            |         
+| `N|_|)     9`w |         
+|____________|      
+~
+#110
+card tenofcups~
+a card, the Ten of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+#111
+card swordofcups~
+a card, the Sword of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+sword~
+`n.`w____________
+|            |         
+|   o   `N|_|) `w|         
+|   `y|`w        |         
+|  -+-       |         
+|   `&H`n`N   |_|) `w|         
+|   `&H`n`w        |         
+|   `&H`n`w        |         
+|   `&H`n`N   |_|) `w|         
+|   V        |         
+|____________|         
+~
+#112
+card ladyofcups~
+a card, the Lady of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+lady~
+`n.`w____________
+|            |         
+|       `N|_|) `w|         
+| `Y()()       `w|         
+| `N. .`Y()      `w|         
+|  `y> `Y() `N|_|) `w|         
+| `y\_/`Y()      `w|         
+| `y' '`B._      `w|         
+| `B\_/   `N|_|) `w|         
+|  `W*         `w|         
+|____________|         
+~
+#113
+card lordofcups~
+a card, the Lord of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+lord~
+`n.`w____________
+|            |         
+| `Y._._. `N|_|) `w|         
+| `Y___/       `w|         
+| `N. .`w)       `w|         
+| `y > `w)  `N|_|) `w|         
+| `y\_/        `w|         
+| `b-`w^`b--_      `w|         
+| `B\`Wv`B/   `N|_|) `w|         
+|  `YO         `w|         
+|____________|   
+~
+#114
+card~
+a card, the Ruler of Cups~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+#115
+card twoofrods~
+a card, the Two of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+two~
+`n.`w____________
+|            |
+| `y2     +---`w |         
+|     __     |
+|    /  \    |
+|       /    |
+|     /      |
+|    ----    |
+|            |
+| `y+---     2`w |         
+|____________|
+~
+#116
+card threeofrods~
+a card, the Three of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+three~
+`n.`w____________
+|            |
+| `y3     +---`w |         
+|     __     |
+|    /  \    |
+|      _/    |
+|       \    |
+|    \__/    |
+|            |
+| `y+---     3`w |         
+|____________|
+~
+#117
+card fourofrods~
+a card, the Four of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+four~
+`n.`w____________
+|            |
+| `y4     +---`w |         
+|            |
+|    |  |    |
+|    |__|    |
+|       |    |
+|       |    |
+|            |
+| `y+---     4`w |         
+|____________|
+~
+#118
+card fiveofrods~
+a card, the Five of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+five~
+`n.`w____________          
+|            |         
+| `y5     +---`w |         
+|     ___    |         
+|    |       |         
+|    |__     |         
+|       \    |         
+|    \__/    |         
+|            |         
+| `y+---     5`w |         
+|____________|         
+~
+#119
+card sixofrods~
+a card, the Six of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+six~
+`n.`w____________
+|            |         
+| `Y._._. `N|_|) `w|         
+| `Y___/       `w|         
+| `N. .`w)       `w|         
+| `y > `w)  `N|_|) `w|         
+| `y\_/        `w|         
+| `b-`w^`b--_      `w|         
+~
+#120
+card sevenofrods~
+a card, the Seven of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+seven~
+I know you are really busy, but when you get a chance, set me up with 75
+vnum for carysford, I am ready to start on it.  
+ 
+thanks
+ 
+Matt
+~
+#121
+card eightofrods~
+a card, the Eight of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+eight~
+`n.`w____________          
+|            |         
+| `N8     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|    /  \    |         
+|    \__/    |         
+|            |         
+| `N|_|)     8`w |         
+|____________|       
+~
+#122
+card nineofrods~
+a card, the Nine of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+nine~
+`n.`w____________          
+|            |         
+| `N9     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|      /     |         
+|     /      |         
+|            |         
+| `N|_|)     9`w |         
+|____________|      
+~
+#123
+card tenofrods~
+a card, the Ten of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+sword~
+`n.`w____________
+|            |         
+|   o   `N|_|) `w|         
+|   `y|`w        |         
+|  -+-       |         
+|   `&H`n`N   |_|) `w|         
+|   `&H`n`w        |         
+|   `&H`n`w        |         
+|   `&H`n`N   |_|) `w|         
+|   V        |         
+|____________|         
+~
+#124
+card swordofrods~
+a card, the Sword of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+lady~
+`n.`w____________
+|            |         
+|       `N|_|) `w|         
+| `Y()()       `w|         
+| `N. .`Y()      `w|         
+|  `y> `Y() `N|_|) `w|         
+| `y\_/`Y()      `w|         
+| `y' '`B._      `w|         
+| `B\_/   `N|_|) `w|         
+|  `W*         `w|         
+|____________|         
+~
+#125
+card ladyofrods~
+a card, the Lady of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+lord~
+`n.`w____________
+|            |         
+| `Y._._. `N|_|) `w|         
+| `Y___/       `w|         
+| `N. .`w)       `w|         
+| `y > `w)  `N|_|) `w|         
+| `y\_/        `w|         
+| `b-`w^`b--_      `w|         
+| `B\`Wv`B/   `N|_|) `w|         
+|  `YO         `w|         
+|____________|   
+~
+#126
+card lordofrods~
+a card, the Lord of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+nine~
+`n.`w____________          
+|            |         
+| `N9     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|      /     |         
+|     /      |         
+|            |         
+| `N|_|)     9`w |         
+|____________|      
+~
+E
+Seth~
+if carries $n 17424
+ say A limit of one book at a time please.
+else
+ if carries $n 17428
+  say You already have a copy of 'Karaethon Cycle'!
+ else
+give karaethon $n
+smile
+  say Thank you, have a nice day!
+ endif
+endif
+~
+#127
+card~
+a card, the Ruler of Rods~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+#128
+card twoofcoins~
+a card, the Two of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+two~
+`n.`w____________
+|            |
+| `y2     +---`w |         
+|     __     |
+|    /  \    |
+|       /    |
+|     /      |
+|    ----    |
+|            |
+| `y+---     2`w |         
+|____________|
+~
+#129
+card threeofcoins~
+a card, the Three of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+three~
+`n.`w____________
+|            |
+| `y3     +---`w |         
+|     __     |
+|    /  \    |
+|      _/    |
+|       \    |
+|    \__/    |
+|            |
+| `y+---     3`w |         
+|____________|
+~
+#130
+card fourofcoins~
+a card, the Four of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+four~
+`n.`w____________
+|            |
+| `y4     +---`w |         
+|            |
+|    |  |    |
+|    |__|    |
+|       |    |
+|       |    |
+|            |
+| `y+---     4`w |         
+|____________|
+~
+#131
+card fiveofcoins~
+a card, the Five of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+five~
+`n.`w____________          
+|            |         
+| `y5     +---`w |         
+|     ___    |         
+|    |       |         
+|    |__     |         
+|       \    |         
+|    \__/    |         
+|            |         
+| `y+---     5`w |         
+|____________|         
+~
+#132
+card sixofcoins~
+a card, the Six of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+six~
+`n.`w____________
+|            |         
+| `Y._._. `N|_|) `w|         
+| `Y___/       `w|         
+| `N. .`w)       `w|         
+| `y > `w)  `N|_|) `w|         
+| `y\_/        `w|         
+| `b-`w^`b--_      `w|         
+~
+#133
+no name~
+(no short description)~
+(no description)~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#134
+card eightofcoins~
+a card, the Eight of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+eight~
+`n.`w____________          
+|            |         
+| `N8     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|    /  \    |         
+|    \__/    |         
+|            |         
+| `N|_|)     8`w |         
+|____________|       
+~
+#135
+card nineofcoins~
+a card, the Nine of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+nine~
+`n.`w____________          
+|            |         
+| `N9     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|      /     |         
+|     /      |         
+|            |         
+| `N|_|)     9`w |         
+|____________|      
+~
+#136
+card tenofcoins~
+a card, the Ten of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+sword~
+`n.`w____________
+|            |         
+|   o   `N|_|) `w|         
+|   `y|`w        |         
+|  -+-       |         
+|   `&H`n`N   |_|) `w|         
+|   `&H`n`w        |         
+|   `&H`n`w        |         
+|   `&H`n`N   |_|) `w|         
+|   V        |         
+|____________|         
+~
+#137
+card swordofcoins~
+a card, the Sword of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+lady~
+`n.`w____________
+|            |         
+|       `N|_|) `w|         
+| `Y()()       `w|         
+| `N. .`Y()      `w|         
+|  `y> `Y() `N|_|) `w|         
+| `y\_/`Y()      `w|         
+| `y' '`B._      `w|         
+| `B\_/   `N|_|) `w|         
+|  `W*         `w|         
+|____________|         
+~
+#138
+card ladyofcoins~
+a card, the Lady of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+lord~
+`n.`w____________
+|            |         
+| `Y._._. `N|_|) `w|         
+| `Y___/       `w|         
+| `N. .`w)       `w|         
+| `y > `w)  `N|_|) `w|         
+| `y\_/        `w|         
+| `b-`w^`b--_      `w|         
+| `B\`Wv`B/   `N|_|) `w|         
+|  `YO         `w|         
+|____________|   
+~
+#139
+card lordofcoins~
+a card, the Lord of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+nine~
+`n.`w____________          
+|            |         
+| `N9     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|      /     |         
+|     /      |         
+|            |         
+| `N|_|)     9`w |         
+|____________|      
+~
+E
+Seth~
+if carries $n 17424
+ say A limit of one book at a time please.
+else
+ if carries $n 17428
+  say You already have a copy of 'Karaethon Cycle'!
+ else
+give karaethon $n
+smile
+  say Thank you, have a nice day!
+ endif
+endif
+~
+#140
+card~
+a card, the Ruler of Coins~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+#141
+card twoofwinds~
+a card, the Two of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+two~
+`n.`w____________
+|            |
+| `y2     +---`w |         
+|     __     |
+|    /  \    |
+|       /    |
+|     /      |
+|    ----    |
+|            |
+| `y+---     2`w |         
+|____________|
+~
+#142
+card threeofwinds~
+a card, the Three of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+three~
+`n.`w____________
+|            |
+| `y3     +---`w |         
+|     __     |
+|    /  \    |
+|      _/    |
+|       \    |
+|    \__/    |
+|            |
+| `y+---     3`w |         
+|____________|
+~
+#143
+card fourofwinds~
+a card, the Four of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+four~
+`n.`w____________
+|            |
+| `y4     +---`w |         
+|            |
+|    |  |    |
+|    |__|    |
+|       |    |
+|       |    |
+|            |
+| `y+---     4`w |         
+|____________|
+~
+#144
+card fiveofwinds~
+a card, the Five of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+five~
+`n.`w____________          
+|            |         
+| `y5     +---`w |         
+|     ___    |         
+|    |       |         
+|    |__     |         
+|       \    |         
+|    \__/    |         
+|            |         
+| `y+---     5`w |         
+|____________|         
+~
+#145
+card sixofwinds~
+a card, the Six of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+six~
+`n.`w____________
+|            |         
+| `Y._._. `N|_|) `w|         
+| `Y___/       `w|         
+| `N. .`w)       `w|         
+| `y > `w)  `N|_|) `w|         
+| `y\_/        `w|         
+| `b-`w^`b--_      `w|         
+~
+#146
+card sevenofwinds~
+a card, the Seven of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+seven~
+I know you are really busy, but when you get a chance, set me up with 75
+vnum for carysford, I am ready to start on it.  
+ 
+thanks
+ 
+Matt
+~
+#147
+card eightofwinds~
+a card, the Eight of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+eight~
+`n.`w____________          
+|            |         
+| `N8     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|    /  \    |         
+|    \__/    |         
+|            |         
+| `N|_|)     8`w |         
+|____________|       
+~
+#148
+card nineofwinds~
+a card, the Nine of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+nine~
+`n.`w____________          
+|            |         
+| `N9     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|      /     |         
+|     /      |         
+|            |         
+| `N|_|)     9`w |         
+|____________|      
+~
+#149
+card tenofwinds~
+a card, the Ten of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+sword~
+`n.`w____________
+|            |         
+|   o   `N|_|) `w|         
+|   `y|`w        |         
+|  -+-       |         
+|   `&H`n`N   |_|) `w|         
+|   `&H`n`w        |         
+|   `&H`n`w        |         
+|   `&H`n`N   |_|) `w|         
+|   V        |         
+|____________|         
+~
+#150
+card swordofwinds~
+a card, the Sword of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+lady~
+`n.`w____________
+|            |         
+|       `N|_|) `w|         
+| `Y()()       `w|         
+| `N. .`Y()      `w|         
+|  `y> `Y() `N|_|) `w|         
+| `y\_/`Y()      `w|         
+| `y' '`B._      `w|         
+| `B\_/   `N|_|) `w|         
+|  `W*         `w|         
+|____________|         
+~
+#151
+card ladyofwinds~
+a card, the Lady of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+lord~
+`n.`w____________
+|            |         
+| `Y._._. `N|_|) `w|         
+| `Y___/       `w|         
+| `N. .`w)       `w|         
+| `y > `w)  `N|_|) `w|         
+| `y\_/        `w|         
+| `b-`w^`b--_      `w|         
+| `B\`Wv`B/   `N|_|) `w|         
+|  `YO         `w|         
+|____________|   
+~
+#152
+card lordofwinds~
+a card, the Lord of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+E
+nine~
+`n.`w____________          
+|            |         
+| `N9     |_|)`w |         
+|     __     |         
+|    /  \    |         
+|    \__/    |         
+|      /     |         
+|     /      |         
+|            |         
+| `N|_|)     9`w |         
+|____________|      
+~
+E
+Seth~
+if carries $n 17424
+ say A limit of one book at a time please.
+else
+ if carries $n 17428
+  say You already have a copy of 'Karaethon Cycle'!
+ else
+give karaethon $n
+smile
+  say Thank you, have a nice day!
+ endif
+endif
+~
+#153
+card~
+a card, the Ruler of Winds~
+A playing card from a deck lies here face down.~
+paper~
+trash Sd AO
+0 0 0 0 0
+0 0 0 P
+#154
+desk gareth bryne~
+a massive redwood desk~
+A massive redwood desk, bearing the Lion of Andor, stands here.~
+wood~
+furniture AB 0
+A 0 DGJ DGH DGH
+52 300 1000000 P
+#201
+potion healing quest~
+a potion of healing~
+A potion of healing~
+unknown~
+potion HSYZ AO
+50 'refresh' 'heal' 'heal' ''
+0 1 0 P
+#202
+potion detect quest~
+a potion of detection~
+A potion of detection~
+unknown~
+potion HSYZ AO
+20 'detect invis' 'detect weave' 'detect weave' ''
+0 1 0 P
+#203
+potion combat quest~
+a potion of combat~
+A potion of combat~
+unknown~
+potion HSYZ AO
+20 'enhanced damage' 'armor' 'armor' ''
+0 1 0 P
+#204
+potion cure quest~
+a potion of curing~
+A potion of curing~
+unknown~
+potion HSYZ AO
+60 'restore sight' 'clear disease' 'clear disease' ''
+0 1 0 P
+#280
+Sword of Air~
+a shimmering sword made of `Wair`w~
+A shimmering sword, seemingly made of the very air lies here~
+air~
+weapon GHQbd AN
+sword 10 4 frbite B
+60 1 0 P
+#281
+sword of fire~
+a sword of pure `Rf`rlam`Re`w~
+A sword of pure flame lies here.~
+Fire~
+weapon AGHSYbd AN
+sword 10 4 flame A
+60 5 0 P
+#282
+whip of air~
+a dagger of pure `Wair`w~
+The whispy hilt of the dagger fades to hardened air.~
+air~
+weapon GHQd AN
+dagger 9 3 frbite B
+60 1 0 P
+#283
+dagger of fire~
+dagger of `Rf`rlam`Re`w~
+A dagger of pure flame erupts from your hands.~
+Fire~
+weapon AHYd AN
+dagger 9 3 flame A
+60 1 0 P
+#284
+Spear of Air~
+a spear made of pure `Wair`w~
+A spear seemingly made of air.~
+air~
+weapon GHQbd AN
+spear 9 4 frbite B
+60 5 0 P
+#285
+Spear of Fire~
+a spear made of pure `Rf`rlam`Re`w~
+A spear crackling of pure flame.~
+air~
+weapon AGHYbd AN
+spear 9 4 flame A
+60 5 0 P
+#286
+wooden arrow~
+a wooden arrow~
+In quiv~
+wood~
+arrow Z AO
+0 1 1 0 0
+15 1 1 P
+A
+2 -2 -1
+A
+19 -2 -1
+A
+13 -10 -1
+A
+18 -2 -1
+A
+14 -20 -1
+#287
+short bow~
+short bow~
+A small bow~
+wood~
+weapon 0 AN
+bow 1 4 pierce 0
+10 3 1000 P
+#288
+a leather quiver~
+a leather quiver~
+In quiv~
+leather~
+quiver 0 AV
+10 50 50 0 0
+10 5 100 P
+#290
+Josh's Great Computer~
+..~
+Josh's `WGreat Computer`w lies here with the `NMUD`w on the screen.~
+Electronics~
+furniture ABIYb P
+A EGHIJK ADGJN ABDG BCDE
+56 50 0 P
+#291
+pitchfork~
+a `ypitchfork`w~
+Its a wool-headed sharped pitchfork~
+A glowing wood~
+weapon ABISY AN
+exotic 8 10 pierce D
+56 0 0 P
+A
+18 20 -1
+A
+19 20 -1
+#293
+PEDRON QUEST restring coupon~
+a `RQ`ru`Re`rs`Rt`w coupon (look coupon for rules)~
+A `Rs`rp`Re`rc`Ri`ra`Rl`w prize is here.~
+unknown~
+trash HYZabd A
+0 0 0 0 0
+0 0 0 P
+E
+coupon~
+This is a special prize given out by Pedron for quests.  You can do the
+following with it:
+
+1) Get Pedron and `Yonly`w Pedron to restring an item for you. This means
+renaming an item you have to something else.  Restrings will `Yonly`w be IC.  No
+exceptions.  
+
+Only ask Pedron about this coupon - no other imms can redeem it.  Once
+you've used the coupon, the transaction is done, unless you have another
+one, which is unlikely.  
+ 
+If you have an idea for something else this could be used for, notify
+Pedron, and he'll let you know if it's acceptable.
+~
+#299
+fire box~
+a box of woven Fire~
+A box of woven Fire.~
+unknown~
+container 0 A
+100 0 0 1000 50
+10 0 0 P
+#0
+
+
+
+#ROOMS
+#2
+The Void~
+This is the place where foolish morts go when they idle out on the mud. 
+All loosers apply within :P.  Bla bla, big massive universe spreads out
+before you, and as soon as you come back and hit a fucking key, you'll be
+gone from this insanity.  There is nothing here, you can't search here, and
+there is no panty waist couch for you to lounge about on.  So why not get
+back to the damn computer and HIT A KEY!!!???  
+~
+0 25961491 0
+S
+#3
+Appamatox Courthouse~
+EGAD!  Phil Shortman, runaway Ta'Veren, boy blunder, and all around
+"scoundrel" has moved WHERE?!  What GODLESS land is this Geo'Or'Gia? 
+Cockroaches the size of small import cars sit back and chaw on some t'backy
+while posting up a Confederate Flag on the wall.  ANd DAMN is it hot. 
+Outside, small children spontaenously burst into flame and laughed at by the
+'locals'.  Local WHAT is the problem...  Buck toothed knocked kneed
+banjo-playing freaks leer like a Stephen King plot reject and mutter
+something about the Appamatox Courthouse.  Ah, but thank god for the
+resident NEW YORKER, baby.  Jagg yo, dis lil G izzalright
+y'knowwhatI'msayin?  Phil SHortman, has dropped anchor.  Any port in the
+storm.  But Phillip J Shortman Esq keeps two words in mind for these godless
+southern f*%ks: U N C O N D I T I O N A L S U R R E N D E R.  
+~
+0 0 0
+S
+#4
+A Circular Room~
+This is Nek's room and awaiting a desc.
+~
+0 0 3
+S
+#5
+The Room of Consequence~
+`w[`RYour purpose in being here is to remain quiet and wait for the attention
+of the immortal who sent you to this place.  You are here for a reason, and
+that reason must have been pretty severe.  Any spamming, whether in notes,
+tells, or other forms of communication will be punished immediately.  While
+you are here, it is recommended that you give serious thought to what you
+did wrong and make an oath to yourself never to do it again.  `w] `w 
+
+`R[`wThe landscape here is expansive, stretching for miles in every direction. 
+The terrain is covered with surreal trees with skeletal branches and the sky
+overhead is a deep crimson in hue.  Strangely, no matter what direction one
+might travel in, no progress is made.  It seems almost as if the ground
+moves along with the traveller, making it impossible to escape.  Nearby can
+be seen an uncomfortable looking iron couch resembling a pile of bones,
+before which has been placed a huge fountain of black stone.  Also visible
+is a strange looking tree bearing a prickly fruit.`R]`w  
+~
+0 8922126 2
+S
+#6
+Ground Zero - Epicenter of the War of the Shadow (before it began)~
+Inside this enormous spherical room of greyish metal, sound seems to echo
+lightly.  If there is any noise to the outside, it cannot be heard. 
+Centered in the sphere, a small glowing ball of blueish-white casts light
+about, but remains silent.  The room is cool and somewhat calm.  The
+furniture seems specifically designed for the contours of the sphere, angled
+just right and somehow formed or melted to the 'floor'.  Just noticeable on
+one side of the wall, MORAHS is written, though the letters are all
+backwords.  
+~
+0 8388624 0
+S
+#7
+Jane's Studio~
+Artist.  The room fairly SCREAMS "artist" at you.  Long drop cloths cover
+half the walls and floors, and cans of paint and brushes fill a lot of the
+empty spaces.  One easel holds a pure white canvas that's just waiting for a
+stroke of inspiration, and a lot of strokes of pigment.  Some things that
+look like they MIGHT be seats a book case and a bed are buried under the Art
+stuff.  
+ 
+~
+0 4 0
+S
+#9
+Falkenstein's Labratory~
+Stark and pale light illuminates this decrepid old labratory.  Mysterious
+boxes of some archaic nature sit atop many of the tables in the room.  Each
+box has an onyx side that bears letters glowing with an eerie light.  
+Long slabs of marred obsidian serve as tables, each covered
+with various objects of creations and research.  Cold iron tongs, vices, racks, and a plethora of other
+~
+0 8202 0
+S
+#10
+Moridin's Sanctum~
+A crackling fire dances within the confines of a marble fireplace,
+bathing the room in the colors of a false sunrise.  The wood paneled walls,
+heavily polished with oils, trap the errant colors and reflect them back.  A
+few pieces of furniture, only lightly carved and gilded, rest on carpets
+woven in red-and-gold arabesques.  A single window, high upon one wall,
+offers a glimpse of a unnatural sky.  Here, in this room, the man who calls
+himself Moridin, pulls the strings of the Pattern of Ages.  Creating order
+or chaos as need be, for the glory of his master, the Great Lord... 
+Shai'tan.  
+~
+0 8922626 0
+S
+#28
+Lorelei's Realm ~
+Reality bends as the Pattern threatens to rip itself apart at Lorelei's
+whim.  A huge bed dominates the room where Lorelei sleeps and..  While she
+dreams the waking world cringes..  Her dreams and nightmares becoming stark
+reality...  
+~
+0 67119114 0
+S
+#47
+~
+~
+0 4 0
+S
+#50
+Daniel's Room~
+All that is `RD`ra`Rn`ri`Re`rl`w is in this room.  His computer in one corner, with
+what appears to be `CzMUD`w connected to `BTarmon Gai'don`w mud displayed on the
+screen, his stereo blasting `NKorn and `MRage against the Machine`w and a stack of
+`GWoT`w info next to his computer.  Puzzling thru it, you see it's his builder
+and guild imm notes, although you can't understand his handwriting, which
+looks like a deritave of `gOgier`w writing mixed in with `rOld Tounge`w words.  
+~
+0 17311234 1
+E
+computer~
+You see an old beat-up machine which looks as though he made it himself. Running
+zMud and connected to Tarmon Gai'don mud, the words appear:
+ 
+balefire newbie
+Newbie Balefired
+~
+S
+#51
+`WA `YS`yoldier's `WRoom`w~
+Tattered wall hangings, battle banners of past enemies, fade into dark
+wood paneling laid over thick stone walls, deep inside the Fortress of the
+Light.  A thick sunburst made of gold coin is laid into the floor.  Other
+then the sunburst, decorations are sparse.  Nothing more then one would
+expect from a career soldier.  
+~
+0 8913930 0
+D3
+~
+~
+0 0 52
+S
+#52
+Lord Captain Mathalar's Quarters~
+This room is small but cozy, with a `Rfire b`Yl`Ra`Yz`Ri`Yn`Rg`w in a huge fireplace set in
+the stone wall.  Heat radiates through the flooring as if heated from below.
+Very little furniture adorns the room, besides what is absolutely necessary.
+The only signs of any elegance at all is an overstuffed `Rc`rhai`Rr`w positioned in
+front of the hearth.  The walls, a dull `Ngrey`w, make the room rather dark.  The
+only `Ylight`w coming from the `Rfire`w and a small `Ycandle `won the coffee table.
+~
+0 8913930 0
+D1
+~
+~
+0 0 51
+S
+#69
+Baels Chamber~
+This is Baels lair, a group of Elite Spearfighters is gathered in a tight
+cluster near the head of the room.  An eerie light is streaming into the
+room from an unknown light source and the smell of dust and sand permeates
+this room even though it is a cool temperature.  Everything in this room is
+practical, made for strictly battle, except for a painted picture above his
+desk behind his chair.  The picture is of a man walking away from a bright
+sunrise, his face cannot be seen because it's silhouetted by shadow, the
+only thing one can see about the man is that he has a golden dragon wrapped
+around each forearm.  This is the Car'a'Carn.  He Who Comes With The Dawn.  
+~
+0 0 0
+S
+#96
+~
+~
+0 4 0
+S
+#100
+Celeste's Observatory~
+~
+0 2568 0
+S
+#150
+The Office of the Captain-General of the Queen's Guard~
+A cold and forbidding room opens up here.  The pristine white tiles cover
+from gleaming white wall to gleaming white wall in this chamber.  Upon the
+northern wall, a massive hearth stands, providing ample heat for this place.
+Gilded standlamps line the walls, providing near daylight illumination
+within this cold place.  Massive banners, apparently of armies, hang
+reverently upon the tall walls seeming dark as the shadows play across them.
+Near the fireplace, a large desk stands, and in front of it, are ten chairs.
+The Lion of Andor is carved in raised relief upon the desk and upon the
+chairs as well.  
+~
+0 8398350 0
+S
+#200
+blank space~
+~
+0 0 0
+S
+#250
+~
+~
+0 0 0
+S
+#292
+Josh's Room~
+Tons of books lie all over the place.  There are maps strung across 
+the floor.  They appear to be blue-prints for cities.  The only thing in 
+the room is a the great `Wcomputer`w in which only has two programs:  The
+internet and zMUD.  It appears to be set up in a shrine sort of way.  It
+seems to be suppling Josh's very will to live.  A poster on the wall says,
+"A life without `NMUD`w is no life at all."
+~
+0 9226 0
+S
+#299
+A rip in the Pattern~
+Dark wood panelled walls, a subtle scent of incense, and stacks of old
+books.  A scholar's study, but for the pair of long, curved blades crossed
+over eachother behind the occupants desk.  (some might say, in easy reach)
+Several books lie open on and around the desk, "A Quantitive Analysis of
+String Theory", "Case Studies in Constitutional Law", "The Play of Fire and
+Steel, an analysis of Japanese Sword Fighting Techniques" titles as
+disparate and unique as the reader.  No, if you expected an ordinary room
+for Gary's study, he's quite happy to disabuse you.  
+ 
+~
+0 8708 0
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+O 52 0 5 1 100
+O 53 0 5 1 100
+O 54 0 5 1 100
+P 55 25 54 25 100
+M 16 1 5 1 100
+M 17 1 5 1 100
+O 8 0 6 1 100
+O 28 0 7 0 100
+O 7 0 7 0 100
+O 51 0 10 1 100
+O 56 0 50 1 100
+O 57 0 50 1 100
+O 61 0 51 1 100
+O 59 0 51 1 100
+O 58 0 51 1 100
+O 61 0 52 1 100
+O 60 0 52 0 100
+O 62 0 52 0 100
+O 154 0 150 1 100
+M 150 1 150 1 100
+S
+
+
+
+#SHOPS
+10 0 17 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#1
+wake $n
+mob force $n wake
+force $n wake
+~
+Matthew~
+`NUnknown`w~
+#2
+frown
+'You've been very very bad...I suggest you sit and thing about what you have done to get here.'
+~
+Matthew~
+`NUnknown`w~
+#3
+nod
+'That's better. Contemplate the wrong you have done. And don't spam the channels. If you do, you will suffer.
+~
+Matthew~
+`NUnknown`w~
+#4
+cackle
+'Thirsty? Drink of the blood, you don't even deserve that.
+~
+Matthew~
+`NUnknown`w~
+#6
+mob delay 4
+~
+Matthew~
+`NUnknown`w~
+#10
+if ispc $n
+give cup $n
+endif
+~
+~
+~
+#12
+if isnation $n andor
+say hello, my fellow Andoran!
+else
+say Bah, you suck!
+endif
+~
+`RF`Ba`Wl`Nk`Gn`Yo`Mr`w~
+to test isnation~
+#17
+#CHILDREN'S MOBPROG
+if clan $r 'queen'
+gasp $r
+emote looks upon $r as $j might a fairy-tale knight come to life.
+else
+if rand 85
+   tease $r
+else
+if rand 80
+   laces $r
+run $r
+else
+if rand 75
+   emote runs around $r, giggling.
+else
+if rand 70
+   smile $r
+else
+if rand 65
+   emote tugs on $r's sleeve and asks for some coppers.
+else
+if rand 60
+   emote points at $r and begins giggling.
+else
+if rand 50
+   tag $r
+else
+if rand 40
+   eep $r
+else
+if rand 35
+   babble $r
+else
+if rand 30
+   tongue $r
+else
+   emote runs along, playing a game of Hide and Find with $l friends.
+endif
+~
+~
+~
+#0
+
+#$

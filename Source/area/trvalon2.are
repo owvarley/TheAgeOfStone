@@ -1,0 +1,611 @@
+#AREADATA
+Name Tar Valon (Part 2)~
+Builders Matt~
+VNUMs 8001 8500
+Sector 1
+Credits [ 1 50] Tar Valon (Continued)~
+Security 9
+LastSaved 10/20/100~
+Flags 0
+Version 5
+End
+
+
+
+#MOBILES
+#8001
+guard towerguard man lieutenant officer under~
+an Under-Lieutenant~
+An Under-Lieutenant leads his patrol through the city.
+~
+This man is an Under-Lieutenant in the Towerguard.  He walks around Tar
+Valon leading his patrol through the crowded streets as not only a deterent
+against those who would possibly cause trouble, but as a symbol of the
+discipline and honor that resides within the Shining Walls.  
+~
+human~
+BEFJf|D
+T|
+50 0
+40 0 10d100+600 0d0+0 2d8+15 none
+429496714 429496714 429496714 429496727
+IL|
+|
+T|
+|
+stand stand male 120
+GKP|
+BCD|
+medium unknown
+M KILL 8001 100~
+M ACT 8002 charge~
+M ACT 8003 push~
+#8002
+city guard man patrol~
+a city guard~
+A guardsman with a hand on his sword-hilt walks by in formation.
+~
+With a thin smile on his face, this man walks the streets of Tar Valon. 
+He serves the Tower and all of Tar Valon as a Towerguard and member of the
+city's guard that patrol the streets.  With a purpose to his step, he walks
+through the crowd with pride.  The crowd moves to let him pass, not from
+fear, but from respect for his uniform, and knowing the good men who fill
+those uniforms.  His hand is on his sword-hilt as not a visible threat, but
+more a practical way to steady the sword at his side as he walks.  
+~
+human~
+BFf|D
+T|
+10 0
+35 0 8d100+400 0d0+0 2d7+5 none
+429496717 429496717 429496717 429496728
+IL|
+|
+T|
+|
+stand stand male 150
+GKP|
+BCD|
+medium unknown
+M KILL 8001 100~
+M ACT 8002 charge~
+M ACT 8003 push~
+#8003
+guard patrol man pikeman~
+a city guard~
+A guardsman stays in formation with a long pike over one shoulder.
+~
+With a thin smile on his face, this man walks the streets of Tar Valon. 
+He serves the Tower and all of Tar Valon as a Towerguard and member of the
+city's guard that patrol the streets.  With a purpose to his step, he walks
+through the crowd with pride.  The crowd moves to let him pass, not from
+fear, but from respect for his uniform, and knowing the good men who fill
+those uniforms.  He has to keep an even step to maintain the balance of the
+pike at his shoulder, so every step seems more precise than the last.  
+~
+human~
+BFf|D
+T|
+10 0
+35 0 8d100+400 0d0+0 2d7+5 none
+429496717 429496717 429496717 429496728
+IL|
+|
+T|
+|
+stand stand male 150
+GKP|
+BCD|
+medium unknown
+M KILL 8001 100~
+M ACT 8002 charge~
+M ACT 8003 push~
+#8004
+guard patrol man halberdier~
+a city guard~
+A guardsman holds a halberd tight to his shoulder as he marches in formation.
+~
+With a thin smile on his face, this man walks the streets of Tar Valon. 
+He serves the Tower and all of Tar Valon as a Towerguard and member of the
+city's guard that patrol the streets.  With a purpose to his step, he walks
+through the crowd with pride.  The crowd moves to let him pass, not from
+fear, but from respect for his uniform, and knowing the good men who fill
+those uniforms.  He manages to keep both the blade and the tip of his
+halberd from damaging his armor by gripping it tightly to his shoulder as he
+marches through the city.  
+~
+human~
+BFf|D
+T|
+10 0
+35 0 8d100+400 0d0+0 2d7+5 none
+429496717 429496717 429496717 429496728
+IL|
+|
+T|
+|
+stand stand male 150
+GKP|
+BCD|
+medium unknown
+M KILL 8001 100~
+M ACT 8002 charge~
+M ACT 8003 push~
+#0
+
+
+
+#OBJECTS
+#8001
+brass lantern tall pole~
+a brass lantern atop a pole~
+A brass lantern atop a tall pole is here to the side of the street.~
+wood brass~
+light A 0
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+50 1000 100 P
+#8002
+garden leatherleaf~
+the ground beneath a leatherleaf tree~
+A leatherleaf tree grows from the garden set in the middle of the street.~
+wood stone~
+furniture 0 0
+BD DHIJM EHK ADFG ADFG
+1 1000 100 P
+E
+garden~
+Set in the center of the street is a small garden rimmed in flagstone. 
+Various flowers beautify the garden, but it is dominated by a large
+leatherleaf tree.  
+~
+#8003
+garden paperbark~
+the ground beneath a paperbark tree~
+A paperbark tree grows from the garden set in the middle of the street.~
+wood stone~
+furniture 0 0
+BD DHIJM EHK ADFG ADFG
+1 1000 100 P
+E
+garden~
+Set in the center of the street is a small garden rimmed in flagstone. 
+Various flowers beautify the garden, but it is dominated by a large
+paperbark tree.  
+~
+#8004
+garden elm~
+the ground beneath an elm tree~
+An elm tree grows from the garden set into the middle of the street.~
+wood stone~
+furniture 0 0
+BD DHIJM EHK ADFG ADFG
+1 1000 100 P
+E
+garden~
+Set in the center of the street is a small garden rimmed in flagstone. 
+Various flowers beautify the garden, but it is dominated by a large elm
+tree.  
+~
+#8005
+chestplate plate flame tar valon~
+a chestplate adorned with the Flame of Tar Valon~
+A chestplate adorned with the Flame of Tar Valon has been dropped here.~
+steel~
+armor 0 AD
+AD AD AD AD 0
+25 5 500 P
+A
+13 10 -1
+A
+5 1 -1
+#8006
+tar valon sword guard flame longsword~
+a longsword with the Flame of Tar Valon on the pommel~
+A longsword with the Flame of Tar Valon on the pommel lies here.~
+steel~
+weapon 0 AN
+sword 3 12 slash D
+25 4 250 P
+A
+18 1 -1
+A
+2 1 -1
+#8007
+iron tipped wooden pike polearm~
+an iron-tipped pike~
+A long, iron-tipped, wooden pike has been dropped here.~
+wood iron~
+weapon 0 AN
+polearm 4 9 thrust F
+25 4 250 P
+A
+19 2 -1
+#8008
+tar valon halberd polearm~
+a halberd with a sharp pointed tip~
+A halberd with a sharp pointed tip has been dropped here.~
+wood steel~
+weapon 0 AN
+polearm 6 7 cleave DF
+25 8 250 P
+#0
+
+
+
+#ROOMS
+#8001
+South Market Street~
+With every turn of the head, Tar Valon brings wonder to all who gaze at
+the city.  Beautiful towers rise high above the ground in various spiral,
+fluted and flared designs.  A few of the towers even have bridges that span
+the heights to connect the towers.  Here the street is paved in large white
+marble flagstones that provide a level footing for the many visitors who
+travel this way.  Many of the buildings along this street belong to
+merchants and shopowners, some displaying goods, and others just places to
+meet to discuss business.  Osenrein Avenue is to the east, while the Market
+Square is to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 8002
+D3
+~
+~
+0 0 22352
+S
+#8002
+South Market Street~
+With every turn of the head, Tar Valon brings wonder to all who gaze at
+the city.  Beautiful towers rise high above the ground in various spiral,
+fluted and flared designs.  A few of the towers even have bridges that span
+the heights to connect the towers.  Here the street is paved in large white
+marble flagstones that provide a level footing for the many visitors who
+travel this way.  Many of the buildings along this street belong to
+merchants and shopowners, some displaying goods, and others just places to
+meet to discuss business.  Osenrein Avenue is to the east, while the Market
+Square is to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 8003
+D3
+~
+~
+0 0 8001
+S
+#8003
+South Market Street~
+With every turn of the head, Tar Valon brings wonder to all who gaze at
+the city.  Beautiful towers rise high above the ground in various spiral,
+fluted and flared designs.  A few of the towers even have bridges that span
+the heights to connect the towers.  Here the street is paved in large white
+marble flagstones that provide a level footing for the many visitors who
+travel this way.  Many of the buildings along this street belong to
+merchants and shopowners, some displaying goods, and others just places to
+meet to discuss business.  Osenrein Avenue is to the east, while the Market
+Square is to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 8004
+D3
+~
+~
+0 0 8002
+S
+#8004
+South Market Street~
+With every turn of the head, Tar Valon brings wonder to all who gaze at
+the city.  Beautiful towers rise high above the ground in various spiral,
+fluted and flared designs.  A few of the towers even have bridges that span
+the heights to connect the towers.  Here the street is paved in large white
+marble flagstones that provide a level footing for the many visitors who
+travel this way.  Many of the buildings along this street belong to
+merchants and shopowners, some displaying goods, and others just places to
+meet to discuss business.  Osenrein Avenue is to the east, while the Market
+Square is to the west.  
+~
+0 0 1
+D1
+~
+~
+0 0 22342
+D3
+~
+~
+0 0 8003
+S
+#8005
+Luagde Avenue~
+As amazing as any city could ever be, Tar Valon catches every breath
+taken with each view.  Beautiful towers rise high above the ground in
+various spiral, fluted and flared designs.  A few of the towers even have
+bridges that span the heights to connect the towers.  Here the street is
+paved in large white marble flagstones that provide a level footing for the
+many visitors who travel this avenue.  Many small parks can be seen along
+the avenue, as well as a few gardens.  The avenue continues to the north and
+to the south.  
+~
+0 0 1
+D0
+~
+~
+0 0 22302
+D2
+~
+~
+0 0 22492
+S
+#8006
+North Market Street~
+As amazing as any city could ever be, Tar Valon catches every breath
+taken with each view.  Beautiful towers rise high above the ground in
+various spiral, fluted and flared designs.  A few of the towers even have
+bridges that span the heights to connect the towers.  Here the street is
+paved in large white marble flagstones that provide a level footing for the
+many visitors who travel this avenue.  The large house to the south is the
+city orphanage.  The street intersects with Luagde Avenue to the east, while
+it continues to the west towards the Market Square.  
+~
+0 0 1
+D1
+~
+~
+0 0 22297
+D2
+~
+~
+3 0 22427
+D3
+~
+~
+0 0 8007
+S
+#8007
+North Market Street~
+As amazing as any city could ever be, Tar Valon catches every breath
+taken with each view.  Beautiful towers rise high above the ground in
+various spiral, fluted and flared designs.  A few of the towers even have
+bridges that span the heights to connect the towers.  Here the street is
+paved in large white marble flagstones that provide a level footing for the
+many visitors who travel this avenue.  To the west is a large square full of
+people.  The street continues on the the east.  
+~
+0 0 1
+D1
+~
+~
+0 0 8006
+D3
+~
+~
+0 0 22459
+S
+#8008
+Jualdhe Avenue~
+This city is as beautiful as any city could ever be.  Tar Valon catches
+every breath taken with each view.  Wondrous towers rise high above the
+ground in various spiral, fluted and flared designs.  A few of the towers
+even have bridges that span the heights to connect the towers.  Here the
+street is paved in large white marble flagstones that provide a level
+footing for the many visitors who travel this avenue.  Many small parks can
+be seen along the avenue, as well as a few gardens.  To the south the avenue
+leads closer to the magnificent White Tower and it's grounds.  The avenue
+leads to the Jualdhe Gate to the northwest.  
+~
+0 0 1
+D0
+~
+~
+0 0 22243
+D2
+~
+~
+0 0 8009
+S
+#8009
+Jualdhe Avenue~
+This city is as beautiful as any city could ever be.  Tar Valon catches
+every breath taken with each view.  Wondrous towers rise high above the
+ground in various spiral, fluted and flared designs.  A few of the towers
+even have bridges that span the heights to connect the towers.  Here the
+street is paved in large white marble flagstones that provide a level
+footing for the many visitors who travel this avenue.  Many small parks can
+be seen along the avenue, as well as a few gardens.  To the south the avenue
+leads closer to the magnificent White Tower and it's grounds.  The avenue
+leads to the Jualdhe Gate to the northwest.  
+~
+0 0 1
+D0
+~
+~
+0 0 8008
+D2
+~
+~
+0 0 8010
+S
+#8010
+Jualdhe Avenue~
+This city is as beautiful as any city could ever be.  Tar Valon catches
+every breath taken with each view.  Wondrous towers rise high above the
+ground in various spiral, fluted and flared designs.  A few of the towers
+even have bridges that span the heights to connect the towers.  Here the
+street is paved in large white marble flagstones that provide a level
+footing for the many visitors who travel this avenue.  Many small parks can
+be seen along the avenue, as well as a few gardens.  To the south the avenue
+leads closer to the magnificent White Tower and it's grounds.  The avenue
+leads to the Jualdhe Gate to the northwest.  
+~
+0 0 1
+D0
+~
+~
+0 0 8009
+D2
+~
+~
+0 0 22493
+S
+#8011
+North Market Street~
+This city is as beautiful as any city could ever be.  Tar Valon catches
+every breath taken with each view.  Wondrous towers rise high above the
+ground in various spiral, fluted and flared designs.  A few of the towers
+even have bridges that span the heights to connect the towers.  Here the
+street is paved in large white marble flagstones that provide a level
+footing for the many visitors who travel this street.  Market Street
+continues towards Market Square to the east, while it intersects to the west
+with Jualdhe Avenue.  
+~
+0 0 1
+D1
+~
+~
+0 0 8012
+D3
+~
+~
+0 0 22240
+S
+#8012
+North Market Street~
+This city is as beautiful as any city could ever be.  Tar Valon catches
+every breath taken with each view.  Wondrous towers rise high above the
+ground in various spiral, fluted and flared designs.  A few of the towers
+even have bridges that span the heights to connect the towers.  Here the
+street is paved in large white marble flagstones that provide a level
+footing for the many visitors who travel this street.  Market Street opens
+into the Market Square to the east, while it continues on to the west
+towards Jualdhe Avenue.  
+~
+0 0 1
+D1
+~
+~
+0 0 22458
+D3
+~
+~
+0 0 8011
+S
+#8013
+Main Room of The Final Dance Tavern~
+This tavern is not much more than one very large room.  Couples dance in
+the center of the room, while patrons sit in chairs and at tables all along
+the walls.  A long bar runs the length of one wall, with stools placed in
+front of the bar, and barrels, casks and kegs behind the bar.  Several
+extremely large chandeliers hang from the spaciously vaulted ceiling. 
+Several musicians play a beating melody for the patrons to dance to at the
+far end of the room.  A few of the patrons are overly drunken, and look to
+cause trouble, but the city guardsmen look in from time to time to
+discourage any troublemakers.  
+~
+0 8 0
+D1
+~
+~
+0 0 22242
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 8006 2 3 0 0
+O 8001 0 8001 1 100
+M 8001 1 8001 1 100
+E 8006 0 16 0 100
+E 8005 0 5 0 100
+M 8002 4 8001 4 100
+E 8005 0 5 0 100
+E 8006 0 16 0 100
+M 8002 4 8001 4 100
+E 8006 0 16 0 100
+E 8005 0 5 0 100
+M 8002 4 8001 4 100
+E 8006 0 16 0 100
+E 8005 0 5 0 100
+M 8002 4 8001 4 100
+E 8005 0 5 0 100
+E 8006 0 16 0 100
+M 8003 4 8001 4 100
+E 8007 0 16 0 100
+E 8005 0 5 0 100
+M 8003 4 8001 4 100
+E 8007 0 16 0 100
+E 8005 0 5 0 100
+M 8003 4 8001 4 100
+E 8007 0 16 0 100
+E 8005 0 5 0 100
+M 8003 4 8001 4 100
+E 8007 0 16 0 100
+E 8005 0 5 0 100
+M 8004 4 8001 4 100
+E 8008 0 16 0 100
+E 8005 0 5 0 100
+M 8004 4 8001 4 100
+E 8008 0 16 0 100
+E 8005 0 5 0 100
+M 8004 4 8001 4 100
+E 8008 0 16 0 100
+E 8005 0 5 0 100
+M 8004 4 8001 4 100
+E 8008 0 16 0 100
+E 8005 0 5 0 100
+O 8002 0 8002 1 100
+O 8001 0 8003 1 100
+O 8004 0 8004 1 100
+O 8001 0 8005 1 100
+O 8003 0 8006 1 100
+O 8001 0 8007 1 100
+O 8001 0 8008 1 100
+O 8004 0 8009 1 100
+O 8001 0 8010 1 100
+O 8004 0 8011 1 100
+O 8001 0 8012 1 100
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#8001
+yell Rally to me!
+charge
+~
+Matt~
+patrol assist~
+#8002
+if isnpc $n
+say To arms!
+kill $r
+else
+laugh $n
+endif
+~
+Matt~
+patrol assist 2~
+#8003
+kill $n
+~
+Matt~
+anti-push~
+#0
+
+#$

@@ -1,0 +1,183 @@
+#14
+## Group Table Data file
+## Written Fri May 19 01:47:16 2000
+## Contains 14 groups.
+## File Format
+#
+# GROUP          // The Name of this group.
+# RATINGS        // The class ratings for this group. 
+# SKILL          // One of the skills contained within the group
+# FLAGS          // The flags for this group.
+#
+GROUP	wot basics~
+RATINGS	0 0 0 
+SKILL	recall~
+SKILL	search~
+FLAGS	Hx
+#0
+
+GROUP	channeler basics~
+RATINGS	0 -1 -1 
+SKILL	meditation~
+SKILL	dodge~
+FLAGS	Hx
+#0
+
+GROUP	rogue basics~
+RATINGS	-1 0 -1 
+SKILL	dodge~
+SKILL	sneak~
+FLAGS	Hx
+#0
+
+GROUP	warrior basics~
+RATINGS	-1 -1 0 
+SKILL	second attack~
+SKILL	enhanced~
+FLAGS	Hx
+#0
+
+GROUP	Fade Fighting Style~
+RATINGS	-1 -1 150 
+SKILL	sword~
+SKILL	auto dodge~
+SKILL	third attack~
+SKILL	fourth attack~
+SKILL	fifth attack~
+SKILL	enhanced damage~
+SKILL	parry~
+SKILL	dodge~
+SKILL	critical strike~
+FLAGS	Zx
+#0
+
+GROUP	Thief~
+RATINGS	-1 28 -1 
+SKILL	pick lock~
+SKILL	backstab~
+SKILL	hide~
+SKILL	steal~
+SKILL	dirt kick~
+SKILL	haggle~
+SKILL	peek~
+SKILL	trip~
+FLAGS	x
+#0
+
+GROUP	Bard~
+RATINGS	-1 40 -1 
+SKILL	backstab~
+SKILL	hide~
+SKILL	second attack~
+SKILL	lore~
+SKILL	brawl~
+SKILL	haggle~
+SKILL	parry~
+SKILL	treat~
+SKILL	pick~
+SKILL	read~
+FLAGS	x
+#0
+
+GROUP	Spear Dancer~
+RATINGS	-1 60 60 
+SKILL	dual wield~
+SKILL	dagger~
+SKILL	trip~
+SKILL	shield block~
+SKILL	third attack~
+SKILL	kick~
+SKILL	parry~
+SKILL	dodge~
+SKILL	spear~
+FLAGS	Wx
+#0
+
+GROUP	Weaponsmaster~
+RATINGS	-1 -1 44 
+SKILL	axe~
+SKILL	dagger~
+SKILL	flail~
+SKILL	mace~
+SKILL	polearm~
+SKILL	spear~
+SKILL	whip~
+SKILL	mend~
+SKILL	disarm~
+SKILL	third attack~
+SKILL	fourth attack~
+SKILL	engrave~
+SKILL ~
+FLAGS	x
+#0
+
+GROUP	Blademaster~
+RATINGS	-1 -1 100 
+SKILL	third attack~
+SKILL	fourth attack~
+SKILL	fifth attack~
+SKILL	riposte~
+SKILL	parry~
+SKILL	critical strike~
+SKILL	dodge~
+SKILL	disarm~
+SKILL	sword~
+FLAGS	Wx
+#0
+
+GROUP	Dual Dueller~
+RATINGS	-1 60 60 
+SKILL	dual wield~
+SKILL	third attack~
+SKILL	sword~
+SKILL	second attack~
+SKILL	parry~
+SKILL	dodge~
+SKILL	enhanced damage~
+SKILL	dagger~
+SKILL	~
+FLAGS	Wx
+#0
+
+GROUP	Knife Hand~
+RATINGS	-1 -1 60 
+SKILL	hand to hand~
+SKILL	critical strike~
+SKILL	parry~
+SKILL	dodge~
+SKILL	third attack~
+SKILL	fourth attack~
+SKILL	brawl~
+SKILL	bash~
+SKILL	auto dodge~
+FLAGS	Wx
+#0
+
+GROUP	Berserker~
+RATINGS	-1 -1 40 
+SKILL	berserk~
+SKILL	disarm~
+SKILL	third attack~
+SKILL	critical strike~
+SKILL	enhanced damage~
+SKILL	axe~
+SKILL	bash~
+SKILL	polearm~
+SKILL	guardcrush~
+FLAGS	x
+#0
+
+GROUP	Assassin~
+RATINGS	-1 65 -1 
+SKILL	backstab~
+SKILL	envenom~
+SKILL	hide~
+SKILL	dirt kick~
+SKILL	enhanced damage~
+SKILL	second attack~
+SKILL	third attack~
+FLAGS	Wx
+#0
+
+
+End

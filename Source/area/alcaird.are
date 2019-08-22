@@ -1,0 +1,4963 @@
+#AREADATA
+Name Alcair Dal~
+Builders Matt~
+VNUMs 27001 27125
+Sector 10
+Credits [ 1 15] Alcair Dal, Three-fold~
+Security 8
+LastSaved 00/22/101~
+Flags 0
+Version 5
+End
+
+
+
+#MOBILES
+#27001
+wise one healer woman~
+a Wise One~
+The Wise One is here contemplating the affairs of the Aiel.
+~
+This red-haired Wise One sits in her tent contemplating the affairs of
+the Aiel.  It is the duty of the Wise Ones to counsel the Sept Chiefs, tend
+to those about to die and to otherwise guide the Aiel.  
+~
+human~
+BCFJU|
+|
+0 0
+50 50 25d30+500 2d3+3 16d2+25 none
+429496705 429496705 429496705 429496715
+|
+CDLT|
+|
+|
+stand stand female 0
+GKP|
+BCD|
+medium unknown
+#27002
+aiel man craftsman~
+an Aiel craftsman~
+An Aiel craftsman is here displaying his wares for sale.
+~
+This man is so proud of the wares he has for sale that he spends the
+extra time need to inform the buyer about how to best use and care for the
+items.  
+~
+human~
+BFJ|
+|
+0 0
+50 50 25d30+500 2d3+3 16d2+25 none
+429496705 429496705 429496705 429496715
+|
+CDLT|
+|
+|
+stand stand male 100
+GKP|
+BCD|
+medium unknown
+#27003
+aiel man trainer warrior~
+an Aiel veteran~
+A man stands here bare-chested, ready to train the young Aiel in basic combat.
+~
+With his long, red hair pulled back out of his face, this man prepares
+himself to train the young Aiel in what they need to know in basic combat.  
+~
+human~
+BEFJMNV|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496708 429496708 429496708 429496724
+|
+|
+|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27004
+red ant~
+a small red ant~
+A red ant moves quickly down the face of the anthill.
+~
+This red ant is nearly as large as a fingernail, yet his bite causes much
+scratching and irritation.  When these ants attack together, most small
+animals are in danger.  
+~
+centipede~
+BFIJ|D
+|
+0 0
+5 5 1d15+40 0d0+0 1d3+6 bite
+0 0 0 0
+I|
+|
+FGI|
+DE|
+stand stand none 0
+BFL|
+BCDL|
+tiny unknown
+M DEATH 27010 100~
+#27005
+red ant~
+a red ant~
+This red ant slowly carries a crumb up to the top of the anthill.
+~
+This red ant is nearly as large as a fingernail, yet his bite causes much
+scratching and irritation.  When these ants attack together, most small
+animals are in danger.  
+~
+centipede~
+BFIJ|D
+|
+0 0
+6 0 1d16+45 0d0+0 1d4+6 bite
+7 7 7 8
+|
+|
+FGI|
+DE|
+stand stand none 0
+BFL|
+BCDL|
+tiny unknown
+M DEATH 27011 100~
+#27006
+thorn bush several branch bramble~
+a thorn-covered branch~
+Several thorn bushes surround the area.
+~
+This bush is covered in sharp thorns, DO NOT TOUCH!
+~
+human~
+BFIJ|
+EGOPab|
+0 0
+4 5 1d17+45 0d0+0 1d3+4 scratch
+0 0 0 0
+B|
+BT|
+|
+GH|
+stand stand none 0
+EY|
+|
+large unknown
+#27007
+grey nosed hare~
+a hare~
+A grey-nosed hare darts out from under a bush.
+~
+This hare has very soft fur, well suited for clothing, and meaty thighs,
+well suited for a cookpot.  
+~
+rabbit~
+B|
+T|
+0 0
+8 7 3d30+70 2d3+3 2d3+4 pound
+4 4 4 6
+GI|
+|
+|
+F|
+stand stand either 0
+BFP|
+BDEFGIKL|
+medium unknown
+#27008
+young hare~
+a young hare~
+A young hare rests here while waiting on its meal.
+~
+This young hare looks too small to eat, and has hardly enough fur to
+bother with.  
+~
+rabbit~
+BFJ|
+|
+0 0
+6 6 3d20+20 2d3+3 1d2+4 scratch
+5 5 5 6
+|
+|
+|
+F|
+rest rest either 0
+BFP|
+BDEFGIKL|
+small unknown
+#27009
+small little hare sleeping~
+a small hare~
+Sleeping here is a cute little hare.
+~
+Not only is this hare too small to bother with for it's fur or meat, but
+it is also sleeping, please do not harm the cute bunny.  
+~
+rabbit~
+BFJ|
+|
+0 0
+6 6 3d20+20 2d3+3 1d2+4 scratch
+5 5 5 6
+|
+|
+|
+F|
+sleep sleep either 0
+BFP|
+BDEFGIKL|
+small unknown
+#27010
+aiel man leatherworker~
+an Aiel leatherworker~
+An Aiel leatherworker is here displaying which wares are for sale.
+~
+This leatherworker proudly displays what wares he has ready for the
+customer, and talks about what wares may come available once he has time to
+finish them.  
+~
+human~
+BFJ|
+|
+0 0
+50 50 25d30+500 2d3+3 16d2+25 none
+429496705 429496705 429496705 429496715
+|
+CDLT|
+|
+|
+stand stand male 100
+GKP|
+BCD|
+medium unknown
+#27011
+aiel man trader~
+an Aiel trader~
+An Aiel trader is here contemplating the value of some items.
+~
+This man seems eager to complete as many transactions he can each day. 
+He buys and trades for items at an almost feverish pace, and some times in
+quantity, but he does not adjust the price high enough to make a decent
+profit off of each item.  The trader believes that he will see enough profit
+if he sells and trades off enough items each day.  
+~
+human~
+BFJ|
+|
+0 0
+50 50 25d30+500 2d3+3 16d2+25 none
+429496705 429496705 429496705 429496715
+|
+CDLT|
+|
+|
+stand stand male 1000
+GKP|
+BCD|
+medium unknown
+#27012
+woman gaishain gai'shain aiel~
+a female Gai'shain~
+A female Gai'shain is here preparing the tent for the chiefs.
+~
+This woman wears the white robes of the Gai'shain.  Without a word she
+goes about her business, preparing the tent as she was told.  
+~
+human~
+BFJK|
+|
+0 0
+20 0 6d45+244 0d0+0 4d5+9 slap
+429496727 429496727 429496727 4
+|
+|
+|
+|
+stand stand female 0
+GKP|
+BCD|
+medium unknown
+#27013
+man gaishain gai'shain aiel~
+a male Gai'shain~
+A male Gai'shain is here setting out refreshments for the chiefs.
+~
+This man wears the white robes of the Gai'shain.  Without a word he goes
+about his business, preparing the refreshments as he was told.  
+~
+human~
+BFJK|
+|
+0 0
+21 0 7d43+261 0d0+0 4d5+10 punch
+429496726 429496726 429496726 3
+|
+|
+|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27014
+shepherd young aiel shaido jumai~
+a young shepherd~
+A young Shaido Aiel is here watching over his flock.
+~
+This young Aiel is from the Jumai sept of the Shaido Aiel.  He may be
+young, but like any Aiel he is strong-willed and capable, and will do his
+job fine.  
+~
+human~
+BFJ|
+|
+0 0
+18 0 6d37+211 0d0+0 4d5+9 none
+429496728 429496728 429496728 5
+|
+|
+|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27015
+shepherd young aiel jaern rift codarra~
+a young shepherd~
+A young Codarra Aiel is here watching over his flock.
+~
+This young Aiel is from the Jaern Rift sept of the Codarra Aiel.  He may
+be young, but like any Aiel he is strong-willed and capable, and will do his
+job fine.  
+~
+human~
+BFJ|
+|
+0 0
+18 0 6d37+211 0d0+0 4d5+9 none
+429496728 429496728 429496728 5
+|
+|
+|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27016
+shepherd young aiel iron mountain taardad~
+a young shepherd~
+A young Taardad Aiel is here watching over his flock.
+~
+This young Aiel is from the Iron Mountain sept of the Taardad Aiel.  He
+may be young, but like any Aiel he is strong-willed and capable, and will do
+his job fine.  
+~
+human~
+BFJ|
+|
+0 0
+18 0 6d37+211 0d0+0 4d5+9 none
+429496728 429496728 429496728 5
+|
+|
+|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27017
+female sheep ewe~
+an ewe~
+An ewe is here grazing in the dying grasses.
+~
+~
+pig~
+BFJ|
+b|
+0 0
+12 12 4d25+120 2d3+3 2d3+8 bite
+1 1 1 3
+|
+|
+|
+F|
+stand stand female 0
+BFP|
+BDEFGIKL|
+medium unknown
+#27018
+male sheep ram~
+a ram~
+A ram is here resting.
+~
+~
+pig~
+BFJ|
+b|
+0 0
+13 13 5d30+125 2d3+3 4d2+8 bite
+0 0 0 3
+|
+|
+|
+F|
+rest rest male 0
+BFP|
+BDEFGIKL|
+medium unknown
+#27019
+long haired female goat~
+a female goat~
+A long-haired female goat is grazing here.
+~
+~
+pig~
+BFJ|
+b|
+0 0
+13 13 6d30+125 2d3+3 4d2+10 bite
+0 0 0 3
+J|
+|
+|
+F|
+stand stand female 0
+BFP|
+BDEFGIKL|
+medium unknown
+#27020
+woman hawker seller~
+an Aiel woman~
+An Aiel woman is here selling food.
+~
+This woman has several bags of food at her side, and quickly empties them
+one by one as the hungry Aiel come to purchase a meal.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496708 429496708 429496708 429496724
+|
+CDLT|
+|
+|
+stand stand female 0
+GKP|
+BCD|
+medium unknown
+#27021
+male goat~
+a male goat~
+A long-haired male goat is here sleeping.
+~
+~
+pig~
+BFJ|
+b|
+0 0
+14 14 7d30+130 2d3+3 3d3+10 bite
+429496729 429496729 429496729 2
+J|
+|
+|
+F|
+sleep sleep male 0
+BFP|
+BDEFGIKL|
+medium unknown
+#27022
+female cattle cow~
+a cow~
+A cow is here grazing on the tough grass.
+~
+This cow is pale with long horns like the rest of the cattle, and does
+not seem to mind being herded here to the grass.  
+~
+horse~
+BFJ|
+b|
+0 0
+14 14 7d30+130 2d3+3 3d3+10 crush
+429496729 429496729 429496729 2
+|
+|
+|
+F|
+stand stand female 0
+BFP|
+BDEFGKLP|
+large unknown
+#27023
+male cattle bull~
+a bull~
+A sleeping bull has been tied to a large stake here.
+~
+This bull is pale with long horns like the rest of the cattle, and does
+not seem to mind being herded here to the grass.  
+~
+horse~
+BFJ|
+b|
+0 0
+15 15 7d30+130 2d3+3 4d2+10 crush
+429496728 429496728 429496728 2
+|
+|
+|
+F|
+sleep sleep male 0
+BFP|
+BDEFGKLP|
+large unknown
+#27024
+man aiel fletcher~
+a fletcher~
+A fletcher is here finishing an arrow.
+~
+This man would rather tend to his craft than his patrons.  He knows
+patrons are about, yet he takes several minutes before tending to them
+because he must finish his task at hand first.  
+~
+human~
+BFJ|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496708 429496708 429496708 429496724
+|
+CDLT|
+|
+|
+stand stand male 100
+GKP|
+BCD|
+medium unknown
+#27025
+man silversmith aiel banker changer~
+a silversmith~
+A silversmith is here exchanging gold and jewels for silver.
+~
+This man desperately needs silver.  He has some gold and jewels that he
+is using to purchase the more useful silver in hopes he might acquire enough
+weight to make some larger items such as pitchers and teapots.  If only some
+Aiel could find him some silver nuggets, then he might have enough.  Until
+then, he trades what little gold trinkets he has bartered for in the past
+for objects and wetlander coins of silver.  
+~
+human~
+BFJX|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496708 429496708 429496708 429496724
+|
+CDLT|
+|
+|
+stand stand male 1000
+GKP|
+BCD|
+medium unknown
+#27026
+small lamb~
+a small lamb~
+A small lamb rests here on a clump of grass.
+~
+~
+pig~
+BFJ|
+b|
+0 0
+9 9 4d30+90 2d3+3 3d2+6 bite
+3 3 3 5
+|
+|
+|
+F|
+rest rest female 0
+BFP|
+BDEFGIKL|
+small unknown
+#27027
+kid goat young small long haired~
+a kid~
+A young goat is here grazing on a small clump of grass.
+~
+~
+pig~
+BFJ|
+|
+0 0
+10 10 5d30+100 2d3+3 3d2+8 bite
+2 2 2 4
+J|
+|
+|
+F|
+stand stand male 0
+BFP|
+BDEFGIKL|
+small unknown
+#27028
+young calf~
+a young calf~
+A young calf is sleeping here on a patch of bare ground.
+~
+This calf is pale with long horns like the rest of the cattle, and does
+not seem to mind being herded here to the grass.  
+~
+horse~
+B|
+b|
+0 0
+11 11 5d30+110 2d3+3 3d3+8 crush
+1 1 1 4
+|
+|
+|
+F|
+sleep sleep female 0
+BFP|
+BDEFGKLP|
+medium unknown
+#27029
+sorda male adult sleeping~
+an adult sorda~
+An adult male sorda is here sleeping next to the nest.
+~
+A filthy creature, the sorda, with flesh so rank that only in desperation
+are they used for food.  
+~
+rat~
+BFJ|
+X|
+0 0
+8 8 4d30+80 2d3+3 2d2+8 bite
+3 3 3 5
+|
+|
+|
+F|
+sleep sleep male 0
+FP|
+BDEFGIKLPQR|
+small unknown
+#27030
+adult female sorda~
+an adult sorda~
+An adult female sorda is here resting next to the nest.
+~
+A filthy creature, the sorda, with flesh so rank that only in desperation
+are they used for food.  
+~
+rat~
+BFJ|
+X|
+0 0
+8 8 4d30+80 2d3+3 2d2+6 bite
+3 3 3 5
+|
+|
+|
+F|
+rest rest female 0
+FP|
+BDEFGIKLPQR|
+small unknown
+#27031
+young sorda~
+a young sorda~
+A young sorda is here clamboring about the nest.
+~
+Even if this creature had edible flesh, there isn't much on this one.
+~
+rat~
+BFJ|
+X|
+0 0
+7 7 3d30+50 2d4+4 2d2+5 bite
+4 4 4 6
+|
+|
+|
+EF|
+stand stand male 0
+FP|
+BDEFGIKLPQR|
+small unknown
+#27032
+adult mother female capar wounded~
+a capar~
+A wounded capar lies here on the ground next to her young.
+~
+This animal is called a capar, it looks a lot like a very large boar, yet
+its snout is a bit sharper.  It has coarse hair and four toes per foot. 
+Should this capar decide to charge, it would be wise to run.  A spear has
+broken off in its side, leaving just the spearhead and a stub of the haft
+sticking out.  
+~
+pig~
+BFJ|
+b|
+0 0
+15 15 6d25+100 2d3+3 5d2+10 crush
+429496728 429496728 429496728 2
+P|
+|
+|
+F|
+rest rest female 0
+BFP|
+BDEFGIKL|
+large unknown
+#27033
+young capar~
+a young capar~
+A young capar is here trying to hide deeper in the den.
+~
+What looks to be a strange full-grown boar is actually a young,
+half-grown capar.  When this animal is of age, it will be much more
+difficult to hunt.  
+~
+pig~
+BFJ|
+|
+0 0
+11 11 5d30+110 2d3+3 3d3+10 bite
+1 1 1 4
+|
+|
+|
+F|
+stand stand male 0
+BFP|
+BDEFGIKL|
+medium unknown
+#27034
+aiel young hunter~
+a young aiel hunter~
+A young aiel is here hunting capar.
+~
+This young aiel is hunting a capar that he has wounded.  He got a spear
+in the capar, but the spear broke and left him with just the haft.  He will
+find the capar, and finish what he started.  
+~
+human~
+BEJ|
+|
+0 0
+12 12 6d30+120 2d4+4 4d2+10 none
+1 1 1 3
+GJL|
+|
+|
+|
+stand stand male 0
+GKP|
+BCDHI|
+medium unknown
+M GRALL 27004 100~
+#27035
+female gara lizard~
+a female gara lizard~
+A gara lizard waits here for any prey to come near.
+~
+This lizard is thick, about two foot long with bronze scales and yellow
+stripes that run the length of its body.  This gara may be slow, but if it
+gets close enough to attack, it is very dangerous.  
+~
+lizard~
+BJ|
+OPb|
+0 0
+16 16 3d15+30 2d3+3 3d5+9 bite
+429496728 429496728 429496728 1
+|
+|
+L|
+I|
+stand stand female 0
+BCFRW|
+BDEFGILPR|
+medium unknown
+M EXALL 27003 100~
+M DELAY 27002 100~
+M GREET 27001 100~
+#27036
+male gara lizard~
+a male gara lizard~
+A gara lizard waits here for any prey to come near.
+~
+This lizard is thick, about two foot long with bronze scales and yellow
+stripes that run the length of its body.  This gara may be slow, but if it
+gets close enough to attack, it is very dangerous.  
+~
+lizard~
+B|
+Ob|
+0 0
+17 17 3d15+50 2d4+4 4d4+10 bite
+429496727 429496727 429496727 1
+|
+|
+L|
+I|
+stand stand male 0
+BCFRW|
+BDEFGILPR|
+medium unknown
+M EXALL 27003 100~
+M DELAY 27002 100~
+M GREET 27001 100~
+#27037
+segade plant spine covered~
+a segade plant~
+A spine-covered plant grows here undisturbed.
+~
+This spine-covered plant is known as a segade.  Although the extremely
+sharp spines ward off animals, the Aiel know the segade to hold enough
+moisture to survive on if needed.  
+~
+(null)~
+BFJ|
+|
+0 0
+5 5 2d30+30 2d3+3 1d3+6 scratch
+5 5 5 7
+|
+BP|
+|
+GHJ|
+stand stand none 0
+H|
+G|
+medium unknown
+#27038
+female gaishain aiel~
+a female gai'shain~
+A female gai'shan is here watching over the pile of clothing.
+~
+This gai'shain has the job of watching over the clothing of those in the
+sweat tent.  She must make sure that no snakes or other unwanted animals get
+into the piles of clothing.  
+~
+human~
+BFJ|
+|
+0 0
+50 50 25d30+500 2d3+3 16d2+25 none
+429496705 429496705 429496705 429496715
+|
+CDLT|
+|
+|
+stand stand female 0
+KP|
+B|
+medium unknown
+#27039
+male gaishain aiel~
+a gai'shain~
+A gai'shain is here adding steam to the tent.
+~
+This gai'shain slowly pours water from a gourd onto the hot rocks in the
+kettle.  After a period of time, he adds more hot rocks to the kettle. 
+Eventually he adds more water and the cycle continues.  
+~
+human~
+BFJ|
+|
+0 0
+50 50 25d30+500 2d3+3 16d2+25 none
+429496705 429496705 429496705 429496715
+|
+CDLT|
+|
+|
+stand stand male 0
+GKP|
+B|
+medium unknown
+M RANDOM 27007 4~
+M RANDOM 27006 3~
+M RANDOM 27005 3~
+#27040
+man aiel restringer carver engraver~
+a craftsman~
+A craftsman is here carving and engraving something for a patron.
+~
+This craftsman specializes not in creating items to sell or trade to his
+customers, but to modify or personalize items customers bring to him.  He
+may use carving or engraving tools for special patterns, or even some rare
+dyes to change colors, but he always gets the item just the way the customer
+wants.  
+~
+human~
+BFJd|
+|
+0 0
+50 0 10d169+920 0d0+0 5d10+25 none
+429496708 429496708 429496708 429496724
+|
+CDLT|
+|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27041
+red shield man aiel large aethan dor~
+an Aethan Dor~
+A very large Aiel is here making sure the peace of Alcair Dal is kept.
+~
+This Aiel is a member of the Aethan Dor warrior society, also called the
+"Red Shields".  His purpose here is to keep unwanted persons from entering
+the gathering, while also keeping the peace of Alcair Dal.  
+~
+human~
+BEFGJ|
+Ya|CD
+0 0
+60 120 60d60+1200 4d8+8 20d2+60 punch
+429496667 429496667 429496667 429496693
+DEFGIJKLOW|
+T|
+G|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+M ACT 27008 disarms~
+#27042
+man aiel warrior duadhe mahdi'in water seeker~
+a Water Seeker~
+A Duadhe Mahdi'in wanders through the gathering.
+~
+This Aiel belongs to the Duadhe Mahdi'in warrior society.  His cool blue
+eyes look far deeper blue than any pools of water that are found on this
+side of the Spine of the World.  
+~
+human~
+BEJ|D
+|
+0 0
+35 35 17d30+350 2d3+3 11d2+17 punch
+429496715 429496715 429496715 429496723
+DEFGIJLOW|
+|
+G|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27043
+woman aiel far dareis mai maiden spear warrior~
+a Maiden of the Spear~
+A Far Dareis Mai is here walking through the gathering.
+~
+This woman is Far Dareis Mai, a Maiden of the Spear, a women-only warrior
+society.  Her red hair is cut short except for a thin tail that trails below
+her shoulders.  She has the gaze of a hardened warrior, while still
+retaining her beauty and appeal to men, whether she wants the attention or
+not.  
+~
+human~
+BEJ|D
+|
+0 0
+35 35 17d30+350 2d3+3 10d2+16 punch
+429496715 429496715 429496715 429496723
+FGIJLOW|
+|
+G|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27044
+man aiel warrior sovin nai knife hands~
+a Knife Hand~
+A Sovin Nai stands here looking around the gathering.
+~
+This man is of the Sovin Nai, or Knife Hands, a warrior society that
+specializes in the use of hands and feet instead of weapons.  He stands
+still for the moment, but the tension in his limbs suggests he can move like
+the wind if needed.  
+~
+human~
+BEJ|D
+|
+0 0
+35 35 17d30+350 2d3+3 11d2+17 punch
+429496715 429496715 429496715 429496723
+DEFGIJO|
+|
+G|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27045
+man aiel cor darei night spear~
+a Night Spear~
+A Cor Darei walks through the gathering.
+~
+This Aiel is of the Cor Darei, a Night Spear, a warrior society that
+prides themselves on their stealth and skill at going unnoticed.  This man
+is practicing such skill right now as he walks through the gathering while
+blending in with the crowd and not arousing unwanted attention.  
+~
+human~
+BDJ|E
+|
+0 0
+40 80 40d60+800 4d6+6 10d2+30 punch
+429496694 429496694 429496694 429496710
+CEFGHIJKLOW|
+|
+G|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27046
+man aiel craftsman~
+an Aiel craftsman~
+An Aiel craftsman looks around the gathering before returning to his pavilion.
+~
+This man is very interested in the work of the other craftsmen as he
+wanders through the gathering.  He looks into each pavilion and looks over
+the work of the other craftsmen carefully, as if he is learning the
+techniques used just by examining the wares.  Soon he will have to return to
+his own pavilion and continue bartering his own wares.  
+~
+human~
+BJ|
+|
+0 0
+25 0 8d53+334 0d0+0 4d6+10 punch
+429496724 429496724 429496724 2
+G|
+|
+|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27047
+woman gaishain gai'shain aiel~
+a female gai'shain~
+A female gai'shain is here busily cleaning.
+~
+This woman wears the white robes of the Gai'shain.  Without a word she
+goes about her business, cleaning up as she has been told to do.  
+~
+human~
+BJK|
+|
+0 0
+20 0 6d45+244 0d0+0 4d5+9 slap
+429496727 429496727 429496727 4
+|
+|
+|
+|
+stand stand female 0
+GKP|
+BCD|
+medium unknown
+#27048
+man gaishain gai'shain aiel~
+a male gai'shain~
+This male gai'shain walks through the gathering cleaning.
+~
+Dressed in the white robes of a Gai'shain, this Aiel walks through the
+gathering, picking up trash and debris as he goes.  
+~
+human~
+BFK|
+|
+0 0
+21 0 7d43+261 0d0+0 4d5+10 punch
+429496726 429496726 429496726 3
+|
+|
+|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27049
+young aiel warrior boy~
+a young Aiel warrior~
+A young Aiel warrior is here staring out in the distance.
+~
+This young Aiel is here contemplating his future.  He has several warrior
+societies that he is trying to decide between.  His heart is that of a
+warrior, and his spirit is strong and unyielding, so he may choose to be a
+member of the Stone Dogs.  He believes in fairness and the honor of keeping
+the peace, so he may instead choose the Red Shields.  He is very swift and
+stealthy, something he prides himself on, and that may lead him to the Night
+Spears.  Even with all of that, he also realizes he is as equally deadly
+with his hands and feet as he is with his spear, so the Knife Hands also
+catch his interest.  All in all, the only warrior society he knows for sure
+he will not join is Far Dareis Mai, The Maidens of the Spear.  
+~
+human~
+BFJ|
+|
+0 0
+14 14 7d30+140 2d4+4 4d3+10 punch
+429496729 429496729 429496729 2
+GIJL|
+|
+|
+|
+stand stand male 0
+GKP|
+BCD|
+medium unknown
+#27050
+young ferret~
+a young ferret~
+As the thorny brush is pulled away, this young ferret titters to itself.
+~
+This young ferret titters to itself as the thorny brush is parted,
+suprised and excited to see you!  
+~
+rabbit~
+BFJ|
+|
+0 0
+6 6 3d20+20 2d3+3 1d2+4 scratch
+5 5 5 6
+|
+|
+|
+F|
+rest rest none 0
+BFP|
+BDEFGIKL|
+small unknown
+#27051
+baby ferret sleeping~
+a baby ferret~
+The chest of this baby ferret rises and falls quickly as it sleeps.
+~
+The silky pelt of the newborn ferret glistens softly in the light as the
+sun breaks through the brush guarding the ferret's nest.  
+~
+rabbit~
+BFJ|
+|
+0 0
+6 6 3d20+20 2d3+3 1d2+4 scratch
+5 5 5 6
+|
+|
+|
+F|
+sleep sleep none 0
+BFP|
+BDEFGIKL|
+small unknown
+#27052
+black ferret~
+a quick black ferret~
+A quick black ferret scampers through the thorny brush, tittering.
+~
+Quick as a snake, this black ferret scampers through the brush on the
+trail of food or a shiny thing.  
+~
+rabbit~
+B|
+|
+0 0
+8 7 3d30+70 2d3+3 2d3+4 pound
+4 4 4 6
+GI|
+|
+|
+F|
+stand stand male 0
+BFP|
+BDEFGIKL|
+medium unknown
+#27053
+small stinkadder snake adder serpent~
+a small stinkadder~
+Quickly slithering beneath the thornbushes is a small serpent.
+~
+This small serpent is a hand's span, spread thumb to pinky.  It has
+pinkish scales that reflect the sun with a twinkle.  
+~
+snake~
+BF|
+|
+0 0
+6 6 3d20+20 2d3+3 1d2+4 bite
+5 5 5 6
+|
+|
+L|
+FI|
+rest rest none 0
+BFRSW|
+BEFGLMPRT|
+small unknown
+#27054
+small stinkadder snake adder serpent~
+a small stinkadder~
+The pinkish scales of this small snake reflect the light of the sun.
+~
+This small serpent is a hand's span, spread thumb to pinky.  It has
+pinkish scales that reflect the sun with a twinkle.  
+~
+snake~
+BF|
+|
+0 0
+6 6 3d20+20 2d3+3 1d2+4 bite
+5 5 5 6
+|
+|
+L|
+FI|
+rest rest none 0
+BFRSW|
+BEFGLMPRT|
+small unknown
+#27055
+snake serpent stinkadder adder~
+a stinkadder~
+The pearly-white and pink scales of this snake mesmerize it's prey.
+~
+The scales of this stinkadder are pearly white and pink, which it uses to
+mesmerize it's prey before striking.  
+~
+snake~
+B|
+|
+0 0
+8 7 3d30+70 2d3+3 2d3+4 pound
+4 4 4 6
+|
+|
+L|
+FI|
+stand stand male 0
+BFRSW|
+BEFGLMPRT|
+medium unknown
+#27056
+ridge cat ridgecat~
+a ridgecat~
+Stalking it's way over the mesa is an amber-furred ridgecat.
+~
+This large cat has tufted ears with amber fur and a short tail.  It makes
+it's way over the mesa, slowly stalking it's prey.  
+~
+cat~
+B|
+X|
+0 0
+20 20 10d30+200 2d3+3 6d2+10 claw
+429496725 429496725 429496725 0
+GI|
+|
+|
+|
+stand stand either 0
+BFP|
+BDEFGIKLPQR|
+medium unknown
+#27057
+snake serpent bloodsnake~
+a bloodsnake~
+Slithering it's way through the sands is a blood-red snake.
+~
+This snake is as thick as an arm and from head to tail ranges three paces
+long.  It's scales scales are blood-red with stripes of onyx.  As prey draws
+near, it's tongue flicks from it's mouth and begins slithering closer.  
+~
+snake~
+B|
+|
+0 0
+15 15 7d30+150 2d3+3 5d2+10 acbite
+429496728 429496728 429496728 2
+GIN|
+|
+L|
+I|
+stand stand none 0
+BFRSW|
+BEFGLMPRT|
+medium unknown
+#27058
+gara lizard~
+a gara lizard~
+A gara lizard slowly makes it's way across the plateau.
+~
+This lizard is thick, about two foot long with bronze scales and yellow
+stripes that run the length of its body.  This gara may be slow, but if it
+gets close enough to attack, it is very dangerous.  
+~
+lizard~
+B|
+Ob|
+0 0
+17 17 3d15+50 2d4+4 4d4+10 bite
+429496727 429496727 429496727 1
+|
+|
+L|
+I|
+stand stand either 0
+BCFRW|
+BDEFGILPR|
+medium unknown
+#27059
+sandstorm storm wind small~
+a small sandstorm~
+A small sandstorm works its way through the Three-fold Land.
+~
+~
+human~
+BJ|
+S|
+0 0
+5 5 2d30+50 2d3+3 1d4+10 wrath
+5 5 5 7
+BFGHIK|
+|
+|
+|
+stand stand none 0
+|
+|
+medium unknown
+#27060
+sandstorm storm wind large~
+a large sandstorm~
+Sweeping up all in its path, a large sandstorm surges through the desert.
+~
+~
+human~
+BJ|
+S|
+0 0
+45 45 22d30+450 2d3+3 15d2+22 wrath
+429496708 429496708 429496708 429496718
+BFGHIK|
+|
+|
+|
+stand stand none 0
+|
+|
+medium unknown
+#0
+
+
+
+#OBJECTS
+#27001
+stone ledge~
+a stone ledge~
+A stone ledge is here for the chiefs to speak from.~
+stone~
+furniture O 0
+A DFGHIJ B BCDFG BCDFG
+40 1000 100 P
+#27002
+boots knee soft leather aiel_newbie pair~
+a pair of soft leather boots~
+A pair of soft leather boots have been dropped here.~
+leather~
+clothing SU AG
+0 0 0 0 0
+0 1 40 P
+A
+17 -2 -1
+A
+5 1 -1
+A
+4 1 -1
+A
+1 1 -1
+A
+2 1 -1
+#27003
+cadin'sor leather coat aiel_newbie~
+a brown and gray leather coat~
+A cadin'sor coat has been dropped here on the ground.~
+leather~
+armor SU AD
+C C C C 0
+0 2 20 P
+A
+1 1 -1
+A
+3 1 -1
+A
+5 1 -1
+A
+2 1 -1
+#27004
+cadin'sor breeches aiel_newbie~
+a pair of brown breeches~
+A pair of cadin'sor breeches have been dropped here.~
+leather~
+armor SU AF
+C C C C 0
+0 2 20 P
+A
+4 1 -1
+A
+2 1 -1
+A
+1 1 -1
+A
+3 1 -1
+#27005
+leather bracer aiel_newbie~
+a leather bracer~
+A leather bracer has been dropped here.~
+leather~
+armor SU AM
+B B B B 0
+0 1 7 P
+A
+14 10 -1
+A
+4 1 -1
+#27006
+aiel_newbie thong leather necklace~
+a leather thong with amber stones~
+Lying here is a soft leather thong necklace with amber stones on it.~
+leather~
+jewelry SU AC
+0 0 0 0 0
+0 1 5 P
+A
+4 1 -1
+A
+3 1 -1
+A
+14 10 -1
+#27007
+dung torch aiel_newbie~
+a dung torch~
+A dung torch has been dropped here.~
+wood dung~
+light SU A
+0 0 DGH 0 0
+0 1 5 P
+A
+14 10 -1
+#27008
+crystal silver earring aiel_newbie~
+a silver and crystal earring~
+A silver and crystal earring has been dropped here.~
+silver crystal~
+jewelry U AU
+0 0 0 0 0
+0 1 10 P
+A
+5 1 -1
+A
+2 1 -1
+A
+1 1 -1
+#27009
+herb pouch~
+an herb pouch~
+An Aiel crafted herb pouch has been dropped here.~
+leather~
+container S AR
+10 A 0 10 95
+0 1 25 P
+A
+5 1 -1
+A
+4 1 -1
+A
+1 1 -1
+A
+14 10 -1
+#27010
+portal~
+a very OOC portal~
+A very OOC portal lies here, gleaming 'examine portal'.~
+unknown~
+portal OSY 0
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcde 0 0 CEFJLMN 0
+0 10000 0 P
+E
+portal~
+For now, a shimmering rift in the Age Lace has been ripped, possibly by
+an incredible surge of Balefire from an unknown source.  On the other side
+of the portal you see what looks to be a large nursery of sorts, horribly
+distorted and with creatures that could only be of the Shadow's brood.  
+ 
+This is a VERY ooc portal to the absolute COOLEST newbie area ever to
+be built on a WoT Mud, Brian's Shadowspawn Nursery.  Make sure you keep
+your milk far away, or it'll probably be coming through your nose.
+Just 'enter portal' and enjoy!
+~
+#27011
+tassled cushion~
+a tassled cushion~
+Several tassled cushions are scattered about the tent for guests.~
+silk fluff~
+furniture Y 0
+BD DHIJM EHK DEFG DEFG
+0 1000 100 P
+#27012
+hand dug clay well shallow~
+a shallow well~
+A shallow well has been dug out from the hard clay.~
+dirt clay~
+fountain O 0
+-1 -1 'water' 0 0
+0 1000 100 P
+#27013
+leather water skin waterskin large~
+a large leather waterskin~
+A large leather waterskin has been carelessly dropped here.~
+leather~
+drink 0 AV
+70 70 'water' 0 0
+0 40 50 P
+A
+5 2 -1
+A
+14 20 -1
+#27014
+bowl porridge~
+a bowl of porridge~
+A clay bowl of tasteless porridge sits here.~
+unknown~
+food 0 A
+BC BC 0 0 0
+0 1 40 P
+#27015
+goat pepper stew~
+a bowl of peppered goat stew~
+A bowl of peppered goat stew has been dropped here.~
+unknown~
+food 0 A
+D D 0 0 0
+0 1 50 P
+#27016
+dried goat flatbread bread sandwich~
+a sandwich of dried goat and flatbread~
+A sandwich of dried goat and flatbread has been dropped here.~
+unknown~
+food 0 A
+BD BD 0 0 0
+0 1 45 P
+#27017
+anthill hill~
+a huge anthill~
+A huge anthill rises from the ground here, nearly waist-high.~
+dirt ant puke~
+furniture 0 0
+A A BE ABCDEG ABCDEG
+0 1000 100 P
+#27018
+painful_thorn_bush~
+a thorn bush~
+Several thorn bushes surround the area here.~
+wood~
+trash 0 0
+0 0 0 0 0
+0 1000 100 P
+#27019
+nest~
+a nest of twigs~
+A nest has been formed here from dirt and twigs.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 1000 100 P
+#27020
+hare steak thigh~
+a thigh steak~
+A thigh steak from a hare has been dropped here.~
+hare steak~
+food Q A
+C C 0 0 0
+0 1 0 P
+#27021
+fur pelt hare~
+a hare pelt~
+The pelt of a hare lies here in a pile.~
+fur pelt hare~
+treasure QS A
+0 0 0 0 0
+0 1 30 P
+#27022
+wide leather belt~
+a wide leather belt~
+A wide leather belt lies here on the ground.~
+leather~
+armor S AL
+C C C C 0
+0 2 25 P
+A
+1 1 -1
+A
+13 10 -1
+A
+14 10 -1
+#27023
+leather sheath~
+a leather knife sheath~
+A leather knife sheath lies here on the ground.~
+leather~
+container S AR
+10 0 0 10 90
+0 1 50 P
+A
+14 10 -1
+A
+17 -3 -1
+#27024
+leather armguards pair~
+a pair of soft leather armguards~
+A pair of leather armguards lie here on the ground.~
+leather~
+armor S AI
+AB AB AB AB 0
+0 2 15 P
+A
+2 1 -1
+A
+4 1 -1
+A
+5 1 -1
+#27025
+pair leather gloves~
+a pair of leather gloves~
+A pair of leather gloves lie here on the ground.~
+leather~
+armor S AH
+AB AC AB AB 0
+0 1 10 P
+A
+2 1 -1
+A
+13 10 -1
+#27026
+small leather buckler~
+a small leather buckler~
+A small leather buckler lies here on the ground.~
+leather~
+armor S AJ
+BC BC BC BC 0
+0 4 35 P
+A
+5 1 -1
+A
+13 10 -1
+#27027
+hardened leather spear-case spear case~
+a hardened leather spear-case~
+A hardened leather spear-case lies here on the ground.~
+leather~
+container S AV
+20 0 0 100 90
+0 5 40 P
+A
+4 2 -1
+A
+17 -4 -1
+#27028
+necklace beads thong leather~
+a necklace of brightly colored beads on a leather thong.~
+A beaded necklace lies here on the ground.~
+leather beads~
+jewelry S AC
+0 0 0 0 0
+0 1 55 P
+A
+5 1 -1
+A
+4 1 -1
+A
+3 1 -1
+#27029
+wooden mallet~
+a wooden mallet~
+A wooden mallet has been dropped here.~
+wood~
+weapon S AN
+mace 3 5 beating 0
+0 10 10 P
+#27030
+sharp long bladed knife steel~
+a long-bladed knife~
+A long-bladed knife has been dropped here.~
+steel~
+weapon 0 AN
+dagger 3 4 slice D
+0 2 35 P
+#27031
+sharpened steel tip spear wood~
+a wooden spear with a sharpened steel tip~
+A wooden spear with a sharpened steel tip has been dropped here.~
+wood steel~
+weapon 0 AN
+spear 4 5 pierce D
+0 5 35 P
+#27032
+aiel brown shoufa~
+a brown shoufa~
+A brown shoufa has been dropped here.~
+cloth~
+clothing S AE
+0 0 0 0 0
+0 1 25 P
+A
+2 1 -1
+A
+17 -2 -1
+A
+13 10 -1
+A
+5 1 -1
+#27033
+over sized dust cloak~
+an over-sized dust cloak~
+An over-sized dust cloak has been dropped here.~
+cloth~
+clothing S AK
+0 0 0 0 0
+0 2 75 P
+A
+17 -4 -1
+A
+5 1 -1
+A
+1 1 -1
+A
+14 10 -1
+A
+13 5 -1
+#27034
+aiel horn bow short~
+an Aiel horn-bow~
+An Aiel horn-bow has been dropped here.~
+horn~
+weapon S AN
+bow 2 3 thwack 0
+0 3 30 P
+A
+17 -2 -1
+A
+18 1 -1
+#27035
+twenty quiver aiel 20 arrows~
+a quiver that can hold up to twenty arrows~
+An Aiel quiver has been dropped here.~
+leather~
+quiver S AV
+20 4 3 0 0
+0 4 20 P
+A
+2 1 -1
+A
+14 20 -1
+#27036
+single one 1 arrow~
+a single arrow~
+A single arrow lies here on the ground.~
+wood~
+arrow S AO
+0 3 6 0 0
+0 1 1 P
+#27037
+aiel leather bow-case case~
+an Aiel bow-case~
+An Aiel bow-case lies here on the ground.~
+leather~
+container S AK
+6 A 0 20 90
+0 5 50 P
+A
+17 -4 -1
+A
+14 20 -1
+#27038
+leather bedroll~
+a leather bedroll~
+A leather bedroll has been spread out here on the ground.~
+leather~
+furniture S AO
+A DFGHIJ BEHK ADFG ADFG
+0 2 100 P
+#27039
+crooked shepherd staff~
+a crooked shepherd's staff~
+A crooked shepherd's staff has been dropped here.~
+wood~
+weapon S AN
+staff 3 5 thwack 0
+0 2 2 P
+A
+17 -6 -1
+#27040
+pile bone twigs nest~
+a sorda nest~
+A pile of bones and twigs are here being used as a nest of sorts.~
+wood bone~
+furniture 0 0
+BD DHIJM BEHK ADFG ADFG
+0 1000 100 P
+#27041
+spearhead spear head broken~
+the head of a broken spear~
+The head of a broken spear has been dropped here.~
+steel wood~
+weapon 0 AN
+dagger 3 4 stab 0
+0 1 5 P
+A
+2 1 -1
+A
+19 1 -1
+#27042
+broken spear haft~
+the haft of a broken spear~
+A broken spear lies here on the ground missing its spearhead.~
+wood~
+weapon S AN
+spear 3 4 thwack 0
+0 2 5 P
+A
+17 -2 -1
+A
+19 1 -1
+#27043
+crooked branch staff gnarled~
+a gnarled branch as long as a staff~
+A gnarled branch as long as a staff lies here on the ground.~
+wood~
+weapon QS AN
+staff 3 4 thwack 0
+0 4 1 P
+#27044
+crooked branch staff gnarled~
+a gnarled branch~
+A gnarled branch as long as a staff lies here on the ground.~
+wood~
+weapon QS AN
+staff 3 4 thwack 0
+0 4 1 P
+#27045
+segade husk~
+a segade husk~
+A chunk cut from a segade plant has been dropped here.~
+segade husk~
+drink QSe A
+5 5 'water' 0 0
+0 1 1 P
+#27046
+large rock flat~
+a large flat rock~
+A large flat rock sits here.~
+rock~
+furniture 0 0
+B DFGHIJ BEH BCDFG BCDFG
+0 1000 100 P
+#27047
+tent~
+a sweat tent~
+The tent-flap here is the entrance to the sweat tent.~
+unknown~
+portal O 0
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcde 0 A ACDGHILNO 0
+0 1000 100 P
+#27048
+tent tent-flap flap doorway~
+a tent-flap~
+A large kettle of hot stones and coals sits at the center of the tent.~
+unknown~
+portal O 0
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcde 0 A ABDGHILNO 0
+0 1000 100 P
+#27049
+water gourd~
+a gourd~
+A gourd full of water has been dropped here.~
+gourd~
+drink S AO
+20 20 'water' 0 0
+0 2 2 P
+#27050
+black veil~
+a black veil~
+A black piece of cloth lies here on the ground.~
+cloth~
+clothing S AT
+0 0 0 0 0
+0 1 20 P
+A
+13 5 -1
+A
+2 1 -1
+A
+17 -2 -1
+#27051
+sharp spear haft well-worn worn~
+a sharp spear with a well-worn haft~
+A sharp spear with a well-worn haft has been dropped here.~
+wood steel~
+weapon 0 AN
+spear 5 8 pierce D
+50 8 50 P
+A
+13 15 -1
+A
+19 2 -1
+#27052
+wide-bladed bladed hunting knife sharp~
+a wide-bladed hunting knife~
+A wide-bladed hunting knife has been dropped here.~
+steel~
+weapon 0 AN
+dagger 4 8 slice D
+50 2 60 P
+A
+13 15 -1
+A
+19 1 -1
+A
+18 1 -1
+#27053
+leather sheath knife belt~
+a leather knife sheath~
+A leather knife sheath lies here on the ground.~
+leather~
+container S AR
+5 0 0 5 70
+50 2 30 P
+A
+17 -4 -1
+A
+14 10 -1
+A
+2 1 -1
+A
+13 10 -1
+#27054
+bull hide stretched buckler hardened~
+a hardened bull-hide buckler~
+A buckler made of hardened bull-hide has been dropped here.~
+leather~
+armor S AJ
+BD BD BD BD 0
+50 4 50 P
+A
+2 1 -1
+A
+1 1 -1
+A
+14 10 -1
+A
+13 10 -1
+#27055
+aiel horn bow fine~
+a fine horn-bow~
+A fine horn-bow has been dropped here.~
+horn~
+weapon S AN
+bow 3 3 beating F
+25 3 50 P
+A
+18 1 -1
+A
+3 2 -1
+A
+2 2 -1
+#27056
+forty 40 quiver aiel arrows~
+a quiver that could hold up to forty arrows~
+An Aiel quiver full of arrows has been dropped here.~
+leather wood~
+quiver S AV
+40 8 5 0 0
+50 4 100 P
+A
+13 10 -1
+A
+18 1 -1
+A
+2 1 -1
+A
+14 10 -1
+#27057
+hardened leather aiel bow-case case~
+a hardened leather bow-case~
+A hardened leather bow-case lies here on the ground.~
+leather~
+container S AK
+10 A 0 25 70
+50 6 60 P
+A
+17 -4 -1
+A
+13 10 -1
+A
+14 20 -1
+#27058
+wooden spear sharp tipped~
+a wooden spear with a sharp steel tip~
+A wooden spear with a sharp steel tip has been dropped here.~
+wood steel~
+weapon 0 AN
+spear 5 6 pierce D
+35 6 35 P
+A
+2 1 -1
+A
+19 1 -1
+#27059
+bull hide buckler~
+a bull-hide buckler~
+A buckler made of bull-hide has been dropped here.~
+leather~
+armor S AJ
+D D D D 0
+35 4 35 P
+A
+13 5 -1
+A
+14 10 -1
+A
+1 1 -1
+A
+2 1 -1
+#27060
+soft laced leather boots knee pair~
+a pair of soft leather boots laced up to the knee~
+A pair of soft leather knee-high boots have been dropped here.~
+leather~
+clothing S AG
+0 0 0 0 0
+35 4 40 P
+A
+17 -4 -1
+A
+14 20 -1
+A
+2 1 -1
+A
+5 1 -1
+A
+1 1 -1
+#27061
+over-sized waterskin~
+an over-sized waterskin~
+A very large waterskin has been dropped here.~
+leather~
+drink S AO
+60 60 'water' 0 0
+35 20 20 P
+A
+13 5 -1
+A
+14 20 -1
+A
+5 1 -1
+A
+3 1 -1
+#27062
+hardened leather gloves~
+a pair of hardened leather gloves~
+A pair of hardened leather gloves have been dropped here.~
+leather~
+clothing S AH
+0 0 0 0 0
+35 1 40 P
+A
+17 -5 -1
+A
+19 1 -1
+A
+1 1 -1
+A
+13 5 -1
+#27063
+iron tipped wooden spear short~
+a short, iron-tipped wooden spear~
+A short, iron-tipped wooden spear has been dropped here.~
+wood iron~
+weapon S AN
+spear 5 6 pierce D
+17 2 15 P
+#27064
+rock formation~
+a craggy rock formation~
+A craggy rock formation has been shaped by countless sandstorms.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#27065
+credit alcair dal matt peregrine~
+`yCredit: Alcair Dal`w~
+For credits, please see added desc CREDIT.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+credit~
+Area: Alcair Dal
+Based on the WoT series by Robert Jordan
+Builder: Matt Peregrine
+Editor: Phillip Shortman
+Notes: I am very proud of the neat little features this area has.
+It was created with the intention of becoming the main recall/meeting area
+for the Aiel with the emphasis on newbies and newbie leveling.
+~
+#27066
+fresh pink scar~
+a fresh scar that is still pink~
+A tough piece of skin lies here on the ground.~
+scar~
+protect S AB
+0 0 0 0 0
+50 1 1 P
+A
+17 -2 -1
+A
+14 10 -1
+A
+13 15 -1
+#27067
+neck scar~
+a wide scar on the side of the neck~
+A wide piece of skin lies here on the ground.~
+scar~
+protect S AC
+0 0 0 0 0
+50 1 1 P
+A
+17 -2 -1
+A
+13 15 -1
+A
+14 10 -1
+#27068
+ear scar nick~
+a scarred nick taken out of the ear~
+A tiny piece of skin lies here on the ground.~
+scar~
+protect S AU
+0 0 0 0 0
+50 1 1 P
+A
+17 -2 -1
+A
+13 15 -1
+A
+14 10 -1
+#0
+
+
+
+#ROOMS
+#27001
+A Small Clearing Near Alcair Dal~
+Here the ground has been packed flat and turned up with the tracks of the
+many Aiel who pass by here.  To the north is the mountain range that Alcair
+Dal lies within.  Alcair Dal is where the thirteen clans meet under a peace
+akin to that of Rhuidean, to discuss matters that affect the people as a
+whole.  To the east is a large tent belonging to one of the Wise Ones.  To
+the west is a sweat tent.  The path to the south winds between some more
+tents before leading out of the gathering.
+~
+0 1024 2
+D0
+~
+~
+0 0 27002
+D1
+~
+~
+3 0 27005
+D2
+~
+~
+0 0 27082
+D3
+~
+~
+0 0 27083
+S
+#27002
+Entrance to Alcair Dal~
+This low, wide, hollow before the mountain range serves as a gathering
+place and a sort of market for those clans who have come to meet at Alcair
+Dal.  The ground here is cracked and baked clay that has been worn with the
+footprints of the many Aiel here at the gathering.  Several tents lie to the
+east and to the west all along the foot of these low mountains.  Many
+craftsmen have come to sell their wares here to the various clans.  To the
+north is a steep-walled gorge that is deep and darkly-shadowed.  The gorge
+cuts north into the mountains, leading to Alcair Dal.  
+~
+0 0 2
+D0
+~
+~
+0 0 27003
+D1
+~
+~
+0 0 27008
+D2
+~
+~
+0 0 27001
+D3
+~
+~
+0 0 27009
+S
+#27003
+A Deep Gorge Leading into Alcair Dal~
+Here in the gorge, the dark shadows cool the air, and bring a little
+relief from the heat of the day.  The walls of the gorge rise sharply,
+nearly vertical.  Streaked into the walls of the gorge are clays of yellow
+and red.  At times, when the sun is overhead and beats down upon the center
+of the gorge, the clay glitters in the sunlight.  The gorge itself is very
+peaceful and quiet, but much can be heard beyond the gorge to the north, and
+to the south.  The gorge leads back out to the gathering at the foot of the
+mountain to the south, and continues on further to the north, leading to
+Alcair Dal.  
+~
+0 4 4
+D0
+~
+~
+0 0 27004
+D2
+~
+~
+0 0 27002
+C Aiel~
+S
+#27004
+Alcair Dal~
+Alcair Dal, translated from the Old Tongue as "The Golden Bowl", is the
+gathering place of the thirteen Clans of the Aiel.  There is a agreement of
+peace within the desert surrounding the Bowl, similar to the peace of
+Rhuidean.  The Aiel gather to the Bowl at the call of the Clan Chiefs, to
+discuss matters that concern the people as a whole.  Although shaped much
+like a bowl, there is nothing golden about it.  Much like a bowl, Alcair Dal
+is almost perfectly round.  The gray walls slope all the way around, except
+at the far end, where it curls inward like a breaking wave.  At the far end
+of the bowl to the north, there is a ledge where the speakers stand on, and
+their voice can be heard all through the bowl.  The gorge to the south leads
+out of Alcair Dal to the gathering.  
+~
+0 9238 4
+D0
+~
+~
+0 0 27103
+D1
+~
+~
+0 0 27101
+D2
+~
+~
+0 0 27003
+D3
+~
+~
+0 0 27105
+C Aiel~
+S
+#27005
+A Wise One's Tent~
+Here in the Wise One's tent, there are many pillows piled neatly in
+several spots for visitors to sit and rest on.  A fine silver teapot and
+several tea cups sit on a stand for the Wise One and her guests to drink and
+enjoy.  The flaps of the tent are normally pulled closed for privacy so the
+Wise One can work without interruption.  While the Wise One may spend most
+of her time helping to resolve arguments and settle disputes, some of her
+time is spent tending to the sick and wounded, either with herbs and
+bandages, or use of the One Power.  
+~
+0 1032 0
+D3
+~
+~
+3 0 27001
+M 130 H 130
+S
+#27006
+The Tent of a Craftsman~
+This tent is the temporary home and shop for a very special Aiel
+craftsman.  While here at Alcair Dal, this man not only trades his wares
+from this tent, but has to sleep here as well.  He is considered a very
+intelligent man, and his customers leave very pleased as he teaches them the
+proper use and care for the wares they get from him.  
+~
+0 8 0
+D1
+~
+~
+0 0 27082
+S
+#27007
+Approaching Alcair Dal~
+Here the hard ground has been churned with the steps of the many Aiel who
+are travelling to and from Alcair Dal.  A mountain range rises to the north
+and spreads wide, from east to west.  At the base of the mountain are dozens
+and dozens of tents, housing the many Aiel who have gathered at Alcair Dal. 
+To the south, a dwindling path leads away from Alcair Dal towards desolate
+sands and open horizons.  The mountains are jagged earthen slabs of brown
+and gray stone, streaked with clay of yellow or red that sometimes glitter
+in the sunlight.  
+~
+0 0 2
+D0
+~
+~
+0 0 27082
+D2
+~
+~
+0 0 27059
+S
+#27008
+A Path Through the Gathering~
+This path leads through the gathering at the base of the mountain.  Tents
+and crowds gather south of here, to the east and to the west.  The ground,
+normally baked and cracked, is well-worn with the footprints of the many
+Aiel here at the gathering.  To the west is the entrance into Alcair Dal, a
+deep gouge that leads through the shadows and into the heart of the mountain
+range itself.  To the east the path continues on through the gathering, and
+past more tents.  
+~
+0 0 2
+D1
+~
+~
+0 0 27010
+D3
+~
+~
+0 0 27002
+S
+#27009
+A Path Through the Gathering~
+This path leads through the gathering at the base of the mountain.  Tents
+and crowds gather south of here, to the east and to the west.  The ground,
+normally baked and cracked, is well-worn with the footprints of the many
+Aiel here at the gathering.  To the east is the entrance into Alcair Dal, a
+deep gouge that leads through the shadows and into the heart of the mountain
+range itself.  To the west the path continues on through the gathering, and
+past more tents.  
+~
+0 0 4
+D1
+~
+~
+0 0 27002
+D3
+~
+~
+0 0 27014
+S
+#27010
+A Path Through the Gathering~
+This path meanders through the crowd along the base of the mountain,
+sometimes coming near the sloping mountainside.  All along the southern edge
+of the path, Aiel gather in groups and in tents, talking and trading.  The
+ground has seen so much travel, that the normally hard-baked clay has been
+churned into a fine dust that is sometimes blown about by the wind.  To the
+west is the entrance into Alcair Dal.  To the east, the path continues on
+through the gathering past past more people and tents.  To the south lies a
+small trickle of a well where the Aiel can get water.  
+~
+0 0 2
+D1
+~
+~
+0 0 27011
+D2
+~
+~
+0 0 27019
+D3
+~
+~
+0 0 27008
+S
+#27011
+A Path Through the Gathering~
+The path working through the encampment before Alcair Dal is growing
+quite crowded.  Many Aiel walk along the slope of the mountain to get around
+the crowd.  Off to the west is the entrance into Alcair Dal itself.  The
+path continues on to the east through the gathering, and another path is
+open to the south that leads in between the tents.  
+~
+0 0 2
+D1
+~
+~
+0 0 27012
+D2
+~
+~
+0 0 27039
+D3
+~
+~
+0 0 27010
+S
+#27012
+A Path Through the Gathering~
+Many Aiel walk along the path here, dodging each other and occassionally
+having to clambor along the slope to get past one another.  The ground that
+is normally very hard and baked by the sun has been churned into a fine dust
+that is blown about by the wind.  The path continues along between the foot
+of the mountain and the tents to the south.  The path runs to the west
+towards where the entrance into Alcair Dal itself, and to the east, where
+the crowding looks to be less.  A large tent is to the south, most likely
+for meetings.  
+~
+0 0 2
+D1
+~
+~
+0 0 27013
+D2
+~
+~
+3 0 27038
+D3
+~
+~
+0 0 27011
+S
+#27013
+A Path Through the Gathering~
+Side by side, Aiel walk along this path, brushing by one another at times
+and occassionally having to clambor along the slope to get past each other. 
+The ground that is normally very hard and baked by the sun has been churned
+into a fine dust that is blown about by the wind.  The path continues along
+to the west towards Alcair Dal between the foot of the mountain, north, and
+the tents to the south.  To the east on the path, the crowd of the gathering
+seems to dwindle towards the animal shelters.  A large tent lies to the
+south, most likely for meetings.  The entrance to the large tent is to the
+west.  
+~
+0 0 2
+D1
+~
+~
+0 0 27045
+D3
+~
+~
+0 0 27012
+S
+#27014
+A Path Through the Gathering~
+Onward the path leads through the gathering, sometimes so close to the
+mountainside, that one must clamber over small boulders to make their way
+through the crowd.  Tents and crowds gather south of here, to the east and
+to the west.  The ground, normally baked and cracked, is well-worn with the
+footprints of the many Aiel here at the gathering.  To the east is the
+entrance into Alcair Dal itself.  To the west the path continues on through
+the gathering, and past more tents.  To the south, several Aiel form a
+circle, creating an open span of ground where there looks to be some
+activity.  
+~
+0 0 4
+D1
+~
+~
+0 0 27009
+D2
+~
+~
+0 0 27018
+D3
+~
+~
+0 0 27015
+S
+#27015
+A Path Through the Gathering~
+Here the crowd seems to lessen a little, and most seem to be entering or
+leaving the tent to the south, where the rich aroma of leather is wafting
+out of.  The ground, normally baked and cracked, is well-worn with the
+footprints of the many Aiel here at the gathering.  Many tents lie all along
+the southern side of the path, surrounded by many Aiel who are clustered
+together in groups, talking and trading.  Distant to the east is the
+entrance into Alcair Dal itself.  To the west the path continues on through
+the gathering, and past more tents.  
+~
+0 0 4
+D1
+~
+~
+0 0 27014
+D2
+~
+~
+0 0 27036
+D3
+~
+~
+0 0 27016
+S
+#27016
+A Path Through the Gathering~
+The crowds are sparse here, and the path is clear and open with room to
+move around.  Many more crowds and tents lie to the east, closer to the
+entrance to Alcair Dal itself.  The ground, normally baked and cracked, is
+well-worn with the footprints of the many Aiel here at the gathering. 
+Directly to the south is a tent, where many Aiel leave with much different
+items than they entered with, most likely a trader or some such.  To the
+west, the gathering thins out as the path leads out of the encampment.  
+~
+0 0 4
+D1
+~
+~
+0 0 27015
+D2
+~
+~
+0 0 27037
+D3
+~
+~
+0 0 27017
+S
+#27017
+A Path Through the Gathering~
+Here the gathering is very sparse, and hardly any Aiel make their way
+this far west of the entrance into Alcair Dal itself.  Rarely do any of the
+Aiel venture out this way, but when they do, it is to look for food most
+likely.  No tents lie nearby, but more to the east a few Aiel cluster
+together in groups to talk and trade.  To the west, the path dies off into a
+lingering trail that just meanders off into the distance.  
+~
+0 0 4
+D1
+~
+~
+0 0 27016
+D3
+~
+~
+0 0 27020
+S
+#27018
+An Open Span of Ground~
+The ground here has been beaten flat and hard.  A single step upon it
+rises a dustcloud a mere inch from ground before quickly settling back down.
+Stains of blood are walked over uncaringly, and the pieces of missing and
+chipped teeth that lie on the ground are kicked aside in an unsympathetic
+manner.  A single man here has wrought this damage upon the fallen, yet they
+keep coming back, because this man has what it takes to see they survive
+their next Dance with honor.  
+~
+0 0 2
+D0
+~
+~
+0 0 27014
+S
+#27019
+Food and Water~
+Here near to the base of the mountain range, the hard ground has been dug
+out for a shallow well to provide water for those encamped nearby.  When
+water is not being drawn, a leather tarp covers the opening of the well to
+keep it from drying up too quickly.  Some of the Aiel also gather here to
+trade and sell their food and other items.  
+~
+0 1040 2
+D0
+~
+~
+0 0 27010
+D1
+~
+~
+0 0 27039
+S
+#27020
+An Unmarked Trail~
+This is not much of a trail, as it is just beyond the edge of the
+gathering into what is much harsher and rockier terrain than that near the
+tents.  There are many more rocks here, some as big as a man, and the only
+plants that grow near here are stunted trees or bushes that are covered in
+thorns.  To the west, the terrain gets worse, and the trail less noticeable.
+To the east the terrain gets easier as it nears the gathering and the tents.
+~
+0 0 5
+D1
+~
+~
+0 0 27017
+D3
+~
+~
+0 0 27021
+S
+#27021
+An Unmarked Trail~
+To the normal eye, this would not be considered a trail, but as it is the
+only passable path to traverse this rough terrain, it is used some.  The
+trail continues on to the south past stunted bushes full of thorns into what
+looks to be harsher and rockier terrain.  To the east, the terrain gets a
+little easier closer to the gathering.  
+~
+0 0 5
+D1
+~
+~
+0 0 27020
+D2
+~
+~
+0 0 27022
+S
+#27022
+An Unmarked Trail~
+Here the trail bends around a large boulder, continuing to the west and
+to the north.  The trail drops off to the south and east, down a steep rock
+face and into what may be thorny bushes and brambles.  The rocks and
+boulders seem to get larger and more difficult to pass by this far from
+Alcair Dal.  There does not seem to be any water or food nearby, and no
+animals can be seen.  
+~
+0 0 5
+D0
+~
+~
+0 0 27021
+D3
+~
+~
+0 0 27023
+S
+#27023
+Above a Patch of Thorny Bushes~
+The trail comes to an end here.  There are rocks and boulders all around,
+and the only way to continue would be to climb down a short rock face and
+into a patch of thorn bushes.  Why any person would venture into those
+bushes is unknown.  There are the sounds of some small animals down in the
+bushes, but it is undeterminable what kind.  
+~
+0 4 5
+D1
+~
+~
+0 0 27022
+D5
+~
+~
+0 0 27024
+S
+#27024
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  The only
+visible way out is up, back onto the trail.  There are disturbing sounds of
+small animals moving close to the ground and rustling through the thorn
+bushes.  Occassionally a gray-nosed hare may pop into view, but there are
+other sounds coming from nearby that are surely not a hare.  The overhang of
+the area here blocks out the sun and provides little respite, but at the
+cost of vision.  A deep shade causes everything to be lost from sight.  
+~
+0 1 10
+D2
+~
+~
+8 0 27025
+D4
+~
+~
+0 0 27023
+S
+#27025
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  There are
+disturbing sounds of small animals moving close to the ground and rustling
+through the thorn bushes.  Occassionally a hare may pop into view, but there
+are other sounds coming from nearby that a hare cannot make.  Some of the
+branches rise overhead, blocking out the sunlight, but also holding in the
+heat.  
+~
+0 1 10
+D0
+~
+~
+8 0 27024
+D1
+~
+~
+8 0 27031
+D2
+~
+~
+8 0 27026
+D3
+~
+~
+8 0 27034
+S
+#27026
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  There are
+disturbing sounds of small animals moving close to the ground and rustling
+through the thorn bushes.  Occassionally a hare may pop into view, but there
+are other sounds coming from nearby that a hare cannot make.  Some of the
+branches rise overhead, blocking out the sunlight, but also holding in the
+heat.  
+~
+0 1 10
+D0
+~
+~
+8 0 27025
+D1
+~
+~
+8 0 27030
+D2
+~
+~
+8 0 27027
+D3
+~
+~
+8 0 27033
+S
+#27027
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  There are
+disturbing sounds of small animals moving close to the ground and rustling
+through the thorn bushes.  Occassionally a hare may pop into view, but there
+are other sounds coming from nearby that a hare cannot make.  Some of the
+branches rise overhead, blocking out the sunlight, but also holding in the
+heat.  
+~
+0 1 10
+D0
+~
+~
+8 0 27026
+D1
+~
+~
+8 0 27028
+D3
+~
+~
+8 0 27032
+S
+#27028
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  There are
+disturbing sounds of small animals moving close to the ground and rustling
+through the thorn bushes.  Occassionally a hare may pop into view, but there
+are other sounds coming from nearby that a hare cannot make.  Some of the
+branches rise overhead, blocking out the sunlight, but also holding in the
+heat.  Upon closer inspection, the bushes seem to clear away a bit to the
+east.  
+~
+0 1 10
+D0
+~
+~
+8 0 27030
+D1
+~
+~
+8 0 27029
+D3
+~
+~
+8 0 27027
+S
+#27029
+An Anthill~
+Here the brambles and thorn bushes are cleared away near an indentation
+in the rock face.  The plant life was likely cleared away by the huge
+anthill here that rises from the ground.  Hundreds of little red ants make
+their way in and out of the anthill, some with tiny bits of food.  The
+ravenous ants can quickly overcome any small prey that comes to close to
+their habitat, making the anthill a safe dwelling for the ants and their
+queen.  
+~
+0 0 10
+D3
+~
+~
+8 0 27028
+S
+#27030
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  There are
+disturbing sounds of small animals moving close to the ground and rustling
+through the thorn bushes.  Occassionally a hare may pop into view, but there
+are other sounds coming from nearby that a hare cannot make.  Some of the
+branches rise overhead, blocking out the sunlight, but also holding in the
+heat.  
+~
+0 1 10
+D0
+~
+~
+8 0 27031
+D2
+~
+~
+8 0 27028
+D3
+~
+~
+8 0 27026
+S
+#27031
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  There are
+disturbing sounds of small animals moving close to the ground and rustling
+through the thorn bushes.  Occassionally a hare may pop into view, but there
+are other sounds coming from nearby that a hare cannot make.  Some of the
+branches rise overhead, blocking out the sunlight, but also holding in the
+heat.  
+~
+0 1 10
+D0
+~
+~
+8 0 27110
+D1
+~
+~
+8 0 27081
+D2
+~
+~
+8 0 27030
+D3
+~
+~
+8 0 27025
+S
+#27032
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  There are
+disturbing sounds of small animals moving close to the ground and rustling
+through the thorn bushes.  Occassionally a hare may pop into view, but there
+are other sounds coming from nearby that a hare cannot make.  Some of the
+branches rise overhead, blocking out the sunlight, but also holding in the
+heat.  
+~
+0 1 10
+D0
+~
+~
+8 0 27033
+D1
+~
+~
+8 0 27027
+D3
+~
+~
+8 0 27035
+S
+#27033
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  There are
+disturbing sounds of small animals moving close to the ground and rustling
+through the thorn bushes.  Occassionally a hare may pop into view, but there
+are other sounds coming from nearby that a hare cannot make.  Some of the
+branches rise overhead, blocking out the sunlight, but also holding in the
+heat.  
+~
+0 1 10
+D0
+~
+~
+8 0 27034
+D1
+~
+~
+8 0 27026
+D2
+~
+~
+8 0 27032
+S
+#27034
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  There are
+disturbing sounds of small animals moving close to the ground and rustling
+through the thorn bushes.  Occassionally a hare may pop into view, but there
+are other sounds coming from nearby that a hare cannot make.  Some of the
+branches rise overhead, blocking out the sunlight, but also holding in the
+heat.  
+~
+0 1 10
+D0
+~
+~
+0 0 27109
+D1
+~
+~
+8 0 27025
+D2
+~
+~
+8 0 27033
+S
+#27035
+A Nest in the Thicket~
+Here the thicket has been pulled away just enough to expose a nest of
+hares.  The young are snuggled in, feeling warm and protected in their nest
+that is surrounded by the concave rock face and the dense thicket.  There is
+an unusually large amount of young here, most likely from several adult
+hares, as many of the adults come and go, checking on the nest while they
+search for food for the young.  
+~
+0 0 10
+D1
+~
+~
+8 0 27032
+S
+#27036
+The Tent of a Leatherworker~
+This tent smells rich with the aroma of freshly tanned and many untanned
+leathers.  Many pieces have already been worked and finished, and are ready
+for trade.  Several large pieces of tanned bullhide hang from the back of
+the tent, ready to be worked, while several bundles have yet to be even
+tanned.  The leatherworker moves about the tent, busily displaying his wares
+for barter.  
+~
+0 8 0
+D0
+~
+~
+0 0 27015
+S
+#27037
+The Tent of an Aiel Trader~
+This tent at first appears very messily arranged, but upon closer
+inspection, it is obvious that the merchandise is bartered for so often,
+that the trader never has a chance to arrange or neaten anything.  There are
+a few items that seem part of the trader's regular stock and they are neatly
+arranged, unlike the majority of the other pieces.  The trader is always
+ready to make a deal.  
+~
+0 8 0
+D0
+~
+~
+0 0 27016
+S
+#27038
+The Meeting Tent for the Sept Chiefs~
+This large tent has been set up for the Sept Chiefs and the occassional
+Clan Chief.  Here they gather to discuss water rights and treaties, and
+relax a little while doing so.  The tent is comfortably set with wetlander
+pillows of silk, arranged all throughout the tent for the Chiefs to sit on
+without crowding.  The shade of the tent provides a welcome relief from the
+merciless wrath of the sun upon the Three-fold Land.  
+~
+0 1048 0
+D0
+~
+~
+3 0 27012
+S
+#27039
+A Path Between the Tents~
+This is a narrow path that winds between the tents and through the crowd.
+Food and water is available to the west where a well has been dug, and a
+vendor provides food.  The smell of cooked goat mixes with the sharp odor of
+peppers to fill the air with an enticing aroma.  This path continues on to
+the south towards more tents, and to the north to join the path at the base
+of the mountain.  
+~
+0 0 4
+D0
+~
+~
+0 0 27011
+D2
+~
+~
+0 0 27040
+D3
+~
+~
+0 0 27019
+S
+#27040
+A Path Between the Tents~
+The crowd is not overwhelming here, but the the space between the tents
+is not very large either, so the crowding is still noticeable.  The normally
+baked ground has been beaten to a fine dust here.  The dust is caught in the
+breeze that filters in between the tents and is blown into the eyes of
+anyone who is not wise enough to have their face covered.  The path leads
+between more tents to the north and to the east.  
+~
+0 0 4
+D0
+~
+~
+0 0 27039
+D1
+~
+~
+0 0 27041
+S
+#27041
+A Path Between the Tents~
+The normally baked ground has been beaten to a fine dust here.  The dust
+is caught in the breeze that filters in between the tents and is blown into
+the eyes of anyone who is not wise enough to have their face covered.  The
+crowd is not overwhelming here, but the the space between the tents is not
+very large either, so the crowding is still noticeable.  The path leads
+between more tents to the east and to the west.  To the south is the tent of
+a fletcher by the looks of the quivers on display.  
+~
+0 0 4
+D1
+~
+~
+0 0 27042
+D2
+~
+~
+0 0 27057
+D3
+~
+~
+0 0 27040
+S
+#27042
+A Path Between the Tents~
+The crowd is not overwhelming here, but the the space between the tents
+is not very large either, so the crowding is still noticeable.  The normally
+baked ground has been beaten to a fine dust here.  The dust is caught in the
+breeze that filters in between the tents and is blown into the eyes of
+anyone who is not wise enough to have their face covered.  The path leads
+between more tents to the east and to the west.  To the south is the tent of
+a silversmith possibly, but there are no silver wares for display which is
+odd.  
+~
+0 0 4
+D1
+~
+~
+0 0 27043
+D2
+~
+~
+0 0 27058
+D3
+~
+~
+0 0 27041
+S
+#27043
+A Path Between the Tents~
+The normally baked ground has been beaten to a fine dust here.  The dust
+is caught in the breeze that filters in between the tents and is blown into
+the eyes of anyone who is not wise enough to have their face covered.  The
+crowd is not overwhelming here, but the the space between the tents is not
+very large either, so the crowding is still noticeable.  The path leads
+between more tents to the north and to the west.  
+~
+0 0 4
+D0
+~
+~
+0 0 27044
+D3
+~
+~
+0 0 27042
+S
+#27044
+A Path Between the Tents~
+The crowd is not overwhelming here, but the the space between the tents
+is not very large either, so the crowding is still noticeable.  The normally
+baked ground has been beaten to a fine dust here.  The dust is caught in the
+breeze that filters in between the tents and is blown into the eyes of
+anyone who is not wise enough to have their face covered.  The path leads
+between more tents to the north and to the south.  
+~
+0 0 4
+D0
+~
+~
+0 0 27045
+D2
+~
+~
+0 0 27043
+S
+#27045
+A Path Through the Gathering~
+Here the jagged mountainside rises to the north side of the path and the
+Aiel must crowd together due to the path narrowing.  The dust-covered ground
+is churned into cloud of grit and dust from all the people walking through
+the gathering.  The path continues to the west, closer to the entrance to
+Alcair Dal itself.  To the east, the gathering seems to dwindle off into
+desolation, towards the animal shelters.  To the south, a narrow path leads
+between some tents.  
+~
+0 0 2
+D1
+~
+~
+0 0 27046
+D2
+~
+~
+0 0 27044
+D3
+~
+~
+0 0 27013
+S
+#27046
+A Path Through the Gathering~
+Here the path from the gathering seems to dwindle, and more often it
+appears to be just cracked and baked clay.  Off to the east, sounds of
+animals can be heard, and several large clumps of tough grass can be seen. 
+To the west, the gathering at Alcair Dal seems to get more crowded and
+louder.  The mountainside looms upward to the north, providing no easy
+passage for even a goat.  
+~
+0 0 2
+D1
+~
+~
+0 0 27047
+D3
+~
+~
+0 0 27045
+S
+#27047
+Away from the Gathering~
+The ground here has been beaten and worn from the many tracks of the Aiel
+who pass through going to and from the gathering.  The tents and crowd are
+visible to the west through the dust that is being blown about in the
+breeze.  To the north is a large mountain range that runs from east to west.
+The echoes of merchants are carried on the soft wind that passes near Alcair
+Dal, but neither offers refuge from the merciless sun beating upon the
+Three-fold Land.  
+~
+0 0 2
+D1
+~
+~
+0 0 27048
+D3
+~
+~
+0 0 27046
+S
+#27048
+Away from the Gathering~
+The ground here has been beaten and worn from the many tracks of the Aiel
+who pass through going to and from the gathering.  The tents and crowd are
+visible to the west through the dust that is being blown about in the
+breeze.  To the north is a large mountain range that runs from east to west.
+Beating down on the gathering outside Alcair Dal, the sun is merciless in
+the forging of the people of the Three-fold Land.  
+~
+0 0 2
+D1
+~
+~
+0 0 27049
+D3
+~
+~
+0 0 27047
+S
+#27049
+Away from the Gathering~
+The ground here has been worn from baked clay to a fine dust from the
+Aiel who pass by here from the gathering.  The worn ground makes a path of
+sorts that continues on to the south towards herds gathered around patches
+of the tough, tall grass.  To the east, a natural rock formation has created
+a path that looks to wind along the base of the mountain up towards the top
+of a mesa.  To the west, the path leads back to the gathering, the tents,
+and the crowd.  
+~
+0 0 2
+D1
+~
+~
+0 0 27060
+D2
+~
+~
+0 0 27050
+D3
+~
+~
+0 0 27048
+S
+#27050
+Near the Herds~
+This path is nothing but a narrow trail through rocks, brush and tall,
+very tough grass on either side.  The path continues on to the south, or to
+the north, closer to the gathering.  To the east, there are several sheep
+that have been herded towards the grass to graze.  To the south, there are
+sounds of other animals grazing.  
+~
+0 0 2
+D0
+~
+~
+0 0 27049
+D1
+~
+~
+0 0 27054
+D2
+~
+~
+0 0 27051
+S
+#27051
+Near the Herds~
+This path is just a narrow trail that winds through brush, rocks and some
+tall, tough grass on each side of the path.  The path continues on to the
+south, or back to the north, closer to the gathering.  Several goats have
+been herded to the west of here to graze on the tall grass.  To the south,
+there are sounds of more animals being herded to pasture.  
+~
+0 0 2
+D0
+~
+~
+0 0 27050
+D2
+~
+~
+0 0 27052
+D3
+~
+~
+0 0 27055
+S
+#27052
+Near the Herds~
+This path is just a narrow trail that winds through brush, rocks and some
+tall, tough grass on each side of the path.  The path continues on to the
+south, or back to the north, closer to the gathering.  Several pale,
+long-horned cattle have been herded to the east of here to graze on the tall
+grass.  To the north, there are sounds of more animals being herded to
+pasture.  
+~
+0 0 2
+D0
+~
+~
+0 0 27051
+D1
+~
+~
+0 0 27056
+D2
+~
+~
+0 0 27053
+S
+#27053
+Beyond the Herds~
+This path comes to a head here.  Tall grass rises on each side, and to
+the south, the ground drops straight down for several spans to the many
+rocks and segade plants below.  There is a fairly beautiful view of the
+valley below, and the endless expanse known as the Three-fold Land.  To the
+north, the path leads back towards the herds and the gathering beyond.  
+~
+0 0 5
+D0
+~
+~
+0 0 27052
+S
+#27054
+A Pasture~
+This area of tall, tough grass was chosen for the sheep to graze on.  The
+sheep are needed not only for trade, but possibly for food throughout the
+gathering at Alcair Dal.  These sheep in particular, are owned by the Jumai
+sept of the Shaido Aiel.  Possibly before the end of the gathering, another
+sept or clan will own these sheep.  A shepherd guards the sheep day and
+night from raiders, and to keep them from straying.  
+~
+0 0 2
+D3
+~
+~
+0 0 27050
+S
+#27055
+A Pasture~
+This area of tall, tough grass was chosen for the long-haired goats to
+graze on.  The long-haired goats are needed not only for trade, but possibly
+for food throughout the gathering at Alcair Dal.  These goats in particular,
+are owned by the Jaern Rift sept of the Codarra Aiel.  Possibly before the
+end of the gathering, another sept or clan will own the goats.  A shepherd
+guards the long-haired goats day and night from raiders, and to keep them
+from straying.  
+~
+0 0 2
+D1
+~
+~
+0 0 27051
+S
+#27056
+A Pasture~
+This area of tall, tough grass was chosen for the cattle to graze on. 
+The cattle are needed not only for trade, but possibly for food throughout
+the gathering at Alcair Dal.  These cattle in particular, are owned by the
+Iron Mountain sept of the Taardad Aiel.  Possibly before the end of the
+gathering, another sept or clan will own the cattle.  A shepherd guards the
+cattle day and night from raiders, and to keep them from straying.  
+~
+0 0 2
+D3
+~
+~
+0 0 27052
+S
+#27057
+A Fletcher~
+This tent belongs to a fletcher, and stores many of his arrows and
+horn-bows that are for sale.  Several sacks can be seen throughout the tent,
+full of arrows, quivers, bows and bow-cases.  The fletcher looks up from his
+work, and nods before returning to his work.  He finishes up what he is
+doing before he helps any would-be customers, and the customers do not seem
+to mind at all.  
+~
+0 8 0
+D0
+~
+~
+0 0 27041
+S
+#27058
+The Tent of a Silversmith~
+This tent belongs to a silversmith.  While he is not here at Alcair Dal
+to sell his wares, he has come here to acquire more silver for his work.  He
+normally prefers to get his silver either from nuggets or from coinage
+brought from the Wetlands.  He has a small pile of silver pennies he has
+traded for so far, but he has yet to trade for a proper weight of silver.  
+~
+0 268435464 0
+D0
+~
+~
+0 0 27042
+S
+#27059
+A Trail Leading to Alcair Dal~
+The ground here changes from the normal hard-baked clay to a trail of
+churned dust and footprints of the many Aiel who go to and from Alcair Dal. 
+Off to the north, a mountain range covers the horizon from east to west.  To
+the south, this trail looks to disappear into unremarkable brush, rocks and
+sand.  The mountains are jagged earthen slabs of brown and gray stone,
+streaked with clay of yellow or red that sometimes glitter in the sunlight. 
+~
+0 4 10
+D0
+~
+~
+0 0 27007
+D2
+~
+~
+0 0 27086
+S
+#27060
+Away from the Gathering~
+This path looks to be a natural formation along the mountainside, and
+leads along the base of the mountain up towards a mesa to the east.  To the
+north, the mountain is extremely steep, almost a sheer cliff for several
+spans.  The cliff continues to drop off a few paces to the south, easily a
+deathfall at another span or two to the rocky ground below.  To the
+southwest there seems to be some herds gathered around patches of the tough,
+tall grass.  Off to the west, the tents and crowds of the gathering before
+Alcair Dal can be seen.  
+~
+0 4 5
+D1
+~
+~
+0 0 27061
+D3
+~
+~
+0 0 27049
+S
+#27061
+Away from the Gathering~
+This path looks to be a natural formation along the mountainside, and
+leads along the base of the mountain up towards a mesa.  To the north, the
+mountain is extremely steep, almost a sheer cliff for several spans.  To the
+south of the path, there is a sharp drop down a few spans to the rocky
+ground below.  The path continues towards the mesa to the east, or back
+towards the encampment outside Alcair Dal to the west.  The sun beats down
+on the Three-fold Land mercilessly, giving apt reason behind the name.  
+~
+0 0 5
+D1
+~
+~
+0 0 27062
+D3
+~
+~
+0 0 27060
+S
+#27062
+A Rocky Ledge~
+This is a natural rocky path that follows the base of the mountain up to
+a large mesa.  The mesa seems to overlook an expansive area of the
+Three-fold Land with nothing to obscure the view to the south, east or west.
+To the north and east side of the path, the mountain is a sheer cliff for a
+few spans, then slopes upwards to the peak.  To the southwest, the path
+falls off abruptly downwards for several spans to rocks, segade and thorn
+bushes.  The sun beats down on the Threefold Land mercilessly, giving apt
+reason behind the name.  
+~
+0 0 5
+D2
+~
+~
+0 0 27063
+D3
+~
+~
+0 0 27061
+S
+#27063
+A Rocky Ledge~
+This is a natural rocky path that follows the base of the mountain up to
+a large mesa.  The mesa seems to overlook an expansive area of the Threefold
+Land with nothing to obscure the view to the south, east or west.  Segade
+and rock formations litter the mesa top almost continuously.  To the
+northeast side of the path, the mountain is a sheer cliff for a few spans,
+then slopes upwards to the peak.  To the south and west, the path falls off
+abruptly downwards for several spans to rocks, segade and thorn bushes.  The
+path continue on to the east towards the mesa top, or to the north along the
+base of the mountain and back to the ground.  
+~
+0 4 10
+D0
+~
+~
+0 0 27062
+D1
+~
+~
+0 0 27064
+S
+#27064
+Open Horizons~
+The view from the mesa is wide and expansive.  The horizon is clear and
+visible to the south, east and west for several leagues.  To the north, a
+cliff face rises up a dozen spans before sloping towards the peak of the
+mountain once more.  To the south, east and west, there are more segade and
+rocks formations that dot the top of the mesa.  The droppings of gara
+lizards can be seen here in the sands in a few places.  To the west, the
+ground slopes gently downward towards a natural path along the base of the
+mountain.  
+~
+0 0 10
+D1
+~
+~
+0 0 27065
+D2
+~
+~
+0 0 27071
+D3
+~
+~
+0 0 27063
+S
+#27065
+Open Horizons~
+The view from the mesa is wide and expansive.  The horizon is clear and
+visible to the south, east and west for several leagues.  To the north, a
+cliff face rises up a dozen spans before sloping towards the peak of the
+mountain once more.  To the south, east and west, there are more segade and
+rocks formations that dot the top of the mesa.  The droppings of gara
+lizards can be seen here in the sands in a few places.  To the west, the
+ground slopes gently downward towards a natural path along the base of the
+mountain.  
+~
+0 0 10
+D1
+~
+~
+0 0 27066
+D2
+~
+~
+0 0 27070
+D3
+~
+~
+0 0 27064
+S
+#27066
+Open Horizons~
+The view from the mesa is wide and expansive.  The horizon is clear and
+visible to the south, east and west for several leagues.  To the north, a
+cliff face rises up a dozen spans before sloping towards the peak of the
+mountain once more.  To the south, east and west, there are more segade and
+rocks formations that dot the top of the mesa.  The droppings of gara
+lizards can be seen here in the sands in a few places.  Far to the west, the
+ground slopes gently downward towards a natural path along the base of the
+mountain.  
+~
+0 0 10
+D1
+~
+~
+0 0 27067
+D2
+~
+~
+0 0 27069
+D3
+~
+~
+0 0 27065
+S
+#27067
+Open Horizons~
+The view from the mesa is wide and expansive.  The horizon is clear and
+visible to the south and west for several leagues.  To the north, a cliff
+face rises up a dozen spans before sloping towards the peak of the mountain
+once more.  There also seems to be a small hollow dug out of a natural niche
+in the cliff face to the north.  To the east there is a very long drop to
+the rocks.  To the south and west, there are more segade plants and rock
+formations that dot the top of the mesa.  The droppings of gara lizards can
+be seen here in the sands in a few places.  Far to the west, the ground
+slopes gently downward towards a natural path along the base of the
+mountain.  
+~
+0 0 10
+D0
+~
+~
+8 0 27080
+D2
+~
+~
+0 0 27068
+D3
+~
+~
+0 0 27066
+S
+#27068
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  The
+mountain looms off to the north, rising high and blocking much of the view
+in that direction.  Even the shade cast by the mountain is not shelter
+against the harsh sun on the desert.  To the east there is a very long drop
+down to the rocky Lands below, dotted with segade plants and many thorny
+bushes.  To the north, south and west, there are more segade and rock
+formations that top off this mesa.  The ground slopes gently downward
+towards a natural path along the base of the mountain, to the northwest.  
+~
+0 0 10
+D0
+~
+~
+0 0 27067
+D2
+~
+~
+0 0 27075
+D3
+~
+~
+0 0 27069
+S
+#27069
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  All
+around, segade and rock formations dot the top of this mesa.  The mountain
+looms off to the north, rising high and blocking much of the view in that
+direction.  Even the shade cast by the mountain is not against the harsh sun
+on the desert.  The droppings of a gara lizard can be seen here in the sands
+in a few places.  The ground slopes gently downward towards a natural path
+along the base of the mountain, to the northwest.  
+~
+0 0 10
+D0
+~
+~
+0 0 27066
+D1
+~
+~
+0 0 27068
+D2
+~
+~
+0 0 27074
+D3
+~
+~
+0 0 27070
+S
+#27070
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  All
+around, segade and rock formations dot the top of this mesa.  The mountain
+looms off to the north, rising high and blocking much of the view in that
+direction.  Even the shade cast by the mountain is not against the harsh sun
+on the desert.  The droppings of a gara lizard can be seen here in the sands
+in a few places.  The ground slopes gently downward towards a natural path
+along the base of the mountain, to the northwest.  
+~
+0 0 10
+D0
+~
+~
+0 0 27065
+D1
+~
+~
+0 0 27069
+D2
+~
+~
+0 0 27073
+D3
+~
+~
+0 0 27071
+S
+#27071
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  To the
+west, there is a very long drop down to the rocky Lands below.  To the
+south, east and north, there are more segade and rock formations that dot
+the top of the mesa.  The ground slopes gently downward towards a natural
+path along the base of the mountain, to the northwest.  The droppings of a
+gara lizard can be seen here in the sand in a few places.  
+~
+0 0 10
+D0
+~
+~
+0 0 27064
+D1
+~
+~
+0 0 27070
+D2
+~
+~
+0 0 27072
+S
+#27072
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  To the
+west, there is a very long drop down to the rocky Lands below.  To the
+south, east and north, there are more segade and rock formations that dot
+the top of the mesa.  The ground slopes gently downward towards a natural
+path along the base of the mountain, to the northwest.  The droppings of a
+gara lizard can be seen here in the sand in a few places.  
+~
+0 0 10
+D0
+~
+~
+0 0 27071
+D1
+~
+~
+0 0 27073
+D2
+~
+~
+0 0 27079
+S
+#27073
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  All
+around, segade and rock formations dot the top of this mesa.  The mountain
+looms off to the north, rising high and blocking much of the view in that
+direction.  Even the shade cast by the mountain is not against the harsh sun
+on the desert.  The droppings of a gara lizard can be seen here in the sands
+in a few places.  The ground slopes gently downward towards a natural path
+along the base of the mountain, to the northwest.  
+~
+0 0 10
+D0
+~
+~
+0 0 27070
+D1
+~
+~
+0 0 27074
+D2
+~
+~
+0 0 27078
+D3
+~
+~
+0 0 27072
+S
+#27074
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  All
+around, segade and rock formations dot the top of this mesa.  The mountain
+looms off to the north, rising high and blocking much of the view in that
+direction.  Even the shade cast by the mountain is not against the harsh sun
+on the desert.  The droppings of a gara lizard can be seen here in the sands
+in a few places.  The ground slopes gently downward towards a natural path
+along the base of the mountain, to the northwest.  
+~
+0 0 10
+D0
+~
+~
+0 0 27069
+D1
+~
+~
+0 0 27075
+D2
+~
+~
+0 0 27077
+D3
+~
+~
+0 0 27073
+S
+#27075
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  The
+mountain looms off to the north, rising high and blocking much of the view
+in that direction.  Even the shade cast by the mountain is not shelter
+against the harsh sun on the desert.  To the east there is a very long drop
+down to the rocky Lands below, dotted with segade plants and many thorny
+bushes.  To the north, south and west, there are more segade and rock
+formations that top off this mesa.  The ground slopes gently downward
+towards a natural path along the base of the mountain, to the northwest.  
+~
+0 0 10
+D0
+~
+~
+0 0 27068
+D2
+~
+~
+0 0 27076
+D3
+~
+~
+0 0 27074
+S
+#27076
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  The
+mountain looms off to the north, rising high and blocking much of the view
+in that direction.  Even the shade cast by the mountain is not shelter
+against the harsh sun on the desert.  To the east there is a very long drop
+down to the rocky Lands below, dotted with segade plants and many thorny
+bushes.  To the north, south and west, there are more segade and rock
+formations that top off this mesa.  The ground slopes gently downward
+towards a natural path along the base of the mountain, to the northwest.  
+~
+0 0 10
+D0
+~
+~
+0 0 27075
+D3
+~
+~
+0 0 27077
+S
+#27077
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  All
+around, segade and rock formations dot the top of this mesa.  The mountain
+looms off to the north, rising high and blocking much of the view in that
+direction.  Even the shade cast by the mountain is not against the harsh sun
+on the desert.  The droppings of a gara lizard can be seen here in the sands
+in a few places.  The ground slopes gently downward towards a natural path
+along the base of the mountain, to the northwest.  
+~
+0 0 10
+D0
+~
+~
+0 0 27074
+D1
+~
+~
+0 0 27076
+D3
+~
+~
+0 0 27078
+S
+#27078
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  All
+around, segade and rock formations dot the top of this mesa.  The mountain
+looms off to the north, rising high and blocking much of the view in that
+direction.  Even the shade cast by the mountain is not against the harsh sun
+on the desert.  The droppings of a gara lizard can be seen here in the sands
+in a few places.  The ground slopes gently downward towards a natural path
+along the base of the mountain, to the northwest.  
+~
+0 0 10
+D0
+~
+~
+0 0 27073
+D1
+~
+~
+0 0 27077
+D3
+~
+~
+0 0 27079
+S
+#27079
+Open Horizons~
+The view from the top of the mesa is wide and expansive.  The horizon is
+clear and visible to the south, east and west for several leagues.  To the
+south and west, there is a very long drop down to the rocky Lands below.  To
+the north and east, there are more segade and rock formations that dot the
+top of the mesa.  The ground slopes gently downward towards a natural path
+along the base of the mountain, to the northwest.  The droppings of a gara
+lizard can be seen here in the sand in a few places.  
+~
+0 0 10
+D0
+~
+~
+0 0 27072
+D1
+~
+~
+0 0 27078
+S
+#27080
+A Capar Den~
+This den was created from a natural overhang in the rock face that was
+further burrowed out by the adult capar.  The floor of the den is covered
+with small pieces of dried brush, twigs and weeds that provide a little
+comfort from the ground.  The small cavern grows narrower and the ceiling
+gets lower deeper into the den.  The opening to the south leads back out of
+the den towards the mesa.  
+~
+0 5 10
+D2
+~
+~
+8 0 27067
+S
+#27081
+A Sorda Nest~
+This nest is made from twigs and the bones of dead animals that did not
+make it through the thicket.  The sorda rip the flesh from the victims and
+leave the bones to pile here in their nest, where they just place twigs on
+top of the mess to cover it.  In every direction but the west, a rock face
+blocks travel.  To the west, the thicket makes travel painful at the least. 
+~
+0 0 10
+D3
+~
+~
+8 0 27031
+S
+#27082
+Before a Gathering at Alcair Dal~
+Here the ground has been churned and turned up with the tracks of the
+many Aiel who pass through.  To the north is the mountain range that Alcair
+Dal lies within.  Alcair Dal is where the thirteen clans meet under a peace
+akin to that of Rhuidean, to discuss matters that affect the people as a
+whole.  To the east is the tent of a craftsman who specializes in engraving
+and carving.  To the west is the tent of a honored craftsman who is
+bartering a few of his wares.  To the south, the path leads away from the
+gathering towards open ground.  
+~
+0 0 2
+D0
+~
+~
+0 0 27001
+D1
+~
+~
+0 0 27084
+D2
+~
+~
+0 0 27007
+D3
+~
+~
+0 0 27006
+S
+#27083
+Before a Sweat Tent~
+Here is the entrance to the sweat tent.  The sweat tent is a low tent
+that is staked tightly down all around.  The smoke hole has been covered up
+to keep the steam inside the tent.  A pile of clothes lie neatly stacked
+beside the entrance of the tent where a gai'shain watches over them to keep
+snakes away from the clothing.  Make sure to remove all clothing before
+(typing) <enter tent> and enjoying the relaxing steam.  
+~
+0 268435456 2
+D1
+~
+~
+0 0 27001
+S
+#27084
+An Engraver~
+Several tools line a make-shift bench built from bull-hide stretched taut
+over a wood frame.  A few large, flat rocks provide a smooth working surface
+and the leverage sometimes needed for carving.  A few very small casks of
+dye are set to the back of the tent and are very rare and valuable here in
+the Three-fold Land.  The craftsman is eager to help any customers with
+their choices of design in personalizing their items (help restringer).  
+~
+0 8 0
+D3
+~
+~
+0 0 27082
+S
+#27085
+Inside a Sweat Tent~
+This is a very low tent that is only tall enough to stand upright at the
+very center where the hot coals are.  At the top center of the tent, the
+smoke hole has been covered to keep the steam in the tent.  A large kettle
+full of hot rocks and coals produces the steam when water is sprinkled into
+the kettle.  A smaller kettle sits nearby storing extraordinarily hot rocks
+and coals that are slowly added to the larger kettle to keep it hot.  The
+ground inside the tent has been swept of rocks, but no other furnishings are
+needed for comfort.  Type <enter doorway> to exit the sweat tent at any
+time.  
+~
+0 263194 0
+M 130 H 150
+S
+#27086
+Atop a Low Rise~
+Here the ground rises up enough to give a clear view to the north and to
+the south.  To the north, there is long, wide hollow at the base of the
+mountain range where a fair of sorts has been gathered.  Tents and pavilions
+line the hollow from east to west, with many Aiel wandering in the midst of
+the gathering.  To the south, the land stretches on, endless and expansive. 
+The mountains are jagged earthen slabs of brown and gray stone, streaked
+with clay of yellow or red that sometimes glitter in the sunlight.  
+~
+0 0 4
+D0
+~
+~
+0 0 27059
+D2
+~
+~
+0 0 27087
+S
+#27087
+Uneven Ground~
+Here the dusty, rock-strewn ground is a touch uneven and requires a
+careful step or the loss of an ankle for punishment.  A very rough mountain
+range is to the north, colored brown and gray mostly, but with enough reds
+and yellows to be noticeable.  To the immediate north, there is a low rise
+that blocks the view of the base of the mountain.  The mountains are jagged
+earthen slabs of brown and gray stone, streaked with clay of yellow or red
+that sometimes glitter in the sunlight.  To the west, several hills rise up
+and down continuously with enough rocks and segade mixed in to keep it from
+becoming too monotonous.  
+~
+0 0 10
+D0
+~
+~
+0 0 27086
+D3
+~
+~
+0 0 27088
+S
+#27088
+Between the Hills~
+Rock-covered hills rise to both the north and south, blocking any view in
+those directions, and casting distinct shadows across the ground between the
+hills.  The ground here is fairly even, with only the cracked and baked
+ground detracting from the smooth and unremarkable features of the nearby
+area.  The ground to the east is far more broken and uneven, while to the
+west it gets even more level.  
+~
+0 0 10
+D1
+~
+~
+0 0 27087
+D3
+~
+~
+0 0 27089
+S
+#27089
+Flat Ground~
+Clear horizons span in all directions save for the few scattered low
+hills that abound to the east and west.  A few segade and rocks litter the
+landscape in the distance, but nowhere nearby.  Nearby there is only the
+hard ground that is cracked so badly one almost expects it to bleed from the
+wound.  Not even the tough grass can be seen even in the distance, as if
+those scattered clumps of leather-like grass could be a consolation from the
+barren landscape found here.  Mountain ranges lie far off in the distance to
+the north and south, yet one to the northeast is closer than the others. 
+The mountains are jagged earthen slabs of brown and gray stone, streaked
+with clay of yellow or red that sometimes glitter in the sunlight.  
+~
+0 0 10
+D1
+~
+~
+0 0 27088
+D3
+~
+~
+0 0 27090
+S
+#27090
+Scattered Rocks~
+Many rocks are scattered nearby.  Some are small, some are huge boulders,
+but most are the size of a fist, large enough to trip over if not careful. 
+To the east there is nothing remarkable, except that it looks overly barren,
+as if the Creator wiped all traces of life from that spot of land.  To the
+west, there are a few hills and valleys.  Mountain ranges can be seen very
+far off to the north and south, yet one to the northeast is closer than the
+others.  The mountains are jagged earthen slabs of brown and gray stone,
+streaked with clay of yellow or red that sometimes glitter in the sunlight. 
+~
+0 0 10
+D1
+~
+~
+0 0 27089
+D3
+~
+~
+0 0 27091
+S
+#27091
+Lower Ground~
+The ground here drops down slightly, but just low enough that there is
+not much of a view in any direction.  The upper ground to the east looks a
+bit rocky, as the outline of the ridge is rough like there are rocks along
+there.  To the west, at the top of the hill, a few segade can be seen
+outlining the crest, but nothing else of notice can be seen.  
+~
+0 0 10
+D1
+~
+~
+0 0 27090
+D3
+~
+~
+0 0 27092
+S
+#27092
+Atop Another Hill~
+Here atop the hill, there is a very nice view of the surrounding
+landscape.  A few segade are scattered here, but not many.  The view is
+clear enough that almost nothing could be hidden from this vantage point, as
+there is not much cover to be found.  To the east and west both the land is
+fairly even and unremarkable.  Mountain ranges can be seen far off in the
+distance to the north and south, but one to the northeast is a little
+closer.  The mountains are jagged earthen slabs of brown and gray stone,
+streaked with clay of yellow or red that sometimes glitter in the sunlight. 
+~
+0 0 4
+D1
+~
+~
+0 0 27091
+D3
+~
+~
+0 0 27093
+S
+#27093
+A Shallow Valley~
+Here the hills seem to have dropped just slightly, providing a shallow
+depression, or valley in between them.  To the east and west only the hills
+can be seen, but to the north and south, mountain ranges can be seen far off
+in the distance.  A few clumps of tough, tall grass have grown here in the
+fold between the hills.  The mountains are jagged earthen slabs of brown and
+gray stone, streaked with clay of yellow or red that sometimes glitter in
+the sunlight.  
+~
+0 0 10
+D1
+~
+~
+0 0 27092
+D3
+~
+~
+0 0 27094
+S
+#27094
+Atop Another Hill~
+Here atop the hill, there is a very nice view of the surrounding
+landscape.  To the east and west the land is fairly even and unremarkable. 
+The view is clear enough that almost nothing could be hidden from this
+vantage point, as there is not much cover to be found.  A few segade are
+scattered here, but not many.  Mountain ranges can be seen far off in the
+distance to the north and south, but one to the northeast is a little
+closer.  The mountains are jagged earthen slabs of brown and gray stone,
+streaked with clay of yellow or red that sometimes glitter in the sunlight. 
+~
+0 0 4
+D1
+~
+~
+0 0 27093
+D3
+~
+~
+0 0 27095
+S
+#27095
+Almost Level Ground~
+Here the ground is littered with many small rocks and some of the clumps
+of tough, tall grass.  The ground is fairly even and level, unlike it is to
+the east and west.  A few animals can be spotted darting of in the distance,
+but none close enough to be hunted or stalked.  A few mountain ranges are
+off to the north and south, but one to the northeast looks to be closer. 
+The mountains are jagged earthen slabs of brown and gray stone, streaked
+with clay of yellow or red that sometimes glitter in the sunlight.  
+~
+0 0 10
+D1
+~
+~
+0 0 27094
+D3
+~
+~
+0 0 27096
+S
+#27096
+Cresting a Rise~
+A decent view can be had here of the nearby landscape.  The ground is
+pretty sparce, and there is not much cover, except for the few segade lying
+down in the valley to the west.  Far to the west, a few buttes can be seen
+rising from the ground, almost dominating the horizon in that direction. 
+There are mountain ranges far off to the north and south, but one to the
+northeast is a little closer than the others.  The mountains are jagged
+earthen slabs of brown and gray stone, streaked with clay of yellow or red
+that sometimes glitter in the sunlight.  
+~
+0 0 4
+D1
+~
+~
+0 0 27095
+D3
+~
+~
+0 0 27097
+S
+#27097
+Valleys and Segade~
+There is more sand here than in the surrounding area, as it may have been
+blown over the years into this lower ground.  A few segade litter the
+landscape, yet there seems to be little of the clumps of tough grass that
+are sometimes common.  No animals can be spotted nearby, but this low
+vantage point does not allow much of a view, and just about anything could
+be beyond the next rise.  Not even the nearby segade are large enough to
+hide any but the smallest of creatures.  
+~
+0 0 10
+D1
+~
+~
+0 0 27096
+D3
+~
+~
+0 0 27098
+S
+#27098
+Hills and Rocks~
+The hard-baked clay ground is cracked and broken in most of the lower
+areas here, yet among the higher ground, the sand and rocks is more
+prominent.  A few clumps of tall, tough grass are scattered all about,
+providing a little respite from the barren landscape.  Far to the west a
+cluster of buttes can be seen.  Mountain ranges can be seen far off to the
+north and south horizons.  
+~
+0 0 10
+D1
+~
+~
+0 0 27097
+D3
+~
+~
+0 0 27099
+S
+#27099
+Beside a Gulley~
+A deep jagged gulley, possibly from a heavy rainfall many, many years
+ago, or even a left-over from the Breaking of the World, lies to the south,
+barring any travel in that direction.  Rocks and segade litter the land in
+many shapes and sizes, but a few thorny bushes or twisted, stunted trees dot
+the landscape on occassion.  To the west, a large cluster of sheer-sided
+buttes rise from the ground as a very noticeable landmark.  Far to the north
+and south can be seen distant mountain ranges.  
+~
+0 0 10
+D1
+~
+~
+0 0 27098
+D3
+~
+~
+0 0 27100
+S
+#27100
+Near a Butte~
+The ground here is littered with fist-size and larger rocks, but none
+much larger than a small child.  In every direction there are many rocks,
+segade and thorn bushes scattered, but not enough to provide cover to hide
+any grown men, women or large animals.  To the west, a cluster of tall,
+sheer-sided buttes rise from the ground in near monolithic form as the most
+recognizable landform near here.  Far to the north and south mountain ranges
+line the horizons.  
+~
+0 0 10
+D1
+~
+~
+0 0 27099
+D3
+~
+~
+0 0 11802
+S
+#27101
+Alcair Dal~
+Alcair Dal, translated from the Old Tongue as "The Golden Bowl", is the
+gathering place of the thirteen Clans of the Aiel.  There is a agreement of
+peace within the desert surrounding the Bowl, similar to the peace of
+Rhuidean.  The Aiel gather to the Bowl at the call of the Clan Chiefs, to
+discuss matters that concern the people as a whole.  Although shaped much
+like a bowl, there is nothing golden about it.  Much like a bowl, Alcair Dal
+is almost perfectly round.  The gray walls slope all the way around, except
+at the far end, where it curls inward like a breaking wave.  At the far end
+of the bowl to the north, there is a ledge where the speakers stand on, and
+their voice can be heard all through the bowl.  The gorge to the south leads
+out of Alcair Dal to the gathering.  
+~
+0 9238 4
+D0
+~
+~
+0 0 27102
+D3
+~
+~
+0 0 27004
+C Aiel~
+S
+#27102
+Alcair Dal~
+Alcair Dal, translated from the Old Tongue as "The Golden Bowl", is the
+gathering place of the thirteen Clans of the Aiel.  There is a agreement of
+peace within the desert surrounding the Bowl, similar to the peace of
+Rhuidean.  The Aiel gather to the Bowl at the call of the Clan Chiefs, to
+discuss matters that concern the people as a whole.  Although shaped much
+like a bowl, there is nothing golden about it.  Much like a bowl, Alcair Dal
+is almost perfectly round.  The gray walls slope all the way around, except
+at the far end, where it curls inward like a breaking wave.  At the far end
+of the bowl to the north, there is a ledge where the speakers stand on, and
+their voice can be heard all through the bowl.  The gorge to the south leads
+out of Alcair Dal to the gathering.  
+~
+0 9238 4
+D0
+~
+~
+0 0 27108
+D2
+~
+~
+0 0 27101
+D3
+~
+~
+0 0 27103
+C Aiel~
+S
+#27103
+Alcair Dal~
+Alcair Dal, translated from the Old Tongue as "The Golden Bowl", is the
+gathering place of the thirteen Clans of the Aiel.  There is a agreement of
+peace within the desert surrounding the Bowl, similar to the peace of
+Rhuidean.  The Aiel gather to the Bowl at the call of the Clan Chiefs, to
+discuss matters that concern the people as a whole.  Although shaped much
+like a bowl, there is nothing golden about it.  Much like a bowl, Alcair Dal
+is almost perfectly round.  The gray walls slope all the way around, except
+at the far end, where it curls inward like a breaking wave.  At the far end
+of the bowl to the north, there is a ledge where the speakers stand on, and
+their voice can be heard all through the bowl.  The gorge to the south leads
+out of Alcair Dal to the gathering.  
+~
+0 9238 4
+D0
+~
+~
+0 0 27107
+D1
+~
+~
+0 0 27102
+D2
+~
+~
+0 0 27004
+D3
+~
+~
+0 0 27104
+C Aiel~
+S
+#27104
+Alcair Dal~
+Alcair Dal, translated from the Old Tongue as "The Golden Bowl", is the
+gathering place of the thirteen Clans of the Aiel.  There is a agreement of
+peace within the desert surrounding the Bowl, similar to the peace of
+Rhuidean.  The Aiel gather to the Bowl at the call of the Clan Chiefs, to
+discuss matters that concern the people as a whole.  Although shaped much
+like a bowl, there is nothing golden about it.  Much like a bowl, Alcair Dal
+is almost perfectly round.  The gray walls slope all the way around, except
+at the far end, where it curls inward like a breaking wave.  At the far end
+of the bowl to the north, there is a ledge where the speakers stand on, and
+their voice can be heard all through the bowl.  The gorge to the south leads
+out of Alcair Dal to the gathering.  
+~
+0 9238 4
+D0
+~
+~
+0 0 27106
+D1
+~
+~
+0 0 27103
+D2
+~
+~
+0 0 27105
+C Aiel~
+S
+#27105
+Alcair Dal~
+Alcair Dal, translated from the Old Tongue as "The Golden Bowl", is the
+gathering place of the thirteen Clans of the Aiel.  There is a agreement of
+peace within the desert surrounding the Bowl, similar to the peace of
+Rhuidean.  The Aiel gather to the Bowl at the call of the Clan Chiefs, to
+discuss matters that concern the people as a whole.  Although shaped much
+like a bowl, there is nothing golden about it.  Much like a bowl, Alcair Dal
+is almost perfectly round.  The gray walls slope all the way around, except
+at the far end, where it curls inward like a breaking wave.  At the far end
+of the bowl to the north, there is a ledge where the speakers stand on, and
+their voice can be heard all through the bowl.  The gorge to the south leads
+out of Alcair Dal to the gathering.  
+~
+0 9238 4
+D0
+~
+~
+0 0 27104
+D1
+~
+~
+0 0 27004
+C Aiel~
+S
+#27106
+Alcair Dal~
+Alcair Dal, translated from the Old Tongue as "The Golden Bowl", is the
+gathering place of the thirteen Clans of the Aiel.  There is a agreement of
+peace within the desert surrounding the Bowl, similar to the peace of
+Rhuidean.  The Aiel gather to the Bowl at the call of the Clan Chiefs, to
+discuss matters that concern the people as a whole.  Although shaped much
+like a bowl, there is nothing golden about it.  Much like a bowl, Alcair Dal
+is almost perfectly round.  The gray walls slope all the way around, except
+at the far end, where it curls inward like a breaking wave.  At the far end
+of the bowl to the north, there is a ledge where the speakers stand on, and
+their voice can be heard all through the bowl.  The gorge to the south leads
+out of Alcair Dal to the gathering.  
+~
+0 9238 4
+D1
+~
+~
+0 0 27107
+D2
+~
+~
+0 0 27104
+C Aiel~
+S
+#27107
+Alcair Dal~
+Alcair Dal, translated from the Old Tongue as "The Golden Bowl", is the
+gathering place of the thirteen Clans of the Aiel.  There is a agreement of
+peace within the desert surrounding the Bowl, similar to the peace of
+Rhuidean.  The Aiel gather to the Bowl at the call of the Clan Chiefs, to
+discuss matters that concern the people as a whole.  Although shaped much
+like a bowl, there is nothing golden about it.  Much like a bowl, Alcair Dal
+is almost perfectly round.  The gray walls slope all the way around, except
+at the far end, where it curls inward like a breaking wave.  At the far end
+of the bowl to the north, there is a ledge where the speakers stand on, and
+their voice can be heard all through the bowl.  The gorge to the south leads
+out of Alcair Dal to the gathering.  
+~
+0 9238 4
+D1
+~
+~
+0 0 27108
+D2
+~
+~
+0 0 27103
+D3
+~
+~
+0 0 27106
+C Aiel~
+S
+#27108
+Alcair Dal~
+Alcair Dal, translated from the Old Tongue as "The Golden Bowl", is the
+gathering place of the thirteen Clans of the Aiel.  There is a agreement of
+peace within the desert surrounding the Bowl, similar to the peace of
+Rhuidean.  The Aiel gather to the Bowl at the call of the Clan Chiefs, to
+discuss matters that concern the people as a whole.  Although shaped much
+like a bowl, there is nothing golden about it.  Much like a bowl, Alcair Dal
+is almost perfectly round.  The gray walls slope all the way around, except
+at the far end, where it curls inward like a breaking wave.  At the far end
+of the bowl to the north, there is a ledge where the speakers stand on, and
+their voice can be heard all through the bowl.  The gorge to the south leads
+out of Alcair Dal to the gathering.  
+~
+0 9238 4
+D2
+~
+~
+0 0 27102
+D3
+~
+~
+0 0 27107
+C Aiel~
+S
+#27109
+A Nest in the Thicket~
+Here the thicket has been pulled away just enough to expose a nest of
+ferrets.  The young are snuggled in, feeling warm and protected in their
+nest that is surrounded by the concave rock face and the dense thicket. 
+There is an unusually large amount of young here, most likely from several
+adult ferrets, as many of the adults come and go, checking on the nest while
+they search for food and playthings for their young.  
+~
+0 0 10
+D2
+~
+~
+0 0 27034
+S
+#27110
+Thorny Bushes~
+Thorn bushes surround this area, blocking any easy passage.  There are
+disturbing sounds of small animals moving close to the ground and rustling
+through the thorn bushes.  Occassionally a hare may pop into view, but there
+are other sounds coming from nearby that a hare cannot make.  Some of the
+branches rise overhead, blocking out the sunlight, but also holding in the
+heat.  
+~
+0 1 10
+D2
+~
+~
+8 0 27031
+S
+#0
+
+
+
+#SPECIALS
+M 27035 spec_poison
+M 27041 spec_patrolman
+M 27047 spec_janitor
+M 27048 spec_janitor
+M 27057 spec_poison
+M 27059 spec_janitor
+M 27060 spec_janitor
+S
+
+
+
+#RESETS
+D 27001 1 3 0 0
+D 27005 3 3 0 0
+D 27012 2 3 0 0
+D 27038 0 3 0 0
+O 27010 0 27001 1 100
+M 27046 5 27002 1 100
+M 27001 1 27005 1 100
+O 27011 0 27005 1 100
+M 27002 1 27006 1 100
+G 27008 0 -1 0 100
+G 27007 0 -1 0 100
+G 27006 0 -1 0 100
+G 27005 0 -1 0 100
+G 27004 0 -1 0 100
+G 27003 0 -1 0 100
+G 27002 0 -1 0 100
+G 27050 0 -1 0 100
+G 27009 0 -1 0 100
+M 27041 1 27007 1 100
+E 27051 0 16 0 100
+E 27053 0 13 0 100
+G 27052 0 -1 0 100
+E 27054 0 11 0 100
+G 27055 0 -1 0 100
+E 27056 0 12 0 100
+G 27057 0 -1 0 100
+E 27066 0 1 0 100
+E 27067 0 3 0 100
+E 27068 0 23 0 100
+M 27047 5 27008 1 100
+M 27047 5 27009 1 100
+M 27044 5 27012 1 100
+E 27060 0 8 0 100
+E 27062 0 9 0 100
+M 27045 5 27013 1 100
+E 27058 0 16 0 100
+E 27060 0 8 0 100
+E 27059 0 11 0 100
+M 27042 5 27015 1 100
+E 27058 0 16 0 100
+E 27060 0 8 0 100
+E 27061 0 17 0 100
+M 27003 1 27018 1 100
+O 27012 0 27019 1 100
+M 27020 1 27019 1 100
+G 27016 0 -1 0 100
+G 27015 0 -1 0 100
+G 27014 0 -1 0 100
+G 27013 0 -1 0 100
+O 27064 0 27020 1 100
+M 27049 1 27021 1 100
+E 27063 0 16 0 100
+O 27018 0 27024 1 100
+M 27006 40 27024 2 100
+G 27043 0 -1 0 100
+O 27018 0 27025 1 100
+M 27006 40 27025 5 100
+O 27018 0 27026 1 100
+M 27006 40 27026 5 100
+O 27018 0 27027 1 100
+M 27006 40 27027 5 100
+G 27043 0 -1 0 100
+O 27018 0 27028 1 100
+M 27006 40 27028 5 100
+O 27017 0 27029 1 100
+M 27005 10 27029 10 100
+M 27004 10 27029 10 100
+M 27005 10 27029 10 100
+M 27004 10 27029 10 100
+O 27018 0 27030 1 100
+M 27006 40 27030 5 100
+G 27043 0 -1 0 100
+O 27018 0 27031 1 100
+M 27006 40 27031 5 100
+O 27018 0 27032 1 100
+M 27006 40 27032 5 100
+O 27018 0 27033 1 100
+M 27006 40 27033 5 100
+G 27043 0 -1 0 100
+O 27018 0 27034 1 100
+M 27006 40 27034 5 100
+O 27019 0 27035 1 100
+M 27009 5 27035 5 100
+M 27008 5 27035 5 100
+M 27009 5 27035 5 100
+M 27008 5 27035 5 100
+M 27007 30 27035 2 100
+G 27021 0 -1 0 100
+G 27020 0 -1 0 100
+M 27010 1 27036 1 100
+G 27027 0 -1 0 100
+G 27026 0 -1 0 100
+G 27025 0 -1 0 100
+G 27024 0 -1 0 100
+G 27023 0 -1 0 100
+G 27022 0 -1 0 100
+M 27011 1 27037 1 100
+G 27033 0 -1 0 100
+G 27032 0 -1 0 100
+G 27031 0 -1 0 100
+G 27030 0 -1 0 100
+G 27029 0 -1 0 100
+G 27028 0 -1 0 100
+G 27038 0 -1 0 100
+O 27011 0 27038 1 100
+M 27013 2 27038 2 100
+M 27012 2 27038 2 100
+M 27014 1 27054 1 100
+E 27039 0 16 0 100
+M 27026 5 27054 5 100
+M 27017 5 27054 5 100
+M 27018 5 27054 5 100
+M 27026 5 27054 5 100
+M 27017 5 27054 5 100
+M 27018 5 27054 5 100
+M 27026 5 27054 5 100
+M 27017 5 27054 5 100
+M 27018 5 27054 5 100
+M 27026 5 27054 5 100
+M 27017 5 27054 5 100
+M 27018 5 27054 5 100
+M 27026 5 27054 5 100
+M 27017 5 27054 5 100
+M 27018 5 27054 5 100
+M 27015 1 27055 1 100
+E 27039 0 16 0 100
+M 27027 5 27055 5 100
+M 27021 5 27055 5 100
+M 27019 5 27055 5 100
+M 27027 5 27055 5 100
+M 27021 5 27055 5 100
+M 27019 5 27055 5 100
+M 27027 5 27055 5 100
+M 27021 5 27055 5 100
+M 27019 5 27055 5 100
+M 27027 5 27055 5 100
+M 27021 5 27055 5 100
+M 27019 5 27055 5 100
+M 27027 5 27055 5 100
+M 27021 5 27055 5 100
+M 27019 5 27055 5 100
+M 27016 1 27056 1 100
+E 27039 0 16 0 100
+M 27028 5 27056 5 100
+M 27023 5 27056 5 100
+M 27022 5 27056 5 100
+M 27028 5 27056 5 100
+M 27023 5 27056 5 100
+M 27022 5 27056 5 100
+M 27028 5 27056 5 100
+M 27023 5 27056 5 100
+M 27022 5 27056 5 100
+M 27028 5 27056 5 100
+M 27023 5 27056 5 100
+M 27022 5 27056 5 100
+M 27028 5 27056 5 100
+M 27023 5 27056 5 100
+M 27022 5 27056 5 100
+M 27024 1 27057 1 100
+G 27037 0 -1 0 100
+G 27036 0 -1 0 100
+G 27035 0 -1 0 100
+G 27034 0 -1 0 100
+M 27025 1 27058 1 100
+M 27056 5 27064 1 100
+M 27037 20 27064 1 100
+G 27045 0 -1 0 100
+M 27058 10 27065 2 100
+M 27057 10 27065 2 100
+O 27064 0 27065 1 100
+M 27037 20 27065 1 100
+G 27045 0 -1 0 100
+M 27037 20 27066 1 100
+G 27045 0 -1 0 100
+M 27036 2 27066 1 100
+M 27058 10 27067 2 100
+O 27064 0 27067 1 100
+M 27037 20 27067 1 100
+G 27045 0 -1 0 100
+M 27057 10 27068 2 100
+M 27037 20 27068 1 100
+G 27045 0 -1 0 100
+M 27037 20 27069 1 100
+G 27045 0 -1 0 100
+M 27056 5 27070 1 100
+M 27057 10 27070 2 100
+M 27037 20 27070 1 100
+G 27045 0 -1 0 100
+M 27035 2 27070 1 100
+M 27034 1 27070 1 100
+G 27042 0 -1 0 100
+M 27037 20 27071 1 100
+M 27058 10 27071 2 100
+G 27045 0 -1 0 100
+M 27057 10 27072 2 100
+M 27037 20 27072 1 100
+G 27045 0 -1 0 100
+M 27035 2 27072 1 100
+O 27064 0 27073 1 100
+M 27058 10 27073 2 100
+M 27037 20 27073 1 100
+G 27045 0 -1 0 100
+M 27056 5 27074 1 100
+M 27057 10 27074 2 100
+O 27046 0 27074 1 100
+M 27037 20 27074 1 100
+G 27045 0 -1 0 100
+M 27036 2 27074 1 100
+M 27037 20 27075 1 100
+G 27045 0 -1 0 100
+M 27056 5 27076 1 100
+M 27057 10 27076 2 100
+O 27064 0 27076 1 100
+M 27037 20 27076 1 100
+G 27045 0 -1 0 100
+M 27037 20 27077 1 100
+G 27045 0 -1 0 100
+M 27057 10 27078 2 100
+O 27064 0 27078 1 100
+M 27037 20 27078 1 100
+G 27045 0 -1 0 100
+M 27056 5 27079 1 100
+M 27037 20 27079 1 100
+G 27045 0 -1 0 100
+M 27032 1 27080 1 100
+G 27041 0 -1 0 100
+M 27033 5 27080 5 100
+M 27033 5 27080 5 100
+M 27033 5 27080 5 100
+M 27033 5 27080 5 100
+M 27033 5 27080 5 100
+O 27040 0 27081 1 100
+M 27031 5 27081 5 100
+M 27030 1 27081 1 100
+M 27031 5 27081 5 100
+M 27029 1 27081 1 100
+M 27031 5 27081 5 100
+M 27031 5 27081 5 100
+M 27031 5 27081 5 100
+M 27043 8 27082 1 100
+E 27058 0 16 0 100
+E 27059 0 11 0 100
+E 27060 0 8 0 100
+M 27038 1 27083 1 100
+O 27047 0 27083 1 100
+M 27040 1 27084 1 100
+O 27048 0 27085 1 100
+M 27039 1 27085 1 100
+E 27049 0 17 0 100
+M 27059 3 27088 1 30
+O 27046 0 27090 1 100
+M 27059 3 27093 1 30
+M 27060 1 27096 1 5
+M 27037 20 27097 1 100
+G 27045 0 -1 0 100
+M 27059 3 27099 1 100
+O 27001 0 27107 1 100
+M 27050 5 27109 5 100
+M 27052 10 27109 2 100
+M 27051 5 27109 5 100
+O 27019 0 27109 1 100
+M 27055 10 27110 2 100
+M 27053 5 27110 5 100
+M 27054 5 27110 5 100
+O 27018 0 27110 1 100
+S
+
+
+
+#SHOPS
+27002 33 1 11 9 15 110 90 4 20
+27010 11 9 0 0 0 120 80 4 20
+27011 5 33 11 9 12 101 90 4 20
+27020 17 19 0 0 0 120 80 4 20
+27024 5 15 39 38 0 101 90 3 21
+27025 8 0 0 0 0 150 90 4 20
+27038 0 0 0 0 0 100 100 0 24
+27039 0 0 0 0 0 100 100 0 24
+27040 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#27001
+mob echo A gara lizard attempts to hide in the rocks.
+hide
+sneak
+mob delay 6
+~
+Matt~
+sneaky gara & delay~
+#27002
+mob echo A gara lizard prepares to attack!
+kill $r
+~
+Matt~
+gara attack~
+#27003
+hide
+sneak
+~
+Matt~
+sneaky gara 2~
+#27004
+if carries $i haft
+say I see you $n.
+if carries $n spearhead
+say I see you have found the capar I wounded.
+say Here, you can have the remainder of the spear, it is yours.
+remove haft
+give haft $n
+else
+say I lost my spearhead in a wounded capar, let me know if you find it.
+endif
+endif
+~
+Matt~
+hunter monologue~
+#27005
+emote pours water from a gourd onto the hot rocks in the kettle.
+~
+Matt~
+sweat tent gaishain~
+#27006
+emote removes an extremely hot rock from a small kettle with a pair of tongs, then adds the rock to the larger kettle.
+~
+Matt~
+sweat tent gaishain 2~
+#27007
+mob echo Steam rises out from the kettle and fills the tent.
+~
+Matt~
+sweat tent steam~
+#27008
+if carries $i well-worn
+wield spear
+else
+get well-worn
+wield spear
+endif
+~
+matt~
+disarm/wield mprog~
+#27009
+if isnation $n 'three
+say I see you Aiel.
+else
+shout You are an intruder here wetlander!
+kill $n
+endif
+~
+matt~
+death to the wetlanders!~
+#27010
+mob echo SQUISH!
+mob mload 27004
+force ant kill $n
+~
+Matt~
+ant load~
+#27011
+mob echo SQUISH!
+mob mload 27005
+force ant kill $n
+~
+Matt~
+ant load 2~
+#0
+
+#$

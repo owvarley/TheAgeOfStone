@@ -1,0 +1,3752 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+
+<html>
+
+
+
+<head>
+
+<meta name="GENERATOR" content="Microsoft FrontPage 3.0">
+
+<title>OLC Mob Program Documentation for the WoT Mud System</title>
+
+<base href="http://dharvest.com/wotmud/docs/mobprog2.html">
+
+</head>
+
+
+
+<body bgcolor="#000000" text="#FFFFFF">
+
+
+
+<p align="right">&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="25%"><p align="center"><img src="http://wotmud.tarmongaidon.org/images/flame2.jpg"
+
+    width="130" height="168" alt="flame2.jpg (28623 bytes)"></td>
+
+    <td width="75%"><p align="center"><big>Olc MProg Document file</big><br>
+
+    <big>by: <a href="mailto:gary@tarmongaidon.org">Gary McNickle</a> &amp; Newt</big></p>
+
+    <p align="center"><big><a name="top"></a></big><font size="3"><i>Dark Harvest Systems</i></font><big><br
+
+    clear="right">
+
+    </big><font size="3"><i>WoT Document Project<br>
+
+    </i>Last Updated on <!--webbot bot="Timestamp" startspan S-Type="REGENERATED"
+
+    S-Format="%m/%d/%y" -->10/25/98<!--webbot bot="Timestamp" i-checksum="13901" endspan --></font></td>
+
+  </tr>
+
+</table>
+
+
+
+<p align="center"><br>
+
+<br>
+
+</p>
+
+
+
+<ol>
+
+  <li><a href="#Credits">Credits</a></li>
+
+  <li><a href="#A note to other Diku Mud users">A note to other Diku Mud users</a></li>
+
+  <li><a href="#For the weak of heart">For the weak of heart</a></li>
+
+  <li><a href="#A note about commands, arguments and options syntax">A note about commands,
+
+    arguments and options syntax</a></li>
+
+  <li><a href="#OLC Commands">OLC Commands</a></li>
+
+  <li><a href="#Mob Commands">Mob Commands</a></li>
+
+  <li><a href="#Triggers:">Triggers</a></li>
+
+  <li><a href="#Variables:">Variables</a></li>
+
+  <li><a href="#Expression operators:">Expression Operators</a></li>
+
+  <li><a href="#If Checks">&quot;If Checks&quot;</a><br>
+
+    A. <a href="#Type 1: Keyword and value">Type 1: Keyword and Value</a><br>
+
+    B. <a href="#Type 2: Keyword, comparison and value">Type 2: Keyword, Comparison and Value</a><br>
+
+    C. <a href="#Type 3: Keyword and actor">Type 3: Keyword and Actor</a><br>
+
+    D. <a href="#Type 4: Keyword, actor and value">Type 4: Keyword, Actor and Value</a><br>
+
+    E. <a href="#Type 5: Keyword, actor, comparison and value">Type 5: Keyword, Actor,
+
+    Comparison and Value</a></li>
+
+  <li><a href="#Examples of using If Checks, commands, operators and arguments">Examples of
+
+    using if checks, commands, operators and arguments</a></li>
+
+  <li><a href="#Examples of Mob Program Code:">Examples of Mob Program Code</a><br>
+
+    A. <a href="#The baker">The Baker</a><br>
+
+    B. <a href="#The vagabond.">The Vagabond</a> </li>
+
+  <li><a href="#Basic definitions">Definition Referrence</a><br>
+
+    A. <a href="#Pulse:">Pulse</a><br>
+
+    B. <a href="#Trigger">Trigger</a><br>
+
+    C. <a href="#Variable">Variable</a><br>
+
+    D. <a href="#Act()">Act()</a><br>
+
+  </li>
+
+</ol>
+
+
+
+<h3><a name="Credits">Credits</a></h3>
+
+
+
+<p>Originally appeared in:<br>
+
+Merc release 2.2<br>
+
+Wednesday 24 November 1993</p>
+
+
+
+<p>N'atas-Ha natasha@gs118.sp.cs.cmu.edu<br>
+
+Kahn</p>
+
+
+
+<p>Modified for ROM 2.4 in January 1996<br>
+
+Newt@Imperium Gothique</p>
+
+
+
+<p>Modified for WoT 0.1 on <!--webbot bot="Timestamp" startspan S-Type="EDITED"
+
+S-Format="%A, %B %d, %Y" -->Sunday, October 25, 1998<!--webbot bot="Timestamp" i-checksum="45726" endspan --><br>
+
+Gary McNickle <a href="mailto:gary@tarmongaidon.org">gary@tarmongaidon.org</a></p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a><br>
+
+</p>
+
+
+
+<h3><a name="A note to other Diku Mud users">A note to other Diku Mud users</a></h3>
+
+
+
+<p>&nbsp;&nbsp;&nbsp; This document was intended for developers and builders using the WoT
+
+Mud system, and as such, will have references not commonly found in stock Diku/Merc or Rom
+
+(or any deriviatives). To date, these references concern mainly 'spell casting', which in
+
+WoT is &quot;channeling&quot;, and &quot;movement&quot; which is &quot;endurance&quot; in
+
+WoT.</p>
+
+
+
+<h3><a name="For the weak of heart">For the weak of heart</a></h3>
+
+
+
+<p>&nbsp; This work is not for you.&nbsp; Mob programs is a complicated system, and it
+
+uses a programmers syntax. The original designer of this system must have had it in his
+
+nutty skull that only the coder would write mob programs. *NOT LIKELY*&nbsp; If you want
+
+to get a small idea of what it's like to code, by all means continue, if the very thought
+
+of reading a long, dry, technical document scares you, heh, close this window and forget
+
+all about Mob programs.&nbsp; I simply cannot make this material an easy read. Converting
+
+&quot;programmer-speak&quot; into &quot;non-programmer-speak&quot; is beyond the scope of
+
+this document and my oh so limited time-frame.&nbsp; Basically, you wanted it, heh, you
+
+got it...</p>
+
+
+
+<p><br>
+
+<a href="#top">[ Back to Top ]</a></p>
+
+
+
+<h3><a name="A note about commands, arguments and options syntax">A note about commands,
+
+arguments and options syntax</a></h3>
+
+
+
+<p>1) Anything printed in [] brackets is required! <br>
+
+2) Anything printed in {} brackets is an option, and is not required. <br>
+
+3) Also, any thing printed like so; [whatever|whatever] is a required argument that may
+
+take multiple forms.</p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<table border="1" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h3><a name="OLC Commands">OLC Commands</a></h3>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>As complicated as the rest of this document is, the actual OLC commands are quite
+
+simple.&nbsp; There are only eight commands, create, code, show, list, ?,commands,
+
+addmprog and delmprog. They are defined below.</p>
+
+
+
+<p>1) Enter mob program editor (command = mpedit) The syntax for this command is simple;</p>
+
+
+
+<p><strong>mpedit {create} [vnum]</strong> <br>
+
+<br>
+
+Each mob program must be assigned a vnum.&nbsp; So, if you are creating a new mob program,
+
+you must enter an unused vnum after the create command.&nbsp; If you are editing an
+
+allready existing mob program, simply entering it's vnum will suffice.</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td><strong>Command</strong></td>
+
+    <td><strong>Argument</strong></td>
+
+    <td><strong>Description</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td>mpedit </td>
+
+    <td>1200</td>
+
+    <td>Enters the editor, for editing of mob program&nbsp; #1200</td>
+
+  </tr>
+
+  <tr>
+
+    <td>mpedit </td>
+
+    <td>create 1200</td>
+
+    <td>Enters the editor, creates a new, blank mob program and assigns the vnum 1200 to it</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>2) Now that you are inside the mob program editor, any of the following commands can be
+
+used.</p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="1" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h4>Generic OLC commands</h4>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td><strong>Command</strong></td>
+
+    <td><strong>Description</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td>commands</td>
+
+    <td>Displays a list of commands available</td>
+
+  </tr>
+
+  <tr>
+
+    <td>? {argument}</td>
+
+    <td>Provides help for certain commands </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h4>Mob program specific OLC commands</h4>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="5%" valign="top"><strong>Command</strong></td>
+
+    <td width="5%" valign="top"><strong>Argument</strong></td>
+
+    <td width="34%"><strong>Description</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td width="5%" valign="top">create</td>
+
+    <td width="5%" valign="top">[vnum]</td>
+
+    <td width="34%">Creates a new mob program and assings the number given as &quot;vnum&quot;
+
+    to it</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="5%" valign="top">code</td>
+
+    <td width="5%" valign="top"></td>
+
+    <td width="34%">Places you into the string editor (same one used to enter room
+
+    descriptions) so that you can type in the actual mob program code. (See &quot;<a
+
+    href="#Examples of Mob Program Code:">examples of code</a>&quot; for an idea of what mob
+
+    program code looks like)</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="5%" valign="top">show</td>
+
+    <td width="5%" valign="top"></td>
+
+    <td width="34%">Displays the current mob program vnum and code</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="5%" valign="top">list</td>
+
+    <td width="5%" valign="top">{all}</td>
+
+    <td width="34%">If &quot;All&quot; is given as an argument, displays all of the mob
+
+    programs for the current area, otherwise it displays all of the mob programs for the
+
+    current room.</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>3) Ok, now for the commands to assign a mob program to a certain mob. These commands
+
+are located within the Mob Editor (medit), so you must first be editing the mob that you
+
+wish to assign the mob program to. Once there, these commands are available;</p>
+
+
+
+<p><strong>addmprog [vnum] [<a href="#Triggers:">trigger</a>] {phrase}</strong><br>
+
+</p>
+
+
+
+<p>Vnum is of course, the vnum of the mob program to add to this mob. Trigger is the
+
+trigger used to set off this mob program (see triggers, below) and the optional phrase is
+
+dependent on the trigger type. For example, if your trigger is a &quot;speech&quot;
+
+trigger, ie; it's set off when someone in the room says something, then the phrase to
+
+trigger it is stored in &quot;phrase&quot;.&nbsp; Easy enough, right? heh... remember that
+
+before you ask me online, &quot;Wtf?&quot; </p>
+
+
+
+<p><strong>delmprog [mpgrog #]</strong><br>
+
+</p>
+
+
+
+<p>In this case, the number is not the vnum of the program, but the actual # of the mob
+
+program assigned to this mob. You can have multiple mob programs assigned to one mob, so
+
+which of all of those assigned do you want to delete? #1, #2, etc...</p>
+
+
+
+<p>Now on to actually writing a mob program...</p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h3><a name="Mob Commands">MOB Commands:</a></h3>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>The command listed below differ from normal mud commands, in that they are only
+
+available to a mob via mob programs. If you have difficulty getting one of these commands
+
+to work correctly, try placing &quot;mob&quot; infront of the command to force the
+
+interpreter to view the command as a 'mob program' command, vs a 'normal' command.</p>
+
+<div align="left">
+
+
+
+<table border="1" width="100%" height="1110">
+
+  <tr>
+
+    <td width="12%" valign="top" height="19"><p align="left"><strong>Command</strong></td>
+
+    <td width="50%" valign="top" height="19"><p align="left"><strong>Syntax</strong></td>
+
+    <td height="19"><p align="left"><strong>Description</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">gecho</td>
+
+    <td width="50%" valign="top" height="19">[argument]</td>
+
+    <td height="19">displays the argument to all active players on the mud</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">zecho</td>
+
+    <td width="50%" valign="top" height="19">[argument]</td>
+
+    <td height="19">displays the argument to all active players in the same room as mobile.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">asound</td>
+
+    <td width="50%" valign="top" height="38">[argument]</td>
+
+    <td height="38">displays the argument to all active players in the rooms immediately
+
+    surrounding mobile. (like the &quot;yell&quot; command.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">kill</td>
+
+    <td width="50%" valign="top" height="19">[victim]</td>
+
+    <td height="19">forces mob to attempt to kill victim.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">assist</td>
+
+    <td width="50%" valign="top" height="19">[player]</td>
+
+    <td height="19">set's mob to assist player.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">junk</td>
+
+    <td width="50%" valign="top" height="38">[argument]</td>
+
+    <td height="38">mob will destroy item(s) given in argument if worn or in it's inventory.
+
+    Argument may include &quot;all.&quot;, &quot;all.item&quot;, or just plain &quot;all&quot;</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">echoaround</td>
+
+    <td width="50%" valign="top" height="19">[victim] [string]</td>
+
+    <td height="19">display's &quot;string&quot; to everyone in the room except the mob, and
+
+    the &quot;victim&quot;</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="18">echoat</td>
+
+    <td width="50%" valign="top" height="18">[victim] [string]</td>
+
+    <td height="18">displays the &quot;string&quot; to only the &quot;victim&quot;, who must
+
+    be in the same room as the mob.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">echo</td>
+
+    <td width="50%" valign="top" height="19">[string]</td>
+
+    <td height="19">display's &quot;string&quot; to the entire room.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">mload</td>
+
+    <td width="50%" valign="top" height="19">[vnum]</td>
+
+    <td height="19">allows the mobile to load another mobile.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="57">oload</td>
+
+    <td width="50%" valign="top" height="57">[vnum] [level] (R|W)</td>
+
+    <td height="57">allows the mobile to load an object (object vnum). The option (R) will
+
+    load the object to the room, while (W) will load the object to the mobiles inventory and
+
+    force the mobile to wear the object.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">purge</td>
+
+    <td width="50%" valign="top" height="38">{target}</td>
+
+    <td height="38">allows the mobile to purge the room (except for it'self and pc's). may
+
+    purge all (default), or specified &quot;target&quot;</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">goto</td>
+
+    <td width="50%" valign="top" height="19">[location]</td>
+
+    <td height="19">let's the mobile 'goto' any non-private room.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">at</td>
+
+    <td width="50%" valign="top" height="19">[argument]</td>
+
+    <td height="19">let's the mobile preform a command &quot;at&quot; another location.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">transfer</td>
+
+    <td width="50%" valign="top" height="38">[argument]</td>
+
+    <td height="38">let's the mobile transfer people. Using &quot;all&quot; will transfer
+
+    everyone in the room to the specified location.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">gtransfer</td>
+
+    <td width="50%" valign="top" height="38">[victim] [argument]</td>
+
+    <td height="38">let's the mobile transfer all players grouped with 'victim' to specified
+
+    location. will not work on immortals, and all players must be in the same room as mobile.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">force</td>
+
+    <td width="50%" valign="top" height="38">[victim] [argument]</td>
+
+    <td height="38">let's the mobile force a mortal player who's in the same room as the
+
+    mobile to do something. Must be a 'legal' force command. (ie: NOT delete)</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">gforce</td>
+
+    <td width="50%" valign="top" height="38">[victim] [argument]</td>
+
+    <td height="38">let's the mobile force all players grouped with &quot;victim&quot; to
+
+    perform &quot;argument&quot;. will not work on immortals, and all players must be in the
+
+    same room with mobile.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">vforce</td>
+
+    <td width="50%" valign="top" height="38">[vnum] [commands]</td>
+
+    <td height="38">force all mobiles matching &quot;vnum&quot; in same room as mobile to
+
+    perform 'commands'. Does not work on mobile using this command.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">channel</td>
+
+    <td width="50%" valign="top" height="38">[weave] (target)</td>
+
+    <td height="38">allows mobile to channel &quot;weave&quot; at &quot;target&quot;. caution:
+
+    performs only basic target validity checks, and does not check mobiles ability rating.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="57">damage</td>
+
+    <td width="50%" valign="top" height="57">[victim] [min] [max] {kill}</td>
+
+    <td height="57">causes unconditional (no save) damage to victim. use with extreme care.
+
+    Also, you must provide damage message, as this is silent. If option &quot;Kill&quot; is
+
+    ommited, command is &quot;safe&quot; and will not do enough damage to kill target.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">remember</td>
+
+    <td width="50%" valign="top" height="38">[victim]</td>
+
+    <td height="38">allows the mobile to &quot;remember&quot; a target. Target can later be
+
+    accessed with $q and $Q codes.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">forget</td>
+
+    <td width="50%" valign="top" height="19"></td>
+
+    <td height="19">reverse of &quot;remember&quot;. Only one victim at a time can be
+
+    remembered/forgotten.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="57">delay</td>
+
+    <td width="50%" valign="top" height="57">[pulses]</td>
+
+    <td height="57">Sets a delay for mob program execution, when delay timer (pulses. 4 pulses
+
+    = 1 second) expires, mob is checked for program with delay trigger, if found, that program
+
+    is run.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">cancel</td>
+
+    <td width="50%" valign="top" height="19"></td>
+
+    <td height="19">reverse of delay. cancels delay timer.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="57">call</td>
+
+    <td width="50%" valign="top" height="57">[vnum] {victim} {obj1} {obj2}</td>
+
+    <td height="57">Allows mob program to call another mob program by vnum. A crude way of
+
+    executing sub-routines and functions. BE CAREFUL of infinite loops! any characters and
+
+    objects referred to must be in the same room as mobile. </td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">flee</td>
+
+    <td width="50%" valign="top" height="19"></td>
+
+    <td height="19">forces mobile to flee</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="19">otransfer</td>
+
+    <td width="50%" valign="top" height="19">[name] [location]</td>
+
+    <td height="19">let's the mobile transfer an item that is in the same room as mobile is,
+
+    to a location.</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="12%" valign="top" height="38">mpremove</td>
+
+    <td width="50%" valign="top" height="38">[victim] [object vnum|all]</td>
+
+    <td height="38">allows mobile to remove an object, or &quot;all&quot; objects from victim.
+
+    Victim must be in same room as mobile. Once removed, object is GONE. </td>
+
+  </tr>
+
+</table>
+
+</div>
+
+
+
+<p>Also, most any mud command can be placed within a mob program. Want your mob to bow?
+
+use the command &quot;bow&quot;, want it to shake someones hand? use &quot;shake&quot;,
+
+etc.</p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h3><a name="Triggers:">Triggers:</a></h3>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>A quick summary of triggers, their names, argument list syntaxes, and translation into
+
+more articulate english are given below: For an explanation of just what a trigger is, see
+
+<a href="#Trigger">here</a>.</p>
+
+
+
+<h4>ACT</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword: </strong></td>
+
+    <td width="90%">'act'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">string</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>The argument is a phrase, a text string. The trigger is activated whenever the phrase
+
+is contained in the act() message.</p>
+
+
+
+<p>NOTE:&nbsp; Most general trigger. Applies to almost every event which happens in the
+
+mud. Anytime the function act() is called with a message to be delivered
+
+TO_CHAR,TO_VICT,TO_ROOM,etc. the act can be triggered.&nbsp; Basically this will trigger
+
+on almost everything you'll ever want. Output of &quot;say&quot;, &quot;shout&quot; and
+
+&quot;emote&quot; do not trigger this event.</p>
+
+
+
+<h4><strong>SPEECH</strong></h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'speech'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">string</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; This is only triggered when the phrase is contained in a message which has
+
+been said by a PC in the same room as the mob. The PC restriction is not necessary, but
+
+makes infinite loops between two talking mobiles impossible. It also makes it impossible
+
+for two NPC's to stand and discuss the weather however. </p>
+
+
+
+<h4>RANDOM</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'random'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">number ( The argument is a number betweeen 0 and 99 inclusive.)</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; This trigger is checked at each PULSE_MOBILE and if the argument is greater
+
+than a percentage roll the trigger is activated. This will happen even if there is no PC
+
+in the room with the mob, but there must be players in the same area. <br>
+
+It is useful to give mobiles a bit of a personality. For instance a janitor who stops to
+
+spit tobacco, or complain about the hours,<br>
+
+or wonder why there are no woman janitors on muds, or a fido which barks or growls or pees
+
+on the curb is much more alive than one which just sits there scavenging. Note that this
+
+trigger is checked only when there are players in the area. If you want this event to be
+
+triggered always, you must set the ACT_UPDATE_ALWAYS flag of the mobile.</p>
+
+
+
+<h4>GREET/GREET ALL</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'greet'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">number.&nbsp; Again a percentage argument</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; Whenever someone enters the room with the mobile, and the mobile saw the
+
+person enter, this is checked. Good for shopkeepers who want to welcome customers, or for
+
+pseudo-aggressive mobiles which need to discriminate on who they attack. Greet trigger
+
+activates only when the mobile is not busy (fighting, sitting, sleeping etc.). If you want
+
+to be sure to catch all players, use grall.</p>
+
+
+
+<h4>GRALL</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'grall'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">number.&nbsp; Again a percentage argument</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; Like greet, but it can be triggered even if the mobile didn't see the
+
+arrival (i.e. sneak, invis, etc) or is busy. Most useful for faking teleport rooms or for
+
+impassable guardians.<br>
+
+</p>
+
+
+
+<h4>ENTRY</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'entry'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">number.&nbsp; Again a percentage argument</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; The opposite of greet trigger. Whenver the mobile itself enters a new room,
+
+this can be triggered.&nbsp; Useful for looking around, or waving or other things that
+
+real PCs do when they arrive at a crowded room. IMPORTANT: In an entry program, the mobile
+
+can only refer to a random pc ($r in if checks) -- there's no way to know how many PCs
+
+exist in the room the mobile enters! Also, you must check visibility of the target in your
+
+program.</p>
+
+
+
+<h4>EXIT</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'exit'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">is the exit number: ie: 0 = north, 1 = east, 2 = south, 3 = west, 4 = up
+
+    &amp; 5 = down</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; The opposite of entry trigger. This is activated when PC tries to leave a
+
+room through an exit indicated by the argument, and the mobile sees the person leave.
+
+Useful for having a single guardian to watch several exits. An exit trigger works better
+
+than an entry trigger, since you can refer to a specific PC instead of a random PC.
+
+IMPORTANT: If this event is triggered, the victim will not move through the exit. If
+
+necessary, you must move the character yourself in your program (see MOB TRANSFER/MOB
+
+GTRANSFER). Also, this event is not triggered when a character flees from combat or the
+
+mobile<br>
+
+is not in its default position.</p>
+
+
+
+<h4>EXALL</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'exall'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">Same as for 'exit'. Numeric argument as door#, in range 0-5</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>The same as exit trigger, but it can be triggered even if the mobile cannot see the
+
+person trying to leave the room or if<br>
+
+the mobile is busy.</p>
+
+
+
+<h4>GIVE </h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'give'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%" valign="top"><strong>Argument:</strong></td>
+
+    <td width="90%">The argument is either the a string containing words to be matched against
+
+    the keywords of the object, or the word &quot;all&quot;; e.g. argument &quot;long
+
+    sword&quot; will match to objects &quot;long bow&quot; and &quot;small sword&quot;.
+
+    Alternatively, the argument can be the virtual number of a single object.</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; This is triggered whenever something is given to the mobile.&nbsp; Best
+
+used for quests.&nbsp; Since the first successful trigger is the only one of this type
+
+which is processed, having an &quot;all&quot; argument in the script at the end of the
+
+MOBprogram list is essentially a default response.</p>
+
+
+
+<h4>BRIBE</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'bribe'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">any positive integer number (ie: whole number, no decimal points)</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; This trigger is activated whenever money is given to the mobile. If the
+
+amount given exceeds the number, then process the commands. Note again, that an argument
+
+of '1' would act as a default response. Also note that if the script is not triggered
+
+(because of too little money having been given), the mobile still keeps the money...</p>
+
+
+
+<p>ROM 2.4 NOTE: Since ROM 2.4 has two different types of currency (gold and silver
+
+coins), for bribe trigger the amount to be given is converted to silver coins with the
+
+rate of 1 gold = 100 silver. Thus, the number in the argument should be the expected
+
+amount in silver coins.</p>
+
+
+
+<h4>KILL</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'kill'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">number, in percentage.</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; This trigger is checked whenever a PC attacks the mobile. The check occurs
+
+only ONCE, in the beginning of combat. Useful for summoning assistance etc. (See MOB
+
+MLOAD).</p>
+
+
+
+<h4>FIGHT</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'fight'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">number, in percentage</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; Useful for giving mobiles combat attitude. It is checked every <a
+
+href="#Pulse:">PULSE_VIOLENCE</a> when the mobile is fighting. Can be used to channel
+
+weaves (see MOB CHANNEL), curse at the opponent, or whatever. Only the first successful
+
+one will be processed to save time.&nbsp; Also, this means that the mobile wont get lucky
+
+and 1. curse, channel a fireball and 2. spit on the player, channel another fireball in
+
+the same pulse.</p>
+
+
+
+<h4>HIT POINT PERCENTAGE</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'hpcnt'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">number, in percentage</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; Is activated at each PULSE_VIOLENCE when the mobile is fighting. It checks
+
+to see if the hitpoints of the mobile are below the given percentage. Multiple hpcnt
+
+triggers should be listed in increasing order of percent since a 40% will always be
+
+activated before a 20% and, only the first successful trigger is performed. (See also MOB
+
+FLEE).</p>
+
+
+
+<h4>DEATH</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'death'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">number, in percentage</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; When the mobile dies, if the random percentage is less than the argument
+
+the mobile performs the MOBprogram commands rather than the usual death_cry()
+
+sequence.&nbsp; This is done before the corpse is made, so the commands can be considered
+
+the mobiles last gasp. It could perhaps destroy the items it was holding (see MOB REMOVE
+
+and MOB JUNK), or create some (see MOB OLOAD), or channel a weavel (see MOB CHANNEL) on
+
+the killer and the room, or even goto a new location (see MOB GOTO) and die there (with a
+
+text message, the corpse would seem to vanish) The position of the mobile is set to
+
+STANDING, and so it can do all the normal commands, without worrying about being DEAD.
+
+However, even if the mobile restores itself to full hitpoints, it will still die. This is
+
+not a way to immortal mobiles. However, the last thing this mobile does could be to goto
+
+some vacant room, load a fresh version of itself, drop all its items, force the new mobile
+
+to get all the<br>
+
+items and wear them, send the new mobile back to the character who killed it and force the
+
+new mobile to attack that character. Along with a text message which said the mobile
+
+restored itself, this might be a convincing effect. (Note that your kitten could turn into
+
+a dragon this way too). </p>
+
+
+
+<h4>DELAY</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'delay'</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">number, a percentage chance. ( 100 for always )</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE:&nbsp; This trigger activates when the delay of a mobile (set with the MOB DELAY
+
+command) expires. This trigger can be used to create staged mobile behavior, for example,
+
+a guardian could see a player entering a room, give a warning and activate a delay. If the
+
+player is still present when the delay expires, the guard would attack the player. (See
+
+also MOB REMEMBER).<br>
+
+A mobile can have several delay triggers, but every time the delay timer expires, all the
+
+triggers are checked and the first successful one executed.</p>
+
+
+
+<h4>SURRENDER</h4>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="10%"><strong>Keyword:</strong></td>
+
+    <td width="90%">'surr''</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%"><strong>Argument:</strong></td>
+
+    <td width="90%">number, in percentage</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>NOTE: This trigger activates when the mobile is fighting and the opponent issues a
+
+&quot;surrender&quot; command. When triggered, both parties will cease fighting, and the
+
+mobile can accept the surrender (perhaps taking all equipment from the character with MOB
+
+REMOVE). Note that if the mobile does not accept the surrender, it must resume fighting
+
+with MOB KILL. If a character surrenders and the mobile does not have a surrender trigger,
+
+or the trigger does not activate, the fight resumes normally.</p>
+
+
+
+<p>NOTE: No MOBprograms will be successful when the mobile is charmed (since it has no
+
+self volition, it should act like it has none) to protect mobiles which are given special
+
+powers from being implemented by a player. </p>
+
+
+
+<p><br>
+
+<a href="#top">[ Back to Top ]</a></p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h3><a name="Variables:">Variables:</a></h3>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>To make things come alive, variables are needed.&nbsp; These are represented in the
+
+MOBprograms by using a dollar sign convention as in the socials. When the mud command is
+
+processed, these variables are expanded into the values shown below. Usually, it is best
+
+to use the short descriptions of mobiles and the names of players when speaking them, but
+
+if you are performing an action to someone almost always you want the name. The title
+
+field for players is an extra that probably wont often be used. </p>
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+  <tr>
+
+    <td><strong>Variable</strong></td>
+
+    <td><strong>Description</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td>$i&nbsp;&nbsp; </td>
+
+    <td>the first of the names of the mobile itself.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$I&nbsp;&nbsp; </td>
+
+    <td>the short description of the mobile itself.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$n&nbsp;&nbsp; </td>
+
+    <td>the name of whomever caused the trigger to happen.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$N&nbsp;&nbsp; </td>
+
+    <td>the name and title of whomever caused the trigger to happen.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$t&nbsp;&nbsp; </td>
+
+    <td>the name of a secondary character target (i.e A smiles at B)</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$T&nbsp;&nbsp; </td>
+
+    <td>the short description, or name and title of target (NPC vs PC)</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$r&nbsp;&nbsp; </td>
+
+    <td>the name of a random PC in the room with the mobile</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$R&nbsp;&nbsp; </td>
+
+    <td>the short description, or name and title of the random PC</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$q&nbsp;&nbsp; </td>
+
+    <td>the name of the MOBprogram target (see MOB REMEMBER)</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$Q&nbsp;&nbsp; </td>
+
+    <td>the short description of the MOBprogram target</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$j&nbsp;&nbsp; </td>
+
+    <td>he,she,it based on sex of $i.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$e&nbsp;&nbsp; </td>
+
+    <td>he,she,it based on sex of $n.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$E&nbsp;&nbsp; </td>
+
+    <td>he,she,it based on sex of $t.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$J&nbsp;&nbsp; </td>
+
+    <td>he,she,it based on sex of $r.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$k&nbsp;&nbsp; </td>
+
+    <td>him,her,it based on sex of $i.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$m&nbsp;&nbsp; </td>
+
+    <td>him,her,it based on sex of $n.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$M&nbsp;&nbsp; </td>
+
+    <td>him,her,it based on sex of $t.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$K&nbsp;&nbsp; </td>
+
+    <td>him,her,it based on sex of $r.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$l&nbsp;&nbsp; </td>
+
+    <td>his,hers,its based on sex of $i.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$s&nbsp;&nbsp; </td>
+
+    <td>his,hers,its based on sex of $n.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$S&nbsp;&nbsp; </td>
+
+    <td>his,hers,its based on sex of $t.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$L&nbsp;&nbsp; </td>
+
+    <td>his,hers,its based on sex of $r.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$o&nbsp;&nbsp; </td>
+
+    <td>the first of the names of the primary object (i.e A drops B)</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$O&nbsp;&nbsp; </td>
+
+    <td>the short description of the primary object</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$p&nbsp;&nbsp; </td>
+
+    <td>the first of the names of the secondary object (i.e A puts B in C)</td>
+
+  </tr>
+
+  <tr>
+
+    <td>$P&nbsp;&nbsp; </td>
+
+    <td>the short description of the secondary object</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>Also, in <a href="#If Checks">if_checks</a>, the accepted variables are the basic ones
+
+(i,n,t,r,o,p,q).&nbsp; If a variable is referenced that doesnt exist, then the<br>
+
+value is simply left blank or replaced with &quot;someone&quot;/&quot;something&quot; in
+
+output (i.e referring to $o when the trigger is: A kisses B)</p>
+
+
+
+<p>If variable $q has not been defined, it is automatically set to the last player that
+
+has triggered the program being executed (i.e. variable $n). Once $q has been defined, it
+
+can be modified with MOB REMEMBER and MOB FORGET commands in a program. Variable $q lets
+
+the mobile &quot;remember&quot; a player across different programs, which can be useful.
+
+Note that $q is set<br>
+
+automatically only the FIRST TIME the mobile executes a program, every time thereafter it
+
+must be set with MOB REMEMBER.</p>
+
+
+
+<p>The only problem with the variables is that the secondary object and the secondary
+
+target are passed by act() in the same location.&nbsp; This means that if you reference $t
+
+in an&nbsp; A puts B in C&nbsp; situation, the result will probably be a happy mud crash
+
+or some weird side effect, espescially if $t is used in an if_check (i.e. if isnpc($t) in
+
+the above situation) Try to avoid this<br>
+
+situation at all costs...</p>
+
+
+
+<p><br>
+
+<a href="#top">[ Back to Top ]</a></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h3><a name="Expression operators:">Expression operators:</a></h3>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+  <tr>
+
+    <td width="10%"><strong>Expression</strong></td>
+
+    <td><strong>What it means</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%">&quot;==&quot;</td>
+
+    <td>Does A = B? </td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%">&quot;&gt;=&quot;</td>
+
+    <td>Is A Greater than or equal to B?</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%">&quot;&lt;=&quot;</td>
+
+    <td>Is A less than or equal to B?</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%">&quot;&gt;&quot;</td>
+
+    <td>Is A Greater than B?</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%">&quot;&lt;&quot;</td>
+
+    <td>Is A Less than B? </td>
+
+  </tr>
+
+  <tr>
+
+    <td width="10%">&quot;!=&quot;</td>
+
+    <td>Is A Not equal to B?</td>
+
+  </tr>
+
+</table>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h3><a name="If Checks">If Checks</a></h3>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>Below is a compiled listing of all of the possible values that can be checked against.
+
+If checks provide a basic necessity in programming of any sort, and mob programs are no
+
+different.&nbsp; A more detailed explanation of these follows.</p>
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+  <tr>
+
+    <td valign="top"><strong>Check Name</strong></td>
+
+    <td><strong>Example Usage</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;rand&quot;</td>
+
+    <td>if rand 30 - if random number &lt; 30 </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;mobhere&quot;</td>
+
+    <td>if mobhere fido - is there a 'fido' here<br>
+
+    if mobhere 1233 - is there mob vnum 1233 here </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;objhere&quot;</td>
+
+    <td>if objhere bottle - is there a 'bottle' here<br>
+
+    if objhere 1233 - is there obj vnum 1233 here </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;mobexists&quot;</td>
+
+    <td>if mobexists fido - is there a fido somewhere </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;objexists&quot;</td>
+
+    <td>if objexists sword - is there a sword somewhere </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;people&quot;</td>
+
+    <td>if people &gt; 4 - does room contain &gt; 4 people </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;players&quot;</td>
+
+    <td>if players &gt; 1 - does room contain &gt; 1 pcs </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;mobs&quot;</td>
+
+    <td>if mobs &gt; 2 - does room contain &gt; 2 mobiles </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;clones&quot;</td>
+
+    <td>if clones &gt; 3 - are there &gt; 3 mobs of same vnum here </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;order&quot;</td>
+
+    <td>if order == 0 - is mob the first in room </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;hour&quot;</td>
+
+    <td>if hour &gt; 11 - is the time &gt; 11 o'clock </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;ispc&quot;</td>
+
+    <td>if ispc $n - is $n a pc </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;isnpc&quot;</td>
+
+    <td>if isnpc $n - is $n a mobile </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;isgood&quot;</td>
+
+    <td>if isgood $n - is $n good </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;isevil&quot;</td>
+
+    <td>if isevil $n - is $n evil </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;isneutral&quot;</td>
+
+    <td>if isneutral $n - is $n neutral </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;isimmort&quot;</td>
+
+    <td>if isimmort $n - is $n immortal </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;ischarm&quot;</td>
+
+    <td>if ischarm $n - is $n charmed </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;isfollow&quot;</td>
+
+    <td>if isfollow $n - is $n following someone </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;isactive&quot;</td>
+
+    <td>if isactive $n - is $n's position &gt; SLEEPING </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;isdelay&quot;</td>
+
+    <td>if isdelay $i - does $i have mobprog pending </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;isvisible&quot;</td>
+
+    <td>if isvisible $n - can mob see $n </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;hastarget&quot;</td>
+
+    <td>if hastarget $i - does $i have a valid target </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;istarget&quot;</td>
+
+    <td>if istarget $n - is $n mob's target </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;exists&quot;</td>
+
+    <td>if exists $n - does $n exist somewhere </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;affected&quot;</td>
+
+    <td>if affected $n blind - is $n affected by blind </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;act&quot;</td>
+
+    <td>if act $i sentinel - is $i flagged sentinel </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;off&quot;</td>
+
+    <td>if off $i berserk - is $i flagged berserk </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;imm&quot;</td>
+
+    <td>if imm $i fire - is $i immune to fire </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;carries&quot;</td>
+
+    <td>if carries $n sword - does $n have a 'sword' <br>
+
+    if carries $n 1233 - does $n have obj vnum 1233 </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;wears&quot;</td>
+
+    <td>if wears $n lantern - is $n wearing a 'lantern' <br>
+
+    if wears $n 1233 - is $n wearing obj vnum 1233 </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;has&quot;</td>
+
+    <td>if has $n weapon - does $n have obj of type weapon </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;uses&quot;</td>
+
+    <td>if uses $n armor - is $n wearing obj of type armor </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;name&quot;</td>
+
+    <td>if name $n puff - is $n's name 'puff' </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;pos&quot;</td>
+
+    <td>if pos $n standing - is $n standing </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;clan&quot;</td>
+
+    <td>if clan $n 'whatever' - does $n belong to clan 'whatever' </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;race&quot;</td>
+
+    <td>if race $n dragon - is $n of 'dragon' race </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;class&quot;</td>
+
+    <td>if class $n mage - is $n's class 'mage' </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;objtype&quot;</td>
+
+    <td>if objtype $p scroll - is $p a scroll </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;vnum&quot;</td>
+
+    <td>if vnum $i == 1233&nbsp; - virtual number check </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;hpcnt&quot;</td>
+
+    <td>if hpcnt $i &gt; 30 - hit point percent check </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;room&quot;</td>
+
+    <td>if room $i == 1233 - room virtual number </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;sex&quot;</td>
+
+    <td>if sex $i == 0 - sex check </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;level&quot;</td>
+
+    <td>if level $n &lt; 5 - level check </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;align&quot;</td>
+
+    <td>if align $n &lt; -1000 - alignment check </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;money&quot;</td>
+
+    <td>if money $n </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;objval0&quot;</td>
+
+    <td>if objval0 &gt; 1000 - object value[] checks 0..4 </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;objval1&quot;</td>
+
+    <td>if objval1 &gt; 1000 - object value[] checks 0..4 </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;objval2&quot;</td>
+
+    <td>if objval2 &gt; 1000 - object value[] checks 0..4 </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;objval3&quot;</td>
+
+    <td>if objval3 &gt; 1000 - object value[] checks 0..4 </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;objval4&quot;</td>
+
+    <td>if objval4 &gt; 1000 - object value[] checks 0..4 </td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">&quot;grpsize&quot;</td>
+
+    <td>if grpsize $n &gt; 6 - group size check </td>
+
+  </tr>
+
+</table>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h3><a name="Examples of using If Checks, commands, operators and arguments">Examples of
+
+      using If Checks, commands, operators and arguments</a></h3>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>The provided list of if_checks and their arguments are below.&nbsp; They should all be
+
+fairly obvious in what they do, but some of the more obtuse deserve a slight explanation.
+
+Any '==' operator can be replaced with any of the available ones described above.&nbsp;
+
+The argument $* refers to any of the variables which make sense for that if_check (i.e.
+
+for an if_check which is referencing a person the only valid variables would be $i, $n,
+
+$t, $r or $q) A value type of string is a sequence of characters. It does not need to be
+
+included in quotes or anything like that (i.e. if name $n fido )</p>
+
+
+
+<p>Note: '$*' is any legal, applicable variable. For example, you would not want to use
+
+the variable '$o' (an objects name) with the if_check &quot;isactive&quot;, because
+
+isactive checks for a mobs position, and has nothing to do with objects.Also, some
+
+if_checks apply to neither, but check the state of the room or mud.&nbsp; For a listing of
+
+what if checks can be used with objects, mobs, and which with both, refer to the following
+
+color chart.</p>
+
+
+
+<p><font color="#008080">Is valid for either, object, or a mobile</font><font
+
+color="#00FF00">.</font><br>
+
+<font color="#008000">Is only valid with mobiles</font>.<br>
+
+<font color="#804000">Is only valid with objects.<br>
+
+</font><font color="#000000">Really applies to neither.</font></p>
+
+
+
+<p>There are five types of if checks:</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h4><a name="Type 1: Keyword and value">Type 1: Keyword and value</a></h4>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="763" cellspacing="0" cellpadding="0">
+
+  <tr>
+
+    <td width="117"><strong>Keyword</strong></td>
+
+    <td width="80"><strong>Value</strong></td>
+
+    <td width="566"><strong>Description</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td width="117">rand</td>
+
+    <td width="80">num</td>
+
+    <td width="566">Is random percentage less than or equal to num (ex: if rand &gt; 30)</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="117">mobhere</td>
+
+    <td width="80">vnum</td>
+
+    <td width="566">Is a NPC with this vnum in the room </td>
+
+  </tr>
+
+  <tr>
+
+    <td width="117">mobhere</td>
+
+    <td width="80">name</td>
+
+    <td width="566">Is a NPC with this name in the room</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="117">objhere</td>
+
+    <td width="80">vnum</td>
+
+    <td width="566">Is an object with this vnum in the room (ex: if objhere 1200)</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="117">objhere</td>
+
+    <td width="80">name</td>
+
+    <td width="566">Is an object with this name in the room</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="117">mobexists</td>
+
+    <td width="80">name</td>
+
+    <td width="566">Does NPC 'name' exist somewhere in the world (ex: if mobexists student)</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="117">objexists</td>
+
+    <td width="80">name</td>
+
+    <td width="566">Does object 'name' exist somewhere in the world</td>
+
+  </tr>
+
+</table>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h4><a name="Type 2: Keyword, comparison and value">Type 2: Keyword, comparison and value</a></h4>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+  <tr>
+
+    <td valign="top"><strong>Keyword</strong></td>
+
+    <td align="center" valign="top"><strong>Comparison </strong></td>
+
+    <td><strong>Value</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">people</td>
+
+    <td align="center" valign="top">== #</td>
+
+    <td>Is the number of people in the room equal to #</td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">players</td>
+
+    <td align="center" valign="top">== #</td>
+
+    <td>Is the number of PCs in the room equal to #&nbsp;&nbsp; (ex: if players &gt; 3)</td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">mobs</td>
+
+    <td align="center" valign="top">== #</td>
+
+    <td>Is the number of NPCs in the room equal to #</td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">clones</td>
+
+    <td align="center" valign="top">== #</td>
+
+    <td>Is the number of NPCs in the room with the same&nbsp; vnum as the NPC who activated
+
+    the program equal to # (ex: if clones &lt; 2)</td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">order</td>
+
+    <td align="center" valign="top">== #</td>
+
+    <td>Is the order (of several similar NPCs) of the NPC who activated the trigger equal to #</td>
+
+  </tr>
+
+  <tr>
+
+    <td valign="top">hour</td>
+
+    <td align="center" valign="top">== #</td>
+
+    <td>Is the hour (game time) equal to #</td>
+
+  </tr>
+
+</table>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h4><a name="Type 3: Keyword and actor">Type 3: Keyword and actor</a></h4>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+  <tr>
+
+    <td><strong>Keyword</strong></td>
+
+    <td><strong>Actor</strong></td>
+
+    <td><strong>Description</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">isnpc</font></td>
+
+    <td>$*</td>
+
+    <td>Is $* an NPC</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">ispc</font></td>
+
+    <td>$*</td>
+
+    <td>Is $* a PC</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">isgood</font></td>
+
+    <td>$*</td>
+
+    <td>Does $* have a good alignment (example: &quot;if isgood $n then&quot;)</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">isneutral</font></td>
+
+    <td>$*</td>
+
+    <td>Does $* have a neutral alignment</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">isevil</font></td>
+
+    <td>$*</td>
+
+    <td>Does $* have an evil alignment</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">isimmort</font></td>
+
+    <td>$*</td>
+
+    <td>Is $* an immortal (level of $* &gt; LEVEL_HERO)</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">ischarm</font></td>
+
+    <td>$*</td>
+
+    <td>Is $* affected by charm&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (ex: if ischarm $N)</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">isfollow</font></td>
+
+    <td>$*</td>
+
+    <td>Is $* a follower with their master in the room</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">isactive</font></td>
+
+    <td>$*</td>
+
+    <td>Is $*'s position &gt; POS_SLEEPING</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008080">isdelay</font></td>
+
+    <td>$*</td>
+
+    <td>Does $* have a delayed MOBprogram pending</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008080">isvisible</font></td>
+
+    <td>$*</td>
+
+    <td>Is $* visible to NPC who activated the program (example: &quot;if isvisible $p
+
+    then&quot;)</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008080">hastarget</font></td>
+
+    <td>$*</td>
+
+    <td>Does $* have a MOBprogram target in the room</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008080">istarget</font></td>
+
+    <td>$*</td>
+
+    <td>Is $* the target of NPC who activated the program</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h4><a name="Type 4: Keyword, actor and value">Type 4: Keyword, actor and value</a></h4>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+  <tr>
+
+    <td><strong>Keyword</strong></td>
+
+    <td><strong>Actor</strong></td>
+
+    <td><strong>Value</strong></td>
+
+    <td><strong>Description</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">affected</font></td>
+
+    <td>$*</td>
+
+    <td>'affect'</td>
+
+    <td>Is $* affected by 'affect'</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">act</font></td>
+
+    <td>$*</td>
+
+    <td>'act'</td>
+
+    <td>Is $*'s ACT bit 'act' set</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">off</font></td>
+
+    <td>$*</td>
+
+    <td>'off'</td>
+
+    <td>Is $*'s OFF bit 'off' set</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">imm</font></td>
+
+    <td>$*</td>
+
+    <td>'imm'</td>
+
+    <td>Is $*'s IMM bit 'imm' set&nbsp; (ex: if imm $N 'evil')</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">carries</font></td>
+
+    <td>$*</td>
+
+    <td>'name'</td>
+
+    <td>Is $* carrying object 'name'</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">wears</font></td>
+
+    <td>$*</td>
+
+    <td>'name'</td>
+
+    <td>Is $* wearing object 'name'</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">has</font></td>
+
+    <td>$*</td>
+
+    <td>'type'</td>
+
+    <td>Does $* have object of item_type 'type'</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">uses</font></td>
+
+    <td>$*</td>
+
+    <td>'type'</td>
+
+    <td>Is $* wearing object of item_type 'type'</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">name</font></td>
+
+    <td>$*</td>
+
+    <td>'name'</td>
+
+    <td>Is $*'s name 'name'</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">pos</font></td>
+
+    <td>$*</td>
+
+    <td>'position'</td>
+
+    <td>Is $*'s position 'position' (sleeping etc.)</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">clan</font></td>
+
+    <td>$*</td>
+
+    <td>'name'</td>
+
+    <td>Does $* belong to clan 'name'</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">race</font></td>
+
+    <td>$*</td>
+
+    <td>'name'</td>
+
+    <td>Is $* of race 'name'&nbsp;&nbsp; (ex: if race $n 'trolloc' then shout 'TROLLOC!'</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">class</font></td>
+
+    <td>$*</td>
+
+    <td>'name'</td>
+
+    <td>Is $*'s class 'name'</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#804000">objtype</font></td>
+
+    <td>$*</td>
+
+    <td>'type'</td>
+
+    <td>Is $*'s item_type 'type'</td>
+
+  </tr>
+
+</table>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h4><a name="Type 5: Keyword, actor, comparison and value">Type 5: Keyword, actor,
+
+      comparison and value</a></h4>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+  <tr>
+
+    <td><strong>Keyword</strong></td>
+
+    <td><strong>Actor</strong></td>
+
+    <td><strong>Comparison &amp; Value</strong></td>
+
+    <td><strong>Description</strong></td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008080">vnum</font></td>
+
+    <td>$*</td>
+
+    <td align="center">== #</td>
+
+    <td>Is $*'s virtual number equal to integer</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">hpcnt</font></td>
+
+    <td>$*</td>
+
+    <td align="center">== #</td>
+
+    <td>Is $*'s hitpoint percentage equal to integer</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008080">room</font></td>
+
+    <td>$*</td>
+
+    <td align="center">== #</td>
+
+    <td>Is vnum of the room $* is in equal to integer</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">sex</font></td>
+
+    <td>$*</td>
+
+    <td align="center">== #</td>
+
+    <td>Is $*'s sex equal to integer if sex $n == 0 then say 'Hello Sir!'</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008080">level</font></td>
+
+    <td>$*</td>
+
+    <td align="center">== #</td>
+
+    <td>Is $*'s level equal to integer</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">align</font></td>
+
+    <td>$*</td>
+
+    <td align="center">== #</td>
+
+    <td>Is $*'s alignment equal to integer</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#008000">money</font></td>
+
+    <td>$*</td>
+
+    <td align="center">== #</td>
+
+    <td>Does $* have money (in silver) equal to integer</td>
+
+  </tr>
+
+  <tr>
+
+    <td><font color="#804000">objval#</font></td>
+
+    <td>$*</td>
+
+    <td align="center">== #</td>
+
+    <td>Is $*-&gt;value[#] equal to integer (# from 0-4)</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h3><a name="Examples of Mob Program Code:">Examples of Mob Program Code:</a></h3>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<h4><a name="The baker">#1. The baker</a></h4>
+
+
+
+<p>The baker has two triggers, one is to greet all characters who enter the shop and the
+
+other to react to the phrase &quot;fine day&quot; when spoken aloud in the shop. These mob
+
+programs are saved as #3001, and #3002</p>
+
+
+
+<p>#3001 trigger type = grall, value = 100<br>
+
+Code:</p>
+
+
+
+<p>if isimmort $n<br>
+
+&nbsp; say Greetings, master $N!<br>
+
+&nbsp; bow<br>
+
+else<br>
+
+&nbsp; if sex $n &lt; 2<br>
+
+&nbsp;&nbsp;&nbsp; say Hello! How may I serve you?<br>
+
+&nbsp;&nbsp;&nbsp; chuckle<br>
+
+&nbsp; else<br>
+
+&nbsp;&nbsp;&nbsp; say Good day, milady! How may I be of help today?<br>
+
+&nbsp;&nbsp;&nbsp; wink<br>
+
+&nbsp; endif<br>
+
+endif</p>
+
+
+
+<p>#3002 trigger type = speech, value = &quot;fine day&quot;<br>
+
+Code:</p>
+
+
+
+<p>if affected $n flying<br>
+
+or affected $n haste<br>
+
+&nbsp; say My, aren't you in a hurry!<br>
+
+endif<br>
+
+say Yes, it's a splendid day, isn't it?<br>
+
+smile<br>
+
+</p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<h4><a name="The vagabond.">#2 The vagabond.</a></h4>
+
+
+
+<p>The vagabond also has two triggers, When given a ring, the vagabond will return it to
+
+the giver. When given more than 10 silver, it checks if the giver is below lvl 5, if so,
+
+the vagabond will try to rob the poor fool.<br>
+
+<br>
+
+#3003 trigger type = give, value = ring<br>
+
+<br>
+
+Code:<br>
+
+say What do you want me to do with this?<br>
+
+give $o $n<br>
+
+<br>
+
+#3004 trigger type = bribe, value = 10<br>
+
+<br>
+
+Code:<br>
+
+if sex $n &lt; 2<br>
+
+&nbsp; say Thank ye, kind sir!<br>
+
+else<br>
+
+&nbsp; say Thank ye, milady!<br>
+
+endif<br>
+
+if level $n &lt; 5<br>
+
+&nbsp; say Since you have money in abundance, let me share your wealth!<br>
+
+&nbsp; mob kill $n<br>
+
+endif</p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<p>&nbsp;</p>
+
+
+
+<table border="0" width="100%">
+
+  <tr>
+
+    <td width="8%"><img src="http://dharvest.com/wotmud/images/text.gif" width="48"
+
+    height="48" alt="text.gif (728 bytes)"></td>
+
+    <td width="92%"><blockquote>
+
+      <h3 align="left"><a name="Basic definitions">Basic definitions</a></h3>
+
+    </blockquote>
+
+    </td>
+
+  </tr>
+
+</table>
+
+
+
+<h4><a name="Pulse:">Pulse:</a> </h4>
+
+
+
+<p>&nbsp; A &quot;Pulse&quot; is how WoT determines passed time in the mud.&nbsp; Certain
+
+events are regulated by the amount of &quot;pulses&quot; elapsed.&nbsp; There are a few
+
+different event types, and their associated pulse values.&nbsp; Here's a listing current
+
+at the time of this writing.</p>
+
+
+
+<table border="1" width="100%">
+
+  <tr>
+
+    <td width="33%">PULSE_PER_SECOND</td>
+
+    <td width="33%">4</td>
+
+    <td width="34%">4 per second</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="33%">PULSE_VIOLENCE</td>
+
+    <td width="33%">3 * PULSE_PER_SECOND</td>
+
+    <td width="34%">3 seconds</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="33%">PULSE_MOBILE</td>
+
+    <td width="33%">4 * PULSE_PER_SECOND</td>
+
+    <td width="34%">4 seconds</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="33%">PULSE_MUSIC</td>
+
+    <td width="33%">6 * PULSE_PER_SECOND</td>
+
+    <td width="34%">6 seconds</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="33%">PULSE_TICK</td>
+
+    <td width="33%">60 * PULSE_PER_SECOND</td>
+
+    <td width="34%">1 minute</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="33%">PULSE_AREA</td>
+
+    <td width="33%">120 * PULSE_PER_SECOND</td>
+
+    <td width="34%">2 minutes</td>
+
+  </tr>
+
+  <tr>
+
+    <td width="33%">PULSE_AUCTION</td>
+
+    <td width="33%">10 * PULSE_PER_SECOND</td>
+
+    <td width="34%">10 seconds</td>
+
+  </tr>
+
+</table>
+
+
+
+<p>There are 4 &quot;pulses&quot; in one second. PULSE_VIOLENCE, which btw, is the event
+
+that handles all combat, takes place 3 * PULSE_PER_SECOND, which is ever 3 seconds. While
+
+PULSE_TICK takes place every minute, PULSE_AREA (when an area is updated) takes place ever
+
+2 minutes.</p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+
+
+<h4><a name="Trigger">Trigger</a></h4>
+
+
+
+<p>A &quot;trigger&quot; is a word or event that the program (in this case, mob programs)
+
+watches for, and if it see's it, performs a pre-programmed action.</p>
+
+
+
+<h4><a name="Variable">Variable</a></h4>
+
+
+
+<p>&nbsp; A &quot;variable&quot; is a short word designed to hold some other meaning. For
+
+example, the variable &quot;A&quot; may mean &quot;joe&quot; or 1 instead of
+
+&quot;A&quot;.&nbsp; If you are at all familiar with algebra, think of x + 4 = 12.
+
+&quot;x&quot; is a variable, and it's value is 8. All variables hold a value, even if that
+
+value is NULL or VOID (0).</p>
+
+
+
+<h4><a name="Act()">Act()</a></h4>
+
+
+
+<p>&quot;Act&quot; is a command within WoT that is used to send messages to PC's and NPC's
+
+alike.&nbsp; It's one of the most often used commands within the source of the mud
+
+itself.&nbsp; However, while widely used, it is not used in all areas. There are other
+
+commands used to send messages to players and npc's as well. For example, says, shouts and
+
+emotes do not use Act().&nbsp; Act has several ways of determining who the message is for,
+
+these are by using the following symbols;</p>
+
+
+
+<table border="0" width="100%" cellspacing="0" cellpadding="0">
+
+  <tr>
+
+    <td>&nbsp; TO_VICT</td>
+
+    <td>The message is meant for the victim's ears alone.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>&nbsp; TO_NOTVICT</td>
+
+    <td>The message will be heard by everyone in the room except the victim.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>&nbsp; TO_CHAR</td>
+
+    <td>The message will be heard only be the one who caused the message in the first place.</td>
+
+  </tr>
+
+  <tr>
+
+    <td>&nbsp; TO_ROOM</td>
+
+    <td>The message will be heard by the entire room. </td>
+
+  </tr>
+
+</table>
+
+
+
+<p>&nbsp; This function is used commonly, and typically more than one message is sent. A
+
+different one for each party(ies) involved.<br>
+
+</p>
+
+
+
+<p><a href="#top">[ Back to Top ]</a></p>
+
+</body>
+
+</html>
+

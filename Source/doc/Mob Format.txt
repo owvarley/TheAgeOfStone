@@ -1,0 +1,31 @@
+// WoTMud Mobile File Format, version 2412
+
+long			vnum
+char*			name
+char*			short description
+char*			long description
+char*			description
+char*			race name
+SET				player bits
+SET				affected_by bits
+int  int		alignment,  group
+int				level
+int				hitroll
+int int  int	hitdice number, hitdice type, hitdice bonus
+int int int		oprdice number,opr dice type, oprdice bonus
+int int int		damage dice number, damage dice type, damage dice bonus
+char*			attack type (ex, bash, slash)
+int int int int	ac pierce, ac bash, ac slash, ac exotic
+SET				offensive bits
+SET				immunities bits
+SET				resistances bits
+SET				vulnerabilities bits
+char* char* char* long	start position description, default position description, sex, wealth
+SET				form bits
+SET				part bits
+char*			size
+char*			material
+
+MPROGS
+SOUNDS
+

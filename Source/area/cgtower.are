@@ -1,0 +1,3621 @@
+#AREADATA
+Name Civil Guard Tower~
+Builders None~
+VNUMs 7900 8000
+Sector 0
+Credits [15 40] The Civil Guard Tower~
+Security 9
+LastSaved 11/13/100~
+Flags 0
+Version 5
+End
+
+
+
+#MOBILES
+#7900
+child light man whitecloak guardsman~
+a Child of the Light~
+From beneath a conical steel helmet, a Child of the Light eyes everyone suspiciously.
+~
+~
+human~
+BEF|D
+|
+0 0
+30 30 15d30+300 2d4+4 5d4+15 none
+429496719 429496719 429496719 0
+EFGL|
+|
+|
+|
+stand stand male 1070
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M GRALL 7900 100~
+#7901
+sentry child man whitecloak~
+a Whitecloak Sentry~
+Children of the Light march along every corridor, their footfalls echoing through the halls.
+~
+~
+human~
+BE|D
+|
+0 0
+25 25 12d30+400 2d4+4 5d5+12 slash
+429496724 429496724 429496724 2
+EGL|
+|
+|
+|
+stand stand male 150
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M GRALL 7900 100~
+#7902
+senior lieutenant whitecloak man~
+the Senior Lieutenant~
+The Senior Lieutenant stands here looking thoughtfully at a portrait on the wall.
+~
+~
+human~
+BE|
+|
+0 0
+40 40 20d30+600 2d4+4 13d2+20 none
+429496714 429496714 429496714 429496727
+FGL|
+|
+|
+|
+stand stand male 150
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M GRALL 7900 100~
+#7903
+man questioner ~
+the Questioner~
+A Questioner screams in zeal as he maniacally invokes the wrath of the Creator.
+~
+~
+human~
+BEF|
+DEGM|
+0 0
+40 40 4d35+1200 1d1+0 5d7+20 none
+429496714 429496714 429496714 429496727
+G|
+|
+|
+|
+stand stand male 150
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M GRALL 7900 100~
+#7904
+darkfriend friend victim accused countryman~
+an accused Darkfriend~
+An accused countryman has been captured by the Children of the Light, awaiting Questioning.
+~
+One of the townsfolk from the surrounding countryside has been taken
+under care by the Children of the Light for questioning.  It is the sole
+purpose of the Children and Hand of the Light to protect the innocent from
+the lurking friends of the dark.  For only the pure of heart of the Children
+can discern innocence from corruption.  
+~
+human~
+BFK|
+|
+500 0
+20 20 4d20+400 4d20+200 4d5+10 none
+0 0 0 0
+DG|
+|
+|
+|
+stand stand either 0
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#7905
+shattered woman stilled aes sedai~
+a former Aes Sedai~
+The loud wailing coming from this chained woman is only interrupted by her shattered sobbing.
+~
+~
+human~
+BF|
+|
+0 0
+20 40 20d30+400 2d3+3 13d2+20 slap
+429496712 429496712 429496712 429496720
+G|
+|
+|
+|
+stand stand female 0
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#7906
+lord captain man whitecloak~
+the Lord Captain~
+The Lord Captain of the Army of the Light paces his room thoughtfully.
+~
+~
+human~
+BE|
+|
+0 0
+50 50 10d169+920 1d1+0 5d10+25 none
+429496708 429496708 429496708 429496724
+EFGLOW|
+|
+|
+|
+stand stand male 250
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M GRALL 7900 100~
+#7907
+man bannerman captain trainer~
+the Whitecloak Banner-Captain~
+The Banner-Captain of the Children inspects the Barracks and begins issuing drills.
+~
+A fair-haired Amadician, the Banner-Captain of the Children has the duty
+of whipping them into shape, drilling their orders into them, overseeing
+their training, and making sure they know the dictates of Lothair Mantelar
+by heart.  
+~
+human~
+BFMNV|
+G|
+0 0
+40 40 10d90+416 1d1+0 5d9+22 none
+429496714 429496714 429496714 429496727
+|
+|
+|
+|
+stand stand male 250
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#7908
+underlieutenant man whitecloak~
+a Whitecloak Underlieutenant~
+An Underlieutenant of the Army of Light skulks about looking for intruders.
+~
+~
+human~
+BD|
+OP|
+0 0
+30 30 15d30+300 2d4+4 10d2+15 none
+429496720 429496720 429496720 0
+CGLO|
+|
+|
+|
+stand stand male 90
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M GRALL 7900 100~
+#7909
+steed horse~
+a Whitecloak's Warhorse~
+This fine measure of a stallion sternly sways its tail as it awaits its rider.
+~
+~
+horse~
+BF|
+|
+0 0
+30 30 15d30+300 2d3+3 10d2+15 none
+429496720 429496720 429496720 0
+DGJ|
+|
+|
+|
+stand stand none 0
+BFP|
+BDEFGKLP|
+medium unknown
+#7910
+roach bug~
+an icky roach~
+A small roach is quick to scurry out of your way.
+~
+~
+centipede~
+B|
+OPX|
+0 0
+3 5 1d30+30 2d3+3 1d2+10 none
+7 7 7 7
+|
+|
+FI|
+E|
+stand stand none 0
+BFL|
+BDL|
+small unknown
+#7911
+darkfriend dark victim accused~
+an accused Darkfriend~
+An accused countryman has been captured by the Children of the Light, awaiting Questioning.
+~
+One of the townsfolk from the surrounding countryside has been taken
+under care by the CHildren of the Light for questioning.  It is the sole
+purpose of the Children and Hand of the Light to protect the innocent from
+the lurking friends of the dark.  For only the pure of heart of the Children
+can discern innocence from corruption.  
+~
+human~
+BFK|
+|
+-500 0
+20 20 4d20+400 4d20+200 4d5+10 none
+0 0 0 0
+DG|
+|
+|
+|
+stand stand either 0
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#7912
+lord inquisitor man whitecloak~
+the Lord Inquisitor~
+The Lord Inquisitor turns in wrath at those who would enter without permission.
+~
+~
+human~
+BEF|
+|
+0 0
+45 45 22d30+450 2d4+4 15d2+22 none
+429496711 429496711 429496711 429496725
+EGKLOW|
+|
+|
+|
+stand stand male 150
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M GRALL 7900 100~
+#7913
+nashan draft horse~
+a nashan draft horse~
+A rather large draft horse goes about its business.
+~
+~
+horse~
+BS|
+|
+0 0
+25 25 12d30+250 2d3+3 8d2+12 none
+429496722 429496722 429496722 429496728
+GI|
+|
+|
+|
+stand stand none 0
+BFP|
+BDEFGKLP|
+medium unknown
+#7914
+messenger pigeon bird~
+a messenger pigeon~
+A small pigeon hops about here, with a tiny paper tied to its leg.
+~
+~
+human~
+BK|
+S|
+0 0
+4 5 2d30+40 2d3+3 1d3+10 none
+6 6 6 7
+I|
+|
+|
+|
+stand stand none 0
+|
+|
+medium unknown
+#7915
+boy squire child light~
+a young squire~
+A young squire of the Children is here fulfilling some menial task.
+~
+This young Amadician lad is brealy in his teens.  The squires to the
+Children of the Light are remarkably well groomed for children their age. 
+They go about their responsibilities dutifully and efficiently, 
+~
+human~
+BE|
+|
+0 0
+10 10 5d30+100 2d4+4 3d2+10 none
+4 4 4 7
+|
+|
+|
+|
+stand stand male 20
+|
+|
+medium unknown
+#7916
+sentry child man whitecloak~
+an unarmed Child of the Light~
+A Child of the Light, not hardly fitted for battle, relaxes in the barracks.
+~
+~
+human~
+BEF|D
+|
+0 0
+20 25 4d25+625 4d25+312 5d5+12 none
+429496727 429496727 429496727 4
+G|
+|
+|
+|
+stand stand male 40
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M GRALL 7900 100~
+#7917
+sentry child man whitecloak~
+an unprepared Child of the Light~
+One of the Children of the Light is relaxing in the Recreational.
+~
+~
+human~
+BEF|D
+|
+0 0
+20 20 4d25+625 1d1+0 5d5+12 punch
+429496727 429496727 429496727 4
+GJ|
+|
+|
+|
+stand stand male 40
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M GRALL 7900 100~
+#7918
+chipmunk squirrel ground varmint rodent~
+A chipmunk~
+A chipmunk darts out of hiding with its legs stiff and its tail straight up in the air.
+~
+Auburn edged in black stripes a ground squirrel's head and back.  The
+squirrel sprints and stops motionless in hopes of remaining undetected.
+~
+rat~
+B|
+X|
+0 0
+1 5 1d10+10 4d6+6 1d2+10 none
+17 17 17 17
+GI|
+|
+|
+HI|
+stand stand female 0
+BFP|
+BDEFGIKLPQ|
+tiny unknown
+#0
+
+
+
+#OBJECTS
+#7900
+conical steel helmet~
+a finely-polished conical helmet~
+A polished conical steel helmet most often worn by Whitecloaks.~
+steel~
+armor Y AE
+D D D D 0
+1 5 75 P
+A
+17 -2 -1
+#7901
+tabard~
+a snow white tabard worked with a sunburst~
+A pure white tabard with a golden sunburst worked into the left breast.~
+cloth~
+clothing S AK
+0 0 0 0 0
+0 2 10 P
+A
+18 1 -1
+A
+17 -2 -1
+A
+5 1 -1
+A
+1 1 -1
+#7902
+breastplate plate~
+a polished steel breastplate~
+A very plain and very polished breastplate of Amadician forge.~
+steel~
+armor Y AD
+D D D D 0
+20 30 250 P
+A
+13 5 -1
+A
+17 -2 -1
+#7903
+lightning bolt pin~
+a silver lightning bolt~
+These silver lightning bolts are worn by the under-officers of the Whitecloak armies.~
+steel~
+jewelry Y AC
+0 0 0 0 0
+20 1 20 P
+A
+17 -2 -1
+A
+18 1 -1
+#7904
+golden knots~
+a cord adorned by golden knots~
+These golden knots indicate ranking among the Whitecloak's upper-officers.~
+leather~
+jewelry S AC
+0 0 0 0 0
+30 0 10 P
+A
+13 5 -1
+A
+18 1 -1
+#7905
+longsword sword~
+a sunburst emblazoned longsword~
+A standard longsword with a golden sunburst emblazoned into the hilt.~
+steel~
+weapon Y AN
+sword 6 4 slash 0
+16 15 100 P
+A
+17 -2 -1
+A
+18 1 -1
+#7906
+boots~
+a pair of steel-plated boots~
+A pair of sturdy leather boots lined with steel plates.~
+steel~
+armor Y AG
+D D D D 0
+0 10 70 P
+#7907
+ring amadician~
+an Amadician signet ring~
+A simple ring adorned with a golden sunburst reflects the sun here.~
+silver~
+jewelry 0 AB
+0 0 0 0 0
+15 1 50 P
+A
+13 5 -1
+A
+5 1 -1
+A
+17 -2 -1
+#7908
+shackle~
+a shackle~
+A broken shackle, once used to bind and torment a prisoner.~
+iron~
+trash Y AM
+0 0 0 0 0
+0 5 10 P
+A
+17 -5 -1
+#7910
+tabard~
+a pristine white tabard with a red shepherd's crook~
+A pristine white tabard, bearing the blood-red shepherd's crook of the Hand of the Light.~
+cloth~
+clothing S AK
+0 0 0 0 0
+25 1 100 P
+A
+19 2 -1
+A
+17 -2 -1
+A
+21 -1 -1
+#7911
+wood chest~
+a wooden chest~
+Lying beneath a tick layer of dust is a wood chest with a brass lock.~
+wood~
+container SY 0
+100 ABCD 7947 500 100
+0 150 0 P
+#7912
+key~
+a blood-caked key~
+Caked in dry blood, this key looks to over a few centuries old.~
+unknown~
+key Y A
+0 0 0 0 0
+0 1 0 P
+#7913
+throne~
+an old stone throne~
+Even the countless centuries have done nothing to wear away at this grand stone throne.~
+unknown~
+container Y 0
+10 ABCD 7914 10 100
+0 0 0 P
+E
+crack~
+The crack in this throne's arm looks as if a sword were thrust into it
+and then snapped off.  But the throne is solid stone, how could this be?  
+~
+E
+throne~
+This is throne is very basic and unadorned, save for the twin stone hawks
+that are perched above it.  The hawks seem to peer intently at the area
+before the throne and their gaze never wanders.  Set into the chair's left
+armrest is a hole large enough to hold a chalice, while in the right armrest
+a few shards of thin stone seem wedged into a crack.  
+~
+#7914
+sword blade shattered stone~
+a shattered stone sword blade~
+An old stone sword with a shattered blade lies in ruin here.~
+stone~
+key SY AN
+0 0 0 0 0
+20 15 10 P
+#7915
+chest~
+a seamless chest~
+Emerging seamlessly from the white marble relief in the floor is a square chest.~
+marble~
+container SY O
+10 ABCD 7942 7 90
+0 6 150 P
+A
+17 -5 -1
+#7916
+signet ring coremanda~
+a signet ring of Coremanda~
+An ancient ring engraved with the symbol of a Winterfinch lies here.~
+silver~
+angreal IYe AB
+2 2 2 0 0
+45 1 500 P
+A
+19 2 -1
+#7917
+blood~
+a quaff of hero's blood~
+A wretched smell comes from this pooling of stagnant blood.~
+blood~
+potion Se A
+20 'heal' 'poison' 'poison' ''
+30 1 0 P
+#7918
+fencing fence~
+a fencing~
+Long wooden fencing holds back the Whitecloak's steeds.~
+wood~
+furniture S 0
+BD EIJKN BEH CFG CFG
+0 0 0 P
+#7919
+bridle leather straps~
+a horse's bridle~
+A large bundle of leather straps lies here.~
+leather~
+clothing S AK
+0 0 0 0 0
+0 15 75 P
+A
+17 -5 -1
+#7920
+necklace silver~
+a silver necklace~
+A necklace of tiny, interlocking silver links lies here.~
+silver~
+treasure 0 AC
+0 0 0 0 0
+0 1 150 P
+#7921
+gauntlets~
+steel-plated gauntlets~
+A pair of gauntlets of excellent workmanship lie here.~
+steel~
+armor Y AH
+D D D BC 0
+25 10 70 P
+A
+1 2 -1
+A
+17 -2 -1
+#7922
+sunburst necklace pendant~
+a silver chain and sunburst pendant~
+Amongst a thin silver necklace is a pendant shaped like a sunburst.~
+silver~
+jewelry 0 AC
+0 0 0 0 0
+0 1 250 P
+#7923
+gold money cash~
+a small pile of Coremanda gold coins.~
+A small pile of coins from a land heralded by a Winterfinch.~
+gold~
+money 0 A
+EGHIJK 0 0 0 0
+0 0 0 P
+#7924
+leather belt~
+a silver-tooled black leather belt~
+Lying here is a silver-tooled black leather belt.~
+leather~
+clothing S AL
+0 0 0 0 0
+25 3 50 P
+A
+18 1 -1
+A
+17 -4 -1
+A
+5 2 -1
+A
+4 1 -1
+A
+1 1 -1
+#7925
+pile rubble~
+a handful of stones~
+Pushed into the corners of the room lies a small pile of rubble.~
+stone~
+trash S AO
+0 0 0 0 0
+0 0 0 P
+#7926
+desk~
+the drawers of the desk~
+Scattered atop this large oak desk is a plethora of letters, maps, and military decrees.~
+oak~
+container SY 0
+20 ACD 7927 20 100
+0 0 0 P
+#7927
+key~
+a tiny gold key~
+A tiny gold key sparkles in the light.~
+gold~
+key 0 AO
+0 0 0 0 0
+0 1 80 P
+#7928
+stoney grip~
+a stoney grip~
+The shattered remains of a marble grip lie here.~
+marble~
+key SY AO
+0 0 0 0 0
+0 5 50 P
+#7930
+marble statue priestess~
+a marble statue~
+The shattered remains of a marble priestess lie shattered here on the floor.~
+marble~
+container Y 0
+50 ACD 7928 50 100
+0 0 0 P
+E
+statue~
+The remains of the statue lie here, like so many shattered dreams.  A
+careful observation reveals that one of the cupped hands in supplication is
+missing.  
+~
+#7931
+heavy steel shield~
+a sunburst-engraved shield~
+Glinting here in the light is an excellently forged shield engraved with a sunburst.~
+steel~
+armor Y AJ
+D D D D 0
+0 15 80 P
+A
+13 5 -1
+A
+17 -2 -1
+#7932
+earring great serpent~
+a silver serpent eating its tail~
+Lying forgotten here is a single earring in the shape a a serpent.~
+silver~
+jewelry IY AU
+0 0 0 0 0
+25 0 52 P
+A
+3 1 -1
+#7933
+scars welts~
+a mass of bleeding lashings~
+Deep pools of blood.~
+stone~
+protect SU AK
+0 I 0 0 0
+25 1 50 P
+A
+19 1 -1
+A
+18 1 -1
+A
+14 20 -1
+A
+5 2 -1
+#7934
+slippers blood-soaked~
+a pair of blood-soaked slippers~
+Once a pristine white, these slippers are now soaked in blood.~
+slipperstuff~
+clothing I AG
+0 0 0 0 0
+0 3 10 P
+A
+17 -1 -1
+A
+14 1 -1
+A
+2 2 -1
+#7935
+shawl rag~
+a defiled White Shawl~
+A wretched and defiled rag lies here in a bundle.~
+cloth~
+clothing S AC
+0 0 0 0 0
+0 1 0 P
+E
+shawl~
+Once one of the proud Shawls worn by the Aes Sedai of the White Tower,
+this one is but little more than a rag now.  It is bloodied, soiled, torn,
+and horribly defiled, marring the Flame of Tar Valon both aesthetically and
+idealistically.  
+~
+#7936
+whip cat~
+a steel-tipped cat-of-nine-tails~
+Lying on the ground here is a steel-tipped whip with nine lashes.~
+leather~
+weapon S AN
+flail 5 5 thrash D
+30 3 50 P
+A
+19 1 -1
+#7937
+aura innocence~
+an aura of innocence~
+A feeling of peace and tranquility seems to pervade the area. ~
+PURITY~
+protect IKLQ AQ
+0 0 0 0 0
+0 0 0 P
+A
+4 1 -1
+A
+21 -1 -1
+#7938
+curse damned dark one~
+the curse of the damned~
+If Shadar Logath is where the Dark One's prison is weakest, His fists must pound here for escape.~
+CORRUPTION~
+protect IJLQ AQ
+0 0 0 0 0
+0 0 0 P
+A
+1 1 -1
+A
+21 -1 -1
+#7939
+iron rations~
+a bundle of iron rations~
+A neatly bound package containing dried fruits and nuts.~
+food~
+food S A
+ABCD D 0 0 0
+1 0 30 P
+#7941
+set keys ring~
+a jailer's ring of keys~
+A dozen or so keys hang loosely from a jailer's ring of keys.~
+iron~
+key 0 A
+0 0 0 0 0
+0 2 0 P
+#7942
+blood~
+a small pool of blood~
+Pooling into a small niche in the floor here is some drying blood.~
+blood~
+key SV AO
+0 0 0 0 0
+0 0 0 P
+#7943
+key~
+a sunburst engraved key~
+An ornately crafted brass key with a sunburst as a handle.~
+brass~
+key 0 AO
+0 0 0 0 0
+0 1 50 P
+#7944
+weapons rack~
+a weapon's rack~
+Lining the walls of this small room are a number of weapon racks.~
+wood~
+container S 0
+1000 0 0 1000 100
+0 0 0 P
+#7945
+armor rack~
+an armor rack~
+Lining the walls of this small room is a large armor rack.~
+wood~
+container S 0
+1000 0 0 1000 100
+0 0 0 P
+#7946
+pocketball table~
+a Ghealdan Pocketball table~
+A table with a rich green felt top has a dozen or so balls scattered atop it.~
+wood~
+furniture 0 0
+ABCD FHJKPQ BEHK CFG CFG
+0 0 0 P
+#7947
+brass key~
+a small brass key~
+Glinting softly in the light is a small brass key.~
+brass~
+key 0 A
+0 0 0 0 0
+0 1 4 P
+#7948
+shelf shelving~
+a shelving~
+Lining the walls here are several shelves loaded with foodstuffs.~
+wood~
+container 0 0
+100 0 0 100 100
+0 0 0 P
+#7949
+barrel~
+a barrel of water~
+A large barrel lies nestled in the corner of this room.~
+wood~
+drink 0 A
+49 49 'water' 0 0
+0 100 0 P
+#7950
+barrel~
+a barrel of rum~
+Set aside from the rest of the barrels, this one is stoppered by a golden relief.~
+wood~
+drink S 0
+15 15 'rum' 0 0
+0 0 0 P
+#7951
+chairs tables remnants~
+some junk~
+The shattered remnants of some old tables and chairs lie here.~
+wood~
+container S 0
+100 AC 0 100 100
+0 0 0 P
+#7952
+club table leg ~
+a thick oak table leg~
+The broken remains of an oaken table leg looks like it could cause some damage.~
+wood~
+weapon S AN
+mace 6 5 pound 0
+20 10 20 P
+F
+A 19 1 -1 ABE
+#7953
+rack bar closet~
+a closet rack~
+Stretching the length of the closet is a bar with clothes hanging from it.~
+unknown~
+container 0 0
+100 0 0 100 100
+0 0 0 P
+#7954
+banner fortress light herald flag pole~
+a flaring sunburst banner of the Light~
+The flaring sunburst banner of the Children of the Light adorns the wall.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+#7955
+gold mirror~
+a golden mirror~
+A full-length mirror with a gilded frame of gold rests in the corner.~
+unknown~
+treasure AW AJ
+0 0 0 0 0
+10 20 500 W
+A
+21 -1 -1
+A
+17 -2 -1
+#7956
+bed canopy~
+the Lord Inquisitor's bed~
+A beautiful canopy bed of Mayene craftsmanship is covered with silken blankets.~
+wood~
+furniture S 0
+B DGH BHK BCDFG BCDFG
+0 300 1000 P
+#7957
+armor dummy~
+an armor dummy~
+Crafted to emulate the form on a man, an armor dummy stands here.~
+wood~
+furniture S A
+0 0 N 0 0
+0 20 50 P
+#7958
+hutch~
+a hutch~
+Atop a desk of exquisite design, a hutch full of books rests.~
+oak~
+container S 0
+100 ACD 0 100 100
+0 0 0 P
+#7959
+book hammers of hawkwing~
+a book, "The Hammers of Hawkwing"~
+A book lies here in the dust, forlorn and forgotten.~
+paper~
+map S AO
+0 0 0 0 0
+0 3 50 P
+A
+18 1 -1
+A
+4 2 -1
+E
+book~
+A treatise of the many different views of the military tactics created by
+the genius of Artur Hawkwing.  A gathering of analysis', critiques,
+evolvements, and ending with a twelve chapter biography of the man behind
+the throne.  Written by the noted historian Guaar Dyylin V'Arq - this book
+has served as one of the primary tomes used in both the teachings of history
+and the basics of the Art of War.  
+~
+#7960
+gold money cash~
+a small pouch of gold coins~
+A small pile of golden coins twinkles in the light.~
+gold~
+money 0 A
+DGH 0 0 0 0
+0 0 0 P
+#7961
+statue~
+a statue of a shepherd~
+A small statue lying on the ground, its not ivory- its cuendillar!~
+cuendillar~
+treasure We AO
+0 0 0 0 0
+0 1 1000 P
+#7962
+cot bed bunk~
+a cot~
+A set of tightly-made bunkbeds dressed with sombre blankets is here.~
+unknown~
+furniture 0 0
+B EIJKN BEHL ADFG CFG
+5 0 0 P
+E
+chest~
+A small chest at the foot of each cot contains each of the Children's
+personal items.  Treasures such as combs, portraits, letters, and diaries
+fill them, nothing of value, save personal.  
+~
+#7963
+dummy~
+a practice dummy~
+A wooden practice dummy barely quivers in its frame.~
+wood~
+furniture S A
+0 CFG N 0 0
+0 25 100 P
+E
+dummy~
+Suspended by thickened hemp rope, this wooden practice dummy stands
+poised in its frame.  By moving certain pullies and levers, the practice
+dummy can be rotated in a variety of positions, emulating many sword forms. 
+~
+#7964
+weapons rack~
+a cherry wood sword rack~
+Hanging from the wall is a sword rack for two, made of cherry wood.~
+wood~
+container S A
+10 0 0 10 98
+0 100 200 P
+#7965
+no name~
+a bloody keyhole~
+One of the seams in the southern wall has flaked blood about it.~
+unknown~
+trash c 0
+0 0 0 0 0
+0 0 0 P
+E
+seam~
+On closer inspection, its not a seam at all but a keyhole.
+~
+#7966
+longsword sword blademaster~
+a sunburst-emblazoned longsword~
+A longsword of excellent forge with a sunburst etched into it's blade.~
+steel~
+weapon be AN
+sword 5 11 slash DF
+45 15 0 P
+A
+17 -2 -1
+A
+18 1 -1
+#7967
+blue sapphire~
+a perfectly cut sapphire~
+Something glints blue in the dust here.~
+sapphire~
+gem Y A
+0 0 0 0 0
+0 1 500 P
+#7968
+pocketball stick~
+a Ghealdan Pocketball stick~
+A lean stick of the finest oak lies here.~
+wood~
+weapon S AN
+spear 4 6 pierce 0
+0 3 50 P
+#7969
+no name~
+a hole in the wall~
+Behind the weapons rack in the west wall there seems to be a doorway.~
+unknown~
+trash c 0
+0 0 0 0 0
+0 0 0 P
+#7970
+credit~
+`WCredit: The Civil Guard Tower`w~
+For credits, please see added desc CREDIT.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+credit~
+Area: The Civil Guard Tower
+Based on the WoT series written by Robert Jordan.  
+Concept: Andrew Urbanek
+Builder: Phillip Shortman
+~
+#0
+
+
+
+#ROOMS
+#7900
+The Chamber of Light~
+This large chamber is circular in shape, worked with the same finely
+seamed masonry that makes up the tower as a whole.  Deemed the Chamber of
+Light by the Children, this is the private questioning cell in which the
+Inquisitors carefully discern who truly walks in the Light from those who do
+not.  The walls are barren, save for the wall opposite the door east.  On
+that wall rests a huge banner of the wall rests a large Banner of the
+Fortress of Light.  Emblazoned behind the Fortress is the flaring sunburst
+and shepherd's crook associated with the Hand of the Light, the Inquisitors.
+Encircling the room every three feet, heavy iron sconces flare brilliantly,
+filling the chamber completely with light and heat.  Set into the center of
+the stone floor is a heavy wooden chair reinforced by iron.  Thick chains
+are bolted to the floor and travel up the chair to grasp the armrests
+ominously.  The stone beneath the chair differs from the rest of the
+masonry, as it looks to be carved from a more rustic stone than the rest.  
+~
+0 8 0
+D1
+~
+~
+7 7941 7901
+S
+#7901
+A Guard's Post~
+This smallish alcove is obviously a guard room of some sorts.  Twin oaken
+doors lead east and west, both with thick iron-clad locks set into them. 
+The only furnishment in this room is a small stool.  Set into the finely
+seamed walls are several empty pegs, barren of both key rings and cloaks.  
+~
+0 0 0
+D1
+~
+secret~
+15 7941 7902
+D3
+~
+~
+7 7941 7900
+S
+#7902
+A Guarded Hallway~
+From the barred doors to the north and south of this passageway echo the
+haunted screams of many folk.  Women's sobbing is mixed with men's pleas for
+mercy, as all hope for some escape from the Whitecloak's questioning.  This
+guarded hallway obviously leads to the confines of the captured Darkfriends.
+Like the rest of the guard tower the thick walls show only the finest seams
+of mortar, without a single crack or chip in the stone.  The workmanship is
+incredible for human hand, surviving even the ravages of time and
+underground pressures with grace.
+~
+0 0 0
+D0
+~
+~
+7 7941 7903
+D1
+~
+~
+0 0 7905
+D2
+~
+~
+7 7941 7904
+D3
+~
+secret~
+15 7941 7901
+S
+#7903
+A Dirty Cell~
+Even the masonry that makes up this small cell shames the most patient
+artisan of today.  The smooth stones making up the walls almost melt from
+each other, so fine are the seams between each.  The cell is barren, with
+hardly a pile of straw tossed in the corner for a place to sleep.  The smell
+from within is rancid, ofal and decay wafting in the air thick enough that
+one could choke on it if they were not careful.  Bugs scurry about the
+defiled floor and it is a wonder anyone could survive in conditions like
+this.  
+~
+0 0 0
+D2
+~
+~
+7 0 7902
+S
+#7904
+A Dirty Cell~
+Even the masonry that makes up this small cell shames the most patient
+artisan of today.  The smooth stones making up the walls almost melt from
+each other, so fine are the seams between each.  The cell is barren, with
+hardly a pile of straw tossed in the corner for a place to sleep.  The smell
+from within is rancid, ofal and decay wafting in the air thick enough that
+one could choke on it if they were not careful.  Bugs scurry about the
+defiled floor and it is a wonder anyone could survive in conditions like
+this.  
+~
+0 0 0
+D0
+~
+~
+7 0 7902
+S
+#7905
+A Guarded Hallway~
+From the barred doors to the north and south of this passageway echo the
+haunted screams of many folk.  Women's sobbing is mixed with men's pleas for
+mercy, as all hope for some escape from the Whitecloak's questioning.  This
+guarded hallway obviously leads to the confines of the captured Darkfriends.
+Like the rest of the guard tower the thick walls show only the finest seams
+of mortar, without a single crack or chip in the stone.  The workmanship is
+incredible for human hand, surviving even the ravages of time and
+underground pressures with grace.  
+~
+0 0 0
+D0
+~
+~
+7 7941 7906
+D1
+~
+~
+0 0 7908
+D2
+~
+~
+7 7941 7907
+D3
+~
+~
+0 0 7902
+S
+#7906
+A Dirty Cell~
+Even the masonry that makes up this small cell shames the most patient
+artisan of today.  The smooth stones making up the walls almost melt from
+each other, so fine are the seams between each.  The cell is barren, with
+hardly a pile of straw tossed in the corner for a place to sleep.  The smell
+from within is rancid, ofal and decay wafting in the air thick enough that
+one could choke on it if they were not careful.  Bugs scurry about the
+defiled floor and it is a wonder anyone could survive in conditions like
+this.  
+~
+0 0 0
+D2
+~
+~
+7 0 7905
+S
+#7907
+A Dirty Cell~
+Even the masonry that makes up this small cell shames the most patient
+artisan of today.  The smooth stones making up the walls almost melt from
+each other, so fine are the seams between each.  The cell is barren, with
+hardly a pile of straw tossed in the corner for a place to sleep.  The smell
+from within is rancid, ofal and decay wafting in the air thick enough that
+one could choke on it if they were not careful.  Bugs scurry about the
+defiled floor and it is a wonder anyone could survive in conditions like
+this.  
+~
+0 0 0
+D0
+~
+~
+7 0 7905
+S
+#7908
+A Guarded Hallway~
+From the barred doors to the north and south of this passageway echo the
+haunted screams of many folk.  Women's sobbing is mixed with men's pleas for
+mercy, as all hope for some escape from the Whitecloak's questioning.  This
+guarded hallway obviously leads to the confines of the captured Darkfriends.
+Like the rest of the guard tower the thick walls show only the finest seams
+of mortar, without a single crack or chip in the stone.  The workmanship is
+incredible for human hand, surviving even the ravages of time and
+underground pressures with grace.  
+~
+0 0 0
+D0
+~
+~
+7 7941 7909
+D1
+~
+~
+7 7941 7911
+D2
+~
+~
+7 7941 7910
+D3
+~
+~
+0 0 7905
+S
+#7909
+A Dirty Cell~
+Even the masonry that makes up this small cell shames the most patient
+artisan of today.  The smooth stones making up the walls almost melt from
+each other, so fine are the seams between each.  The cell is barren, with
+hardly a pile of straw tossed in the corner for a place to sleep.  The smell
+from within is rancid, ofal and decay wafting in the air thick enough that
+one could choke on it if they were not careful.  Bugs scurry about the
+defiled floor and it is a wonder anyone could survive in conditions like
+this.  
+~
+0 0 0
+D2
+~
+~
+7 0 7908
+S
+#7910
+A Dirty Cell~
+Even the masonry that makes up this small cell shames the most patient
+artisan of today.  The smooth stones making up the walls almost melt from
+each other, so fine are the seams between each.  The cell is barren, with
+hardly a pile of straw tossed in the corner for a place to sleep.  The smell
+from within is rancid, ofal and decay wafting in the air thick enough that
+one could choke on it if they were not careful.  Bugs scurry about the
+defiled floor and it is a wonder anyone could survive in conditions like
+this.  
+~
+0 0 0
+D0
+~
+~
+7 0 7908
+S
+#7911
+A Guarded Stairwell~
+This small stairwell is barely lit by the single torch in the far iron
+sconce.  Torchlight flickers ominously about the stairwell, throwing deep
+folds of shadows in every possible niche.  Set into the south and east walls
+are two empty weapon racks, both covered in a thin layer of dust.  Through
+the bars of the western door can be seen a long passageway, intersected by
+doors north and south every ten feet.  Barring this door is a large iron
+lock, the same kind that is used upon the trapdoor above the stairway.  
+~
+0 0 0
+D3
+~
+~
+7 7941 7908
+D4
+~
+~
+3 0 7923
+S
+#7912
+A Guardsman's Post~
+Finely seamed walls make up this little alcove in the northwest corner of
+the Civil Guard's Tower.  To the south, the hallway stretches on a little
+further before ending at a doorway.  Soft shadows linger about, all but
+annhilated by the torches held steadfast by iron sconces all along the
+walls.  Each of the three walls of this small alcove is adorned by the
+herald of the Army of the Light, a flaring sunburst.  
+~
+0 0 0
+D2
+~
+~
+0 0 7916
+S
+#7913
+A Barrack~
+Neat is not a term that would describe these barracks, for it does them
+no justice.  Dozens of cots are made with crisp folds and blankets, set at
+even intervals about the room.  At the end of each cot is an iron-bound
+chest, containing the limited personal objects each Child is allowed to keep
+possession of.  The few Children that are currently relaxing here do so
+quietly, discussing orders and mandates of the Light, while polishing their
+boots and armor.  
+~
+0 0 0
+D2
+~
+~
+3 0 7917
+S
+#7914
+A Barrack~
+Neat is not a term that would describe these barracks, for it does them
+no justice.  Dozens of cots are made with crisp folds and blankets, set at
+even intervals about the room.  At the end of each cot is an iron-bound
+chest, containing the limited personal objects each Child is allowed to keep
+possession of.  The few Children that are currently relaxing here do so
+quietly, discussing orders and mandates of the Light, while polishing their
+boots and armor.  
+~
+0 0 0
+D2
+~
+~
+3 0 7918
+S
+#7915
+A Barrack~
+Neat is not a term that would describe these barracks, for it does them
+no justice.  Dozens of cots are made with crisp folds and blankets, set at
+even intervals about the room.  At the end of each cot is an iron-bound
+chest, containing the limited personal objects each Child is allowed to keep
+possession of.  The few Children that are currently relaxing here do so
+quietly, discussing orders and mandates of the Light, while polishing their
+boots and armor.  
+~
+0 0 0
+D2
+~
+~
+3 0 7919
+S
+#7916
+A Long Hallway~
+The hallway here forks off here to the north and east.  Set firmly into
+the southern wall is a large oaken door.  The fine seams between the large
+stonework along the passage leads off to a small northern alcove, or along
+another hallway set with doors to the east.  The rapping of polished boot
+against stone can be heard echoing from all about this tower, forcing a
+sense of unease upon the weary traveller.  
+~
+0 0 0
+D0
+~
+~
+0 0 7912
+D1
+~
+~
+0 0 7917
+D2
+~
+~
+0 0 7920
+S
+#7917
+A Hallway Outside the Barracks~
+Lining the southern walls of this passageway are several banners of the
+Children of the Light.  Intermixed with banners of the Fortress are banners
+emblazoned by the shepherd's crook of the Inquisitors.  The hallway
+stretches from the east to west, before meeting intersecting halls at its
+end.  Echoing throughout the tower can be heard the sound of polished boot
+against hardened stone.  Between the rhythmic footfalls, voices can be made
+out from the northern doors.  
+~
+0 0 0
+D0
+~
+~
+3 0 7913
+D1
+~
+~
+0 0 7918
+D3
+~
+~
+0 0 7916
+S
+#7918
+A Hallway Outside the Barracks~
+Lining the southern walls of this passageway are several banners of the
+Children of the Light.  Intermixed with banners of the Fortress are banners
+emblazoned by the shepherd's crook of the Inquisitors.  The hallway
+stretches from the east to west, before meeting intersecting halls at its
+end.  Echoing throughout the tower can be heard the sound of polished boot
+against hardened stone.  Between the rhythmic footfalls, voices can be made
+out from the northern doors.  
+~
+0 0 0
+D0
+~
+~
+3 0 7914
+D1
+~
+~
+0 0 7919
+D3
+~
+~
+0 0 7917
+S
+#7919
+A Hallway Outside the Barracks~
+Between the rhythmic footfalls of polished boot on stone can be heard
+voices from within the northern door.  The finely seamed stonework of the
+passage branches off to the west and south, while the northern door is set
+firmly into the wall.  The hall to the west is lined with doors to the
+north, and to the south a trapdoor is set into the floor.  
+~
+0 0 0
+D0
+~
+~
+3 0 7915
+D2
+~
+~
+0 0 7923
+D3
+~
+~
+0 0 7918
+S
+#7920
+Entrance to the Tower~
+As it is outside, this tower is a work of craftsmanship that would do any
+Ogier proud.  Raised in the day of Artur Hawkwing, this tower served as a
+munitions tower for the Civil Guard.  Built by the finest human craftsmen of
+the age, the fact that it has survived in the shape it has is a testament to
+stonemasonry that would rival the Ogier.  Finely mortared seams almost
+invisibly web out amongst the thick stone slabs that make up the floor and
+walls of the Tower.  Set into the north and south walls are thickened oak
+doors, while to the west is a set of oaken double doors.  Two flagpoles
+stand in the north-east and south-east corners of the room.  Both are
+emblazoned by the easily recognized flaring sunbursts of the Children of the
+Light.  
+~
+0 0 0
+D0
+~
+~
+0 0 7916
+D2
+~
+~
+0 0 7925
+D3
+~
+~
+3 0 7970
+S
+#7921
+The Main Barracks~
+In this corner of the Barracks, there rests only a single cot.  Crisp
+sheets and an neatly folded blanket dress it snugly, and a iron-bound chest
+lies firm at its feet.  Against the northern wall is a simple desk,
+unadorned in all fashion, with a few papers stacked neatly atop it. 
+Standing at attention next to the cot is a simple armor dummy, now naked,
+but worn through obvious years of use.  
+~
+0 0 0
+D2
+~
+~
+0 0 7927
+D3
+~
+~
+0 0 7922
+S
+#7922
+The Main Barracks~
+Neat is not a term that would describe these barracks, for it does them
+no justice.  Dozens of cots are made with crisp folds and blankets, set at
+even intervals about the room.  At the end of each cot is an iron-bound
+chest, containing the limited personal objects each Child is allowed to keep
+possession of.  The few Children that are currently relaxing here do so
+quietly, discussing orders and mandates of the Light, while polishing their
+boots and armor.  While the cots are tightly lined on this side of the room,
+to the east a single cot has a bit more space and personal affects scattered
+around it.  
+~
+0 0 0
+D1
+~
+~
+0 0 7921
+D2
+~
+~
+0 0 7926
+S
+#7923
+A Trapdoor~
+Against the far south wall is a giant banner depicting the Fortress of
+Light.  This alcove is mostly barren, the finely-seamed stone walls devoid
+of torchlight, throwing it into a touch of darkness.  Set firmly into the
+floor is a large trapdoor, reinforced with an iron bolt.  The bolt is
+currently open though, and the lock has been put aside.  Far to the north is
+a thick oaken door, and the passage branches off to the west.  Set against
+the eastern wall of the tower, cool stone steps lead up to the second floor.
+The rapping of boot on stone echoes loudly from above.  
+~
+0 0 0
+D0
+~
+~
+0 0 7919
+D2
+~
+~
+15 7912 7924
+D4
+~
+~
+0 0 7941
+D5
+~
+trapdoor~
+3 0 7911
+S
+#7924
+In the Sanctum~
+The normally finely-seamed stonework is put to shame by a giant relief
+set into the center of the floor here.  Three giant hawks in midflight
+dominate the relief, soaring over a deeper relief of a single hawk, its beak
+raised a foot above the floor.  Unlike every other room of this tower, no
+Whitecloak guards or banners mar the area.  
+~
+0 0 0
+D0
+~
+~
+15 7912 7923
+S
+#7925
+A Hallway~
+This is a small corridor in the old Civil Guard Tower.  The finely seamed
+stonework is apparent in every inch of the walls, floors and ceiling, as the
+brass sconces lining the walls throw ample torchlight about to examine the
+craftsmanship.  To the north, the corridor opens wide into the tower's
+entry, and a large set of double doors can be seen.  To the east, a large
+oaken door is set into the wall and voices can be heard within.  
+~
+0 0 0
+D0
+~
+~
+0 0 7920
+D1
+~
+~
+3 0 7926
+S
+#7926
+The Main Barracks~
+Neat is not a term that would describe these barracks, for it does them
+no justice.  Dozens of cots are made with crisp folds and blankets, set at
+even intervals about the room.  At the end of each cot is an iron-bound
+chest, containing the limited personal objects each Child is allowed to keep
+possession of.  The few Children that are currently relaxing here do so
+quietly, discussing orders and mandates of the Light, while polishing their
+boots and armor.  
+~
+0 0 0
+D0
+~
+~
+0 0 7922
+D1
+~
+~
+0 0 7927
+D3
+~
+~
+3 0 7925
+S
+#7927
+The Main Barracks~
+Neat is not a term that would describe these barracks, for it does them
+no justice.  Dozens of cots are made with crisp folds and blankets, set at
+even intervals about the room.  At the end of each cot is an iron-bound
+chest, containing the limited personal objects each Child is allowed to keep
+possession of.  The few Children that are currently relaxing here do so
+quietly, discussing orders and mandates of the Light, while polishing their
+boots and armor.  While the cots are tightly lined on this side of the room,
+to the north a single cot has a bit more space and personal affects
+scattered around it.  
+~
+0 0 0
+D0
+~
+~
+0 0 7921
+D3
+~
+~
+0 0 7926
+S
+#7928
+Path to the Stables~
+Amidst the small copse of trees, a path of packed dirt leads north, to a
+stable, and south, past a looming tower.  A set of large, oaken double doors
+lead into the tower to the south, and past the tower the path disappears
+into the thickening forest.  From within the stables, the sounds of neighing
+and whineying can be heard, just as the smell of straw wafts.  The open sky
+stretches wide between the framing of trees, and even the White Tower is
+visible at this distance.  
+~
+0 0 2
+D0
+~
+~
+0 0 7929
+D2
+~
+~
+0 0 7970
+S
+#7929
+The Stables~
+As far as stables go, this building is quite small, offering only space
+for a few horses to be stalled.  The gate to the stall is to the east, while
+large barndoors open beyond the stables to the north.  The building has
+recently been repaired, new woods line the walls and ceilings awaiting a
+fresh coat of stain.  Bales of hay line the western wall, and bits of straw
+find themselves cloistered into corners no matter how the stablehands sweep.
+~
+0 0 0
+D0
+~
+~
+3 0 7972
+D1
+~
+~
+3 0 7971
+D2
+~
+~
+0 0 7928
+S
+#7930
+An Empty Room~
+This hidden alcove of the tower lies empty and forgotten by the current
+residents.  Caking the finely seamed stone floors is a thick layer of dust,
+sprinkled with the dead carcasses of a dozen insects, and the walls are
+strewn with old combwebs.  The only apparent exit is from the broken wall to
+the east.  
+~
+0 0 0
+D1
+~
+~
+11 0 7931
+S
+#7931
+Supply Storage~
+This stark room serves as a small supplies hold for the current residents
+of the Civil Watch Tower, the Children of the Light.  Swords, daggers,
+scabbards, and other weapons and equipment line the walls, everything
+emblazoned or etched with the flaring sunburst.  All the equipment is in
+excellent repair and finely polished, seemingly as if it just came straight
+from the forge.  
+~
+0 0 0
+D2
+~
+~
+3 0 7935
+D3
+~
+~
+11 0 7930
+S
+#7932
+Supply Storage~
+This stark room serves as a small supplies hold for the current residents
+of the Civil Watch Tower, the Children of the Light.  Armor and equipment
+line the walls, everything emblazoned or etched with the flaring sunburst. 
+All the equipment is in excellent repair and finely polished, seemingly as
+if it just came straight from the forge.  
+~
+0 0 0
+D2
+~
+~
+3 0 7936
+S
+#7933
+Supply Storage~
+This stark room serves as a small supplies hold for the current residents
+of the Civil Watch Tower, the Children of the Light.  The smell of spices
+and salts that pervades the room eminates from several shelves and barrels. 
+Lining the shelves are various spices and wrapped rations, while the barrels
+are filled with various liquids. 
+~
+0 0 0
+D2
+~
+~
+3 0 7937
+S
+#7934
+Recreational~
+Leading back to the hallways of the Civil Defense Tower, an archway leads
+off to the east.  Whereas the rest of the tower is stark and practical, this
+room turned Recreational seems almost a state of exess.  Fine silken carpets
+imported from Illian cover the floors, while the richest mohaganey wood make
+up the book shelves that line the walls.  Intricate lace steelwork frames
+the open stained-glass windows that are set into the western wall.  Richly
+furnished chairs and tables are set up to prvide easy resting while relaxing
+in this room.  
+~
+0 0 0
+D2
+~
+~
+0 0 7938
+S
+#7935
+A Hallway~
+The corridor runs to the south and east here, eastwards leading down a
+long passage lined with doors on the north wall.  To the south, the corridor
+abruptly turns to the east after a dozen feet.  Set into the western wall to
+the south, a stone archway allows a small glimpse of natural light, and soft
+voices can be heard from within.  
+~
+0 0 0
+D0
+~
+~
+3 0 7931
+D1
+~
+~
+0 0 7936
+D2
+~
+~
+0 0 7939
+S
+#7936
+A Hallway~
+The corridor here runs in an east and west direction, with finely seamed
+stonework marking it as more a monument than a tower.  Set into the northern
+walls of the passage are several thick oak doors, while the southern walls
+are lined with several banners depicting the emblem of the Fortress of
+Light.  Echoing throughout the corridors to the west comes the sharp
+clacking of boot agaisnt stone.  
+~
+0 0 0
+D0
+~
+~
+3 0 7932
+D1
+~
+~
+0 0 7937
+D3
+~
+~
+0 0 7935
+S
+#7937
+A Hallway~
+The end of the eastern corridor ends abruptly at an oaken door to the
+north.  Lining the northern walls are several doors, thick doorframes set
+into the finely-seamed stonework of the Civil Guard Tower.  From the
+northern door, the faint scent of salts and spices wafts, and to the west
+the echoing of boot against stone can be heard.  
+ 
+~
+0 0 0
+D0
+~
+~
+3 0 7933
+D3
+~
+~
+0 0 7936
+S
+#7938
+Recreational~
+Leading back to the hallways of the Civil Defense Tower, an archway leads
+off to the east.  Whereas the rest of the tower is stark and practical, this
+room turned Recreational seems almost a state of exess.  Fine silken carpets
+imported from Illian cover the floors, while the richest mohaganey wood make
+up the book shelves that line the walls.  Intricate lace steelwork frames
+the open stained-glass windows that are set into the western wall.  Richly
+furnished chairs and tables are set up to prvide easy resting while relaxing
+in this room.  
+~
+0 0 0
+D0
+~
+~
+0 0 7934
+D1
+~
+~
+0 0 7939
+D2
+~
+~
+0 0 7942
+S
+#7939
+A Hallway~
+The corridor runs to the north and east here, eastwards leading to a
+stairwell, while the north turns quickly to the east after a dozen feet. 
+From beneath the rappings of boot on stone, voices in discussion can be
+heard from the west, and fresh air blows in from the archway in that
+direction.  A thick oak door is set firmly into the southern wall, tight in
+the fine stonemasonry that makes up this tower.  
+~
+0 0 0
+D0
+~
+~
+0 0 7935
+D1
+~
+~
+0 0 7940
+D2
+~
+~
+3 0 7943
+D3
+~
+~
+0 0 7938
+S
+#7940
+Guardstation~
+Several sconces line the finely seamed stone walls, throwing light to
+vanquish the dark from the flaming torches within.  Still against the
+northern wall is a banner depicting a flaring sunburst, the herald of the
+Army of the Light.  Echoing throughout the corridors are the rhythmic
+rappings of polished boot against stone, and soft voices can be heard to the
+west.  Set into the southern wall is a thick oak door.  Further down the
+hallway to the west, the corridor arches turns to the right before an
+archway, and to the east, a stone stairwell leads to either floor.  
+~
+0 0 0
+D1
+~
+~
+0 0 7941
+D2
+~
+~
+3 7947 7944
+D3
+~
+~
+0 0 7939
+S
+#7941
+The Stairwell~
+Echoing from all about the aged Civil Guard Tower, the rapping of
+polished boot on stone thunders down the corridor.  The finely seamed stone
+walls stretch off to the west, while the stairwell descends into darkness
+and rises to the third floor.  Doors line the western corridor as it
+branches off to the north, before an archway to the west opens to the
+beautiful sky beyond.  
+~
+0 0 0
+D3
+~
+~
+0 0 7940
+D4
+~
+~
+0 0 7955
+D5
+~
+~
+0 0 7923
+S
+#7942
+Recreational~
+Leading back to the hallways of the Civil Defense Tower, an archway leads
+off to the east.  Whereas the rest of the tower is stark and practical, this
+room turned Recreational seems almost a state of exess.  Fine silken carpets
+imported from Illian cover the floors, while the richest mohaganey wood make
+up the book shelves that line the walls.  Intricate lace steelwork frames
+the open stained-glass windows that are set into the western wall.  Richly
+furnished chairs and tables are set up to prvide easy resting while relaxing
+in this room.  
+~
+0 0 0
+D0
+~
+~
+0 0 7938
+S
+#7943
+Supply Storage~
+This stark room serves as a small supplies hold for the current residents
+of the Civil Watch Tower, the Children of the Light.  The door creaks open
+as if it has not been oiled in some time, and the room looks as though it
+has not seen use for centuries.  Scattered about the room are dozens of
+rickety old tables and chairs, along with battered chests and other useless
+items.  
+~
+0 0 0
+D0
+~
+~
+3 0 7939
+S
+#7944
+Supply Storage~
+This stark room serves as a small supplies hold for the current residents
+of the Civil Watch Tower, the Children of the Light.  The door creaks open
+as if it has not been oiled in some time, and the room is in a state of
+dissaray.  Scattered throughout the room are various types of furniture in
+poor states of repair, and other useless items.  This room may have once
+been a library of sorts, for a large window rests in the seamless marble
+wall nearby a rickety old bookcase.  
+~
+0 0 0
+E
+bookcase~
+The rickety old bookcase to the east seems as though there is a passage
+behind it.  
+~
+D0
+~
+~
+3 7947 7940
+D1
+~
+bookcase~
+11 0 7945
+S
+#7945
+Broken Marble Priestess~
+This hidden alcove of the tower lies empty and forgotten by the current
+residents.  Caking the finely seamed stone floors is a thick layer of dust,
+sprinkled with the dead carcasses of a dozen insects, and the walls are
+strewn with old combwebs.  The only apparent exit is from the broken
+bookcase to the west.  
+~
+0 0 0
+D3
+~
+~
+11 0 7944
+S
+#7946
+The Stairwell~
+Echoing from all about the aged Civil Guard Tower, the rapping of
+polished boot on stone thunders down the corridor.  The finely seamed stone
+walls encompass this stairwell, with a large oaken door set into the south
+wall.  The stairs rise up to the fourth floor and the whispering of voices
+can be heard.  
+~
+0 0 0
+D2
+~
+~
+3 0 7949
+D4
+~
+~
+0 0 7959
+S
+#7947
+The Lord Inquisitor's Chamber~
+Unlike the other rooms of the converted Civil Guard's Tower, this bedroom
+is spacious and with a definite decor to it.  Fine Illian silk rugs dress
+the walls, and Domani weaves stretch across the floors.  The room is
+brightly lit by a dozen golden sconces with etched glass encompassing the
+burning wicks within.  Across the room to the east, a desk of solid oak
+rests against the wall, a hutch above it containing many books and tomes. 
+In the northeast corner of the room, a bed of obvious Mayene craftsmanship
+rests against the wall.  Draping down from it are several laced veils from
+the canopy, and a draw-cord to separate them.  Aside the bed and near the
+desk, a full armor dummy stands with its hands outstretched grasping for a
+weapon that is not there.  Its is hard to believe that this ornately
+decorated room would be found within a camp of the Children of the Light,
+but the finely-seamed walls would stand to show this is the same building.  
+~
+0 0 0
+D1
+~
+~
+0 0 7948
+D2
+~
+~
+0 0 7950
+S
+#7948
+The Lord Inquisitor's Chamber~
+Unlike the other rooms of the converted Civil Guard's Tower, this bedroom
+is spacious and with a definite decor to it.  Fine Illian silk rugs dress
+the walls, and Domani weaves stretch across the floors.  The room is
+brightly lit by a dozen golden sconces with etched glass encompassing the
+burning wicks within.  Across the room to the east, a desk of solid oak
+rests against the wall, a hutch above it containing many books and tomes. 
+In the northeast corner of the room, a bed of obvious Mayene craftsmanship
+rests against the wall.  Draping down from it are several laced veils from
+the canopy, and a draw-cord to separate them.  Aside the bed and near the
+desk, a full armor dummy stands with its hands outstretched grasping for a
+weapon that is not there.  Its is hard to believe that this ornately
+decorated room would be found within a camp of the Children of the Light,
+but the finely-seamed walls would stand to show this is the same building.  
+~
+0 0 0
+D2
+~
+~
+0 0 7951
+D3
+~
+~
+0 0 7947
+S
+#7949
+Guardstation~
+Several sconces line the finely seamed stone walls, throwing light to
+vanquish the dark from the flaming torches within.  Still against the
+eastern wall is a banner depicting a flaring sunburst, the herald of the
+Army of the Light.  Echoing throughout the corridors are the rhythmic
+rappings of polishefd boot against stone.  Set into the stone wall to the
+east is a grand set of oaken double doors, with two heralds gracing it. 
+Twin heralds bearing blood-red shephard's crooks adorn the silks of snow,
+with no sign of the flaring sunburst upon them.  Another door is set into
+the northern wall, unadorned, and the corridor continues south.  
+~
+0 0 0
+D0
+~
+~
+3 0 7946
+D1
+~
+~
+7 0 7950
+D2
+~
+~
+0 0 7953
+S
+#7950
+The Lord Inquisitor's Chamber~
+Unlike the other rooms of the converted Civil Guard's Tower, this bedroom
+is spacious and with a definite decor to it.  Fine Illian silk rugs dress
+the walls, and Domani weaves stretch across the floors.  The room is
+brightly lit by a dozen golden sconces with etched glass encompassing the
+burning wicks within.  Across the room to the east, a desk of solid oak
+rests against the wall, a hutch above it containing many books and tomes. 
+In the northeast corner of the room, a bed of obvious Mayene craftsmanship
+rests against the wall.  Draping down from it are several laced veils from
+the canopy, and a draw-cord to separate them.  Aside the bed and near the
+desk, a full armor dummy stands with its hands outstretched grasping for a
+weapon that is not there.  Its is hard to believe that this ornately
+decorated room would be found within a camp of the Children of the Light,
+but the finely-seamed walls would stand to show this is the same building.  
+~
+0 0 0
+D0
+~
+~
+0 0 7947
+D1
+~
+~
+0 0 7951
+D3
+~
+~
+7 0 7949
+S
+#7951
+The Lord Inquisitor's Chamber~
+Unlike the other rooms of the converted Civil Guard's Tower, this bedroom
+is spacious and with a definite decor to it.  Fine Illian silk rugs dress
+the walls, and Domani weaves stretch across the floors.  The room is
+brightly lit by a dozen golden sconces with etched glass encompassing the
+burning wicks within.  Across the room to the east, a desk of solid oak
+rests against the wall, a hutch above it containing many books and tomes. 
+In the northeast corner of the room, a bed of obvious Mayene craftsmanship
+rests against the wall.  Draping down from it are several laced veils from
+the canopy, and a draw-cord to separate them.  Aside the bed and near the
+desk, a full armor dummy stands with its hands outstretched grasping for a
+weapon that is not there.  Its is hard to believe that this ornately
+decorated room would be found within a camp of the Children of the Light,
+but the finely-seamed walls would stand to show this is the same building.  
+~
+0 0 0
+D0
+~
+~
+0 0 7948
+D3
+~
+~
+0 0 7950
+S
+#7953
+A Hallway~
+The corridor branches off here, to the north, south, and east.  In each
+direction, small guardstations have been set up, with armed Children of the
+Light diligently surveying the area.  There is not much room to hide within
+these stark stone walls, the sconces always lit with torchlight to vanquish
+the shadow.  On the third floor of the Civil Guard's Tower, there are more
+guards and heavier security, suggesting something very important is nearby-
+something or someone.  
+~
+0 0 0
+D0
+~
+~
+0 0 7949
+D1
+~
+~
+0 0 7954
+D2
+~
+~
+0 0 7956
+S
+#7954
+Guardstation~
+Several sconces line the finely seamed stone walls, throwing light to
+vanquish the dark from the flaming torches within.  Still against the
+northern wall is a banner depicting a flaring sunburst, the herald of the
+Army of the Light.  Echoing throughout the corridors are the rhythmic
+rappings of polished boot against stone, and soft voices can be heard to the
+south.  A thick oak door is set into the seamwork south, with another
+flaring sunburst herald gracing the door.  To the west, the corridor arches
+northwards, and another oaken door is set to the east.  
+~
+0 0 0
+D1
+~
+~
+3 0 7955
+D2
+~
+~
+3 0 7957
+D3
+~
+~
+0 0 7953
+S
+#7955
+The Stairwell~
+Echoing from the stairwell leading down, the rapping of polished boot
+against stone rings throughout the Civil Guard Tower.  The finely seamed
+stonework passages lead to the west, where a thick oak door is set into the
+far wall.  
+~
+0 0 0
+D3
+~
+~
+3 0 7954
+D5
+~
+~
+0 0 7941
+S
+#7956
+Guardstation~
+Several sconces line the finely seamed stone walls, throwing light to
+vanquish the dark from the flaming torches within.  Still against the
+southern wall is a banner depicting a flaring sunburst, the herald of the
+Army of the Light.  Echoing throughout the corridors are the rhythmic
+rappings of polished boot against stone, and soft voices can be heard to the
+north.  
+~
+0 0 0
+D0
+~
+~
+0 0 7953
+S
+#7957
+Senior Lieutenant's Quarters~
+These living quarters vary from the other barracks of the Civil Guard's
+Tower as only a single bed graces this room.  A single uncluttered desk is
+pushed against the south wall, giving ample room for the closet door to the
+east to open inwards.  Atop the desk are several tomes and folders filled
+with parchment, lined neatly in bookends and dividers.  Prominently
+displayed on the desk is a vase, holding several light blue flowers.  A
+small weapons rack and armor dummy lie empty next to a cot, and above it is
+a framed canvas depicting a fair-haired Child shaking hands with the Lord
+Captain Commander.  
+~
+0 0 0
+D0
+~
+~
+3 0 7954
+D1
+~
+~
+7 7943 7958
+S
+#7958
+A Darkened Closet~
+~
+0 2048 0
+D3
+~
+~
+7 7943 7957
+S
+#7959
+The Stairwell~
+Echoing from all about the aged Civil Guard Tower, the rapping of
+polished boot on stone thunders down the corridor.  The finely seamed stone
+walls encompass this stairwell, with a large oaken door set into the east
+wall.  The stairs lead down to the third floor and the whispering of voices
+can be heard.  
+~
+0 0 0
+D1
+~
+~
+3 0 7960
+D5
+~
+~
+0 0 7946
+S
+#7960
+Guardstation~
+Several sconces line the finely seamed stone walls, throwing light to
+vanquish the dark from the flaming torches within.  Still against the
+northern wall is a banner depicting a flaring sunburst, the herald of the
+Army of the Light.  Echoing throughout the corridors are the rhythmic
+rappings of polished boot against stone, and soft voices can be heard to the
+east.  Thick oak doors are set into the east and west walls.  
+~
+0 0 0
+D1
+~
+~
+3 0 7961
+D3
+~
+~
+3 0 7959
+S
+#7961
+A Hallway~
+The corridor runs to the north and south, with a thick oak door to the
+west.  Finely seamed walls reach high to the ceiling, well over 10 feet. 
+The floor is this corridor is covered by a plush red carpet, starting
+against the northern wall, and following south before curving beneath a door
+to the west.  Banners of the Fortress of the Light line the walls, proudly
+displayed and remarkably kept.  
+~
+0 0 0
+D2
+~
+~
+0 0 7962
+D3
+~
+~
+3 0 7960
+S
+#7962
+A Hallway~
+The corridor runs to the north and south, with a thick oak door to the
+north, against the western wall.  Finely seamed walls reach high to the
+ceiling, well over 10 feet.  The floor is this corridor is covered by a
+plush red carpet, starting against the northern wall, and following south
+before curving beneath a door to the west.  Banners of the Fortress of the
+Light line the walls, proudly displayed and remarkably kept.  Set into the
+eastern wall is a single door without marking.  
+~
+0 0 0
+D0
+~
+~
+0 0 7961
+D1
+~
+~
+3 0 7976
+D2
+~
+~
+0 0 7963
+S
+#7963
+A Hallway~
+The corridor runs to the north and south, with a thick oak door to the
+north, against the western wall.  Finely seamed walls reach high to the
+ceiling, well over 10 feet.  The floor is this corridor is covered by a
+plush red carpet, starting against the northern wall, and following south
+before curving beneath a door to the west.  Banners of the Fortress of the
+Light line the walls, proudly displayed and remarkably kept.  
+~
+0 0 0
+D0
+~
+~
+0 0 7962
+D2
+~
+~
+0 0 7964
+S
+#7964
+A Hallway~
+The corridor runs to the north and south, with a thick oak door to the
+north, against the western wall.  Finely seamed walls reach high to the
+ceiling, well over 10 feet.  The floor is this corridor is covered by a
+plush red carpet, starting against the northern wall, and following south
+before curving beneath a door to the west.  Banners of the Fortress of the
+Light line the walls, proudly displayed and remarkably kept.  From the door
+to the west, deep voices can be heard.  
+~
+0 0 0
+D0
+~
+~
+0 0 7963
+D3
+~
+~
+3 0 7965
+S
+#7965
+Guardstation~
+Several sconces line the finely seamed stone walls, throwing light to
+vanquish the dark from the flaming torches within.  Still against the south
+wall is a banner depicting a flaring sunburst, the herald of the Army of the
+Light.  Echoing throughout the corridors are the rhythmic rappings of
+polished boot against stone, and soft voices can be heard from the door to
+the north.  Like all other doors to the Civil Guard's Tower, this one is of
+thickened oak, yet it is painstakingly etched with varying sigils and
+leafwork.  A single blade with a flaring horizon for a hilt is etched into
+the top of the doorframe amongst the leaves.  
+~
+0 0 0
+D0
+~
+~
+3 0 7966
+D1
+~
+~
+3 0 7964
+S
+#7966
+Lord Captain's Quarters~
+A room as big as any of the barracks containing a dozen men, one single
+cot rests in the northwestern corner of this room.  The solid stone floors
+are unadorned by carpets or rugs, yet the finely seamed stonework has a fine
+polish to it.  Aside the cot, an armor dummy stands parallel to a practice
+dummy to the south, with a exquisite sword rack of deep cherry wood set into
+the wall between.  A large oaken writing desk stands beneath a herald
+depicting the flaring sunburst of the Children of the Light.  In comparison
+to the rest of the Civil Guard Tower's barracks, it would seem that this
+would be the room of the Children's Lord Captain.  
+~
+0 0 0
+D0
+~
+~
+0 0 7968
+D2
+~
+~
+3 0 7965
+D3
+~
+~
+0 0 7967
+S
+#7967
+Lord Captain's Quarters~
+A room as big as any of the barracks containing a dozen men, one single
+cot rests in the northwestern corner of this room.  The solid stone floors
+are unadorned by carpets or rugs, yet the finely seamed stonework has a fine
+polish to it.  Aside the cot, an armor dummy stands parallel to a practice
+dummy to the south, with a exquisite sword rack of deep cherry wood set into
+the wall between.  A large oaken writing desk stands beneath a herald
+depicting the flaring sunburst of the Children of the Light.  In comparison
+to the rest of the Civil Guard Tower's barracks, it would seem that this
+would be the room of the Children's Lord Captain.  
+~
+0 0 0
+D0
+~
+~
+0 0 7969
+D1
+~
+~
+0 0 7966
+S
+#7968
+Lord Captain's Quarters~
+A room as big as any of the barracks containing a dozen men, one single
+cot rests in the northwestern corner of this room.  The solid stone floors
+are unadorned by carpets or rugs, yet the finely seamed stonework has a fine
+polish to it.  Aside the cot, an armor dummy stands parallel to a practice
+dummy to the south, with a exquisite sword rack of deep cherry wood set into
+the wall between.  A large oaken writing desk stands beneath a herald
+depicting the flaring sunburst of the Children of the Light.  In comparison
+to the rest of the Civil Guard Tower's barracks, it would seem that this
+would be the room of the Children's Lord Captain.  
+~
+0 0 0
+D2
+~
+~
+0 0 7966
+D3
+~
+~
+0 0 7969
+S
+#7969
+Lord Captain's Quarters~
+A room as big as any of the barracks containing a dozen men, one single
+cot rests in the northwestern corner of this room.  The solid stone floors
+are unadorned by carpets or rugs, yet the finely seamed stonework has a fine
+polish to it.  Aside the cot, an armor dummy stands parallel to a practice
+dummy to the south, with a exquisite sword rack of deep cherry wood set into
+the wall between.  A large oaken writing desk stands beneath a herald
+depicting the flaring sunburst of the Children of the Light.  In comparison
+to the rest of the Civil Guard Tower's barracks, it would seem that this
+would be the room of the Children's Lord Captain.  
+~
+0 0 0
+D1
+~
+~
+0 0 7968
+D2
+~
+~
+0 0 7967
+S
+#7970
+Outside The Civil Guard Tower~
+Amidst a scattered copse of trees, a large tower rises from the ground,
+easily reaching the height of four stories.  The copse of trees opens wide
+at the top, to allow the sky and weather free reign on the tower.  At first
+glance, it would look to be of Ogier craftsmanship, but the finely seamed
+stonework is definitely of man.  The stonework is smooth and unmarred, as if
+the winds of time have served to preserve this monument as a work of art. 
+History has it that during the reign of the High King, Artur Hawkwing, Civil
+Guard Towers were erected to help store munitions for the Civil Guard which
+patrolled the lands keeping law and order.  This would appear to be one such
+tower.  The scent of hay and straw would suggest that there is a stable to
+the north, if not the whineying of horses did not already give it away.  
+~
+0 0 2
+D0
+~
+~
+0 0 7928
+D1
+~
+~
+3 0 7920
+D3
+~
+~
+0 0 7991
+S
+#7971
+A Horse Stall~
+Obviously, back in the days when the Civil Guard kept the lands of
+Hawkwing safe, there was no need to keep a large number of steeds on the
+grounds, as travellers often came and left frequently.  Now though, the
+Children of the Light have the stables near packed, and the sounds of horses
+outside suggests that perhaps they have plans for the Tower beyond what
+Hawkwing's men intended.  This small stall looks large enough to fit five
+horses comfortably, with a water traul and hay feeder lined against the
+northern wall.  
+~
+0 0 0
+D3
+~
+~
+3 0 7929
+S
+#7972
+Field Outside the Stables~
+The fields beyond the stables open wide from a new set of barndoors set
+into the building's northern walls.  Beyond the stables to the south, the
+Civil Guard Tower rises a few floors above the ground, offering an aerial
+view of the surrounding landscape.  Meandering through the open fields, a
+dozen or so of the Children's steeds graze the countryside.  An unfinished
+wooden fence, as newly built as the doors leading back into the stables,
+surrounds the field.  
+~
+0 0 2
+D0
+~
+~
+0 0 7973
+D1
+~
+~
+0 0 7975
+D2
+~
+~
+3 0 7929
+S
+#7973
+Field Outside the Stables~
+The fields beyond the stables open wide into a pasture, where a dozen or
+so of the Children's steeds graze the countryside.  Beyond the stables to
+the south, the Civil Guard's Tower rises a few floors above the ground,
+offering an aerial view of the surrounding landscape.  An unfinished wooden
+fence, as newly built as the repairs to the stables, surrounds the field.  
+~
+0 0 2
+D1
+~
+~
+0 0 7974
+D2
+~
+~
+0 0 7972
+S
+#7974
+Field Outside the Stables~
+The fields beyond the stables open wide into a pasture, where a dozen or
+so of the Children's steeds graze the countryside.  Beyond the stables to
+the south, the Civil Guard's Tower rises a few floors above the ground,
+offering an aerial view of the surrounding landscape.  An unfinished wooden
+fence, as newly built as the repairs to the stables, surrounds the field.  
+~
+0 0 2
+D2
+~
+~
+0 0 7975
+D3
+~
+~
+0 0 7973
+S
+#7975
+Field Outside the Stables~
+The fields beyond the stables open wide into a pasture, where a dozen or
+so of the Children's steeds graze the countryside.  Beyond the stables to
+the south, the Civil Guard's Tower rises a few floors above the ground,
+offering an aerial view of the surrounding landscape.  An unfinished woode
+fence, as newly built as the repairs to the stables, surrounds the field.  
+~
+0 0 2
+D0
+~
+~
+0 0 7974
+D3
+~
+~
+0 0 7972
+S
+#7976
+Stairwell~
+This is a darkened stairwell that runs between a trapdoor set into the
+ceiling and a simple oak door to the west.  The stonework of the stairwell
+is as intricately worked and finely-seamed as the rest of the Tower, and the
+trapdoor is of the same heavy wood predominantly worked with.  A single
+candle burns lightly in a sconce on the wall, but does not shed enough light
+to fully illuminate the stairwell.  
+~
+0 0 0
+D3
+~
+~
+3 0 7962
+D4
+~
+~
+3 0 7977
+S
+#7977
+Top of the Civil Guard Tower~
+Atop the Civil Guard Tower, one can see the landscape until it crests the
+horizon line in any direction.  Far to the north-east, the infamous
+Dragonmount shatters the heavens and the White Tower looms behind it in
+celestial glory.  The Caralain Grasses spill north past Andor for weeks
+without end, before running afoul of the Borderlands and the Blight.  The
+Dragonspine Mountains sever the realms to the east from the Aiel Waste,
+keeping the savages at bay.  Even the barest glimpse of the Sea of Storms
+can be made out from the south, a thin sapphire tiara crowning the lush
+greenery of the Plains of Maredo and Illian.  A trapdoor leads down back
+within the tower.  
+~
+0 0 1
+D5
+~
+~
+3 0 7976
+S
+#7978
+A Dwindling Forest~
+Off the beaten path of the Caemlyn Road heavy hoofprints lead south
+within a deep forest.  Trees of typical Andor color are tightly knit within
+the wood.  Maples, oaks, and various pines are woven so tight within the
+forest that nothing can be made out past fifty paces.  Rising past the
+forestline to the southeast crests a large tower.  To the north, the Caemlyn
+Road stretches on for miles in an east-west direction.  
+~
+0 0 2
+D0
+~
+~
+0 0 1505
+D1
+~
+~
+0 0 7979
+S
+#7979
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  Rising past the forestline to the
+southeast crests a large tower.  
+~
+0 0 2
+D2
+~
+~
+0 0 7980
+D3
+~
+~
+0 0 7978
+S
+#7980
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  Rising past the forestline to the
+southeast crests a large tower.  
+~
+0 0 2
+D0
+~
+~
+0 0 7979
+D2
+~
+~
+0 0 7981
+S
+#7981
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  Rising past the forestline to the
+southeast crests a large tower.  
+~
+0 0 2
+D0
+~
+~
+0 0 7980
+D2
+~
+~
+0 0 7982
+S
+#7982
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  From deep within the forest, the soft
+glinting of amber fades and reappears every so often, causing a feeling of
+unease to settle.  Rising past the forestline to the southeast crests a
+large tower.  
+~
+0 0 2
+D0
+~
+~
+0 0 7981
+D3
+~
+~
+0 0 7983
+S
+#7983
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  From deep within the forest, the soft
+glinting of amber fades and reappears every so often, causing a feeling of
+unease to settle.  Rising past the forestline to the southeast crests a
+large tower.  
+~
+0 0 2
+D1
+~
+~
+0 0 7982
+D2
+~
+~
+0 0 7984
+S
+#7984
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  From deep within the forest, the soft
+glinting of amber fades and reappears every so often, causing a feeling of
+unease to settle.  Rising past the forestline to the southeast crests a
+large tower.  
+~
+0 0 2
+D0
+~
+~
+0 0 7983
+D2
+~
+~
+0 0 7985
+S
+#7985
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  From deep within the forest, the soft
+glinting of amber fades and reappears every so often, causing a feeling of
+unease to settle.  Rising past the forestline to the southeast crests a
+large tower.  
+~
+0 0 2
+D0
+~
+~
+0 0 7984
+D2
+~
+~
+0 0 7986
+S
+#7986
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  From deep within the forest, the soft
+glinting of amber fades and reappears every so often, causing a feeling of
+unease to settle.  Rising past the forestline to the southeast crests a
+large tower.  
+~
+0 0 2
+D0
+~
+~
+0 0 7985
+D2
+~
+~
+0 0 7987
+S
+#7987
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  From deep within the forest, the soft
+glinting of amber fades and reappears every so often, causing a feeling of
+unease to settle.  Rising past the forestline to the southeast crests a
+large tower.  
+~
+0 0 2
+D0
+~
+~
+0 0 7986
+D2
+~
+~
+0 0 7988
+S
+#7988
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  From deep within the forest, the soft
+glinting of amber fades and reappears every so often, causing a feeling of
+unease to settle.  Rising past the forestline to the southeast crests a
+large tower.  
+~
+0 0 2
+D0
+~
+~
+0 0 7987
+D2
+~
+~
+0 0 7989
+S
+#7989
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  From deep within the forest, the soft
+glinting of amber fades and reappears every so often, causing a feeling of
+unease to settle.  Rising past the forestline to the southeast crests a
+large tower.  
+~
+0 0 2
+D0
+~
+~
+0 0 7988
+D2
+~
+~
+0 0 7990
+S
+#7990
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Deep hoofprints
+lead north and south along the path.  The exact number of horses traveling
+this path is indeterminable, as there are just far too many tracks.  Beyond
+the well-traveled path the forest thickens, with many oaks, maples, and
+pines intermingling with eachother.  From deep within the forest, the soft
+glinting of amber fades and reappears every so often, causing a feeling of
+unease to settle.  Rising past the forestline to the southeast crests a
+large tower.  
+~
+0 0 2
+D0
+~
+~
+0 0 7989
+D2
+~
+~
+0 0 7991
+S
+#7991
+A Dwindling Forest~
+The forest dwindles here as the path becomes heavier.  Hoofprints lead
+off to the north and east, and a copse of trees circles wide around a single
+tower, raising a few hundred feet in the air.  The normal sounds of wildlife
+are calm and still here, as if this forest has been vacated with the
+intrusion of man.  Still, every so often, the golden glint of an animal's
+eyes can be made out stalking through the wood.  
+~
+0 0 2
+D0
+~
+~
+0 0 7990
+D1
+~
+~
+0 0 7970
+S
+#0
+
+
+
+#SPECIALS
+S
+
+
+
+#RESETS
+D 7900 1 7 0 0
+D 7901 1 15 0 0
+D 7901 3 7 0 0
+D 7902 0 7 0 0
+D 7902 2 7 0 0
+D 7902 3 15 0 0
+D 7903 2 7 0 0
+D 7904 0 7 0 0
+D 7905 0 7 0 0
+D 7905 2 7 0 0
+D 7906 2 7 0 0
+D 7907 0 7 0 0
+D 7908 0 7 0 0
+D 7908 1 7 0 0
+D 7908 2 7 0 0
+D 7909 2 7 0 0
+D 7910 0 7 0 0
+D 7911 3 7 0 0
+D 7911 4 3 0 0
+D 7913 2 3 0 0
+D 7914 2 3 0 0
+D 7915 2 3 0 0
+D 7917 0 3 0 0
+D 7918 0 3 0 0
+D 7919 0 3 0 0
+D 7920 3 3 0 0
+D 7923 2 15 0 0
+D 7923 5 3 0 0
+D 7924 0 15 0 0
+D 7925 1 3 0 0
+D 7926 3 3 0 0
+D 7929 0 3 0 0
+D 7929 1 3 0 0
+D 7930 1 11 0 0
+D 7931 2 3 0 0
+D 7931 3 11 0 0
+D 7932 2 3 0 0
+D 7933 2 3 0 0
+D 7935 0 3 0 0
+D 7936 0 3 0 0
+D 7937 0 3 0 0
+D 7939 2 3 0 0
+D 7940 2 3 0 0
+D 7943 0 3 0 0
+D 7944 0 3 0 0
+D 7944 1 11 0 0
+D 7945 3 11 0 0
+D 7946 2 3 0 0
+D 7949 0 3 0 0
+D 7949 1 7 0 0
+D 7950 3 7 0 0
+D 7954 1 3 0 0
+D 7954 2 3 0 0
+D 7955 3 3 0 0
+D 7957 0 3 0 0
+D 7957 1 7 0 0
+D 7958 3 7 0 0
+D 7959 1 3 0 0
+D 7960 1 3 0 0
+D 7960 3 3 0 0
+D 7961 3 3 0 0
+D 7962 1 3 0 0
+D 7964 3 3 0 0
+D 7965 0 3 0 0
+D 7965 1 3 0 0
+D 7966 2 3 0 0
+D 7970 1 3 0 0
+D 7971 3 3 0 0
+D 7972 2 3 0 0
+D 7976 3 3 0 0
+D 7976 4 3 0 0
+D 7977 5 3 0 0
+M 7900 29 7900 1 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7954 0 7900 0 100
+M 7903 1 7900 1 100
+E 7922 0 3 0 100
+E 7936 0 16 0 100
+E 7907 0 1 0 100
+E 7906 0 8 0 100
+M 7905 1 7900 1 100
+E 7908 0 15 0 100
+E 7908 0 14 0 100
+E 7932 0 23 0 100
+E 7935 0 3 0 100
+E 7934 0 8 0 100
+E 7933 0 12 0 100
+M 7900 29 7901 3 100
+E 7941 0 20 0 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7911 2 7903 1 100
+E 7938 0 18 0 100
+E 7908 0 15 0 100
+E 7908 0 14 0 100
+M 7910 10 7903 1 100
+M 7904 4 7904 1 100
+E 7937 0 18 0 100
+E 7908 0 15 0 100
+E 7908 0 14 0 100
+M 7910 10 7904 1 100
+M 7904 4 7906 1 100
+E 7937 0 18 0 100
+E 7908 0 15 0 100
+E 7908 0 14 0 100
+M 7910 10 7906 2 100
+M 7910 10 7907 2 100
+M 7904 4 7907 1 100
+E 7937 0 18 0 100
+E 7908 0 15 0 100
+E 7908 0 14 0 100
+M 7904 4 7909 1 100
+E 7908 0 15 0 100
+E 7908 0 14 0 100
+E 7937 0 18 0 100
+M 7910 10 7909 2 100
+M 7911 2 7910 1 100
+E 7938 0 18 0 100
+E 7908 0 15 0 100
+E 7908 0 14 0 100
+M 7910 10 7910 2 100
+M 7900 29 7911 2 100
+E 7941 0 20 0 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7900 29 7912 3 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7954 0 7912 0 100
+M 7916 21 7913 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+M 7916 21 7913 1 100
+E 7902 0 5 0 100
+M 7916 21 7913 1 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7962 0 7913 0 100
+M 7916 21 7914 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+M 7916 21 7914 1 100
+E 7902 0 5 0 100
+M 7916 21 7914 1 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7962 0 7914 0 100
+M 7916 21 7915 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+M 7916 21 7915 1 100
+E 7902 0 5 0 100
+M 7916 21 7915 1 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7962 0 7915 0 100
+M 7901 30 7916 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7917 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7908 6 7918 2 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7918 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7919 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7900 29 7920 1 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7954 0 7920 0 100
+M 7907 1 7921 1 100
+E 7904 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 20 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7962 0 7921 0 100
+O 7954 0 7921 0 100
+M 7916 21 7922 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+M 7916 21 7922 1 100
+E 7902 0 5 0 100
+M 7916 21 7922 1 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7962 0 7922 0 100
+M 7900 29 7923 2 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7965 0 7923 1 100
+O 7954 0 7923 0 100
+O 7915 0 7924 0 100
+P 7967 2 7915 2 100
+P 7917 1 7915 1 100
+P 7916 1 7915 1 100
+P 7923 1 7915 1 100
+M 7901 30 7925 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7916 21 7926 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+M 7916 21 7926 1 100
+E 7902 0 5 0 100
+M 7916 21 7926 1 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7962 0 7926 0 100
+M 7916 21 7927 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+M 7916 21 7927 1 100
+E 7902 0 5 0 100
+M 7916 21 7927 1 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7962 0 7927 0 100
+M 7915 5 7929 4 100
+O 7925 0 7930 1 100
+O 7911 0 7930 1 100
+P 7912 1 7911 1 100
+O 7969 0 7931 1 100
+O 7944 0 7931 0 100
+P 7905 3 7944 3 100
+O 7945 0 7932 0 100
+P 7902 2 7945 2 100
+P 7900 1 7945 1 100
+O 7948 0 7933 0 100
+P 7939 4 7948 4 100
+O 7950 0 7933 0 100
+O 7949 0 7933 0 100
+O 7947 0 7933 0 100
+M 7917 5 7934 1 100
+M 7901 30 7935 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7936 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7954 0 7936 0 100
+M 7901 30 7937 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7954 0 7937 0 100
+M 7908 6 7939 2 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7939 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7900 29 7940 2 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7954 0 7940 0 100
+M 7901 30 7941 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7917 5 7942 4 100
+E 7968 0 16 0 100
+O 7946 0 7942 0 100
+O 7925 0 7943 1 100
+O 7925 0 7943 1 100
+O 7913 0 7943 1 100
+P 7967 2 7913 2 100
+P 7942 1 7913 1 100
+P 7917 2 7913 2 100
+O 7951 0 7943 0 100
+P 7952 1 7951 1 100
+O 7925 0 7944 1 100
+O 7925 0 7944 1 100
+O 7925 0 7945 1 100
+O 7925 0 7945 1 100
+O 7930 0 7945 0 100
+P 7914 1 7930 1 100
+M 7901 30 7946 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7955 0 7947 0 100
+M 7912 1 7948 1 100
+E 7910 0 12 0 100
+E 7936 0 16 0 100
+E 7907 0 1 0 100
+E 7922 0 4 0 100
+E 7904 0 3 0 100
+E 7924 0 13 0 100
+E 7902 0 5 0 100
+O 7956 0 7948 0 100
+M 7900 29 7949 3 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7958 0 7951 0 100
+P 7961 1 7958 1 100
+P 7960 1 7958 1 100
+O 7957 0 7951 0 100
+M 7908 6 7953 2 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7953 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7953 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7900 29 7954 2 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7955 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7900 29 7956 1 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7902 1 7957 1 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7906 2 7958 2 100
+O 7953 0 7958 0 100
+P 7901 2 7953 2 100
+M 7901 30 7959 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7960 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7900 29 7960 2 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7961 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7962 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7963 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7901 30 7964 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7900 29 7965 5 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7964 0 7967 0 100
+O 7963 0 7967 0 100
+O 7954 0 7968 0 100
+O 7926 0 7968 0 100
+P 7960 1 7926 1 100
+P 7959 1 7926 1 100
+P 7928 1 7926 1 100
+M 7906 1 7969 1 100
+E 7931 0 11 0 100
+E 7927 0 20 0 100
+E 7907 0 1 0 100
+E 7922 0 4 0 100
+E 7904 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7966 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+O 7957 0 7969 0 100
+O 7962 0 7969 0 100
+M 7900 29 7970 2 100
+E 7903 0 3 0 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7909 2 7971 1 100
+M 7913 15 7971 6 100
+O 7918 0 7972 1 100
+M 7913 15 7972 2 100
+M 7909 2 7972 1 100
+O 7918 0 7973 1 100
+M 7913 15 7973 2 100
+E 7919 0 13 0 100
+O 7918 0 7974 1 100
+M 7913 15 7974 2 100
+O 7918 0 7975 1 100
+M 7913 15 7975 2 100
+M 7901 30 7976 1 100
+E 7921 0 9 0 100
+E 7906 0 8 0 100
+E 7905 0 16 0 100
+E 7902 0 5 0 100
+E 7901 0 12 0 100
+E 7900 0 6 0 100
+M 7915 5 7977 1 100
+M 7914 10 7977 10 100
+M 7918 10 7978 1 100
+M 7918 10 7980 1 100
+M 7918 10 7982 1 100
+M 7918 10 7984 1 100
+M 7918 10 7986 1 100
+M 7918 10 7988 1 100
+M 7918 10 7990 1 100
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#7900
+if clan $n 'children'
+say All is well, may the Light illume us and protect us from the Shadow.
+else
+say You have trespassed here and will talk to the Questioners for your mindlessness.
+say Immediately after I teach you some manners.
+kill $n
+endif
+~
+Matt~
+cotl greet~
+#0
+
+#$
