@@ -1,0 +1,231 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}}
+{\colortbl ;\red255\green0\blue0;\red0\green0\blue128;\red0\green0\blue0;\red0\green0\blue255;}
+\viewkind4\uc1\pard\lang1033\f0\fs28 Last Modified 5/9/02\par
+Updates from previous version in \cf1 RED\cf0\fs20\par
+\cf2\fs24\par
+\par
+Skill list\par
+\cf3\fs20  \par
+Dagger\par
+\tab -Backstab (reqs. Surgery)\par
+\tab -Fling (throws knife at victim, dam*2)\par
+\tab -Embed (burries and leaves knife in VICTIM's LODGED slot, -2 AGL -1 STR -1 DEX for each knife)\par
+\tab\tab -Hurl (reqs Fling, throws knife at victim. EMBEDs knife in LODGED, same negs as Embed, can target adj. rooms)\par
+Spear\par
+\tab -Throw (throws spear at VICTIM, dam*3)\par
+\tab -Vault (Polevault kick in the air, seperate hit/dodge -3 to hit, no parry no block, 1d10 + STR dam and equal penalty to stam)\par
+\tab -Trip (knocks VICTIM to feet, forced POS_RESTING)\par
+\tab -Pike (player's INIT=1, 1d10 + WEAPDAM to VICTIM before VICTIM's attack)\par
+Staff\par
+\tab -Trip (knocks VICTIM to feet, forced POS_RESTING)\par
+\tab -Thump (targets VICTIM's head, chance to render unconscious * 3)\par
+\tab -Rebound (bounces staff off of VICTIM and strikes them with the other end, hit/dodge rerolled with -4 hitroll and -4 damroll)\par
+\tab -SpinAttack (once initiated, applies damage to all enemies, +5 INIT, -5 Hitroll)\par
+\tab -SpinBlock (once initiated, -10 INIT, -5 Hitroll, +7 Parry)\par
+Sword\par
+\tab -Wind over the Wall (negate's VICTIM's parry/block for one round)\par
+\tab -Woodgrouse Dances (+7 to dodgeroll for one round)\par
+\tab -Lightning of Three Prongs (3 hitroll/dodgerolls are done, each succesful attack is -3 damroll)\par
+\tab -Heron in the Rushes (INIT=1, Dodgeroll=1, +20 hitroll, parry disabled damage recieved * 5,  dam given * 10 even if dead)\par
+\tab -Segade Thorns (+1 Hitroll, +1 Damroll, incremental every combat round)\par
+\tab -Water on the Duck (+1 Dodgeroll, +1 Parry, incremental every combat round)\par
+Axe\par
+\tab -Crush (if attack is shield blocked, chance to break shield)\par
+\tab -Rend (any succesful attacks have a 30% chance to destroy eq of hit location)\par
+\tab -Behead (if successful, insta and full pk of VICTIM, -7 hitroll, )\par
+Whipchain\par
+\tab -Sweep (yanks VICTIM's to feet out from under them, forced POS_RESTING)\par
+\tab -Strangle (wraps about VICTIM's neck, 1d3 dam per round, combat between player and VICTIM voided until strangle broken)\par
+\tab -Eyelash (makes a calculated strike for the eyes, if successful, VICTIM is BLIND until treated with SURGERY)\par
+Club\par
+\tab -Sap (renders VICTIM unconscious for 60 seconds)\par
+\tab -Blundgeon (big home-run swing, -6 hitroll -6 dodgeroll, dam*5)\par
+Unarmed Combat\par
+\tab -Snatch (disarms opponent and puts opponent's weapon in player's inventory)\par
+\tab -Jab (small, extra hit for Unarmed, 1d5 dam)\par
+\tab -Chokehold (renders victim unconscious if not broken in 5 seconds)\par
+\tab -Inner Strength (reqs 20 Stamina, +12 INIT + 12 Hitroll + 12 Damroll + 12 Dodgeroll for one round)\par
+\tab -Knee (knee's target in the groin, sets target's INIT to 1 for 2 rounds and 1d3 damage)\par
+Archery (4 sizes for bows, 1d10 + SEN + 1dSK == Aim, (1d10 + STR + Arrow) * 3 == Dam, arrows LODGED) nock - draw - loose\par
+\tab -Sighting (+1-3 to Aim)\par
+\tab -Airspeed (+1-3 to Aim)\par
+\tab -Twinshot\par
+\tab -Lifting (+1 to Range)\par
+Parry\par
+Block (Shield Block)\par
+Catch (Catch thrown weapons/arrows)\par
+Disarm\par
+Quickdraw (an auto-draw of sheathed weapon when disarmed or when weapon is thrown)\par
+Guard (allows player to redirect one enemy's aggression to themselves if enemy attacks player they're guarding)\cf2\par
+\cf0 Forage\tab\tab 1d10 + INT + 1dSK >=17 (No Reqs.) Creates Food (small item i.e. nuts, berries, roots)\par
+Fish\tab\tab 1d10 + INT + 1dSK >=17 (Requires Fishing Rod) Creates Small Fish, if roll > 27 Creates Large Fish (Raw Meat)\par
+Skin\tab\tab 1d10 + DEX + 1dSK >= 20 (Requires Knife) Creates Hide\par
+Butcher\tab\tab 1d10 + STR + 1dSK >= 17 (Requires Knife) Creates Raw Meat\par
+Ignite   \tab\tab 1d10 + DEX + 1dSK >= 17 (Requires Flint in Inv. , Wood on ground, and NORAIN) - Creates Fire on ground\par
+Pitch   \tab\tab 1d10 + INT + 1dSK >= 17 (Requires Tarp in Inv.) - Creates Tent\par
+Cook   \tab\tab 1d10 + INT + 1dSK >= 17 (Requires Raw Meat in Inv. , Fire on ground) - Creates Cooked Meat\par
+Waterseek \tab 1d10 + SENS + 1dSK >= 17 (No Reqs.) Roll x 2 = Water Units Found - Creates Pool of Water\par
+\par
+Bandaging\par
+\tab -Medicines\par
+\tab\tab -Poisons\par
+\tab\tab\tab -Toxins\par
+\tab -Surgery\par
+\tab\tab -Bone Setting\par
+\cf2\fs24\par
+\par
+\par
+\par
+Combat Skills:\par
+\cf0\fs20\par
+\par
+\pard\sb100\sa100 Name of skill\par
+\tab Description\line\tab How hard it is to learn (1 - 50)\line\tab How hard it is to level (1 - 50)\line\tab Legal targets\line\tab Position for user\line\tab Damage message\line\tab Wear off message?\line\tab Wear off object message?\line\pard\tab Prerequisite Skill 1\par
+\tab Prerequisite Skill 2\par
+\par
+\par
+\par
+Position for User\par
+Damage Message\par
+Wear off Message\par
+Wear off object Message\par
+\par
+\par
+\par
+\par
+\par
+\cf2\fs24 Survival Skills:\par
+\cf0\fs20\par
+\par
+\cf2\fs24 Stealth Skills:\par
+\cf0\fs20\par
+\cf4 //All players can see one room in any direction by typing "look north" and be shown all *PC in the room\par
+//The Survey Skill enables the player to search all 6 directions at once and, with a good roll, enable them to look further\par
+//Survey also filters the content of the findings for what the player is looking for.\par
+//If you're looking for a friend in a herd of buffalo you would "Survey players"\par
+\cf0\par
+Survey <animals|humans|players|all>  (without argument defaults to all)\par
+Survey\tab\tab 1d10 + SENS + 1dSk     1-15 = 1 room vis\tab 16-30 = 2 room vis\tab 31-45 = 3 room vis\tab (and so on)\par
+\par
+\cf4 //The Scan command, like "look", shows the player one direction.  It can see further than Survey\par
+\cf0\par
+Scan <direction> <animals|humans|players|all>  (without argument defaults to all)\par
+Scan\tab\tab 1d10 + SENS + 1dSk\tab 1-10 = 1 room vis\tab 11-20 = 2 room vis\tab 21-30 = 3 room vis\tab (and so on)\par
+\par
+\cf4 //If weather is RAINing there will be a -6 to the roll\par
+//If the weather is FOGgy there will be a -12 to the roll\par
+//If the time of day is Twilight there will be a -2 to the roll\par
+//If the time of day is Night there will be a -12 to the roll\par
+//If the player is on high ground such as a tower or watchpost there will be a +6 to the roll (will need room flag for this)\par
+//If the player has a spyglass the result of the roll is x2\par
+//If the player has a dual scope (binoculars) the result of the roll is x3\cf0\par
+\par
+\par
+\par
+\par
+\par
+\par
+\cf4 //Tracks are made by animals and people.  Tracks cannot be made on Mountain, City, or Water terrain.  Formula for\par
+//track laying is:\par
+//A deer leaves in a direction (we'll say north)\par
+//A track (object or affect) is loaded into the room and set at level 1\par
+//The track is flagged HIDDEN (or some such)\par
+//The track's short desc is:   (There are *deer tracks leading *north.)\par
+//Every 30 seconds, the value of the track is raised by 1...so after 15 RL minutes, the Track's value is 31\par
+//At any time, a player with the Search Skill may type it, and if successful at their Searching,\par
+//Will be shown the specie and direction.\par
+\cf0\par
+Search\tab\tab 1d10 + SENS + 1dSK >= Track level    (No Reqs.)\par
+\par
+\cf4 //In theory, after 20 minutes, with a track level of 41, no one would be able to see the track, and we could simply have it vanish.\par
+//Perhaps a little fast for true realism, but it will cut down on tracks all over, and although mobs don't move that fast, we don't want\par
+//players trying to track a player's location from 20 minutes ago... he could be halfway to the other side of the island.\par
+//Variables such as rain (which would make tracks easier made) could set the track level at some negative number so as\par
+//to increase the time it lasts.\par
+\cf0\par
+Trackless\tab 1d10 + AGIL + 1dSK == Track level caused    (No Reqs.)\par
+\par
+\cf4 //Players who try moving trackless are penalized with a stamina penalty (stam x 3), but the tracks they make are the result\par
+//of the above roll.  A master of trackless movement with 10 AGIL would (theoretically) place Tracks at 22 on average.\par
+//Difficult even for a master of Searching to notice.\par
+\cf0\par
+\cf4 //For tracking down people in the city, which has stone and cobble and hard packed dirt, the Locate Skill can be used.\par
+//Locate is a street-smart skill, only useable in city areas.\par
+\cf0\par
+Locate\tab <player|humanmob>\par
+Locate\tab\tab 1d10 + INT + 1dSK >= PlayerLOC\par
+\par
+\cf4 //Locate entails quietly asking around, giving the description of the player you're trying to locate.  There must be a humanmob\par
+//in the room to use locate.  The closer you are to the person you're looking for, the more likely the Mob will have seen them\par
+//and recognize them by your description.  Also, the more the person you're looking for trusts you, the more likely you\par
+//know their manerisms to better describe them.  You cannot Locate players that have not greeted you.\par
+\cf0\par
+PlayerLOC==\tab 1d10 + (# of rooms from Player trying to locate you) - (TRUST)\par
+\par
+\cf2\fs24\par
+Stealth Skills\par
+\cf0\fs20\par
+\pard\sb100\sa100 Sneak 1d10 + AGL + 1dSK > DETECTION\line Sneak hides a player's departure and entrance if successful.\line Sneak does not hide presence, so if someone sneaks into a room and another player types 'look' they will be seen.\line Sneak - Checked on Entrance and Exit by all\line\line Hide 1d10 + INT + 1dSK > DETECTION\line Hide conceals a player from others in a room. It doesn't hide entrances or departures.\line Hide - Checked when a player types 'look' by player who 'looks'\line\line Palm 1d10 + DEX + 1dSK > DETECTION\line Palm takes an item in a room, not in anyone's inventory, and places it in yours. A snatch and grab, if you will.\line Palm - Checked when you attempt to 'Palm' by all\line\line Peek 1d10 + SENS + 1dSK > DETECTION\line Peek checks the inventory of a player.\line Peek - Checked when you attempt to 'Peek' by all\line\line Steal 1d10 + DEX + 1dSK > DETECTION\line Steal attempts to extract a single item from a victim without their knowing.\line Steal - Checked when you attempt to 'Steal' by all\line\line Camoflauge 1d10 + INT + 1dSK (requires paint of some kind)\line Camoflauge enhances a player's ability to blend in to their surroundings. The result of the roll reflects the bonus given to all SNEAK/HIDE/PALM/PEEK/STEAL rolls.\line Roll = 1-10 (+1) 11-20 (+2) 21-30 (+3) 31-40 (+4)\line\line\line So what is this DETECTION?\line DETECTION = 1d10 + SENS\line\line Bonuses to DETECTION are given in Abilities, or increased SENS ATTRibute. The victim of a steal gets a +5 DETECTION on their "saving throw" roll.\line\par
+\pard\par
+\par
+Climb\cf2\fs24\par
+\cf0\fs20\par
+Climb\par
+Swim\par
+Hew  prereq slash\par
+\par
+\cf2\fs24 Crafting Skills:\par
+\cf0\fs20\par
+Carve\par
+Chisel\par
+Make  prereq carve/chisel\par
+\par
+\cf2\fs24 Educational Skills:\par
+\cf0\fs20\par
+Dialect of Rhuid\par
+Dialect of Cier\par
+Dialect of Avend\par
+Dialect of Hamand\par
+\par
+\par
+\cf2\fs24 Muscial Skills:\par
+\cf0\fs20\par
+\par
+\par
+\par
+\par
+\par
+\cf2\fs24 Miscelaneous Skills:\par
+\cf0\fs20\par
+Sneak\par
+Hide\par
+Camoflauge   prereq sn/hide\par
+Bind\par
+Track\par
+Throw\par
+\par
+\cf2\fs24 Advanced Combat Skills:\par
+\cf0\fs20\par
+Force\par
+Brute Strength\par
+Crush\par
+Rock's Skin\par
+Stone's Veins\par
+Mountain's Heart\par
+Boulder's Patience\par
+Forked Lightning\par
+Strength of Air\par
+Plucking Feathers\par
+Hurricane's Eye\par
+Envenom\par
+Detect Poisons\par
+Boobytrap\par
+Owl Eyes\par
+Sense Movement\par
+Detect Hidden\par
+Talon Clutch\par
+Dragon's Breath\par
+Dragon's Fury\par
+\par
+}
+ 

@@ -1,0 +1,9 @@
+
+#
+# Start up the mud...
+#
+echo Loading WoTMud build and player ports...
+sh ./st_main &
+cd ../../Build/area/
+sh ./st_build &
+

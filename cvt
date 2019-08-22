@@ -1,0 +1,12 @@
+# !/bin/sh
+#
+echo Converting files from Windoze to Linux format...
+
+for file in *.c *.h *.cpp
+do
+  chmod -x $file
+  fromdos < $file > tmp/$file
+  mv tmp/$file ./
+done
+
+make clean

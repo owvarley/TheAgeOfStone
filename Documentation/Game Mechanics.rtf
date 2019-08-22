@@ -1,0 +1,139 @@
+{\rtf1\ansi\ansicpg1252\deff0{\fonttbl{\f0\fswiss\fprq2\fcharset0 Arial;}{\f1\fswiss\fcharset0 Arial;}}
+\viewkind4\uc1\pard\lang1033\f0\fs28 Last Modified 5/12/02\par
+\f1\fs20\par
+\fs28 A. Definitions\par
+B. Attributes\par
+C. Units of Measure\par
+D. Standard Skill Formula\par
+E. Trading\par
+F. MOB Generation - Skeletal Concept\par
+G. MOB Generation - Progressive Element\par
+H. Coordinate Mapping\par
+J. Time\par
+\fs20\par
+\par
+\fs28 Definitions:\par
+\fs20\par
+Attribute - One of six aspects that define a player's (or MOB's) basic ability.  They are STRength, DEXterity, AGILity, INTeligence, \tab CONstitution, and SENses.\par
+Cup - A unit of weight.  Five Cups are equal to one Waterday, the standard weight unit.\par
+MOB - Shortenning of MOBile.  A simulated being, whether human or animal, not controlled by any player.\par
+Waterday (WD) -\par
+Damroll - How much Damage a player does to a victim (1d10 + STR + weapon modifiers)\par
+Hitroll - How well aimed a player's attack at a victim is (1d10 + DEX + 1dWeapon)\par
+Initiative - How quickly a player moves to get the first hit in a combat round (1d10 + AGL + modifiers)\par
+Dodgeroll - How well a player dodges an attack in comparison to opponent's Hitroll (1d10 + AGL + 1dSK - Modifiers)\par
+\par
+\par
+\fs28 Attributes\fs20\par
+99% of All skills are based off one of the 6 attributes.\par
+\par
+STRength -  Affects Damroll, various combat skills, and (eventually) environmental checks\par
+DEXterity - Affects Hitroll, various skills in crafting, fighting, and music\par
+AGILity - Affects Dodgeroll, various combat skills and movement skills, and Initiative\par
+INTelegence - Affects Learning new skills and increasing Skill level.  Also affects various Educational Skills\par
+CONstitution - Affects HP and Stamina levels, regeneration rates, and resistence to poisons and illness\par
+SENses - Affects Awareness, Detection of hidden and sneaking, and a few other skills\par
+\par
+\fs28 Units of Measure\fs20\par
+\par
+BV = Base Value, The basic unit of worth items are measured in.  BV does not vary city to city.  One plate of alum is equal to 100 \tab BV.\par
+WD = Waterday, The basic unit of weight items are measured in.  In comparison, 1 Waterday is equal to 1 kilo.\par
+Alum = Standard Unit of Currency.  Made in thin plates the size of an american dollar, Five Alum weigh 1 WD.  In value, a player \tab afford one week of food for one Alum.  $100 bill, if you would.\par
+CP = Citizenship Points.  Not displayed to the player, this number keeps track of the BV (affected by Contribution Modifiers) the \tab player has Contributed to their city/state.  At a certain number (to be determined) the player achieves Nobility and recieves \tab the benefits as such.\par
+CV = City Value. Displayed to Chief only.  The amount of BV (affected by Contribution Modifiers) the city has to spend.  Buildings, \tab Guards, Fountains, Roads, and almost anything else immagineable can be purchased by the Chief with CV.\par
+PV = Player Value.  Displayed to Character who is a Noble.  The amount of BV (affected by Contribution Modifiers) the Noble Player \tab has to spend.  A noble may purchase almost everything a city can.\par
+\par
+\fs28 Standard Skill Formula\par
+\fs20\par
+1d10 + ATTR + 1dSkill\par
+\par
+All Skills have levels 1-30.\par
+Level 1-10 is a 1dLEVEL dice Roll\par
+Level 11-20 adds a second dice 1d1-10 in addition to the first 1d10 roll.  The higher of the two dice is applied.\par
+Level 21-30 adds a third dice 1d1-10 in addition to two 1d10 rolls.  The highest of the three dice is applied.\par
+\par
+All skills are learnable by all players.  Different skills are more difficult to learn.  Skill Learn Difficulty ranges 10-50.\par
+The formula to see if a player learns a skill is 10dINT.\par
+If a Skill is 50 Difficulty, a player with 10 INT will have a 50% chance to learn the skill.\par
+A player with only 5 INT will have to roll 10 perfect rolls of 5, or a little better than 1 in 10 million.  Possible but... nearly impossible.\par
+\par
+All skills have a different increase rate.  Rates are 1-50.  Every time a Skill is rolled/checked, a roll is also done to see if the skill increases any.  A skill with an increase rate of 10 requires 10 successful 'raise' dice rolls.  A succesful raise requires a 1 result of a 1d* dice roll.  The variable sided dice increases with difficulty for higher levels\par
+To raise a skill from Level:\par
+1-2\tab 1d10\par
+2-3\tab 1d20\par
+3-4\tab 1d30\par
+4-5\tab 1d40\par
+5-6\tab 1d50\par
+6-7\tab 1d75\par
+7-8\tab 1d100\par
+8-9\tab 1d200\par
+9-10\tab 1d500\par
+10-11\tab 1d10\par
+11-12\tab 1d20\par
+12-13\tab 1d40\par
+13-14\tab 1d80\par
+14-15\tab 1d160\par
+15-16\tab 1d320\par
+16-17\tab 1d640\par
+17-18\tab 1d1280\par
+18-19\tab 1d2500\par
+19-20\tab 1d2000\par
+20-21\tab 1d20\par
+21-22\tab 1d50\par
+22-23\tab 1d100\par
+23-24\tab 1d250\par
+24-25\tab 1d500\par
+25-26\tab 1d1000\par
+26-27\tab 1d2000\par
+27-28\tab 1d4000\par
+28-29\tab 1d7000\par
+29-30\tab 1d10000\par
+\par
+The number of 1d* rolls done every time the skill is checked is equal to the player's INT.  A player of 10 INT will roll 10 times 1d500 every time a skill is checked to see if he gets a 1 result and therefor a point raise towards his next skill level.\par
+\par
+\fs28 Trading\par
+\fs20\par
+Mobs with the TRADER flag may trade objects with players.  Trading between players and mobs requires the player to place objects of their own and objects of the Trader onto a table, or in bin, however we decide, and when the player is satisfied with what they have placed to give and receive, they type "trade".  If the total BV of the Items the player has placed to give is greater than the BV they wish to recieve from the Mob, the Mob approves the trade and the items are switched.  TRADER mobs may be set to trade only certain items, and additional items they recieve in trade are deleted, not available to players (so as to save memory).\par
+\par
+\fs28 MOB Generation - Skeletal Concept\fs20\par
+\par
+Unlike traditional MUD codes, which use VNUMs to differentiate Mobs, AOS will use a system of "Skeletal Templates".  What does this mean?  Certain Mobs, namely animals, of which there are hundreds and thousands of a specie, will be randomly generated, each with their own personal stats, within certain guidelines set forth in the Skeletal Template.  Instead of using one VNUM with the exact same stats over and over, the Template will offer diversity from mob to mob of the same species.  An example below for a bear:\par
+\par
+Standard\tab\tab\tab\tab Skeletal\par
+HP: 100\tab\tab\tab\tab\tab HP:  CON * 5 +80\par
+CON: 10\tab\tab\tab\tab CON: (8-12)\par
+STR: 10\tab\tab\tab\tab\tab STR: (9-12)\par
+etc etc...\par
+\par
+Also randomly selected and applied to mobs will be short and long descriptions, to add variety to a template.  Recommended number of long and short description variates per Template is 25.  More or less can be added if desired.\par
+\par
+\par
+\fs28 MOB Generation - Progressive Element\fs20\par
+\par
+Another feature added to AOS will be the "Progressive Element", meaning that mobs will be able to grow from one Skeletal Template to another.  A bear cub, after enough time, will shed it's "Bear1" Template and attain a "Bear2" Template, a young bear.  An animal must have full health for Progression to occur.  In this way, animals can grow from infancy to full adulthood.\par
+\par
+\par
+\fs28 Coordinate Mapping\fs20\par
+\par
+Coordinate Mapping refers to creating the world of AOS in a grid form.  A player who heads 20 rooms west and 10 north will be in the same room as a player who heads 10 north first, and 20 west after.  Distance between cities in constant, no shortcuts.  X/Y coordinates may be applied to skills as well as environmental effects, such as tornados.\par
+\par
+\par
+\fs28 Time\fs20\par
+\par
+Applied to AOS will be a strict sense of Time in relation to all events.  Combat, Mobs, Weather, Cities Building, Seasons, and more will all be affected by time.\par
+\par
+1 Day in Game Time (GT) = 12 Hours Real Time (RT)\par
+1 Hour GT = 30 Minutes RT\par
+1 Week GT = 10 Days GT\par
+1 Month GT = 3 Weeks GT\par
+1 Season GT = 3 Months GT\par
+1 Season GT = 45.5 Days RT\par
+Weather Update = 1 Hour GT = 30 Minutes RT\par
+\par
+\par
+\par
+\par
+\par
+\par
+}
+ 

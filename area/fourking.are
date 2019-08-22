@@ -1,0 +1,2186 @@
+#AREADATA
+Name Four Kings~
+Builders None~
+VNUMs 1500 1700
+Sector 0
+Credits [15 35] Four Kings, Andor~
+Security 9
+LastSaved 10/20/100~
+Flags 0
+Version 5
+End
+
+
+
+#MOBILES
+#1600
+patron man~
+a patron~
+A patron looks around for his room.
+~
+A man dressed in sturdy clothing.  One of the merchant traders that
+frequent the inns along the Caemlyn Road.  He looks around as if trying to
+find his room.  
+~
+human~
+BJ|
+|
+0 0
+20 0 6d45+244 0d0+0 4d5+10 none
+429496727 429496727 429496727 4
+D|
+|
+|
+|
+stand stand male 2
+GKP|
+BCD|
+medium unknown
+#1601
+blacksmith grimy~
+the grimy town blacksmith~
+The town blacksmith takes a break from his forge, wiping at grimy hands.
+~
+This huge, muscular man is here with a cloth, wiping at his hands. Hair
+cropped short clings to the back of his neck from sweat and
+heat of the forge. Though his hands are freshly washed, they
+still appear stained from callouses years old. Like a few that
+are conscious of their size, this large fellow speaks softly
+and in a gentle tone, more surprising for the town he has
+chosen to work in than for his size.
+~
+human~
+BEF|
+|
+0 0
+60 70 4d60+3600 4d60+1800 4d6+200 pound
+429496529 429496529 429496529 429496529
+GMP|
+CD|
+H|
+|
+stand stand male 100000
+BGKP|
+BCDEFGHIJKL|
+large unknown
+#1602
+stablemaster master horse dealer~
+The stable master~
+Four King's local stable master attempts to look busy.
+~
+Eyes too sharp and beady for comfort, this dealer is not exactly
+reputable, though this is the only place to purchase horses in all of Four
+Kings.  Many of the local farmers actually trek to Whitebridge for their
+mounts instead of dealing with this man.  
+~
+human~
+BDF|
+|
+0 0
+60 60 30d30+600 2d4+4 20d2+30 pound
+429496698 429496698 429496698 429496711
+|
+|
+|
+|
+stand stand male 50000
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#1603
+Plow horse~
+a large plow horse~
+A large plow horse whinnies weakly.
+~
+This beast looks like it's seen better days.  With food being scarce here
+in Four Kings, the horses are suffering.  This ones sides look almost caved
+in from hunger.  
+~
+horse~
+BH|
+|
+0 0
+20 25 4d20+400 4d20+200 5d10+25 bite
+429496727 429496727 429496727 429496727
+GIJ|
+|
+|
+|
+stand stand male 0
+BFP|
+BDEFGKLPR|
+medium unknown
+#1604
+Black stallion~
+a black stallion~
+A sleek, black stallion stomps his hooves anxiously.
+~
+Raven hair glistening, this sleek stallion is a rather rare
+find for a village such as Four Kings. Only his hooves that
+he repeatedly taps on the ground seem to be mishandled,
+perhaps for lack of local materials to care for them with.
+~
+horse~
+BH|
+|
+0 0
+35 35 4d35+1225 4d35+612 5d10+25 chomp
+429496709 429496709 429496709 429496709
+GIJ|
+|
+|
+|
+stand stand male 0
+BFP|
+BDEFGKLPR|
+medium unknown
+#1605
+Shaggy mare~
+a shaggy mare~
+A shaggy mare lazily crops what grass there is around it.
+~
+Rare in horses, the long coat on this horse is shaggy,
+matted with all sorts of tangles, as if it had never felt
+the reassurance of a brush in its owners hands.
+~
+horse~
+BH|
+|
+0 0
+20 20 4d20+400 4d20+200 5d10+25 chomp
+429496727 429496727 429496727 429496727
+GIJ|
+|
+|
+|
+stand stand female 0
+BFP|
+BDEFGKLPR|
+medium unknown
+#1606
+Warhorse~
+a warhorse~
+A large, not too well cared for, warhorse idly flicks its tail.
+~
+A monstrous thing of a horse, it has obviously been trained
+rather well... though its physical appearance is not exactly
+defined as attractive by many. Its coat semi-shaggy,
+teeth bared in the visciousness intended by the trainer,
+it doesn't have to speak to tell all that look at it that it
+is no less a weapon than any sword.
+~
+horse~
+BEH|
+|
+0 0
+40 0 4d40+1600 4d40+800 5d10+25 chomp
+429496689 429496689 429496689 429496689
+DGIJ|
+|
+|
+|
+stand stand male 0
+BFP|
+BDEFGKLPR|
+medium unknown
+#1607
+innkeeper plump man illianer dirty~
+the dirty inkeeper~
+An innkeeper jingles the roomkeys, seeming dirty in more ways than one.
+~
+A somewhat plump man, as most innkeepers are, he
+eyes any women customers and requests if they "do be
+quite happy alone, or they would be preferrin' his -most-
+pleasureable company". For the men, he distractedly
+tosses the roomkey and sourly accepts the coin, inspecting
+its worth.
+~
+human~
+BF|
+|
+-200 0
+60 50 4d60+3600 4d60+1800 4d6+20 pound
+429496699 429496699 429496699 429496699
+|
+|
+|
+|
+stand stand male 50000
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#1608
+Sarah~
+Sarah the cook~
+A rather pretty woman, Sarah is stirring something over a hot stove.
+~
+Gleaming blue eyes glance about themselves cheerily.
+Taller than the average woman, in fact taller than most men,
+Sarah's slim waist belies her obvious skill at cooking,
+from the deliscious scents wafting about. She smiles
+warmly at any who request a bit of food, and charges
+only what she must.
+~
+human~
+BF|
+|
+500 0
+50 35 4d50+2500 4d50+1250 5d10+25 pound
+429496709 429496709 429496709 429496709
+GO|
+|
+|
+|
+stand stand female 50000
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#1609
+Saml Hake~
+Saml Hake~
+The innkeeper, Saml Hake, is watching the door warily.
+~
+A bony man with stringy long hair to his shoulders, this
+innkeeper scowls frequently. One of the rare skinny
+innkeepers, he is grimy from the toes of his boots to
+the top of his dirty head. Giving most a sense of unease,
+his unpleasant smile touching only Hake's lips when he
+deals with patrons.
+~
+human~
+BDF|
+|
+-400 0
+50 35 4d50+2500 4d50+1250 5d10+25 pound
+429496699 429496699 429496699 429496699
+DJO|
+|
+|
+|
+stand stand male 10000
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#1610
+alley rat~
+an alley rat~
+A large squeaky rat skitters about bravely.
+~
+This rodent seems rather courageous for as small as it is,
+perhaps because it is half again as large as most rats. Deepset
+black eyes resemble beads as they size up nearly everything,
+wondering what would be tasty. Fur matted with garbage, it
+patters about, searching for a meal.
+~
+rat~
+BFJS|
+OVX|
+-600 0
+10 10 5d30+100 2d3+3 3d2+10 bite
+2 2 2 4
+GI|
+|
+L|
+|
+stand stand none 0
+BFLP|
+BDEFGIKLPQR|
+medium unknown
+#1611
+wagoneer~
+a wagoneer~
+A wagon driver stumbles about, shouting lewd comments for lack of better.
+~
+Wagoneers are generally a loud lot, and this one would
+be a prime example. Whip in hand cracking the air now
+and then, it seems ready to strike a human as readily as
+any horse. The driver shouts lewd comments to the women
+that pass by, and much ruder ones to anything that gets
+in the way of his driving.
+~
+human~
+BJ|
+|
+0 0
+16 16 8d30+160 2d4+4 5d2+10 pound
+429496728 429496728 429496728 1
+|
+|
+|
+|
+stand stand male 100
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#1612
+street thief~
+a street thief~
+A street thief attempts to make the merchants' loads lighter.
+~
+Worn and haggard around the edges, the thief eyes
+everyone warily. The times have been hard on all these
+days, even the riffraff, it seems. The punk's slender hand
+reaches to skillfully extract silver from the nearest coinpurse.
+~
+human~
+BDJ|
+P|
+-100 0
+25 25 12d30+250 2d4+4 8d2+12 pound
+429496722 429496722 429496722 429496728
+DJO|
+|
+|
+|
+stand stand either 50
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#1613
+merchant~
+a merchant~
+A merchant picks her way along, confident and unafraid.
+~
+The black livery required of merchants compliments this one's
+eyes rather beautifully. Seeming as though she would rather
+be wearing colorful, sheer silks, this merchant strides
+through the village, knowing her looks could likely gain
+her more power than any amount of knowledge.
+~
+human~
+BJ|
+|
+200 0
+20 20 10d30+200 2d3+3 6d2+10 claw
+429496726 429496726 429496726 0
+|
+|
+|
+|
+stand stand female 100
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#1614
+maid cleaning lady bed~
+a cleaning maid~
+A lady working for the inn makes the bed, humming softly.
+~
+Smoothing down the blankets and fluffing the pillows,
+this maid never seems to quite stop humming. A cart
+piled with sheets and blankets trails behind her, one
+stack of dirty, and one of clean. She moves from room
+to room, cleaning effectively.
+~
+human~
+B|
+|
+0 0
+15 15 7d30+150 2d3+3 5d2+10 none
+0 0 0 2
+|
+|
+|
+|
+stand stand female 5
+|
+|
+medium unknown
+#1615
+couple young interrupted~
+a young, interrupted couple~
+A young couple look awful irritated at being interrupted!
+~
+The man is just into his manhood, while she is most
+likely a maid of an inn, if not this one. Hastily wrapping
+themselves up in blankets, they growl as one and try
+to attack whoever it is that would think of coming between
+them at this point. A moody pair.
+~
+human~
+BFIT|
+|
+0 0
+12 12 6d30+120 2d3+3 4d2+10 thrash
+1 1 1 3
+|
+T|
+|
+|
+stand stand none 15
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#0
+
+
+
+#OBJECTS
+#1501
+CREDIT~
+`WCredit: Four Kings`w~
+For credits, please see added desc CREDIT.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+credit~
+Area: Four Kings, Andor.
+Based on the WoT series written by Robert Jordan.
+Builder: Gary McNickle.
+Supplements: Jane and Tanya.
+~
+#1601
+mug ale liquid~
+a mug smelling of ale~
+A mug smells of cheap, dark ale.~
+wood~
+drink S AO
+2 2 'dark ale' 0 0
+5 3 5 P
+#1602
+cloth dirtied dingy handkerchief kerchief~
+a dingy bit of cloth~
+A dirtied handkerchief has been wisely tossed here.~
+cloth~
+trash 0 AO
+0 0 0 0 0
+0 1 1 P
+A
+17 -1 -1
+#1603
+chalice ruby wine~
+a chalice of ruby wine~
+An aged chalice has been discarded, smelling of wine.~
+ceramic~
+drink 0 AO
+5 5 'red wine' 0 0
+5 5 50 P
+#1604
+peanuts bag salted~
+a bag of salted peanuts~
+A bag of peanuts spills salt on the ground.~
+nuts~
+food 0 AO
+AB AB 0 0 0
+0 2 3 P
+#1605
+Sarah's famous stew~
+a bowl of Sarah's famous stew~
+A bowl of Sarah's famous stew lies here, smelling richly of meats and spiced vegetables.~
+stew~
+food 0 A
+D D 0 0 0
+5 1 15 P
+#1606
+Freshly baked bread~
+a loaf of fresh bread~
+A loaf of fresh bread lies here steaming~
+bread~
+food 0 A
+BC BC 0 0 0
+5 1 7 P
+#1607
+tender roast~
+a slab of tender roast~
+A tender slab of roast~
+beef~
+food 0 A
+D D 0 0 0
+5 5 15 P
+#1608
+bed~
+a comfortable bed~
+Lying in the ceter of this room is a very comfortable looking bed with a down comforter.~
+down~
+furniture 0 0
+AB CDFI EGHJKN ADFG ADFG
+10 100 150 P
+#1609
+A bowl of pretzels~
+a bowl of pretzels~
+A bowl of pretzels~
+bread~
+food S A
+B B 0 0 0
+5 3 4 P
+#1610
+bar rag~
+a greasy bar rag~
+A greasy bar rag~
+rag~
+weapon 0 AN
+exotic 4 6 thwack H
+5 1 0 W
+#1611
+sleeping mat~
+a small mat~
+Lying here is a small sleeping mat, though it doesn't look very comfortable.~
+cloth~
+furniture S 0
+A DFGHIJ BEHK ADFG ADFG
+10 5 0 P
+#1612
+dagger~
+a slim dagger~
+The blade of a slim dagger glistens in the sun.~
+steel~
+weapon 0 AN
+dagger 4 4 stab 0
+0 1 20 P
+#1613
+leather boots~
+soft leather boots~
+A pair of soft leather boots lie here.~
+leather~
+armor S AG
+BC BC BC BC 0
+15 2 75 P
+A
+2 2 -1
+#1614
+leather vest~
+a hard leather vest~
+A hard leather vest~
+leather~
+armor S AD
+BC BC BC BC 0
+15 3 80 P
+A
+1 2 -1
+#1615
+riders whip~
+a rider's whip~
+A long leather whip lies here, wrapped with hide strapping.~
+leather~
+weapon S AN
+whip 3 5 thwack 0
+15 2 20 P
+#1616
+Silk dress~
+a cream silk dress~
+A beautiful cream-colored silk dress lies here neatly folded.~
+silk~
+clothing S AD
+0 0 0 0 0
+25 2 100 P
+A
+3 2 -1
+A
+17 -2 -1
+A
+2 2 -1
+#1617
+A feeding bucket~
+an old, dusty feeding bucket~
+An old, dusty feeding bucket~
+burlap~
+container 0 AO
+30 0 0 30 100
+5 3 10 P
+#1618
+A horse blanket~
+an old, mildewy horse blanket~
+Lying here in a rumpled heap is an old, mildewy horse blanket.~
+unknown~
+furniture S A
+A ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef BDEGHJK CFG CFG
+5 20 10 P
+#1619
+Horseshoe~
+a shiny new horse shoe~
+A shiney new horseshoe lies here, probably omne of the finest you can find.~
+iron~
+trash Y AG
+0 0 0 0 0
+5 4 15 P
+A
+17 -4 -1
+#1620
+barrel knife dagger~
+a barrel knife~
+A dagger with an unusually wide blade lies here in the dust.~
+iron~
+weapon 0 AN
+dagger 3 3 slice D
+5 5 20 P
+#1621
+lantern~
+a shaded lantern~
+A cleverly constructed lantern~
+steel~
+light A AO
+0 0 CFG 0 0
+0 3 20 P
+#1622
+sheets robe~
+linen bedsheets wrapped like a robe~
+A pile of sheets lie here in a strange heap.~
+cloth~
+clothing S AK
+0 0 0 0 0
+10 3 1 P
+A
+17 -2 -1
+#1623
+duster feathers duckswallow~
+a feather duster~
+A duster made of duckswallow feathers has been left here.~
+feathers~
+trash 0 AO
+0 0 0 0 0
+2 2 2 P
+#1634
+key silvery grubby~
+a grubby silvery key~
+A silvery key lies in the dirt, getting grubby.~
+metal~
+key 0 AO
+0 0 0 0 0
+0 2 10 P
+#1635
+key paint chipping~
+a key with chipping paint~
+A wooden key grows dusty, its paint chipping.~
+wood~
+key 0 AO
+0 0 0 0 0
+0 2 4 P
+#1636
+key brass greasy~
+a greasy brass key~
+A key of greasy brass glitters dimly in the light.~
+unknown~
+key 0 AO
+0 0 0 0 0
+0 3 5 P
+#1637
+key painted gold~
+a key painted to look gold~
+A key's golden paint seems to be rubbing off.~
+metal~
+key 0 AO
+0 0 0 0 0
+0 2 20 P
+#1638
+cider mug old steaming~
+a mug of steaming cider~
+An old-looking mug steams faintly from a liquid it once held.~
+unknown~
+drink 0 AO
+5 5 'apple cider' 0 0
+0 0 0 P
+#1639
+A bubbling fountain~
+a bubbling fountain~
+A bubbling fountain is off to the side of the square~
+stone~
+fountain Yb 0
+0 0 'water' 0 0
+0 200 0 P
+#1640
+Christiani's `RL`ra`Rv`ra `RL`ra`Rm`rp`w on a stick~
+christiani's `RL`ra`Rv`ra `RL`ra`Rm`rp`w on a stick~
+Christiani's `RL`ra`Rv`ra `RL`ra`Rm`rp`w on a stick~
+plastic~
+light AB A
+0 0 0 0 0
+54 2 6000 P
+#1641
+Key to stable(secret)~
+a key~
+A small steel key~
+steel~
+key N A
+0 0 0 0 0
+1 2 2 P
+#0
+
+
+
+#ROOMS
+#1500
+The Caemlyn Road~
+The Caemlyn road stretches for miles in both directions, east and west. 
+Lining the road to the north and south are lush forests, with maples, oaks,
+and various pines held within.  The beaten earth road is thick with
+age-hardened footprints and wagonwheel ruts, and is easily wide enough for
+the thick traffic of merchants travelling between villages.  Built along the
+road to the west lies Four Kings.  
+~
+0 0 4
+D1
+~
+~
+0 0 1501
+D3
+~
+~
+0 0 1606
+S
+#1501
+The Caemlyn Road~
+The Caemlyn road stretches for miles in both directions, east and west. 
+Lining the road to the north and south are lush forests, with maples, oaks,
+and various pines held within.  The beaten earth road is thick with
+age-hardened footprints and wagonwheel ruts, and is easily wide enough for
+the thick traffic of merchants travelling between villages.  Built along the
+road to the west lies Four Kings.  
+~
+0 0 4
+D1
+~
+~
+0 0 1504
+D3
+~
+~
+0 0 1500
+S
+#1502
+The Caemlyn Road~
+The long span of the Caemlyn road stretches on throughout the hilly
+landscape of Andor.  Dotting a nearby hill to the east lies the town of Four
+Kings.  It is a small town, by Andoran standards, but sees a fair share of
+traffic due to the isolation of the Caemlyn Road.  Wagon ruts are carved
+deep into the road, and during a downpour it must be a river of mud. 
+Smaller villages and hamlets lie west of here, but none are marked on any
+map until the town of Whitebridge- easily a week's hard ride.  
+~
+0 0 4
+E
+south~
+Forests line the road through the hills of Andor.  
+~
+E
+north~
+Forests line the road through the hills of Andor.  
+~
+E
+west~
+The Caemlyn Road stretches on for miles.  
+~
+E
+east~
+The buildings of Four Kings are surrounded by the tents of merchants.  
+~
+E
+east~
+~
+D1
+~
+~
+0 0 1601
+D3
+~
+~
+0 0 1503
+S
+#1503
+The Caemlyn Road~
+For miles, the Caemlyn Road runs through the hilly landscape of Andor,
+the only road between many of the small towns west of the capital.  From
+here, the capital city of Caemlyn is little less than a weeks ride to the
+east.  Smoke can be seen off in the distance, indicating the approach to the
+town of Four Kings, only about a days ride away.  Trees line both sides of
+the road making exploration impossible.  
+~
+0 0 4
+E
+north~
+Forests line the road through the hills of Andor.  
+~
+E
+south~
+Forests line the road through the hills of Andor.  
+~
+E
+west~
+The Caemlyn Road stretches on for miles.  
+~
+E
+east~
+Smoke rises from the treeline off in the distance.  
+~
+D1
+~
+~
+0 0 1502
+D3
+~
+~
+0 0 6419
+S
+#1504
+The Caemlyn Road~
+The Caemlyn road stretches for miles in both directions, east and west. 
+Lining the road to the north and south are lush forests, with maples, oaks,
+and various pines held within.  The beaten earth road is thick with
+age-hardened footprints and wagonwheel ruts, and is easily wide enough for
+the thick traffic of merchants travelling between villages.  Built along the
+road to the west lies Four Kings.  
+~
+0 0 4
+D1
+~
+~
+0 0 1505
+D3
+~
+~
+0 0 1501
+S
+#1505
+The Caemlyn Road~
+The Caemlyn road stretches for miles in both directions, east and west. 
+Lining the road along to the north and south are lush forests, with maples,
+oaks, and various pines figured predominately from within.  The beaten earth
+road is thick with age-hardened footprints and wagonwheel ruts, and is
+easily wide enough for the thick traffic of merchants traveling between
+villages.  Built along the road to the west lies a small towm.  Tiny indeed,
+but to the weary traveler Four Kings may offer at least a comfortable nights
+sleep and a warm meal.  To the south, a newly trampled path winds deeper
+into the forest, where a large tower barely crests the forestline.  
+~
+0 0 4
+D1
+~
+~
+0 0 20310
+D2
+~
+~
+0 0 7978
+D3
+~
+~
+0 0 1504
+S
+#1600
+Hill Way~
+A short road runs east and west from here.  West leads to the stables,
+where merchants leave their pack animals while resting in one of the local
+inns.  To the east is the building where a small contingent of the Queen's
+Guard is stationed.  Walls on either side of the road keep the wind to a
+minimum, and the smell of the stables strong in the air.  
+~
+0 0 1
+D1
+~
+~
+0 0 1610
+D3
+~
+~
+0 0 1648
+S
+#1601
+The Caemlyn Road~
+The road continues on, to the west lies the Caemlyn Road, while
+stretching to the east is Four Kings.  Raucous laughter can be heard
+drifting in on the winds, coming from the town.  Wagon ruts fill the road,
+marking it deeply.  When the rains pour, surely this track is nothing but
+mud, a hamper on any merchant's progress.  This point on the road is north
+of the residential section of Four Kings, as made obvious by the profusion
+of houses stretching south of here.  To the north is a small house owned by
+one who loves nature.  The smells of plants and herbs blow over the road.  
+~
+0 0 2
+E
+north~
+A small house lies behind a garden filled with plants.  
+~
+E
+east~
+The Caemlyn road continues through the town.  
+~
+E
+west~
+The Caemlyn Road continues on for miles.  
+~
+D0
+~
+~
+0 0 1653
+D1
+~
+~
+0 0 1602
+D3
+~
+~
+0 0 1502
+S
+#1602
+Outskirts of Four Kings~
+This road is hardly more than one long rut, scarred by the innumerable
+wagons and carriages that have passed this way.  If one continues to the
+west the city of Whitebridge is about a weeks ride.  Just over the next hill
+to the east lies the town of Four Kings.  The sound of drunken laughter
+drifts in with a slight breeze.  
+~
+0 0 1
+D1
+~
+~
+0 0 1603
+D2
+~
+~
+0 0 1621
+D3
+~
+~
+0 0 1601
+S
+#1603
+On the Caemlyn Road~
+More of a village than a town, if large for one, Four Kings shames its
+name.  Still on the outskirts of the village, inns fill the air with all
+sorts of raucous laughter and comments to make any normal person blush. 
+Lewd shouts tossed back and forth between wagoneers and merchants alike.  A
+dirty sign hangs out before the inn to the north, while to the south, the
+pictures have been worn away to something unrecognizable.  
+~
+0 0 1
+E
+pictures~
+A picture that was once a mess of rainbow hues is now unreadable.  
+~
+E
+north~
+Signs with the picture of a scantily clad Domani woman hang above the
+door to this inn.  
+~
+E
+signs~
+Signs with the picture of a scantily clad Domani woman hang above the
+door to this inn.  
+~
+D0
+~
+~
+3 0 1624
+D1
+~
+~
+0 0 1604
+D2
+A picture that was once a mess of rainbow hues is now
+unreadable.
+~
+~
+3 0 1630
+D3
+~
+~
+0 0 1602
+S
+#1604
+Town Square~
+The town square of Four Kings is not much for the eye, just a fountain
+and a small plaque are all that set it apart from the rest of the Caemlyn
+Road.  To the north is a window decorated with various goods for the
+traveler, with a large sign reading THE MERCHANT TRADER over the door.  The
+road branches south from here, leading towards the residential part of town
+and further on the road to Lugard.  The town of Four Kings stretches in all
+directions.  
+~
+0 0 1
+D0
+~
+~
+0 0 1622
+D1
+~
+~
+0 0 1605
+D2
+~
+~
+0 0 1617
+D3
+~
+~
+0 0 1603
+S
+#1605
+The Intersection of The Caemlyn and Fifth Queen Roads~
+The dust of the road seems less upon entering this quaint town.  The
+Caemlyn Road continues west into the heart of Four Kings and east in the
+direction of Caemlyn.  A small street lies north of here called Fifth
+Queen's Road, named in celebration of the rich history of this town.  The
+clatter of metal draws your eyes to the blacksmith working at his forge.  
+The smithy lies just to the south.
+~
+0 0 1
+D0
+~
+~
+0 0 1651
+D1
+~
+~
+0 0 1650
+D2
+~
+~
+0 0 1616
+D3
+~
+~
+0 0 1604
+S
+#1606
+The Caemlyn Road~
+With Four Kings just to the west, the road here continues on to Caemlyn
+to the east.  Carriages and farmer's carts have left deep ruts in the road,
+frequently filled with water, and worse.  Many travelers come and go, rarely
+stopping for a polite word these days.  Times are troubled, and the average
+folk always feel the brunt of it.  With food scarce, many are forced to the
+markets, filling these roads on the worst of days.  
+
+~
+0 0 0
+D1
+~
+~
+0 0 1500
+D3
+~
+~
+0 0 1649
+S
+#1607
+The Common Room~
+Oddly, this common room is quiet and has only a few patrons.  The
+innkeeper behind the bar has got to be one of the few skinny innkeepers in
+all of Andor.  There are more serving girls here than customers, and the
+minstrel at the stage seems to be snoring.  
+
+~
+0 0 0
+D0
+~
+~
+0 0 1608
+D2
+~
+~
+0 0 1624
+S
+#1608
+The Kitchen~
+A wonderous smell fills your nostrils as you enter here, quite unlike the
+rest of the inn, this room alone seems to be clean.  With the days cooking
+finished, the cook seems to be taking a break.  
+ 
+~
+0 0 0
+D2
+~
+~
+0 0 1607
+S
+#1609
+The Local Stables~
+Tiny flakes of straw drift down from over the mantle as you enter the
+stables.  The walls here are made of rough hewn wood, now dark with age. 
+Tack and feeding buckets hang from nails on posts lining the hallway leading
+to the stalls.  
+
+~
+0 536870913 0
+E
+north~
+The wall of the stable.
+~
+E
+south~
+The wall of the stable.
+~
+E
+up~
+The rafters, exposed for the viewing.
+~
+D1
+~
+~
+0 0 1648
+D3
+~
+~
+0 0 1636
+S
+#1610
+In Front of the Town Jail~
+A small building stands to the east with one obvious purpose, that of
+keeping people within.  The bars on the windows are a dark black and give
+the sense that this is a tough town.  Just to the west are the stables where
+one will find a good mount.  South lies a small field leading off behind
+some buildings.  
+~
+0 0 1
+D2
+~
+~
+0 0 1611
+D3
+~
+~
+0 0 1600
+S
+#1611
+A Field Behind a Row of Buildings~
+This field marks the expansion of Four Kings, for it leads right to the
+tree line of the forest.  Stumps lie rooted in the ground as the last
+testament of the majestic trees that used to fill this field.  North on Hill
+Way is the town jail, and to the south lies the Caemlyn road.  The back of a
+building runs along the western side of the field.  
+~
+0 0 0
+D0
+~
+~
+0 0 1610
+D2
+~
+~
+0 0 1612
+S
+#1612
+A Field Behind a Row of Buildings~
+This field marks the expansion of Four Kings, for it leads right to the
+tree line of the forest.  Stumps lie rooted in the ground as the last
+testament of the majestic trees that used to fill this field.  North on Hill
+Way is the town jail, and to the south lies the Caemlyn road.  The back of a
+building runs along the western side of the field.  
+~
+0 0 0
+D0
+~
+~
+0 0 1611
+D2
+~
+~
+0 0 1650
+S
+#1613
+An unused hallway under The Dancing Cartman~
+Obviously unused, and unkempt, this hallway continues on to the west,
+getting darker as it goes.  The raising dust fills your nostrils and chokes
+away what air you are able to take in.  This seems like a long lost section
+of the inn making you wonder where exactly this hall will lead.  You notice
+footprints in the dust, the only indication someone has been here recently. 
+~
+0 0 0
+D3
+~
+~
+0 0 1614
+D4
+~
+~
+11 0 1631
+S
+#1614
+The end of the hallway~
+The sounds from the inn are muted here.  This place is obviously not used
+often, and cobwebs fill the air.  To the north is a doorway with a heavy bar
+locking it from this side of the hall.  
+
+~
+0 0 0
+D0
+~
+~
+3 0 1615
+D1
+~
+~
+0 0 1613
+S
+#1615
+A storage closet~
+The area here is cluttered with all manner of item.  Barrel's of old
+mead, now full of boards and nail, piles of cloth bundles, rags from the
+kitchen no doubt.  The air is dank and musty, those rags likely werent
+washed before being dumped in here.  The one window here is heavily barred
+and boarded up.  It looks recently repaired.  
+
+~
+0 0 0
+D2
+~
+~
+3 0 1614
+S
+#1616
+The Town Blacksmith~
+This blacksmiths' shop seems neat enough, or at least in comparison with
+the rest of Four Kings.  The craftsman must do good business, as the walls
+are nearly bare, the hooks to hold his wares gathering dust.  Sword hilts
+and plow shares together stick out of a barrel in the corner, while one
+whole wall seems devoted to horseshoes and harness bits..  The merchants
+coming through must need supplies for their horses.  
+~
+0 8 0
+D0
+~
+~
+0 0 1605
+S
+#1617
+The Road to Lugard~
+Stretching off to the south lies the road to Lugard, although well
+travelled, still little more than a dirt path.  The sounds of Four
+Kings can still be heard from the north and the walls of surrounding
+buildings seem oppressive.  All wind is blocked making it very muggy
+and uncomfortable.
+~
+0 0 1
+D0
+~
+~
+0 0 1604
+D2
+~
+~
+0 0 1618
+S
+#1618
+The Road To Lugard~
+A small alley leads towards the residential section of town from here,
+just off to the west.  The air is still muggy but now you feel a small
+breeze blowing in from the Lugard road that lies just to the south of here. 
+~
+0 0 0
+D0
+~
+~
+0 0 1617
+D2
+~
+~
+0 0 1623
+D3
+~
+~
+0 0 1619
+S
+#1619
+A Narrow Alley~
+Running narrowly behind the buildings in the Town Square,
+if it can be called that, this alley is awfully cluttered with
+all sorts of debris. With the times as hard as they are, no
+one can afford to pay to keep the alleys clean. A rat now
+and then can be spotted scuttling through the garbage,
+searching for a meal.
+~
+0 0 2
+D1
+~
+~
+0 0 1618
+D3
+~
+~
+0 0 1620
+S
+#1620
+Entrance to an Alley~
+A short road lies to the north, leading back to the wide Caemlyn Road,
+while directly east, the trail turns into a narrow and trashy-looking alley.
+Bleak fields are visible off in the distance southwards and to the west,
+their harvest obviously lean this year.  
+~
+0 0 1
+D0
+~
+~
+0 0 1621
+D1
+~
+~
+0 0 1619
+S
+#1621
+A Narrow Path~
+This road leads into the residential section of Four Kings.  Small houses
+stand on the western side, built of the sturdy wood from the great trees
+found in the area.  The road continues on to the south slowly bending
+eastward towards the road to Lugard.  
+~
+0 0 1
+D0
+~
+~
+0 0 1602
+D2
+~
+~
+0 0 1620
+S
+#1622
+The Merchant Trader~
+This is the store where traders and the local population purchase goods. 
+The walls are crammed with all sorts of exotic items, brought to this quaint
+little villiage by the merchants that use the Four Kings as a resting point.
+The storekeeper, almost hidden behind a huge pile of clothing near the back
+wall, looks fast asleep and unaware of anything.  
+~
+0 0 1
+D2
+~
+~
+0 0 1604
+S
+#1623
+Lugard Road~
+This open road seems to widen to the south, leading to
+Murandy, while off to the north lies the small town of
+Four Kings. It isn't exactly as widely used as the Caemlyn
+Road, there still are almost always merchants leaving
+their tracks in the dust, and their shouts in the air.
+~
+0 0 2
+D0
+~
+~
+0 0 1618
+S
+#1624
+The Dancing Domani~
+The laughter that floats throughout this common room sounds crude left by
+itself, and paired with the shouts, actions, and resemblences of music that
+mingles with it, the overall atmosphere of the Dancing Domani much resembles
+the mood presented by the sign hanging out in front of the inn.  Dice
+clicking on the tables and floors, ale and cheap wine spilt and splattered,
+a single fireplace gives a slightly sultry feeling to the tabac smoke that
+lingers in the air.  Stairs to the rooms above creak ominously under drunken
+feet often, and the keys to the same beddings are grimy and oily with dried
+smoke and drink.  The ocassional burst of "fresh" air swings in from the
+south when a wagoneer or merchant in drink stumbles in or out.  
+~
+0 8 0
+D0
+~
+~
+0 0 1607
+D2
+~
+~
+3 0 1603
+D4
+~
+~
+0 0 1641
+S
+#1625
+A dimly lit hallway~
+The hallway here continues on to the north, leading to the few rooms this
+inn has for rent.  While the door is usually shut, still, the loud noise of
+the common room fills the hallway.  
+ 
+~
+0 0 0
+D0
+~
+~
+0 0 1626
+D5
+~
+~
+0 0 1630
+S
+#1626
+A dimly lit hallway~
+Exits to either side lead to the inns rooms.  While the noise here seems
+to have died down a bit, you can only hope the rooms are quieter.  A torch
+on the wall keeps the hallway lit, though not well.  
+ 
+~
+0 0 0
+D1
+~
+~
+3 0 1628
+D2
+~
+~
+0 0 1625
+D3
+~
+~
+3 0 1627
+S
+#1627
+A quiet room~
+The room here seems quiet enough, and clean.  The bed is well made, and
+fresh water can be found in the pitcher on the nightstand.  The serving
+girls obviously keep the rooms well cleaned.  
+~
+0 1048576 0
+D1
+~
+~
+3 0 1626
+S
+#1628
+A quiet room~
+The room here seems quiet enough, and clean.  The bed is well made, and
+fresh water can be found in the pitcher on the nightstand.  The serving
+girls obviously keep the rooms well cleaned.  
+ 
+~
+0 1048576 0
+D3
+~
+~
+3 0 1626
+S
+#1629
+A Hallway~
+This short hallway extends southward a few spans, its northward edge
+being here, supporting a grand total of six rooms, two of which are taken. 
+The hallway is dark, small candles long since burned out, the only lighting
+is a dim overtone that mutedly gleams from the bottom of the stairs.  The
+northward door is closed, sultry giggles sounding from it now and then,
+while the doors east and west are open half an inch or so, evidently open
+for the night.  
+~
+0 8 0
+D0
+~
+~
+3 0 1646
+D1
+~
+~
+7 1634 1647
+D2
+~
+~
+0 0 1641
+D3
+~
+~
+7 1635 1645
+S
+#1630
+The Dancing Cartman~
+The clatter of a few pairs of dice is lost in the rest of the noise
+unleashed.  Maids dodging greedy hands, men shouting and generally
+carousing, the ocassional brawl that springs up from a small nudge of an
+elbow.  The smell of bad wine filters through with the scent of cheap tabac,
+spilled ale, and dirty bodies.  Known as The Dancing Cartman, it is simply
+"just another inn" in Four Kings, as shabby and unclean as any other. 
+Stairs lead up to the rooms, while a second, somewhat-less visited common
+room lies to the south.  
+~
+0 12 0
+D0
+~
+~
+3 0 1603
+D2
+~
+~
+3 0 1631
+D4
+~
+~
+0 0 1625
+S
+#1631
+Second Commonroom of The Dancing Cartman~
+There are hardly any lanterns or lamps lit, and where they are, they are
+dim as possible.  The loud sound of the common room to the north is muted
+somewhat by the door that is usually closed.  Merchants that would rather
+meet with any they trade with alone might come here, or perhaps a wagoneer
+that lacks taste in where to bring women.  The clicks of rolling dice still
+ring, but not nearly so many, and they are faintly audible over the low hum
+of voices chatting in the dark.  
+~
+0 9 0
+D0
+~
+~
+3 0 1630
+D5
+~
+~
+11 0 1613
+S
+#1632
+A Hall Through the Stables~
+Although musky, the path through here seems clean enough.  The stone
+floor has been freshly swept and hosed down and all the tack is pegged up on
+the wall.  The sound of a horse's whicker can be heard coming from one of
+the nearby stalls.  
+ 
+~
+0 0 0
+E
+north~
+The wall of the stable.
+~
+E
+up~
+The rafters, exposed for the viewing.
+~
+D1
+~
+~
+0 0 1640
+D2
+~
+~
+0 0 1633
+D3
+~
+~
+0 0 1634
+S
+#1633
+A Stall~
+The stall here has been freshly cleaned and a new pail of oats laid aside
+for the horse that resides here.  Small flakes of straw settle around your
+boots as you enter.  
+ 
+~
+0 536870912 0
+E
+south~
+The wall of the stable.
+~
+E
+west~
+The wall of the stable.
+~
+E
+east~
+The wall of the stable.
+~
+E
+up~
+The rafters, exposed for the viewing.
+~
+D0
+~
+~
+0 0 1632
+S
+#1634
+The End of the Hall~
+The end of the hall in the stables leads to the last stall, just south. 
+This stall is cleaner than the rest, with freshly strewn straw upon the
+floor, as if unused.  The smell of horse manure is almost unbearable here
+due to the lack of a draft this far back.  The hall stretches back to the
+east, where the light from outside plays with the shadows.  
+~
+0 536870913 0
+E
+west~
+The wall of the stable.
+~
+E
+north~
+The wall of the stable.
+~
+E
+up~
+The rafters, exposed for the viewing.
+~
+D1
+~
+~
+0 0 1632
+D2
+~
+~
+0 0 1635
+S
+#1635
+A Stall~
+Cleaner than the others, this stall looks as if it has been reserved for
+some reason.  It is obvious that no horse has been stabled here in some
+time.  The straw is fresh upon the uneven floor, and more more fully covers
+it than in the other stalls.  The smell is unbearable here, it seems the
+smell just gets stronger the farther back one goes.  
+~
+0 0 0
+E
+down~
+Fresh hay covers most of a small steel door in the floor.
+~
+E
+south~
+The wall of the stable.
+~
+E
+east~
+The wall of the stable.
+~
+E
+west~
+The wall of the stable.
+~
+E
+up~
+The rafters, exposed for the viewing.
+~
+D0
+~
+~
+0 0 1634
+D5
+~
+~
+141 1641 1656
+S
+#1636
+A Hall Through the Stables~
+A narrow hallway leads off to each of the stables.  The floor is covered
+in dirty straw, lending even more to the odious nature of this place.  While
+the animals seem well taken care of, the stable itself has not had a good
+cleaning in years.  
+ 
+~
+0 0 0
+E
+south~
+The wall of the stable.
+~
+E
+up~
+The rafters, exposed for the viewing.
+~
+D0
+~
+~
+0 0 1637
+D1
+~
+~
+0 0 1609
+D3
+~
+~
+0 0 1638
+S
+#1637
+The Stable Master's Office~
+This is not really an office at all, its more like a storage room, but
+here is where the stable master chooses to do business.  A breeze from the
+open window keeps the smell of manure at bay, while giving a beautiful view
+of the forest to the north.  Straw covers every surface, from the floor, to
+the rafters.  A shaft of light highlights the dust hanging in the air,
+showing why its hard to breathe in this building.  The only exit is back to
+the south.  
+~
+0 134217728 0
+E
+north~
+The wall of the stable.
+~
+E
+east~
+The wall of the stable.
+~
+E
+west~
+The wall of the stable.
+~
+E
+up~
+The rafters, exposed for the viewing.
+~
+D2
+~
+~
+0 0 1636
+S
+#1638
+A Hall Through the Stables~
+Oddly enough, the hallway seems to become cleaner the deeper into the
+stable it goes.  Although, certainly, cleaner is a relative term in this
+grime encrusted place.  Still, the stall here seems to have had fresh straw
+recently, and the feeding bucket hanging on the post looks to have been used
+lately.  
+ 
+~
+0 0 0
+E
+north~
+The wall of the stable.
+~
+E
+up~
+The rafters, exposed for the viewing.
+~
+D1
+~
+~
+0 0 1636
+D2
+~
+~
+0 0 1639
+D3
+~
+~
+0 0 1640
+S
+#1639
+A Stall~
+The stall here has been freshly cleaned and a pail of oats tacked to the
+post outside.  Small flakes of straw settle around your boots, disturbed by
+their passing.  Amazingly enough, the few bits of tack hanging on the walls
+here seem well cared for, perhaps even new.  
+ 
+~
+0 536870912 0
+E
+tack~
+The bridle and extra harness straps hanging from the wall here seem
+freshly cleaned and oiled.  Obviously, the owner of this horse takes better
+care of his mount than this stables usual customers.  
+ 
+~
+E
+east~
+The wall of the stable.
+~
+E
+west~
+The wall of the stable.
+~
+E
+south~
+The wall of the stable.
+~
+E
+up~
+The rafters, exposed for the viewing.
+~
+D0
+~
+~
+0 0 1638
+S
+#1640
+A Hall Through the Stables~
+Here at the back of the stable, things look almost homey.  A small
+lantern hangs unlit from a nail in the wall and the floor here has been
+freshly swept.  An empty plate, now holding nothing but bread crumbs sits on
+a low shelf, carefully pushed out of the way.  
+ 
+~
+0 0 0
+E
+north~
+The wall of the stable.
+~
+E
+south~
+The wall of the stable.
+~
+E
+up~
+The rafters, exposed for the viewing.
+~
+D1
+~
+~
+0 0 1638
+D3
+~
+~
+0 0 1632
+S
+#1641
+A Hall Above the Common Room~
+The stairs from below lead into a dark hallway above the common room. 
+The only light a candle that is almost burnt to a nub.  The noise is
+somewhat muted with only the occasional laugh braking the quiet.  There are
+doors leading in all directions but north, the hallway continues to darken,
+as it leads north to more closed doors.  
+~
+0 0 0
+D0
+~
+~
+0 0 1629
+D1
+~
+~
+3 0 1643
+D2
+~
+~
+3 0 1642
+D3
+~
+~
+3 0 1644
+D5
+~
+~
+0 0 1624
+S
+#1642
+An Empty Guest Room~
+Furnished with little more than an aged, worn bed and a cracked mirror,
+this room is cramped, but will serve the occupants well enough for whatever
+activities they wish to partake of here, whether it be sleeping or
+otherwise.  Though everything seems generally of low quality, it is still
+all clean.  Nothing has more than the faintest sprinkle of dust, and the
+mirror is spotless.  The door opening out into the rest of the inn lies in
+the northern wall.  
+~
+0 8 0
+D0
+~
+~
+3 0 1641
+S
+#1643
+A Guest Room~
+The aged, worn bed that takes up most of the room in this cramped quarter
+is rumpled and used.  A few articles of clothes in a heap on the floor and
+comb on the sink make it rather obvious someone still intends to use this
+room.  The key used to admit people into this room glitters faintly in the
+light, though its silver is very tarnished.  The door leading out westernly
+into the Dancing Domani is usually closed.  
+~
+0 8 0
+D3
+~
+~
+3 0 1641
+S
+#1644
+A Guest Room~
+Not furnished with anything more than the bare essentials, the two
+features of this accomadation seems to be the sink and bed.  The bed has a
+wooden engraved headboard, though perhaps those are only deep scratches. 
+The mirror is spotless, but cracked in several places.  Only the finest veil
+of dust is present, otherwise all is clean and tidy.  The eastern wall holds
+the exit door, a window in the western wall overlooking some of Four Kings. 
+~
+0 8 0
+D1
+~
+~
+3 0 1641
+S
+#1645
+A Guest Room~
+The bed that takes up most of the room here is aged and worn, though it
+has an engraved wooden headboard.  The mirror above the small dresser is
+craked.  This compartment of a room is cramped, though it will serve well
+enough for sleeping or otherwise.  Though low quality is the definitive of
+the furnishings, everything is still clean.  The door leading to the rest of
+the Dancing Domani is in the eastern wall.  
+~
+0 8 0
+D1
+~
+~
+7 0 1629
+S
+#1646
+A Guest Room~
+Silken pieces of women's lingerie dot the floor, as small as they are,
+and a full set of men's clothing is present as well.  The mirror, cracked
+and aged, seems to be unused as of yet, as does the dresser.  The worn bed
+is currently in use, blankets rumpled and pillows beaten.  The southern door
+leads to the rest of the inn.  
+~
+0 8 0
+D2
+~
+~
+3 0 1629
+S
+#1647
+A Guest Room~
+A sink and bed seem to be the features of this cramped accomodation, and
+both are worn, the mirror above.  The sink cracked.  The thinnest veil of
+dust lies over everything, but other than that, all is tidy and clean.  No
+sign of the dinginess of the common room has escaped into the other rooms. 
+A maid wanders by when the room is unoccupied, cleaning even if it has been
+unused recently.  The faintest trace of cleansers is in the air, bitter and
+itchy in the nostrils.  The rest of the inn lies through the door in the
+western wall.  
+~
+0 8 0
+D3
+~
+~
+7 0 1629
+S
+#1648
+The Intersection of Fifth Queen Road and Hill Way~
+The smell of pack horses is very strong in the air, blending with the
+dust to make breathing rather unpleasant.  To the west is the enterance to
+Four Kings Stables, a large red building suppounded by pens.  Hill Way to
+the east leads off in the direction of the local jail; where members of the
+local militia meet, and every once in a while a prisoner is kept over night.
+Fifth Queen road leads back to the Caemlyn Road south 
+~
+0 0 0
+D1
+~
+~
+0 0 1600
+D2
+~
+~
+0 0 1652
+D3
+~
+~
+0 0 1609
+S
+#1649
+The Caemlyn Road~
+The Caemlyn road stretches for miles in both directions, east and west. 
+Lining the road to the north and south are lush forests, with maples, oaks,
+and various pines held within.  The beaten earth road is thick with
+age-hardened footprints and wagonwheel ruts, and is easily wide enough for
+the thick traffic of merchants travelling between villages.  Built along the
+road to the west lies Four Kings.  
+~
+0 0 0
+D1
+~
+~
+0 0 1606
+D3
+~
+~
+0 0 1650
+S
+#1650
+The Outskirts of Four Kings~
+On both sides of the road the forest as been cleared for the tents of the
+wagoneers.  There are wagons everywhere, scattered about among whispers of
+smoke that drift from the multitude of campfires.  A haze hangs over the
+camps, along with the stench of pack animals, intermixing to produce a most
+undesirable odor.  Four Kings lies just to the west while Caemlyn is to the
+east.  
+~
+0 0 0
+D0
+~
+~
+0 0 1612
+D1
+~
+~
+0 0 1649
+D3
+~
+~
+0 0 1605
+S
+#1651
+Fifth Queen Road~
+Just off the Caemlyn Road the air is still dusty, but definately easier
+to breath.  Buildings hem you in on both sides of this narrow street, a sign
+above the door to the east proclaims that the Queen of Kings is open for
+business.  The road continues on to the north, skirting a building and the
+stables to the west.  
+~
+0 0 0
+D0
+~
+~
+0 0 1652
+D2
+~
+~
+0 0 1605
+S
+#1652
+Fifth Queen Road~
+The wind blowing over the pasture to the east brings with it the smell of
+manure.  To the east lies the Queen of Kings, Four Kings only local tavern. 
+While Fifth Queen road continues north and south.  The air is filled with
+the sounds of merchants yelling and animals braying.  Drunken laughter can
+be heard just inside the door of the bar.  
+~
+0 0 0
+D0
+~
+~
+0 0 1648
+D2
+~
+~
+0 0 1651
+S
+#1653
+A nice herb garden~
+The smell of fresh cut herbs makes this a wonderful place to sit and relax.
+A small path runs through this beautifully kept garden.  This must be how
+the Wisdom of Four Kings escapes the hustle and bustle of the Caemlyn Road
+just to the south.  Small birds flutter about in the branches of nearby 
+trees.  The path continues north to the house.
+~
+0 0 0
+D0
+~
+~
+3 0 1654
+D2
+~
+~
+0 0 1601
+S
+#1654
+The Local Wisdom's House~
+~
+0 0 0
+D0
+~
+~
+0 0 1655
+D2
+~
+~
+3 0 1653
+S
+#1655
+The Wisdom's Bedroom~
+~
+0 0 0
+D2
+~
+~
+0 0 1654
+S
+#1656
+A Small Hidden Room~
+This room is filled with all types of treasures.  It seems that the Stable 
+Master has hands that wander.
+~
+0 1 0
+D4
+~
+~
+141 1641 1635
+S
+#0
+
+
+
+#SPECIALS
+M 1612 spec_thief
+S
+
+
+
+#RESETS
+D 1603 0 3 0 0
+D 1603 2 3 0 0
+D 1613 4 11 0 0
+D 1614 0 3 0 0
+D 1615 2 3 0 0
+D 1624 2 3 0 0
+D 1626 1 3 0 0
+D 1626 3 3 0 0
+D 1627 1 3 0 0
+D 1628 3 3 0 0
+D 1629 0 3 0 0
+D 1629 1 7 0 0
+D 1629 3 7 0 0
+D 1630 0 3 0 0
+D 1630 2 3 0 0
+D 1631 0 3 0 0
+D 1631 5 11 0 0
+D 1635 5 141 0 0
+D 1641 1 3 0 0
+D 1641 2 3 0 0
+D 1641 3 3 0 0
+D 1642 0 3 0 0
+D 1643 3 3 0 0
+D 1644 1 3 0 0
+D 1645 1 7 0 0
+D 1646 2 3 0 0
+D 1647 3 7 0 0
+D 1653 0 3 0 0
+D 1654 2 3 0 0
+D 1656 4 141 0 0
+M 1611 1 1602 3 100
+M 1613 1 1603 3 100
+E 1616 0 5 0 100
+E 1612 0 16 0 100
+M 1611 3 1604 1 100
+O 1639 0 1604 0 100
+M 1613 3 1605 1 100
+E 1616 0 5 0 100
+E 1612 0 16 0 100
+M 1611 3 1606 1 100
+E 1615 0 16 0 100
+M 1600 3 1607 1 100
+M 1608 1 1608 1 100
+M 1612 1 1612 3 100
+E 1614 0 5 0 100
+E 1612 0 16 0 100
+O 1611 0 1615 0 100
+M 1612 1 1615 1 100
+M 1601 1 1616 1 100
+G 1619 0 0 0 100
+G 1612 0 0 0 100
+G 1620 0 0 0 100
+G 1621 0 0 0 100
+M 1612 1 1617 3 100
+E 1613 0 8 0 100
+E 1612 0 16 0 100
+M 1610 5 1618 1 100
+M 1610 5 1622 1 100
+M 1612 1 1623 4 100
+E 1614 0 5 0 100
+E 1612 0 16 0 100
+M 1607 1 1624 1 100
+G 1601 0 0 0 100
+G 1603 0 0 0 100
+G 1604 0 0 0 100
+G 1634 0 0 0 100
+G 1635 0 0 0 100
+G 1636 0 0 0 100
+G 1637 0 0 0 100
+O 1608 0 1627 0 100
+O 1608 0 1628 0 100
+M 1609 5 1630 1 100
+G 1601 -1 0 0 100
+O 1617 0 1637 0 100
+O 1618 0 1637 0 100
+M 1602 1 1637 1 100
+O 1617 0 1638 0 100
+P 1641 1 1617 1 100
+M 1615 1 1646 1 100
+E 1622 0 12 0 100
+S
+
+
+
+#SHOPS
+1601 0 0 0 0 0 100 100 0 23
+1602 0 0 0 0 0 50 100 0 23
+1607 0 0 0 0 0 100 100 0 23
+1608 0 0 0 0 0 100 100 0 23
+1609 0 0 0 0 0 100 100 0 23
+0
+
+
+
+#MOBPROGS
+#0
+
+#$

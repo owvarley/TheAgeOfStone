@@ -1,0 +1,5794 @@
+#AREADATA
+Name Dhoom, N of Shienar~
+Builders None~
+VNUMs 21701 22000
+Sector 5
+Credits [45 50] Dhoom, N of Shienar~
+Security 9
+LastSaved 11/13/100~
+Flags 0
+Version 5
+End
+
+
+
+#MOBILES
+#21701
+myrddraal fade lurk halfman eyeless figure dark~
+a Myrddraal~
+A darkly cloaked figure looks about with a pale, eyeless grin.
+~
+A tall, lithe figure stands here.  A pale, eyeless face scans the room,
+striking pure fear into all that the gaze falls upon.  Serpentine scale mail
+covers its body, adding to the appearance of a snake stalking its prey.  All
+of its armor is black, and the very presence of this creature seems to
+absorb the light around it.  Silently it watches, preparing to exert
+Shai'tan's will.  
+~
+fade~
+BEJOf|A
+GHNOa|
+-1000 0
+60 120 60d60+1200 4d6+6 20d2+60 wrath
+429496667 429496667 429496667 429496693
+DGL|
+M|
+CDL|
+N|
+stand stand none 10
+GKP|
+BCDFGHIJKR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21708 100~
+M GREET 21703 100~
+M FIGHT 21704 10~
+#21702
+myrddraal lurk halfman eyeless fade figure dark~
+a Myrddraal~
+A darkly cloaked figure eyelessly looks up from a table.
+~
+A tall slender figure, dressed all in black, looks up with a pale eyeless
+gaze at those who would enter its sanctuary.  Standing taller than a normal
+man, its small frame gives it a snake like appearance.  This creature wears
+no armor, possibly because it is in such a well fortified location.  As it
+pulls a dagger from its belt and smiles a cold bloodless smile, fear strikes
+any whom its gaze touches.  
+~
+fade~
+BDFJOf|
+EGHNOa|
+-1000 0
+55 110 54d60+1100 4d6+6 18d2+54 wrath
+429496673 429496673 429496673 429496697
+DGLW|
+M|
+CDL|
+N|
+stand stand none 0
+GKP|
+BCDFGHIJKR|
+medium unknown
+M DELAY 21720 100~
+M GREET 21703 100~
+M ENTRY 21708 100~
+M FIGHT 21704 10~
+#21703
+myrddraal fade lurk eyeless halfman taskmaster master~
+a Myrddraal Taskmaster~
+A darkly armored figure overlooks a fist, tapping a whip upon its hand.
+~
+A tall, and almost muscular figure stands here.  Its eyeless face scans a
+fist of trollocs menacingly.  As it observes and commands, it lightly taps a
+whip upon its hand.  The trollocs it commands cowers from that stare and
+whip, and obey their master's every command.  As it notices something out of
+the ordinary, it smiles coldly as it orders the fist to kill.  
+~
+fade~
+BEJOf|
+GHNOa|
+-1000 0
+65 120 60d60+1200 4d6+6 20d2+60 none
+429496667 429496667 429496667 429496693
+DGLW|
+M|
+CDL|
+N|
+stand stand none 10
+GKP|
+BCDFGHIJKR|
+medium unknown
+M DELAY 21720 100~
+M GREET 21703 100~
+M ENTRY 21708 100~
+M FIGHT 21704 20~
+#21704
+trolloc dhavol dha'vol bird devil dha vol~
+a bird-like trolloc~
+A massive bird-like Trolloc of the Dha'vol tribe glares around.
+~
+This grotesque beast would appear to be a crude mix of some type of bird
+and a human.  Tufts of strange and filthy feathers stick out from openings
+in its armor and near its head.  It stands at least head and shoulders above
+any normal man upon bird-like legs.  A bloody beak protrudes from its face
+as it screeches and shouts.  It glares around itself, watching for something
+to present itself, waiting for something to hunt.  
+~
+trolloc~
+BEOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 peck
+429496680 429496680 429496680 429496701
+DEP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQR|
+medium unknown
+M DELAY 21720 100~
+M GREET 21709 100~
+M ENTRY 21710 100~
+#21705
+trolloc dhavol dha'vol bird devil dha vol~
+a bird-like trolloc~
+The beak of this Dha'vol trolloc glistens in wet blood.
+~
+This grotesque beast would appear to be a crude mix of some type of bird
+and a human.  Tufts of strange and filthy feathers stick out from openings
+in its armor and near its head.  It stands at least head and shoulders above
+any normal man upon bird-like legs.  A bloody beak protrudes from its face
+as it screeches and shouts.  It glares around itself, watching for something
+to present itself, waiting for something to hunt.  
+~
+trolloc~
+BEOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 peck
+429496680 429496680 429496680 429496701
+DEP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQR|
+medium unknown
+M DELAY 21720 100~
+M GREET 21709 100~
+M ENTRY 21710 100~
+#21706
+trolloc dhavol dha'vol bird devil dha vol~
+a bird-like trolloc~
+This trolloc squawks gruffly as it calls out to the other Dha'vol.
+~
+This grotesque beast would appear to be a crude mix of some type of bird
+and a human.  Tufts of strange and filthy feathers stick out from openings
+in its armor and near its head.  It stands at least head and shoulders above
+any normal man upon bird-like legs.  A bloody beak protrudes from its face
+as it screeches and shouts.  It glares around itself, watching for something
+to present itself, waiting for something to hunt.  
+~
+trolloc~
+BEOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 peck
+429496680 429496680 429496680 429496701
+DEP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQR|
+medium unknown
+M DELAY 21720 100~
+M GREET 21709 100~
+M ENTRY 21710 100~
+#21707
+trolloc dhavol dha'vol goat devil dha vol~
+a goat-horned Trolloc~
+A large goat-faced trolloc of the Dha'vol tribe screams loudly.
+~
+This strange horned beast stands nimbly on two goat's hooves.  It stands
+towering above any human.  Large horns curl above its head, giving a strange
+demonic look to it.  As it walks across the stone floor, its hooves click
+loudly.  Its shaggy deformed face growls as it looks about for food.  
+~
+trolloc~
+BEOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 charge
+429496680 429496680 429496680 429496701
+DEP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQRS|
+medium unknown
+M DELAY 21720 100~
+M GREET 21709 100~
+M ENTRY 21710 100~
+#21708
+trolloc dhavol dha'vol goat devil dha vol~
+a goat-horned Trolloc~
+A horned Dha'vol trolloc shouts something in a garbled language.
+~
+This strange horned beast stands nimbly on two goat's hooves.  It stands
+towering above any human.  Large horns curl above its head, giving a strange
+demonic look to it.  As it walks across the stone floor, its hooves click
+loudly.  Its shaggy deformed face growls as it looks about for food.  
+~
+trolloc~
+BEOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 charge
+429496680 429496680 429496680 429496701
+DEP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQRS|
+medium unknown
+M DELAY 21720 100~
+M GREET 21709 100~
+M ENTRY 21710 100~
+#21709
+trolloc dhavol dha'vol goat horned devil dha vol~
+a goat-horned Trolloc~
+A goat-horned Dha'vol trolloc snarls and looks about.
+~
+This strange horned beast stands nimbly on two goat's hooves.  It stands
+towering above any human.  Large horns curl above its head, giving a strange
+demonic look to it.  As it walks across the stone floor, its hooves click
+loudly.  Its shaggy deformed face growls as it looks about for food.  
+~
+trolloc~
+BEOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 charge
+429496680 429496680 429496680 429496701
+DEP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQRS|
+medium unknown
+M DELAY 21720 100~
+M GREET 21709 100~
+M ENTRY 21710 100~
+#21710
+trolloc dhavol dha'vol bird devil dha vol~
+a blood-stain beaked Dha'vol guard~
+A massive Dha'vol trolloc with oiled and blackened feathers in tribal smears.
+~
+This huge monstrosity sneers beneath a frenzied brow as it scans about. 
+Bloodshot eyes dart in every direction as a tongue quickly darts from its
+blood-stained beak to sample the air.  The weapon it carries is crude in
+construction and of the utmost malicious intent.  It stands near a hand
+taller than most of the other Dha'vol trollocs and taller than most of the
+other Dha'vol trollocs.  The coarse feathers that cover its unarmored body
+are caked and matted in a sickly black oil, smeared in a way as to suggest
+some sort of tribal ranking.  
+~
+trolloc~
+BEFOf|
+HY|
+-750 0
+55 100 50d60+1000 4d8+8 16d2+50 peck
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQR|
+medium unknown
+M DELAY 21720 100~
+M GRALL 21709 100~
+M ENTRY 21710 100~
+#21711
+trolloc dhavol dha'vol bird devil dha vol~
+a blood-stain beaked Dha'vol guard~
+A massive Dha'vol trolloc guard screeches a gutteral warning.
+~
+This huge monstrosity sneers beneath a frenzied brow as it scans about. 
+Bloodshot eyes dart in every direction as a tongue quickly darts from its
+blood-stained beak to sample the air.  The weapon it carries is crude in
+construction and of the utmost malicious intent.  It stands near a hand
+taller than most of the other Dha'vol trollocs and taller than most of the
+other Dha'vol trollocs.  The coarse feathers that cover its unarmored body
+are caked and matted in a sickly black oil, smeared in a way as to suggest
+some sort of tribal ranking.  
+~
+trolloc~
+BEFOf|
+HY|
+-750 0
+55 100 50d60+1000 4d8+8 16d2+50 peck
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21710 100~
+M GRALL 21709 100~
+#21712
+trolloc dhavol dha'vol goat horned dha vol~
+a horned Dha'vol guard~
+The muscles of this goat-horned Dha'vol guard ripple beneath its fur.
+~
+Muscles ripple beneath the thick shag fur of this goat-horned trolloc. 
+Like many trollocs this deep in the Mountains of Dhoom, this Dha'vol trolloc
+has a look of near frenzy enraging its eyes.  Its fur is matted and caked in
+black oil, with barely legible runes and sigils marking it.  The crude
+weapon it carries is something out of a nightmare, too unwieldy for human
+hands and set with wrought-iron spikes.  The horns on its head are jagged
+with splintered tips, as if it were more than ready to gore an opponent with
+them in spite of its weapon.  
+~
+trolloc~
+BEFOf|
+HY|
+-750 0
+55 100 50d60+1000 4d8+8 16d2+50 charge
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21710 100~
+M GRALL 21709 100~
+#21713
+trolloc kobol ko'bol wolf ko bol~
+a wolf-like Trolloc~
+Bristling in rage, this wolf-snouted Ko'bol trolloc howls menacingly.
+~
+The deformed shape of human and wolf combined stands towering.  Beady
+vicious eyes scan the landscape as it tracks and hunts as the Great Lord
+demands.  It stands solidly upon human legs, and yet the piercing howl it
+emits could only be that of a deranged wolf.  It licks its lips as it smells
+flesh nearby.  
+~
+trolloc~
+BEOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 claw
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21710 100~
+M GREET 21709 100~
+#21714
+trolloc kobol ko'bol wolf ko bol~
+a wolf-like Trolloc~
+A deformed wolfish trolloc of the Ko'bol tribe snarls loudly.
+~
+The deformed shape of human and wolf combined stands towering.  Beady
+vicious eyes scan the landscape as it tracks and hunts as the Great Lord
+demands.  It stands solidly upon human legs, and yet the piercing howl it
+emits could only be that of a deranged wolf.  It licks its lips as it smells
+flesh nearby.  
+~
+trolloc~
+BEOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 claw
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21710 100~
+M GREET 21709 100~
+#21715
+trolloc kobol ko'bol wolf ko bol~
+a wolf-like Trolloc~
+A wolven Ko'bol howls as he looks for food.
+~
+The deformed shape of human and wolf combined stands towering.  Beady
+vicious eyes scan the landscape as it tracks and hunts as the Great Lord
+demands.  It stands solidly upon human legs, and yet the piercing howl it
+emits could only be that of a deranged wolf.  It licks its lips as it smells
+flesh nearby.  
+~
+trolloc~
+BEOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 none
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21710 100~
+M GREET 21709 100~
+#21716
+trolloc kobol ko'bol wolf ko bol~
+a wolf-like Trolloc~
+A wolven Ko'bol trolloc scans about with a fervent hunger for blood.
+~
+The deformed shape of human and wolf combined stands towering.  Beady
+vicious eyes scan the landscape as it tracks and hunts as the Great Lord
+demands.  It stands solidly upon human legs, and yet the piercing howl it
+emits could only be that of a deranged wolf.  It licks its lips as it smells
+flesh nearby.  
+~
+trolloc~
+BEOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 claw
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21710 100~
+M GREET 21709 100~
+#21717
+trolloc kobol ko'bol ko bol guard wolf ~
+a wolven Ko'bol guard~
+A wolven Ko'bol guard throws back its shoulders and howls in rage.
+~
+This beastial form stands menacingly in defense of his fellow brethren. 
+Fully armored in its black armor, it would appear to truly be a force to be
+reckoned with.  Its wolf-like appearance makes it an evil sight at the very
+least.  Blood drips from its fangs, and its razor sharp claws flex as the
+beast moves its arms.  It growls to its fellow guardians, and prepares to
+slaughter any who would invade his home.  
+~
+trolloc~
+BEFOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 claw
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQRS|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21710 100~
+M GRALL 21709 100~
+#21718
+trolloc kobol ko'bol ko bol guard wolf ~
+a wolven Ko'bol guard~
+A wolven Ko'bol guard growls something garbled, then steps up to fight.
+~
+This beastial form stands menacingly in defense of his fellow brethren. 
+Fully armored in its black armor, it would appear to truly be a force to be
+reckoned with.  Its wolf-like appearance makes it an evil sight at the very
+least.  Blood drips from its fangs, and its razor sharp claws flex as the
+beast moves its arms.  It growls to its fellow guardians, and prepares to
+slaughter any who would invade his home.  
+~
+trolloc~
+BEFOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 claw
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQRS|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21710 100~
+M GRALL 21709 100~
+#21719
+trolloc kobol ko'bol ko bol guard wolf ~
+a wolven Ko'bol guard~
+A darkly armored trolloc of the Ko'bol tribe stands here guarding.
+~
+This beastial form stands menacingly in defense of his fellow brethren. 
+Fully armored in its black armor, it would appear to truly be a force to be
+reckoned with.  Its wolf-like appearance makes it an evil sight at the very
+least.  Blood drips from its fangs, and its razor sharp claws flex as the
+beast moves its arms.  It growls to its fellow guardians, and prepares to
+slaughter any who would invade his home.  
+~
+trolloc~
+BEFIOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 claw
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand male 0
+BGKLP|
+BCDFGHIJKLQRS|
+medium unknown
+#21720
+myrddraal fade lurk halfman eyeless figure dark~
+a Myrddraal~
+A figure, seemingly part of the shadows, scans the area.
+~
+A tall, lithe figure stands here.  A pale, eyeless face scans the room,
+striking pure fear into all that the gaze falls upon.  Serpentine scale mail
+covers its body, adding to the appearance of a snake stalking its prey.  All
+of its armor is black, and the very presence of this creature seems to
+absorb the light around it.  Silently it watches, preparing to exert
+Shai'tan's will.  
+~
+fade~
+BEJOf|A
+GHNOa|
+-1000 0
+60 120 60d60+1200 4d6+6 20d2+60 wrath
+429496667 429496667 429496667 429496693
+DGHL|
+M|
+CDL|
+N|
+stand stand none 10
+GKP|
+BCDFGHIJKR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21708 100~
+M GREET 21703 100~
+M FIGHT 21704 10~
+#21721
+myrddraal fade lurk halfman eyeless figure dark~
+a Myrddraal~
+A Myrddraal stands here silently, its cloak unmoving in the wind.
+~
+A tall, lithe figure stands here.  A pale, eyeless face scans the room,
+striking pure fear into all that the gaze falls upon.  Serpentine scale mail
+covers its body, adding to the appearance of a snake stalking its prey.  All
+of its armor is black, and the very presence of this creature seems to
+absorb the light around it.  Silently it watches, preparing to exert
+Shai'tan's will.  
+~
+fade~
+BEJOf|A
+GHNO|
+-1000 0
+60 120 60d60+1200 4d6+6 20d2+60 wrath
+429496667 429496667 429496667 429496693
+DGHL|
+M|
+CDL|
+N|
+stand stand none 10
+GKP|
+BCDFGHIJKR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21708 100~
+M GREET 21703 100~
+M FIGHT 21704 10~
+#21722
+myrddraal fade lurk halfman eyeless figure dark~
+a Myrddraal~
+An eyeless warrior stands here, gazing about the Blight.
+~
+A tall, lithe figure stands here.  A pale, eyeless face scans the room,
+striking pure fear into all that the gaze falls upon.  Serpentine scale mail
+covers its body, adding to the appearance of a snake stalking its prey.  All
+of its armor is black, and the very presence of this creature seems to
+absorb the light around it.  Silently it watches, preparing to exert
+Shai'tan's will.  
+~
+fade~
+BEJOf|A
+FGHNOa|
+-1000 0
+60 120 60d60+1200 4d6+6 20d2+60 wrath
+429496667 429496667 429496667 429496693
+DGL|
+M|
+CDL|
+N|
+stand stand none 10
+GKP|
+BCDFGHIJKR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21708 100~
+M GREET 21703 100~
+M FIGHT 21704 10~
+#21723
+myrddraal lurk halfman eyeless fade figure dark~
+a Myrddraal~
+An eyeless face turns from a map mounted to the wall.
+~
+A tall slender figure, dressed all in black, looks up with a pale eyeless
+gaze at those who would enter its sanctuary.  Standing taller than a normal
+man, its small frame gives it a snake like appearance.  This creature wears
+no armor, possibly because it is in such a well fortified location.  As it
+pulls a dagger from its belt and smiles a cold bloodless smile, fear strikes
+any whom its gaze touches.  
+~
+fade~
+BDFOf|
+EFGHNOa|
+-1000 0
+55 110 54d60+1100 4d6+6 18d2+54 wrath
+429496673 429496673 429496673 429496697
+DGLW|
+M|
+CDL|
+N|
+stand stand none 10
+GKP|
+BCDFGHIJKR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21708 100~
+M GREET 21703 100~
+M FIGHT 21704 10~
+#21724
+myrddraal lurk halfman eyeless fade figure dark~
+a Myrddraal~
+A silent black cloaked form steps from the shadows of the area.
+~
+A tall slender figure, dressed all in black, looks up with a pale eyeless
+gaze at those who would enter its sanctuary.  Standing taller than a normal
+man, its small frame gives it a snake like appearance.  This creature wears
+no armor, possibly because it is in such a well fortified location.  As it
+pulls a dagger from its belt and smiles a cold bloodless smile, fear strikes
+any whom its gaze touches.  
+~
+fade~
+BDFIOf|
+EFGHNOa|
+-1000 0
+55 110 54d60+1100 4d6+6 18d2+54 wrath
+429496673 429496673 429496673 429496697
+DGLW|
+M|
+CDL|
+N|
+stand stand none 0
+GKP|
+BCDFGHIJKR|
+medium unknown
+M ENTRY 21708 100~
+M FIGHT 21704 10~
+M GREET 21703 100~
+M DELAY 21720 100~
+#21725
+myrddraal lurk halfman eyeless fade figure dark~
+a Myrddraal~
+A Myrddraal smiles bloodlessly and stands.
+~
+A tall slender figure, dressed all in black, looks up with a pale eyeless
+gaze at those who would enter its sanctuary.  Standing taller than a normal
+man, its small frame gives it a snake like appearance.  This creature wears
+no armor, possibly because it is in such a well fortified location.  As it
+pulls a dagger from its belt and smiles a cold bloodless smile, fear strikes
+any whom its gaze touches.  
+~
+fade~
+BDFIOf|
+EFGHNOa|
+-1000 0
+55 110 54d60+1100 4d6+6 18d2+54 wrath
+429496673 429496673 429496673 429496697
+DGLW|
+M|
+CDL|
+N|
+stand stand none 10
+GKP|
+BCDFGHIJKR|
+medium unknown
+M ENTRY 21708 100~
+M FIGHT 21704 10~
+M DELAY 21720 100~
+M GREET 21703 100~
+#21726
+myrddraal fade lurk eyeless halfman taskmaster master~
+a Myrddraal Taskmaster~
+A dark form, massive for a Myrddraal, watches its trollocs carefully. 
+~
+A tall, and almost muscular figure stands here.  Its eyeless face
+scanning a fist of trollocs menacingly.  As it observes and commands, it
+lightly taps a whip upon its hand.  The trollocs it commands cowers from
+that stare and whip, and obey their master's every command.  As it notices
+something out of the ordinary, it smiles coldly as it orders the fist to
+kill.  
+~
+fade~
+BEJOf|
+GHNOa|
+-1000 0
+60 120 60d60+1200 4d6+6 20d2+60 wrath
+429496667 429496667 429496667 429496693
+DGHL|
+M|
+CDL|
+N|
+stand stand none 10
+GKP|
+BCDFGHIJKR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21708 100~
+M GRALL 21703 100~
+M FIGHT 21704 30~
+#21727
+myrddraal fade lurk eyeless halfman taskmaster master~
+a Myrddraal Taskmaster~
+Silent and ruthless, this Myrddraal dominates its Fist.
+~
+A tall, and almost muscular figure stands here.  Its eyeless face
+scanning a fist of trollocs menacingly.  As it observes and commands, it
+lightly taps a whip upon its hand.  The trollocs it commands cowers from
+that stare and whip, and obey their master's every command.  As it notices
+something out of the ordinary, it smiles coldly as it orders the fist to
+kill.  
+~
+fade~
+BEJOf|
+FGHNOa|
+-1000 0
+60 120 60d60+1200 4d6+6 20d2+60 wrath
+429496667 429496667 429496667 429496693
+DGHL|
+M|
+CDL|
+N|
+stand stand none 10
+GKP|
+BCDFGHIJKR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21708 100~
+M GRALL 21703 100~
+M FIGHT 21704 10~
+#21728
+myrddraal fade lurk eyeless halfman taskmaster master~
+a Myrddraal Taskmaster~
+A massive Myrddraal beats his Trolloc Fist without mercy.
+~
+A tall, and almost muscular figure stands here.  Its eyeless face
+scanning a fist of trollocs menacingly.  As it observes and commands, it
+lightly taps a whip upon its hand.  The trollocs it commands cowers from
+that stare and whip, and obey their master's every command.  As it notices
+something out of the ordinary, it smiles coldly as it orders the fist to
+kill.  
+~
+fade~
+BEJOf|
+GHNOa|
+-1000 0
+60 120 60d60+1200 4d6+6 20d2+60 wrath
+429496667 429496667 429496667 429496693
+DEGILW|
+M|
+CDL|
+N|
+stand stand none 10
+GKP|
+BCDFGHIJKR|
+medium unknown
+M DELAY 21720 100~
+M ENTRY 21708 100~
+M GRALL 21703 100~
+M FIGHT 21704 10~
+#21729
+worm massive beast~
+a massive worm~
+An enourmous worm-like beast crashes through the Blight.
+~
+Massive and deadly are the only words to describe this monstrosity. 
+Along with its fellow worms, it travels the Great Blight in search of only
+one thing, food.  It cares not about pain, fear, or sorrow, some say it
+feels only hunger, and that constant and eternal.  Whenever it gets the
+smell of food, regardless of loyalty or size, it enters a frenzy.  Some say
+these deformed beasts of the Blight have only fallen to small armies, but
+never when in a pack.  
+~
+centipede~
+BEGIJ|
+DHTXY|
+0 0
+70 140 70d60+5000 4d6+6 20d5+70 digestion
+429496654 429496654 429496654 429496683
+DINP|
+BEL|
+CDFGIJK|
+|
+stand stand none 0
+BFL|
+BLP|
+giant unknown
+M DELAY 21720 100~
+M GRALL 21701 100~
+M ENTRY 21702 100~
+M FIGHT 21717 15~
+#21730
+draghkar man figure winged bird~
+a Draghkar~
+A darkly clothed man with black wings flies here.
+~
+This deformity of the Creator's world stands silent and calm.  It stands
+at the height of a normal man, yet its bloodless face, and black wings show
+it to be far from normal.  It soars through the sky, shrieking its warning
+to its fellow shadowspawn.  Normally it acts as the Great Lord's eyes in the
+air, assisting his land based minions in their attacks.  As it lands before
+its prey, a cold, calculating smile covers its lips.  It sings a calm and
+comforting song, a song that seems to draw its victim in.  Despite the
+fangs, the obvious evil, none may resist the song of the Draghkar.  
+~
+draghkar~
+BDJ|
+HOSX|
+-900 0
+50 50 25d30+100 2d3+3 16d2+25 drain
+429496705 429496705 429496705 429496715
+CFGHIJ|
+BKM|
+L|
+N|
+stand stand none 0
+EGKLP|
+BCDEFGHIJKLOQR|
+medium unknown
+M DELAY 21721 100~
+M FIGHT 21712 10~
+M GREET 21711 100~
+#21731
+darkhound hound dark dog~
+a Darkhound~
+A massive black, dog-like beast stands here, growling darkly.
+~
+An immense dog stands here.  Strange saliva drips from its mouth as its
+lips pull back into a demonic snarl.  It stands confident with several more
+of its pack nearby.  Nearly invincible, this beast is the Great Lord of the
+Dark's hound, his searcher, and sometimes killer.  Able to stalk prey over
+long miles, this beast only leaves footprints on rock.  
+~
+wolf~
+BGJf|
+DGOa|
+-950 0
+65 130 64d60+1300 4d6+6 21d2+64 bite
+429496661 429496661 429496661 429496688
+DEGI|
+BET|
+DFGQ|
+|
+stand stand none 0
+BFP|
+BDEFGKLPR|
+large unknown
+M DELAY 21720 100~
+M ENTRY 21707 100~
+M GREET 21706 100~
+#21732
+darkhound hound dark dog~
+a Darkhound~
+An immense black dog growls menacingly.
+~
+An immense dog stands here.  Strange saliva drips from its mouth as its
+lips pull back into a demonic snarl.  It stands confident with several more
+of its pack nearby.  Nearly invincible, this beast is the Great Lord of the
+Dark's hound, his searcher, and sometimes killer.  Able to stalk prey over
+long miles, this beast only leaves footprints on rock.  
+~
+wolf~
+BGJf|
+DGOa|
+-950 0
+65 130 64d60+1300 4d6+6 21d2+64 bite
+429496661 429496661 429496661 429496688
+DEGI|
+BET|
+DFGQ|
+|
+stand stand none 0
+BFP|
+BDEFGKLPR|
+large unknown
+M DELAY 21720 100~
+M GREET 21706 100~
+M ENTRY 21707 100~
+#21733
+darkhound hound dark dog~
+a Darkhound~
+A large black hound lunges from the shadows!
+~
+An immense dog stands here.  Strange saliva drips from its mouth as its
+lips pull back into a demonic snarl.  It stands confident with several more
+of its pack nearby.  Nearly invincible, this beast is the Great Lord of the
+Dark's hound, his searcher, and sometimes killer.  Able to stalk prey over
+long miles, this beast only leaves footprints on rock.  
+~
+wolf~
+BGJf|
+DGOa|
+-950 0
+65 130 64d60+1300 4d6+6 21d2+64 bite
+429496661 429496661 429496661 429496688
+DEGI|
+BET|
+DFGQ|
+|
+stand stand none 0
+BFP|
+BDEFGKLPR|
+large unknown
+M DELAY 21720 100~
+M GREET 21706 100~
+M ENTRY 21707 100~
+#21734
+draghkar man figure winged bird~
+a Draghkar~
+A dark, winged figure floats just above the ground.
+~
+This deformity of the Creator's world stands silent and calm.  It stands
+at the height of a normal man, yet its bloodless face, and black wings show
+it to be far from normal.  It soars through the sky, shrieking its warning
+to its fellow shadowspawn.  Normally it acts as the Great Lord's eyes in the
+air, assisting his land based minions in their attacks.  As it lands before
+its prey, a cold, calculating smile covers its lips.  It sings a calm and
+comforting song, a song that seems to draw its victim in.  Despite the
+fangs, the obvious evil, none may resist the song of the Draghkar.  
+~
+draghkar~
+BDJ|
+HOSX|
+-900 0
+50 50 25d30+100 2d3+3 16d2+25 drain
+429496705 429496705 429496705 429496715
+CFGHIJ|
+BKM|
+L|
+N|
+stand stand none 0
+EGKLP|
+BCDEFGHIJKLOQR|
+medium unknown
+M DELAY 21721 100~
+M FIGHT 21712 10~
+M GREET 21711 100~
+#21735
+draghkar man figure winged bird~
+a Draghkar~
+A black-winged man sings an intruiguing song. 
+~
+This deformity of the Creator's world stands silent and calm.  It stands
+at the height of a normal man, yet its bloodless face, and black wings show
+it to be far from normal.  It soars through the sky, shrieking its warning
+to its fellow shadowspawn.  Normally it acts as the Great Lord's eyes in the
+air, assisting his land based minions in their attacks.  As it lands before
+its prey, a cold, calculating smile covers its lips.  It sings a calm and
+comforting song, a song that seems to draw its victim in.  Despite the
+fangs, the obvious evil, none may resist the song of the Draghkar.  
+~
+draghkar~
+BDJ|
+HOSX|
+-900 0
+50 50 25d30+100 2d3+3 16d2+25 drain
+429496705 429496705 429496705 429496715
+CFGHIJ|
+BM|
+L|
+N|
+stand stand none 0
+EGKLP|
+BCDEFGHIJKLOQR|
+medium unknown
+M DELAY 21721 100~
+M FIGHT 21712 10~
+M GREET 21711 100~
+#21736
+soldier shienaran man shienar warrior~
+a Shienaran soldier~
+An armored borderman stands here, keeping the watch.
+~
+This hard-faced man could only be of the borders.  His hair is shaved
+into a clean and neat topknot, and hangs off to one side.  He stands solid
+and firm as he stands his post against the blight.  A large sword hangs at
+his side, and his hand tends to stray to it as he looks north.  Watchful
+cold eyes move silently across the Blight.  The watch still stands in
+Shienar.  
+~
+human~
+BEJ|
+|
+500 0
+35 70 34d60+700 4d8+8 11d2+34 slash
+429496701 429496701 429496701 429496716
+|
+|
+D|
+|
+stand stand male 30
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M RANDOM 21713 4~
+#21737
+shienaran borderman man warrior sergeant borderguardian1~
+a Shienaran sergeant~
+An old and experienced borderman stands here silently.
+~
+An older man stands here, his arms corded with muscle, and his face taut
+and worn.  He stands with the easy grace of a man who knows the ways of the
+borders.  His hand rests calmly at his side, and does not move toward his
+blade at all, as though he did not know he carried it.  Somehow his eyes and
+stance belie that thought.  He grins darkly as he sees something moving
+within the Blight.  
+~
+human~
+BEFJf|
+|
+500 0
+50 50 25d30+500 2d4+4 16d2+25 punch
+429496705 429496705 429496705 429496715
+FILO|
+|
+D|
+|
+stand stand male 30
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M RANDOM 21715 10~
+M GREET 21718 100~
+#21738
+soldier shienaran man shienar warrior~
+a Shienaran soldier~
+A Shienaran soldier relaxes here during his time off.
+~
+This cold-eyed warrior lounges around in his smallclothes.  He sets on
+his bunk and reads a book quietly, attempting to take his mind off the
+Blight no doubt.  From time to time he glances calmly to the hatch leading
+into this underground chamber, yet his eyes always return to the book.  
+~
+human~
+BEJ|
+|
+500 0
+30 30 15d30+300 2d4+4 10d2+15 punch
+429496719 429496719 429496719 429496725
+|
+|
+|
+|
+rest stand male 30
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#21739
+soldier shienaran man shienar warrior~
+a Shienaran soldier~
+A Shienaran soldier lays in his cot, deeply sleeping.
+~
+This warrior recieves some much needed sleep.  This close to the Blight,
+work days are long and hard.  As his fellow bordermen stand the watch, this
+man is resting up for his next shift.  He lays still and motionless, a
+warrior both awake and while sleeping.  
+~
+human~
+BEJ|
+|
+500 0
+30 30 15d30+300 2d4+4 10d2+15 punch
+429496719 429496719 429496719 429496725
+|
+|
+|
+|
+sleep stand male 30
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+#21740
+shadow creature death visage fog mist~
+the shadows of the Blight~
+The shadows of the Blight corrupt all that they touch.
+~
+The prickling feeling of eyes unseen is all the warning this beast gives
+its victims.  Merely here to slay those who would attempt to reach the Great
+Lord of the Dark's lair in Shayol Ghul, its mission is clear.  It would seem
+to be one with the shadows, perhaps a living shadow.  It draws from the
+darkness of this place, constantly healing and repairing damage done.  It
+thirsts only for the Great Lord's pleasure and contentment, an obedient and
+most effective pet.  
+~
+human~
+BFGJf|
+DEFGHJMNSXa|
+0 0
+80 160 80d60+1600 4d6+6 26d2+80 wrath
+429496639 429496639 429496639 429496673
+BFHI|
+BDEFGHIKLRT|
+JN|
+P|
+stand stand none 0
+DEIJ|
+|
+giant unknown
+M DELAY 21714 100~
+M GRALL 21705 100~
+#21741
+mount horse war fade warhorse shadowhorse shadow~
+a Myrddraal's warhorse~
+A massive warhorse that seems to vanish, stands here silently.
+~
+This massive beast watches everything that moves.  Its glistening black
+body looks to be darker than night.  Powerful muscles ripple on its body,
+yet its hooves remain motionless.  The wind seems not to touch its mane or
+body, and despite the temperature, it seems to be unaffected.  When it
+breaks into a run, it makes no noise.  Silent and deadly can be the only way
+to describe this beast, a beast who serves the Great Lord of the Dark.  A
+Myrddraal's mount.  
+~
+horse~
+BHf|
+CEGX|
+-1000 0
+50 100 50d60+1000 4d6+6 16d2+50 crush
+429496680 429496680 429496680 429496701
+DGHIK|
+LQ|
+|
+|
+stand stand none 0
+BFP|
+BDEFGKLP|
+medium unknown
+#21742
+soldier shienaran man shienar warrior~
+a Shienaran soldier~
+A broad chested Shienaran soldier stands here silently.
+~
+This hard-faced man could only be of the borders.  His hair is shaved
+into a clean and neat topknot, and hangs off to one side.  He stands solid
+and firm as he stands his post against the blight.  A large sword hangs at
+his side, and his hand tends to stray to it as he looks north.  Watchful
+cold eyes move silently across the Blight.  The watch still stands in
+Shienar.  
+~
+human~
+BEJ|
+|
+500 0
+35 70 34d60+700 4d8+8 11d2+34 slash
+429496701 429496701 429496701 429496716
+|
+|
+D|
+|
+stand stand male 30
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M RANDOM 21713 4~
+#21743
+soldier shienaran man shienar warrior~
+a Shienaran soldier~
+A chisel-faced borderman watches the Blight.
+~
+This hard-faced man could only be of the borders.  His hair is shaved
+into a clean and neat topknot, and hangs off to one side.  He stands solid
+and firm as he stands his post against the blight.  A large sword hangs at
+his side, and his hand tends to stray to it as he looks north.  Watchful
+cold eyes move silently across the Blight.  The watch still stands in
+Shienar.  
+~
+human~
+BEJ|
+|
+500 0
+35 70 34d60+700 4d8+8 11d2+34 cleave
+429496701 429496701 429496701 429496716
+|
+|
+D|
+|
+stand stand male 30
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M RANDOM 21713 4~
+#21744
+soldier shienaran man shienar warrior~
+a Shienaran soldier~
+A freshly sworn soldier watches the Blight with a strange excitement.
+~
+This hard-faced man could only be of the borders.  His hair is shaved
+into a clean and neat topknot, and hangs off to one side.  He stands solid
+and firm as he stands his post against the blight.  A large sword hangs at
+his side, and his hand tends to stray to it as he looks north.  Watchful
+cold eyes move silently across the Blight.  The watch still stands in
+Shienar.  
+~
+human~
+BEJ|
+|
+500 0
+35 70 34d60+700 4d8+8 11d2+34 pierce
+429496701 429496701 429496701 429496716
+|
+|
+D|
+|
+stand stand male 30
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M RANDOM 21713 4~
+#21745
+soldier shienaran man shienar warrior~
+a Shienaran soldier~
+A grizzled and scarred borderman stands here with a grim stare.
+~
+This hard-faced man could only be of the borders.  His hair is shaved
+into a clean and neat topknot, and hangs off to one side.  He stands solid
+and firm as he stands his post against the blight.  A large sword hangs at
+his side, and his hand tends to stray to it as he looks north.  Watchful
+cold eyes move silently across the Blight.  The watch still stands in
+Shienar.  
+~
+human~
+BEJ|
+|
+500 0
+35 70 34d60+700 4d8+8 11d2+34 crush
+429496701 429496701 429496701 429496716
+|
+|
+D|
+|
+stand stand male 30
+BGKP|
+BCDEFGHIJKL|
+medium unknown
+M RANDOM 21713 4~
+#21746
+troloc kobol ko'bol wolf~
+an interrupted Ko'bol trolloc~
+Several ko'bol trollocs go at it, snarling and rolling about the cavern.
+~
+As if a trolloc driven by fear of a Halfman was not terrifying enough,
+interrupting trolloc in the middle of...  replenishing their stock seems
+almost suicidal.  Wolf-like in appearance, these Ko'bol roll about, tearing
+into eachother like they were mere sacks of meat- blood dripping from fangs
+and claws.  The raging bloodlust in the eyes of this trolloc sends a shiver
+down your spine unlike any you've seen before.  
+~
+trolloc~
+BEFOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 claw
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand either 0
+BGKLP|
+BCDFGHIJKLQRS|
+medium unknown
+#21747
+troloc kobol ko'bol wolf~
+an interrupted Ko'bol trolloc~
+A ko'bol trolloc tears into another and howls in ecstasy.
+~
+As if a trolloc driven by fear of a Halfman was not terrifying enough,
+interrupting trolloc in the middle of...  replenishing their stock seems
+almost suicidal.  Wolf-like in appearance, these Ko'bol roll about, tearing
+into eachother like they were mere sacks of meat- blood dripping from fangs
+and claws.  The raging bloodlust in the eyes of this trolloc sends a shiver
+down your spine unlike any you've seen before.  
+~
+trolloc~
+BEFOf|
+HY|
+-750 0
+50 100 50d60+1000 4d8+8 16d2+50 claw
+429496680 429496680 429496680 429496701
+DEMP|
+M|
+L|
+N|
+stand stand either 0
+BGKLP|
+BCDFGHIJKLQRS|
+medium unknown
+#21748
+darkhound hound dark dog~
+a Darkhound~
+A darkhound pup growls here, its ebony coat glistening in the dark.
+~
+An immense dog stands here.  Strange saliva drips from its mouth as its
+lips pull back into a demonic snarl.  It stands confident with several more
+of its pack nearby.  Nearly invincible, this beast is the Great Lord of the
+Dark's hound, his searcher, and sometimes killer.  Able to stalk prey over
+long miles, this beast only leaves footprints on rock.  
+~
+wolf~
+BFGJf|
+DGa|
+-950 0
+45 45 22d30+450 2d3+3 15d2+22 bite
+429496708 429496708 429496708 429496718
+DEGI|
+BET|
+DFGQ|
+|
+stand stand either 0
+BFP|
+BDEFGKLPR|
+large unknown
+#0
+
+
+
+#OBJECTS
+#21701
+halberd pole~
+a massive black halberd~
+A splintered wooden pole supports a charred black halberd head.~
+unknown~
+weapon E AN
+polearm 6 9 cleave F
+50 30 100 P
+A
+19 1 -1
+A
+17 -6 -1
+A
+1 3 -1
+#21702
+sword scythe~
+a scythe-bladed sword~
+A pitted and damaged scythe-bladed sword lies here.~
+unknown~
+weapon E AN
+sword 4 11 slash D
+50 10 50 G
+A
+2 2 -1
+A
+1 3 -1
+#21703
+axe battle~
+a charred and etched battle axe~
+A fire-blackened battle axe lies here.~
+unknown~
+weapon Eb AN
+axe 5 10 chop F
+50 15 100 P
+A
+17 -2 -1
+A
+19 1 -1
+A
+1 3 -1
+#21704
+bone dagger animal rib~
+a small animal bone~
+A bone from some unknown animal lays here.~
+bone~
+weapon ES AN
+dagger 4 8 stab 0
+50 2 5 P
+A
+18 2 -1
+A
+1 2 -1
+A
+2 3 -1
+#21705
+catchpole noose ~
+a catchpole~
+A long pole with a noose upon the end, leans against the wall.~
+unknown~
+weapon E AN
+flail 4 9 thrash F
+50 7 75 P
+A
+18 3 -1
+A
+1 2 -1
+#21706
+spear barb~
+a charred, barbed spear~
+A long spear with a maliscious row of barbs lies here.~
+unknown~
+weapon ES AN
+spear 5 9 thrust DF
+50 10 50 P
+A
+19 1 -1
+#21707
+mail chain black breast~
+a fire-blackened shirt of chain mail~
+A shirt made of blackened chain mail lays here.~
+chain~
+armor E AD
+AD AD AD AC 0
+50 20 200 G
+A
+13 10 -1
+A
+14 30 -1
+A
+2 1 -1
+#21708
+dhavol dha'vol shoulderplate shoulder plate~
+a black shoulderplate bearing a horned skull~
+A black shoulderplate lies here, a silver skull scratched into it.~
+iron~
+armor E AI
+BD BD BD BD 0
+50 10 15 P
+A
+2 2 -1
+A
+1 3 -1
+E
+shoulderplate~
+A blackened iron shoulderplate lies here bearing a horned skull.  This
+symbol is that of the Dha'vol tribe of trolloc.  
+~
+#21709
+shoulderplate shoulder plate ko'bol kobol~
+a black shoulderplate with a blood enamelled trident~
+A black shoulderplate lies here, a trident of blood stained on it.~
+iron~
+armor E AI
+BD BD BD BD 0
+50 10 15 P
+A
+3 2 -1
+A
+2 3 -1
+E
+shoulderplate~
+A blackened shoulderplate of heavy iron.  A trident of blood is enamelled
+on it prominently, the symbol of the Ko'bal trolloc tribe.  
+~
+#21710
+plate symbol dhaimon dhai mon dhai'mon shoulder~
+a black shoulderplate bearing an etched fist~
+A black shoulderplate lays here, a first carved into the iron.~
+iron~
+armor E AV
+BD BD BD BD 0
+50 10 15 P
+A
+3 3 -1
+A
+1 3 -1
+E
+shoulderplate~
+This shoulderplate is made of iron and carved with a clenched fist.
+It is the symbol of the Dhai'mon trolloc tribe.
+~
+#21711
+dented charred iron greaves~
+charred and dented iron greaves~
+Age old iron greaves, dented and charred- but still usable.~
+iron~
+armor E AF
+AD AD AD AC 0
+50 20 100 A
+A
+17 -4 -1
+A
+13 15 -1
+#21712
+bracer strap leather~
+a spiked strap of leather~
+A strip of leather, coated in spikes, lays here.~
+leather~
+armor ES AM
+AC AC AC A 0
+50 1 20 P
+A
+19 1 -1
+A
+13 5 -1
+#21714
+belt leather~
+a crudely-tooled leather belt~
+A crudely made sword belt lays here.~
+unknown~
+clothing ES AL
+0 0 0 0 0
+50 4 50 P
+A
+17 -3 -1
+A
+2 3 -1
+A
+13 10 -1
+#21715
+boots spiked~
+a pair of spiked leather boots~
+A pair of deadly black boots, with a steel spike upon the toe, sit here.~
+unknown~
+armor ES AG
+D D D D 0
+50 7 50 P
+A
+19 2 -1
+A
+2 1 -1
+#21716
+hooves goat~
+a set of goat's hooves~
+A set of goat's hooves lay here, chopped off at the knee.~
+hoof~
+protect E AG
+0 0 0 0 0
+50 6 40 P
+A
+19 3 -1
+#21717
+feet bird ~
+a pair of thrice-taloned bird's feet~
+A pair of bird's feet that have been cleaved off lay here.~
+unknown~
+protect E AG
+0 0 0 0 0
+50 10 40 P
+A
+2 3 -1
+A
+18 1 -1
+A
+19 1 -1
+#21718
+paw bear feet~
+a bear's paws~
+A pair of bear's paws lay here, chopped off.~
+unknown~
+protect ES AH
+0 0 0 0 0
+50 5 40 P
+A
+18 2 -1
+A
+19 1 -1
+#21719
+horn goat~
+a gnarled set of horns~
+A pair of horns wrenched from the head of a trolloc.~
+unknown~
+protect ES AE
+0 0 BD 0 0
+50 5 40 P
+A
+19 2 -1
+A
+5 3 -1
+#21720
+horn ebony dhai'mon~
+a great ebony horn~
+An ebony horn, torn from the head of a Dhai'mon Trolloc, lays here.~
+bone~
+treasure ES AE
+0 0 0 0 0
+50 10 40 P
+A
+18 1 -1
+A
+2 2 -1
+A
+1 2 -1
+A
+3 2 -1
+#21721
+sharp claw hands trolloc~
+a pair of trolloc hands~
+A pair of severed hands from a trolloc lie here.  A gruesome trophy.~
+unknown~
+protect ES AO
+0 0 0 0 0
+50 2 40 P
+A
+19 2 -1
+A
+18 1 -1
+#21722
+iron neck guard~
+a heavy iron collar~
+A fire-blackened collar of iron lies here.~
+iron~
+armor E AC
+AD AD AD AC 0
+50 5 100 P
+A
+13 5 -1
+#21723
+face grizzly bear trolloc~
+the deformed face of a grizzly bear~
+The face of a bear-like trolloc lays here.~
+flesh~
+treasure ES AT
+0 0 0 0 0
+50 5 50 P
+A
+1 3 -1
+A
+2 1 -1
+A
+5 1 -1
+#21724
+face goat trolloc~
+the deformed face of a goat~
+The face of a goat-like trolloc lays here.~
+unknown~
+treasure ES AT
+0 0 0 0 0
+50 5 20 P
+A
+2 2 -1
+A
+18 1 -1
+#21725
+face wolf trolloc~
+the deformed face of a wolf~
+The face of a wolf-like trolloc lays here.~
+unknown~
+treasure ES AT
+0 0 0 0 0
+50 5 20 P
+A
+2 3 -1
+A
+18 1 -1
+#21726
+face bird trolloc~
+the deformed face of a bird with a bloody beak~
+The face of a bird-like trolloc lays here.~
+unknown~
+treasure ES AT
+0 0 0 0 0
+50 5 20 P
+A
+2 2 -1
+A
+3 2 -1
+A
+14 10 -1
+#21727
+shield steel plate~
+a crude hunk of blackened steel~
+Centered in this crude hunk of steel is a jagged spike.~
+steel~
+armor E AJ
+BD BD BD BD 0
+50 20 75 P
+A
+1 2 -1
+A
+19 1 -1
+#21728
+aura rage beastial beast trolloc~
+an aura of beastial rage~
+The surrounding area seems tinged with rage and bestial fury.~
+unknown~
+protect ES AQ
+0 0 0 0 0
+50 0 50 P
+A
+19 2 -1
+A
+13 10 -1
+A
+17 -2 -1
+#21729
+blade sword thakandar thakan'dar fade~
+a thin-bladed sword of black steel~
+The light of the surrounding area seems to being consumed by this blade.~
+unknown~
+weapon CEbe AN
+sword 6 8 slash CFH
+50 20 500 P
+#21730
+dagger thakandar thakan'dar fade~
+a small dagger with a black blade~
+A small dagger, coated with something black, lays here.~
+unknown~
+weapon CEbe AN
+dagger 4 8 pierce DH
+50 3 0 P
+A
+17 -2 -1
+#21731
+breast scale mail fade gambeson~
+a shirt of plated scales covers black gambeson~
+A scale mail shirt covering black gambeson lies here.~
+unknown~
+armor E AD
+BD BD BD BD 0
+50 30 500 P
+A
+18 1 -1
+A
+2 2 -1
+A
+17 -2 -1
+#21733
+cloak still fade~
+a cloak that the wind does not touch~
+A long black cloak lays here, untouched by the wind.~
+unknown~
+clothing ESY AK
+0 0 B B 0
+50 20 20 P
+A
+2 3 -1
+A
+18 2 -1
+A
+17 -2 -1
+#21734
+sleeves scale mail fade gambeson~
+sleeves of plated scales over black gambeson~
+A pair of steel-plated sleeves covering black gambeson.~
+unknown~
+armor E AI
+BD BD BD BD 0
+50 20 500 P
+A
+1 2 -1
+A
+14 10 -1
+A
+18 1 -1
+#21736
+bracer black metal fade~
+a blacksteel bracer~
+A band of deep black steel lays here in the dirt.~
+unknown~
+armor E AM
+BD BD BD BD 0
+50 3 100 P
+#21737
+breeches scale mail fade gambeson~
+breeches of black gambeson covered in steel plates~
+A pair of sleek gambeson breeches lined with steel plates.~
+unknown~
+armor E AF
+BD BD BD BD 0
+50 30 200 P
+A
+2 2 -1
+A
+14 10 -1
+A
+18 1 -1
+#21739
+sword belt black fade~
+an elegant black sword belt~
+A well crafted black sword belt lays here.~
+unknown~
+clothing ES AL
+0 0 0 0 0
+50 10 100 P
+A
+21 -2 -1
+A
+14 20 -1
+A
+18 1 -1
+#21740
+boots steel black fade~
+black steel boots that land without a sound~
+A pair of black steel boots, that for some reason, make no sound.~
+unknown~
+armor E AG
+BD BD BD BD 0
+50 10 500 P
+A
+2 2 -1
+A
+18 1 -1
+A
+13 5 -1
+#21741
+boots soft black leather stalking~
+soft black leather boots~
+A pair of excellent stalking boots lay here.~
+unknown~
+armor ES AG
+AC AC AC A 0
+50 3 500 P
+A
+2 3 -1
+A
+18 1 -1
+A
+19 1 -1
+A
+17 -2 -1
+#21742
+head hair raven fade~
+finely groomed, lusterless black hair~
+A patch of well groomed hair, black as a raven, lays here in a pile.~
+hair~
+protect ES AE
+0 0 0 0 0
+50 2 50 P
+A
+2 2 -1
+A
+21 -3 -1
+#21743
+black gauntlets fade~
+a pair of blacksteel gauntlets~
+These gauntlets seem forged from the shadows made steel.~
+unknown~
+armor E AH
+BD BD BD BD 0
+50 20 500 P
+A
+19 2 -1
+#21745
+amulet trolloc script neck fade~
+a small amulet bearing trolloc script~
+A crudely-crafted amulet lies here, with strange script upon it.~
+unknown~
+treasure ES AC
+0 0 0 0 0
+50 2 50 P
+A
+4 2 -1
+A
+3 2 -1
+A
+5 1 -1
+#21746
+face eyeless fear fade~
+a pale eyeless face~
+The look of the eyeless....fear.~
+unknown~
+protect ES AT
+0 0 0 0 0
+50 5 100 P
+A
+3 2 -1
+A
+2 2 -1
+A
+17 -2 -1
+#21747
+aura death hatred hate fade~
+an aura of death and hatred~
+The room here is wet with unrivalled hatred and bloodlust.~
+unknown~
+protect ES AQ
+0 0 0 0 0
+50 10 50 P
+A
+21 -2 -1
+A
+14 10 -1
+A
+19 1 -1
+#21748
+aura air command power~
+an air of command and power~
+The surrounding area is filled with presence and untapped greatness.~
+unknown~
+protect ES AQ
+0 0 0 0 0
+50 20 50 P
+A
+4 3 -1
+A
+18 1 -1
+A
+14 10 -1
+A
+13 5 -1
+#21749
+flower sickly disease~
+a sickly looking flower~
+A sickly, puss-filled flower grows here.~
+unknown~
+food E AO
+BD B 0 A 0
+50 1 0 P
+#21750
+flower red yellow unusual~
+a red and yellow flower~
+An unusual red and yellow flower grows here along the pathway.~
+unknown~
+food CE AO
+BD B 0 A 0
+1 2 0 P
+#21751
+table simple wooden rough~
+a simple wooden table~
+A simple wooden table, beaten and abused, sits here.~
+unknown~
+furniture E 0
+BD DEFHIJL DGK BCG BCG
+0 300 0 P
+#21752
+table stone rough~
+a roughly carved stone table~
+A stone table, roughly carved and covered with filth, rests here.~
+unknown~
+furniture E 0
+CE DEFHIJL DGK DF CDEF
+0 300 0 P
+#21753
+table elegant glass~
+an elegant table~
+An elegant table with a thin plate of glass atop it rests here.~
+unknown~
+furniture E 0
+BD DEFHIJL GK BDEG BDEG
+0 300 0 P
+#21754
+chair mixed battered~
+one of several mismatched chairs~
+Several simple and mixed chairs are scattered about the room.~
+unknown~
+furniture E 0
+BCDE DEFHIJL EH DF DF
+0 300 0 P
+#21755
+bench wooden rough wood~
+a roughly carved wooden bench~
+Several rough wooden benches are scattered about the room.~
+unknown~
+furniture ES 0
+BCDE DEFHIJL EHK BCDE BCDE
+0 300 0 P
+#21756
+bench stone rough~
+a hastily chisled stone bench~
+Several poorly chisled stone benches have been hewn from this room.~
+unknown~
+furniture E 0
+CE DEFHIJL EH CE CE
+0 300 0 P
+#21757
+elegant wooden chair black fade~
+an elegant wooden chair~
+Elegant wooden chairs, upholstered in black, circle the table.~
+unknown~
+furniture EY 0
+BD DEFHIJL EHS ADFG ADFG
+0 300 0 P
+#21758
+straw filthy cloth bed~
+some scattered flilthy straw~
+Straw and cloth are scattered about as make-shift beds.~
+unknown~
+furniture ES 0
+BCDE DEFHIJL HK BCDE BCDE
+0 30 0 P
+#21759
+bed small rickety cot~
+a small rickety cot~
+Several roughly crafted cots are here.~
+unknown~
+furniture ES 0
+BCDE DEFHIJL EHK DF DF
+0 200 0 P
+#21760
+bed elegant large ~
+a large and elegant bed~
+Several large, elegantly crafted beds are spread about the room.~
+unknown~
+furniture E 0
+C DEFHIJL EHK CFG CFG
+0 300 0 P
+#21761
+pallat animal skin bed~
+a soft pallet of animal skins~
+Several pallets made of animal skins are scattered about the carvern.~
+unknown~
+furniture IS 0
+C DEFHIJL HK CFG CFG
+0 100 0 P
+#21762
+chest plain black fade~
+a plain black chest~
+A black chest sets here, plain and unmarked.~
+unknown~
+container E 0
+300 ABCD 21763 20000 100
+0 300 0 P
+#21763
+key black fade night~
+a small darkened key~
+A small key, black as night, lays here.~
+unknown~
+key E AO
+0 0 0 0 0
+1 1 0 P
+#21764
+chest rough wooden trolloc~
+a rough wooden chest~
+A crudely built wooden chest sits here.~
+unknown~
+container ES 0
+300 ABCD 21765 30000 100
+0 300 0 P
+#21765
+key rusted rotted rot trolloc~
+a small crumbling key~
+A small key that appears to be slowly rotting away lies here.~
+unknown~
+key E AO
+0 0 0 0 0
+1 1 0 P
+#21766
+whip metal fade taskmaster~
+a blackened metal whip~
+A blackened, metallic looking whip lays in a coil.~
+unknown~
+weapon E AN
+whip 5 7 whip DH
+50 7 300 P
+A
+19 2 -1
+#21767
+face smile draghkar~
+a cold bloodless smile~
+The sense of a malicious, mirthless glee permeates the area.~
+unknown~
+treasure ES AT
+0 0 0 0 0
+50 5 0 P
+A
+19 1 -1
+#21768
+tunic black leather draghkar~
+a black as night leather tunic~
+A soft leather tunic, black as night, lays here.~
+unknown~
+armor ES AD
+D D D D 0
+50 5 200 P
+A
+18 1 -1
+A
+2 3 -1
+A
+1 1 -1
+#21769
+sleeves black draghkar~
+a pair of black sleeves~
+A pair of soft leather sleeves, black as night, lay here.~
+unknown~
+clothing CES AI
+0 0 AC AC 0
+50 3 100 P
+A
+1 1 -1
+A
+5 3 -1
+A
+17 -5 -1
+#21770
+gloves black draghkar~
+a pair of soft leather gloves~
+A pair of soft leather gloves, black as night, lay here.~
+unknown~
+clothing ES AH
+0 0 AC AC 0
+50 2 200 P
+A
+21 -1 -1
+A
+1 1 -1
+A
+2 3 -1
+A
+17 -5 -1
+#21771
+pants trousers draghkar~
+a pair of tight, black trousers~
+A pair of black trousers lay here.~
+silk~
+clothing ES AF
+0 0 A A 0
+50 5 100 P
+A
+21 -1 -1
+A
+14 30 -1
+A
+17 -3 -1
+A
+2 3 -1
+#21772
+boots leather draghkar~
+a pair of soft leather boots~
+A pair of soft leather boots, black as night, lay here.~
+unknown~
+armor ES AG
+AC AC AC AC 0
+50 5 100 P
+A
+18 1 -1
+A
+2 2 -1
+A
+14 20 -1
+#21773
+wings black oily draghkar~
+a pair of oily black wings~
+A pair of Draghkar wings lay here, chopped off the body.~
+unknown~
+protect ES AK
+0 0 0 0 0
+50 15 0 P
+A
+3 3 -1
+A
+2 3 -1
+#21774
+aura song draghkar~
+an irresistible song~
+A melody which seems to beckon all, hangs in the air.~
+music~
+treasure Ee AQ
+0 0 0 0 0
+50 1 300 P
+A
+21 -3 -1
+#21775
+mirror signal~
+a signal mirror~
+A massive signal mirror is mounted atop the tower.~
+unknown~
+trash AYb 0
+0 0 0 0 0
+0 400 0 P
+E
+mirror~
+These massive signal mirrors are used by the borderguard to send messages
+amongst the other garrisons guarding the Blight.  Through these, the whole
+of the borderguard can be rallied at once, as light travels far quicker and
+farther than the heralding of a horn.  
+~
+#21776
+fire pit signal~
+a massive signal fire~
+A large firepit for sending night messages is erected here.~
+unknown~
+light A 0
+0 0 ABCDEFGHIJKLMNOPQRSTUVWXYZabcdef 0 0
+0 200 0 P
+#21777
+corpse skeleton bones pile~
+a rotted skeleton~
+A pile of rotting bones lays here, the skull is human.~
+unknown~
+npc_corpse E 0
+0 0 0 0 0
+0 0 0 P
+#21778
+tree fallen limb rotted~
+a rotted tree~
+A rotted tree has fallen in the path here.~
+unknown~
+trash E 0
+0 0 0 0 0
+0 0 0 W
+#21779
+cook pot kettle iron~
+a massive iron cookpot~
+A massive iron cookpot sets here above a fire pit.~
+unknown~
+container E 0
+1000 0 0 1000 100
+0 0 0 P
+#21780
+tree~
+a shattered tree~
+Shattered along side this makeshift path is a tree bleeding black sap.~
+unknown~
+trash E 0
+0 0 0 0 0
+0 0 0 P
+#21781
+leave leaf~
+a puss-filled leaf~
+Puss-filled leaves rupture beneath your trotting feet.~
+unknown~
+trash E 0
+0 0 0 0 0
+0 0 0 P
+#21782
+moss~
+some moss glistening with black puss~
+Set amongst the stones is a glistening black moss.~
+moss~
+herb E AO
+10 'ward evil' 'frenzy' 'frenzy' ''
+30 3 0 P
+#21783
+fire pit~
+a roaring firepit~
+A roaring fire is set in a deep firepit in the center of this cavern.~
+unknown~
+container 0 0
+100 0 0 100 100
+0 0 0 P
+#21784
+ashes~
+a handful of ashes~
+Scattered about the area are the ashen remains of something- or someone.~
+unknown~
+trash A A
+0 0 0 0 0
+0 0 0 P
+#21785
+wood burning log club~
+a burning log~
+Lying here is a log burning bright.~
+wood~
+weapon Ae AN
+mace 8 4 smash A
+45 10 0 P
+A
+19 2 -1
+A
+13 -10 -1
+#21786
+spit hunk meat~
+a burnt hunk of meat~
+Lying here through an iron spit is a large hunk of burnt meat.~
+unknown~
+food S AO
+CE BD 0 0 0
+0 5 0 P
+#21787
+cookpot pot~
+one of the crude iron cookpots~
+Set in the large hearths, four cookpots boil over their rim.~
+iron~
+container 0 0
+100 0 0 100 100
+0 100 50 P
+#21788
+credit~
+`NCREDIT: The Mts of Dhoom north of Shienar`w~
+For credits, please see added desc CREDIT.~
+unknown~
+trash 0 0
+0 0 0 0 0
+0 0 0 P
+E
+credit~
+Area: The Mts of Dhoom north of Shienar
+Based on the WoT series written by Robert Jordan.    
+Builder: Matthew "Blightboy" Sidner
+Editor: Phillip Shortman
+~
+#21789
+chair leather wing back~
+a dark, wing-backed chair~
+A pair of darkly upholstered wing-backed chairs stand here.~
+cloth~
+furniture CEO 0
+B FJKLO FI DGH DGH
+57 0 0 P
+#0
+
+
+
+#ROOMS
+#21701
+A Black Chamber~
+No sound can be heard in this room, the silence so thick that it almost
+seems tangible.  The walls and floor are made in black rock, smooth and
+almost reflective, yet the floor is not slippery under foot.  Massive
+tapestries, done in rich deep reds, blues, and heavy quantities of black,
+hang about the room.  Each depicts a victory of the Trolloc Wars, and
+successful raids within the Borderlands.  A small fireplace decorates the
+northern wall, yet the flames provide no heat to this place.  Engraved
+within the blackened stones of the fireplace, are the symbols of the
+thirteen tribes of the Trollocs.  Shadows dance throughout the room, and the
+feel of unseen eyes is almost overwhelming.  
+~
+0 8430091 0
+D1
+~
+~
+0 0 28201
+D2
+~
+~
+0 0 24001
+D3
+~
+~
+0 0 28401
+D5
+~
+~
+0 0 21702
+S
+#21702
+A Faint Trail Leading North~
+The plain here seems to be beaten down into a very faint trail leading
+north and south.  Off to the south, the outposts of Shienar can be seen,
+standing silent and tall, the first line of defense against the Shadow's
+minions.  North, stands the Great Blight.  The air feels warmer here, as
+though the chill normally associated with Shienar has been wiped away.  Off
+in the distance, dark clouds can be seen covering a long range of dark and
+forbidding mountains.  
+~
+0 0 2
+D0
+~
+~
+0 0 21703
+D2
+~
+~
+0 0 21783
+M 40 H 40
+S
+#21703
+The Beginning of the Great Blight~
+The air turns much warmer here, and the foliage shows the reason why. 
+Twisted and diseased, the plants display a myriad of color.  What at first
+glance might be considered odd or even beautiful, at closer examination is
+swollen and rotten.  Under foot, the grass and flowers can be heard
+squishing as they burst from the pressure.  The smell of this place is
+nothing but filth and disease.  
+~
+0 8196 2
+D0
+~
+~
+0 0 21704
+D2
+~
+~
+0 0 21702
+M 40 H 40
+S
+#21704
+A Decaying Path Through the Great Blight~
+This small path disappears into the Great Blight to the north.  Plants,
+diseased and swollen seem to slowly move across the pathway.  The
+temperature would also seem to have risen, and the sun appears to be a
+dismal blood red above.  The Mountains of Dhoom can be seen up ahead,
+towering and dark against a strange black sky.  Twisted trees stand on all
+sides of this pathway, and their branches sway.  Unfortunately, no wind
+blows here.  
+~
+0 8192 2
+D0
+~
+~
+8 0 21784
+D1
+~
+~
+0 0 21705
+D2
+~
+~
+0 0 21703
+M 40 H 40
+S
+#21705
+The Path Leads East~
+This fetid trail through the Dark One's twisted forest turns off to the
+east here, leading toward slightly more up hill terrain.  Several pieces of
+brush lay off to the sides, and some of the trees appear to be rotting where
+they grow.  Fat, puss-filled leaves can be heard bursting nearby from time
+to time.  Strange sounds come from up ahead, and the sounds of corrupted
+plants being crushed can be heard as well.  
+~
+0 8192 2
+D1
+~
+~
+0 0 21706
+D3
+~
+~
+0 0 21704
+M 40 H 40
+S
+#21706
+A Winding Path through the Great Blight~
+The beaten path here makes another turn north, leading more directly to
+the massive mountains ahead.  Twisted and deformed trees that should not
+survive line the path, and swollen and putrid underbrush fill in the spaces,
+forcing all who would travel this path safely to stay upon the already
+crushed foliage.  The start of a small hill can be seen ahead, and the
+strange noises become louder.  
+~
+0 8192 2
+D0
+~
+~
+0 0 21707
+D3
+~
+~
+0 0 21705
+M 40 H 40
+S
+#21707
+A Turn to the North~
+The pathway through the Blight turns northward.  A sickly smelling wind
+flows through this place, stirring the leaves of twisted trees.  This place
+seems to constantly stir, and the sounds of strange unknown beasts can be
+heard from all around.  
+~
+0 8192 2
+D0
+~
+~
+0 0 21708
+D2
+~
+~
+0 0 21706
+M 40 H 40
+S
+#21708
+Mounting the Hills of the Blight~
+The faint trail begins to slope uphill sharply, and the small path
+appears to lead off to the east above.  Twisted and deformed trees line the
+path, leaving no escape to either side.  The air here is thick with the
+smell of death and decay, and the blood red sun beats down from above.  The
+air here is sweltering and humid.  Strange noises seem to eminate from
+nowhere and everywhere at once.  
+~
+0 8192 4
+D2
+~
+~
+0 0 21707
+D4
+~
+~
+0 0 21709
+M 40 H 40
+S
+#21709
+The Trail Climbs East~
+This small hill continues to rise above, yet the diseased brush above
+does not provide a path.  The faint trail leads off to the east, slowly
+rising upward.  The trees have thinned here, though once in awhile the fetid
+wind stirs them slightly.  The path has become less pronounced here, and
+some plants rest in the middle of the light trail.  
+~
+0 8192 4
+D1
+~
+~
+0 0 21710
+D3
+~
+~
+8 0 21787
+D5
+~
+~
+0 0 21708
+M 40 H 40
+S
+#21710
+Cresting the First Hill~
+The pathway moves upward once more here, more of a small crevice in the
+hill than a true path, it provides a way up.  The trail has faded into
+merely trampled brush.  Small plants and trees are scattered about the side
+of this hill, and seem to stand in wait for something.  The diseased flowers
+and plants make loud squishing noises as they are trampled upon.  
+~
+0 8192 4
+D3
+~
+~
+0 0 21709
+D4
+~
+~
+0 0 21711
+M 40 H 40
+S
+#21711
+A Haunting View~
+At the top of this small hill, a dark sight greets all who would travel
+here.  Off to the northeast, silent and dark, seven towers stand.  Broken
+and ruined, they stand as a silent testament to the betrayal and power of
+the Shadow.  Broken long ago, and consumed by the Great Blight not long
+afterward, they stand diseased and corrupted just as everything else within
+the Dark One's territory.  A massive ring of lakes, dark and blackened,
+surround the once great kingdom of Malkier.  A small path seems to be
+visible once more, barely seen to the north.  
+~
+0 8192 4
+D0
+~
+~
+0 0 21713
+D1
+~
+~
+0 0 21712
+D5
+~
+~
+0 0 21710
+M 40 H 40
+S
+#21712
+*PATH TO MALKIER AREA*~
+Phil,
+ 
+Here's your linkup for the Malkieri area...flagged for imm's only for now.
+~
+0 65536 5
+D3
+~
+~
+0 0 21711
+S
+#21713
+A Gentle Decline~
+This side of the hill would appear to be far more easy to traverse than
+the southern end.  The trail slopes downward in a gentle decline, into the
+thick foliage of the Blight below.  Off to the northeast, something can just
+barely be made out behind the trees.  It should be visible to the south, as
+the trees are sparser there.  Trampled flowers and vines, putrid and puss
+filled, lay about the pathway, giving sign that something still travels this
+way.  
+~
+0 8192 4
+D2
+~
+~
+0 0 21711
+D5
+~
+~
+0 0 21714
+M 40 H 40
+S
+#21714
+Beneath the Looming Blood Red Sun~
+The pathway here widens, and is solid dirt at least a few paces across. 
+The trees are thick here, yet above, the deathy hot sun continues to beat
+down.  Most of the trees here seem to be without leaves, and provide no
+shade to any who would venture this deep into the Dark One's Blight.  Off to
+the north, the bleak peaks of the Mountains of Dhoom rise up, towering above
+everything within the blight.  
+~
+0 8192 4
+D0
+~
+~
+0 0 21715
+D4
+~
+~
+0 0 21713
+M 40 H 40
+S
+#21715
+Death and Decay~
+The path here seems rather sheltered, as the thick and twisted trees
+along it have grown so thickly and intangled that they partialy block the
+path from the sun above.  The pathway here is definitely well beaten and
+worn.  Small indentations within the hard ground can be seen clearly.  The
+path winds its way to the east.  
+~
+0 8192 4
+D1
+~
+~
+0 0 21716
+D2
+~
+~
+0 0 21714
+M 40 H 40
+S
+#21716
+The Sky Takes on a Change~
+A clearing opens up here, providing relief from the dark tunnel created
+by the trees.  Up above, the sky seems to have made a transition.  Strange
+clouds coat the sky.  Various colors, unnatural for any place other than the
+Blight, cover the heavens.  Streaks of lightning seem to jump from cloud to
+cloud.  The clouds stir and churn, as though a great storm were unleashing
+its fury against the Blight, yet no rain falls.  
+~
+0 8192 4
+D0
+~
+~
+0 0 21717
+D3
+~
+~
+0 0 21715
+M 40 H 40
+S
+#21717
+The Foothills of the Mountains of Dhoom Begin~
+Several small foothills rise up here, just beneath the Mountains of
+Dhoom.  The heat of the dark sun fills this place, and the sky above would
+be enough to strike fear into the hearts of southlanders.  A fetid wind
+blows across the hills, bringing with it the smell of the grave.  The wind
+provides no comfort from the sun above, seemingly increasing the heat rather
+than removing it.  The Mountains rise up to the north, cold and forbidding
+against an electrified sky.  
+~
+0 8192 4
+D2
+~
+~
+0 0 21716
+D4
+~
+~
+0 0 21718
+M 40 H 40
+S
+#21718
+Mounting the Foothills~
+Small footholds and crevices provide a pathway this far, and the trail
+leads off to the north once more.  Just up ahead, this hill continues to
+rise, leading to the base of the first mountain.  Dense foliage covers all
+of the ground and creates a solid path.  A calm howl can be heard in the
+distance, and one might swear that the Blight stirs.  
+~
+0 8192 4
+D0
+~
+~
+0 0 21719
+D5
+~
+~
+0 0 21717
+M 40 H 40
+S
+#21719
+A Gentle Slope Upward~
+Gently the path leads upward again, gradually inclining toward the
+massive rock face up ahead.  The vegetation ends up ahead, yet here the
+trees and underbrush are thick.  Most of the foliage is diseased and dying,
+if not dead already.  Slime and filth cover most everything here.  The
+infernal sun beats down heavily, yet somehow seems to fit the electrified
+sky above.  
+~
+0 0 5
+D2
+~
+~
+0 0 21718
+D4
+~
+~
+0 0 21720
+S
+#21720
+At the Base of the Mountain~
+The base of the Mountains of Dhoom stands here, silent and forbidding. 
+Rumors and tales from the borderlands say that most things from the southern
+half of the Blight fear those things within the mountains.  The rock face
+here rises up toward the foul sky above, black and cold.  There are multiple
+footholds here, making the treacherous climb possible for the more
+experienced of borderlanders.  The wind of the blight stirs slightly, and
+the rock is somehow not nearly as warm as one might expect in this
+sweltering heat.  
+~
+0 8196 5
+D4
+~
+~
+0 0 21721
+D5
+~
+~
+0 0 21719
+M 30 H 30
+S
+#21721
+Ascending the Mountains of Dhoom~
+This is a small ledge upon the side of the massive tower of rock.  Up
+above, the rock is smooth and devoid of hand-holds or crevices.  At this
+level, the tops of several twisted trees can be seen, yet a few tower
+slightly higher.  The ledge leads off to the west, or it is possible to
+climb back down, so long as caution is taken.  
+~
+0 8192 5
+D3
+~
+~
+0 0 21722
+D5
+~
+~
+0 0 21720
+M 30 H 30
+S
+#21722
+An Outcrop Leads West~
+The thin pathway along the side of the mountain continues to the west, or
+heads back toward the decent to the east.  The rock is barely wide enough
+for one person, and does not easily accomodate a group.  The fetid stench of
+the Great Blight seems to fill the air, and is freshly renewed with each
+blast of the hot breeze flowing here.  Small amounts of moss grow upon the
+pathway, yet no other vegetation can be seen.  
+~
+0 10244 5
+D1
+~
+~
+0 0 21721
+D3
+~
+~
+0 0 21723
+M 30 H 30
+S
+#21723
+Footholds Appear~
+The ledge ends here, ending in a steep drop into the decayed forest
+below.  Hand-holds, small and far between, can be seen above.  The pathway
+continues to be narrow, allowing one person to squeeze along the black
+mountain face at a time.  High above, the peaks of the mountains can be seen
+against the evil sky.  
+~
+0 10244 5
+D1
+~
+~
+0 0 21722
+D4
+~
+~
+0 0 21724
+D5
+~
+~
+8 0 21798
+M 30 H 30
+S
+#21724
+A Treacherous Climb~
+The bleak mountain provides little reassurance as it is ascended.  Small
+bits of rock and stone crumble as they are grasped, and cascade down the
+face.  Nothing grows here, and the mountain face is completely verticle,
+providing little rest for any who would begin the climb.  The hot wind tugs
+at clothing, and instantly heats any who would climb here.  This place
+eminates pure evil.  
+~
+0 10244 5
+D4
+~
+~
+0 0 21751
+D5
+~
+~
+0 0 21723
+M 30 H 30
+S
+#21725
+A Ledge Above the Blight~
+This rocky ledge turns out to be the beginning of a massive pass through
+the mountain.  Jagged and torn, as though a great fist were driven through,
+the pass is irregular in shape.  Down below, the Great Blight spreads out,
+still rather visible for the decayed forest that it is.  The stench of decay
+fills the air, even at this altitude.  The rocky pass is off to the north.  
+~
+0 8192 5
+D0
+~
+~
+0 0 21726
+D5
+~
+~
+0 0 21754
+M 30 H 30
+S
+#21726
+A Mountain Pass~
+The path through the mountain splits off into three directions here.  Up
+ahead to the north, the largest pass opens up, while to the east and west,
+small paths lead off into the unknown.  Odd noises seem to eminate from
+everywhere and nowhere all at once.  Up above, the wicked sun continues to
+traverse the sky.  
+~
+0 8192 5
+D0
+~
+~
+0 0 21731
+D1
+~
+~
+0 0 21727
+D2
+~
+~
+0 0 21725
+D3
+~
+~
+0 0 21729
+M 30 H 30
+S
+#21727
+The Eastern Trail~
+A wide pathway leads across the mountain here, and leads east and west. 
+Massive walls of blackened rock block any visibility to the south.  A hot,
+fetid wind blows down through the trail, stirring the dust and carrying with
+it the stench of decay.  The sounds of movement seem to echo from somewhere
+ahead, or perhaps above.  
+~
+0 8192 5
+D1
+~
+~
+0 0 21728
+D3
+~
+~
+0 0 21726
+M 30 H 30
+S
+#21728
+A Jagged Precipice~
+The rocky wall to the south dwindles, and provides a magnificent view of
+the Great Blight.  Far below, the twisted and decaying plants of the Blight
+can be seen.  At this height, one could almost not notice the utter
+destruction of the land below.  The smell here is horrific, the damp stench
+of decay and fetid undergrowth seems to collect and suffocate.  The black
+rock of the mountain rises up to the north, and it would appear that this
+wall is climbable.  
+~
+0 8192 5
+D3
+~
+~
+0 0 21727
+D4
+~
+~
+0 0 21808
+M 30 H 30
+S
+#21729
+The Western Trail~
+This path through the mountains leads off to the east and west.  Massive
+black peaks reach toward the sky, blocking any route other than where the
+path leads.  A calm wind flows through this place, yet it is hot and smells
+of something rotten.  From time to time, the paws of some strange beast
+appear, seemingly carved into the very rock itself.  The lightning streaked
+sky above gives a disturbing backdrop even here, in the very heart of the
+Dark One's territory.  
+~
+0 8192 5
+D1
+~
+~
+0 0 21726
+D3
+~
+~
+0 0 21730
+M 30 H 30
+S
+#21730
+A Long Pass Across the Range~
+The pathway continues through this pass within the rock.  The gutteral
+howls of unknown origin echo through the mountain range.  No plant life,
+even the tainted plants of the Blight, can be seen.  The path and rocks are
+barren of everything but blackened earth and stone.  In the distance to the
+west, the path appears to end.  
+~
+0 8192 5
+D1
+~
+~
+0 0 21729
+D3
+~
+~
+0 0 21819
+M 30 H 30
+S
+#21731
+The Pass Widens Ahead~
+The pathway leads off into the large mountain pass, leading straight
+through the massive black rock.  From this distance, it would appear that
+the pass opens into a huge expance of dirt and rock.  A foul wind blows in
+from the north, carrying the smell of an old grave reopened.  Nothing grows
+here, and nothing provides much shelter for concealment.  
+~
+0 8208 5
+D0
+~
+~
+0 0 21732
+D2
+~
+~
+0 0 21726
+M 30 H 30
+S
+#21732
+A Black Pass within the Mountains of Dhoom~
+Here the massive pass opens up.  Smooth black rock stands silently to
+both the east and the west.  The lightning streaked sky flashes overhead,
+and the feel of the evil within this place increases.  Far off to the north,
+a small fissure can be seen in the rock.  The pass opens to the east and
+west, leading up to the massive side walls.  
+~
+0 8208 5
+D0
+~
+~
+0 0 21735
+D1
+~
+~
+0 0 21733
+D2
+~
+~
+0 0 21731
+D3
+~
+~
+0 0 21734
+M 30 H 30
+S
+#21733
+Along the Black Wall of the Pass~
+Here the massive pass opens up.  Smooth black rock stands silently to
+both the east and the west.  The lightning streaked sky flashes overhead,
+and the feel of the evil within this place increases.  Far off to the north,
+a small fissure can be seen in the rock.  The pass opens to the east and
+west, leading up to the massive side walls.  
+~
+0 8208 5
+D0
+~
+~
+0 0 21737
+D1
+~
+~
+0 0 21811
+D3
+~
+~
+0 0 21732
+M 30 H 30
+S
+#21734
+Along the Black Wall of the Pass~
+Here the massive pass opens up.  Smooth black rock stands silently to
+both the east and the west.  The lightning streaked sky flashes overhead,
+and the feel of the evil within this place increases.  Far off to the north,
+a small fissure can be seen in the rock.  The pass opens to the east and
+west, leading up to the massive side walls.  
+~
+0 8208 5
+D0
+~
+~
+0 0 21736
+D1
+~
+~
+0 0 21732
+D3
+~
+~
+0 0 21768
+M 30 H 30
+S
+#21735
+The Mountain Walls Loom~
+This is the center of the large pass.  Peaks of various other heights can
+be seen above the tall stone walls.  Nothing in this area provides shelter
+for hiding, yet one can see in all directions rather easily.  The fissure up
+ahead is clearly a way out, or perhaps a way further in.  
+~
+0 8208 5
+D0
+~
+~
+0 0 21738
+D1
+~
+~
+0 0 21737
+D2
+~
+~
+0 0 21732
+D3
+~
+~
+0 0 21736
+M 30 H 30
+S
+#21736
+Along the Black Wall of the Pass~
+This is the center of the large pass.  Peaks of various other heights can
+be seen above the tall stone walls.  Nothing in this area provides shelter
+for hiding, yet one can see in all directions rather easily.  The fissure up
+ahead is clearly a way out, or perhaps a way further in.  
+~
+0 8208 5
+D0
+~
+~
+0 0 21739
+D1
+~
+~
+0 0 21735
+D2
+~
+~
+0 0 21734
+M 30 H 30
+S
+#21737
+Along the Black Wall of the Pass~
+This is the center of the large pass.  Peaks of various other heights can
+be seen above the tall stone walls.  Nothing in this area provides shelter
+for hiding, yet one can see in all directions rather easily.  The fissure up
+ahead is clearly a way out, or perhaps a way further in.  
+~
+0 8208 5
+D0
+~
+~
+0 0 21740
+D2
+~
+~
+0 0 21733
+D3
+~
+~
+0 0 21735
+M 30 H 30
+S
+#21738
+Continuing Along the Pass~
+The pass narrows again up ahead, yet here it still holds a wide width
+within the pass.  When the wind picks up, a low howl seems to be carried
+with it as it moves through the pass up ahead.  Off to the east, some small
+brush can be seen, diseased and decayed as everything else.  
+~
+0 8208 5
+D0
+~
+~
+0 0 21741
+D1
+~
+~
+0 0 21740
+D2
+~
+~
+0 0 21735
+D3
+~
+~
+0 0 21739
+M 40 H 40
+S
+#21739
+Along the Black Wall of the Pass~
+The pass narrows again up ahead, yet here it still holds a wide width
+within the pass.  When the wind picks up, a low howl seems to be carried
+with it as it moves through the pass up ahead.  Off to the east, some small
+brush can be seen, diseased and decayed as everything else.  
+~
+0 8208 5
+D1
+~
+~
+0 0 21738
+D2
+~
+~
+0 0 21736
+M 40 H 40
+S
+#21740
+Along the Black Wall of the Pass~
+The pass narrows again up ahead, yet here it still holds a wide width
+within the pass.  When the wind picks up, a low howl seems to be carried
+with it as it moves through the pass up ahead.  Off to the east, some small
+brush can be seen, diseased and decayed as everything else.  
+~
+0 8208 5
+D2
+~
+~
+0 0 21737
+D3
+~
+~
+0 0 21738
+M 40 H 40
+S
+#21741
+A Narrow Pass in the Rock~
+The pass narrows down to a rather small trail within the rock.  Still it
+is wide enough for a few persons traveling together.  Small, nearly dead
+bushes line the rocks to the east and west, and the top of a small crack can
+be seen upon the eastern wall.  The pathway leads off to the west, and
+further into the bowels of this mountain.  High above the sun still looms.  
+~
+0 8193 5
+E
+crack~
+Upon closer examination, it would appear that the crack might provide a
+solitary person entry.  Nothing within can be seen from outside, and no
+light can be seen.  
+~
+D1
+~
+~
+8 0 21742
+D2
+~
+~
+0 0 21738
+D3
+~
+~
+0 0 21744
+M 30 H 30
+S
+#21742
+A Small Cave Leading into the Mountain~
+This small cavern seems only large enough for a single person at a time. 
+The walls here are tight for a large man, and simple to pass for the more
+slight of frame.  Rough stairs seem to have been hewn into the rock, and
+lead downward at a steep angle.  The temperature within this place seems to
+decrease more as one travels further downward.  The walls here are still
+black and forbidding, and yet are smooth as glass, gleaming in the
+torchlight.  
+~
+0 10253 0
+D3
+~
+~
+8 0 21741
+D5
+~
+~
+0 0 21743
+M 30 H 30
+S
+#21743
+A Haven From the Great Blight~
+The fear and darkness of the Great Blight seems to disappear here. 
+Nestled deep within the rock, a small cavern opens up here.  A firepit sits
+in the middle of this place, and ashes indicate that it is frequently
+visited.  The air is cool and pleasant here, and from somewhere unknown a
+gentle breeze flows.  Several pallats lay about the area, covered with
+animal skins and straw.  The walls here are smooth and glossy black,
+refracting the smallest light and illuminating the entire room.  One might
+wonder how such a place came into existance, or one might just enjoy the
+safety.  
+~
+0 9231 0
+D4
+~
+~
+0 0 21742
+M 105 H 105
+S
+#21744
+The Crevice Continues West~
+This crevice continues it's path through the rock, west and east.  Up
+ahead, it would appear that the pathway ends.  The rocky path is easily wide
+enough for even a mid-sized group of travellers.  The rock face to the north
+and south is truly impassable, climbing straight up for a time, and then
+sloping back over the trail.  
+~
+0 8192 5
+D1
+~
+~
+0 0 21741
+D3
+~
+~
+0 0 21745
+M 30 H 30
+S
+#21745
+The Path Widens Again~
+The path makes a sharp turn off to the north.  The high, rocky walls
+tower above toward the strange sky of the Blight.  Several small rocks are
+scattered about, providing mild cover, yet no real shelter.  The wind ceases
+here, and the sweltering heat is calm and still.  The area is strangely
+illuminated by the blood red sun above.  
+~
+0 8192 5
+D0
+~
+~
+0 0 21746
+D1
+~
+~
+0 0 21744
+M 30 H 30
+S
+#21746
+The Path Ends~
+The pathway here terminates at a jagged rock wall.  Multiple hand and
+foot holds are readily available across the rock face.  The wall climbs high
+up the Mountain face, to a small crest high above the Great Blight.  
+~
+0 8192 5
+D2
+~
+~
+0 0 21745
+D4
+~
+~
+0 0 21747
+M 30 H 30
+S
+#21747
+A Sharp Climb~
+The steep wall continues high into the sky of the Blight.  Jagged
+precipices stick out from the wall in various places.  To the east and west,
+the rock surrounds this wall.  Just above, the rock face opens up once more.
+~
+0 10244 5
+D4
+~
+~
+0 0 21748
+D5
+~
+~
+0 0 21746
+M 30 H 30
+S
+#21748
+Small Footholds~
+The hand and footholds here diminish and get smaller in size.  The wall
+opens out into the Great Blight once more, and the hot wind whips across the
+rock face.  Up above, the red sun of the Dark One's nation boils, heating
+everything it's light touches.  
+~
+0 10244 5
+D4
+~
+~
+0 0 21749
+D5
+~
+~
+0 0 21747
+M 30 H 30
+S
+#21749
+A Stone Ledge Above~
+The hand holds diminish to the point that only one person at a time can
+successfully negotiate this climb.  Just above, a massive ledge hangs out
+above the mountain pass below.  The summit above appears to be the highest
+point of this mountain that can be reached by any climber.  Far below, the
+path and pass dwindle in size.  
+~
+0 10244 5
+D4
+~
+~
+0 0 21750
+D5
+~
+~
+0 0 21748
+M 30 H 30
+S
+#21750
+Overlooking the Southern Half of the Great Blight~
+The view from this rocky point is vile at best.  The southern portion of
+the Great Blight lies below, the twisting trees and decaying plants far
+below seem an array of dark shades and color, yet the stench here seems to
+be increased.  A hot wind flows across the mountain, bringing with it the
+smell of a fresh grave, and the smell of death itself.  
+~
+0 8192 5
+D0
+~
+~
+0 0 21755
+D1
+~
+~
+8 0 21750
+D3
+~
+~
+8 0 21750
+D5
+~
+~
+0 0 21749
+M 30 H 30
+S
+#21751
+A Treacherous Climb~
+Upward and upward, to dizzying heights the rock face climbs.  Up above,
+the oddly colored and tumultuous sky whirls and churns.  Down below, the
+twisted and corrupted vegetation of the blight lays.  From this height, a
+fall would most assuredly bring about a quick end.  Survival would mean a
+long and painful death at the hands of the shadow's creatures.  
+~
+0 10244 5
+D4
+~
+~
+0 0 21752
+D5
+~
+~
+0 0 21724
+M 30 H 30
+S
+#21752
+A Treacherous Climb~
+Upward and upward, to dizzying heights the rock face climbs.  Up above,
+the oddly colored and tumultuous sky whirls and churns.  Down below, the
+twisted and corrupted vegetation of the blight lays.  From this height, a
+fall would most assuredly bring about a quick end.  Survival would mean a
+long and painful death at the hands of the shadow's creatures.  
+~
+0 10244 5
+D4
+~
+~
+0 0 21753
+D5
+~
+~
+0 0 21751
+M 30 H 30
+S
+#21753
+A Treacherous Climb~
+Upward and upward, to dizzying heights the rock face climbs.  Up above,
+the oddly colored and tumultuous sky whirls and churns.  Down below, the
+twisted and corrupted vegetation of the blight lays.  From this height, a
+fall would most assuredly bring about a quick end.  Survival would mean a
+long and painful death at the hands of the shadow's creatures.  
+~
+0 10244 5
+D4
+~
+~
+0 0 21754
+D5
+~
+~
+0 0 21752
+M 30 H 30
+S
+#21754
+Relief in Sight~
+Up above, the climb appears to have come to at least a stopping point.  A
+large rocky ledge can be seen sticking out over the Blight.  Up above, the
+mountain appears to be split, possibly indicating a mountain pass.  Sounds
+from above can be just barely heard over the hard gusts of wind that seem to
+have increased with altitude.  Down below, the floor of the Blight is a
+twisted black and colored floor.  
+~
+0 10244 5
+D4
+~
+~
+0 0 21725
+D5
+~
+~
+0 0 21753
+M 30 H 30
+S
+#21755
+Upon the Summit of the Mountains of Dhoom~
+This summit, upon the highest point within the Mountains of Dhoom, looks
+out across the northern portion of the Great Blight, and toward Shayol Ghul
+itself.  The mountain known throughout the ages as Shayol Ghul stands
+ominous and dark.  Several dimly lit caves can be seen within the small
+foothills of the dark mountain, and a few within the mountain itself. 
+Somewhere within, the Bore lays sealed.  Somewhere down there, Thakan'dar
+steel is being forged in the fires of the Dark One's lair.  The air no
+longer has the smell of the Blight, but solely the smell of the grave
+itself.  Smoke rises steadily from vents near the top of Shayol Ghul, rising
+steadily to the boiling sky.  The mountain path leads downward here, toward
+the ominous black mountain, and the very Bore itself.  
+~
+0 8192 5
+E
+ooc~
+Will add a 'shadow creature' here.  A being composed only of shadows
+lurks here.  
+~
+D1
+~
+~
+8 0 21755
+D2
+~
+~
+0 0 21750
+D3
+~
+~
+8 0 21755
+D5
+~
+~
+0 0 21756
+M 30 H 30
+S
+#21756
+A Deadly Decline~
+***OOC*** Ok Phil, This is the pseudo end of the area.  I'll add a few
+more declines and 'twisting paths' taking them down to the next 'blight'
+sector.  The next expanse should be a rather small '20 room' area of the
+second blight area mentioned in RJ's maps.  After that would be an entryway
+into SG and Thakan'dar forges.  (I think we should have a shopkeeper in
+there with Thakan'dar blades, perhaps fade only in the event we ever have a
+fade race;) ) I'm going to be adding lots of hidden rooms in this first
+part, including a cave system with a trolloc 'home' in it.  Basically a
+group of rooms filled to the brim with REAL pissed off trollocs.  I'm also
+going to add a little bit to the 'Malkieri' pathway going west....  And push
+the 'link' east a few.  
+If you are reading this...note me with an opinion.
+~
+0 8196 5
+D4
+~
+~
+0 0 21755
+M 30 H 30
+S
+#21757
+A Massive Stairwell~
+The heat seems to rise further down this passage.  The stairwell seems
+incredibly large for any human to pass through, rising hands above the
+tallest man's head.  No torches line the walls, plunging this place into
+absolute darkness.  The noises below become louder, gutteral shouts and
+howls eminating from below.  
+~
+0 8201 5
+D4
+~
+~
+0 0 21811
+D5
+~
+~
+0 0 21758
+M 30 H 30
+S
+#21758
+A Black Hallway~
+The large stairwell ends here at the beginning of a large hallway.  The
+ceiling stands well above the head of even a tall human, and an Ogier would
+clear it by a few paces at least.  No light can be seen within this passage,
+and the end is unseen.  The shouts and howls echo within this place,
+deceiving the senses and hiding the location of the origin.  
+~
+0 8201 5
+D1
+~
+~
+0 0 21759
+D4
+~
+~
+0 0 21757
+M 30 H 30
+S
+#21759
+Along the Dark Passage~
+The long passage continues through the stone of the mountain.  Darkness
+seems to absorb the light, keeping it from reaching very far down passage in
+either direction.  Howls and shouts echo and reverberate all throughout,
+concealing the distance and direction of their source.  
+~
+0 8201 5
+D1
+~
+~
+0 0 21760
+D3
+~
+~
+0 0 21758
+M 30 H 30
+S
+#21760
+Along the Dark Passage~
+The long passage continues through the stone of the mountain.  Darkness
+seems to absorb the light, keeping it from reaching very far down passage in
+either direction.  Howls and shouts echo and reverberate all throughout,
+concealing the distance and direction of their source.  
+~
+0 8201 5
+D1
+~
+~
+0 0 21761
+D3
+~
+~
+0 0 21759
+M 30 H 30
+S
+#21761
+Along the Dark Passage~
+The long passage continues through the stone of the mountain.  Darkness
+seems to absorb the light, keeping it from reaching very far down passage in
+either direction.  Howls and shouts echo and reverberate all throughout,
+concealing the distance and direction of their source.  
+~
+0 8201 5
+D0
+~
+~
+0 0 21762
+D3
+~
+~
+0 0 21760
+M 30 H 30
+S
+#21762
+Light at the End of the Tunnel~
+As the hallway turns north here, a doorway can be seen up ahead.  The
+shouts and noise suddenly increases after rounding the corner.  The room up
+ahead would appear to be dimly lit at best, providing only more light than
+what is in the hallway.  The doorway appears to have once held a door, but
+has long since been ripped from it's hinges.  
+~
+0 8201 5
+D0
+~
+~
+0 0 21763
+D2
+~
+~
+0 0 21761
+M 30 H 30
+S
+#21763
+A Lair of the Ko'Bal~
+This small cavern reveals the source of the noise.  Several trollocs
+stand guard here, wearing the insignia of the Ko'Bal tribe.  The walls here
+are roughly carved, giving rise to a ceiling that seems rather smooth and
+well designed.  A massive passageway leads to the east, and the gutteral
+howls eminate from there as well.  
+~
+0 8201 5
+D1
+~
+~
+0 0 21764
+D2
+~
+~
+0 0 21762
+M 30 H 30
+S
+#21764
+Within the Lair~
+This smaller room is nothing but rough rock.  The walls bear various bits
+of garbled writing and symbols used by the Trolloc race.  Doorways lead in
+each direction, and the shouts of unearthly voices eminate from all around. 
+~
+0 8200 5
+D0
+~
+~
+0 0 21765
+D1
+~
+~
+0 0 21766
+D2
+~
+~
+0 0 21767
+D3
+~
+~
+0 0 21763
+M 30 H 30
+S
+#21765
+The Ko'bol Mess Hall~
+This roughly hewn cave would appear to be a savage and vile place. 
+Though the residents call it a dining room, most would call it a butcher's
+scrap pile.  Strips and chunks of flesh and other unidentifiable body parts
+from an unknown assortment of creatures are scattered about the room.  Stone
+slabs that act as tables are a deep crimson in color, perhaps from years of
+this type of use.  Four massive hearths stand upon the northern wall, each
+with a fire lit and a cookpot brewing.  
+~
+0 8200 5
+D2
+~
+~
+0 0 21764
+M 30 H 30
+S
+#21766
+A Ko'bol Breeding Pit~
+This large cave would appear to be what trollocs would call a nursery. 
+Several pairs of trollocs mate here, and their young run about the room,
+snarling and growling in their youthful voices.  Several humans move nimbly
+about the room, separating those young who are throwbacks, and will
+eventually become myrddraal.  Filth and corruption fill this room.  
+~
+0 8200 5
+D3
+~
+~
+0 0 21764
+M 30 H 30
+S
+#21767
+A Massive Trolloc Lair~
+A massive, roughly hewn room opens up here.  Looking to be several spans
+in length and width, it could only be called a living area.  Straw and cloth
+are strewn about the room, possibly as make shift beds for the massive
+occupants.  From time to time, hastily scrawled writing in the Trolloc
+scratch can be seen, sometimes written in mud or carved, yet sometimes
+written in a red liquid.  The noise of the horde of trollocs is deafening
+here, and they all look to see who would dare enter such a place.  
+~
+0 8200 5
+D0
+~
+~
+0 0 21764
+M 30 H 30
+S
+#21768
+A Large Cave Carved Within the Mountain~
+This cave has obviously been carved into the stone.  The entryway is a
+massive opening, easily large enough for a massive Ogier.  The heat within
+is nearly unbearable for someone used to more temperate climates.  Heat and
+humidity mix to form weather that dampens everything.  No torches can be
+seen within the place, and the light brought in seems to shy away from the
+blackened walls.  Loud howling and screams can be heard from somewhere
+below, and a dark stairway leads into the bowels of the mountain.  
+~
+0 8201 0
+D1
+~
+~
+0 0 21734
+D5
+~
+~
+0 0 21769
+M 30 H 30
+S
+#21769
+A Blackened Stairwell~
+This stairway is completely devoid of light.  Twisting and turning in its
+long downward spiral, nothing ahead is visible.  Gutteral howls and yells
+echo louder as one descends into the darkness.  Slime and filth cover every
+surface, and an unwary step could plunge the unsuspecting adventurer into
+the unknown at a rapid pace.  
+~
+0 8201 0
+D4
+~
+~
+0 0 21768
+D5
+~
+~
+0 0 21770
+M 30 H 30
+S
+#21770
+A Large Hallway Leads East~
+The stairway terminates suddenly in to a landing.  A massive hall is cut
+into the rock ahead, yet the darkness prevents the light from reaching the
+other end.  Shouts and screams echo throughout this place, and become louder
+to the east.  
+~
+0 8201 0
+D1
+~
+~
+0 0 21771
+D4
+~
+~
+0 0 21769
+M 30 H 30
+S
+#21771
+Another Stairwell~
+At the end of this hallway, another stairwell appears, leading further
+into the depths of the mountain.  The heat increases dramatically with the
+descent.  Darkness swallows the light of any lantern or torch, and provides
+only a small pool of light to see.  The blackened stairs beckon, and the
+shouts of the unknown echo.  
+~
+0 8201 0
+D3
+~
+~
+0 0 21770
+D5
+~
+~
+0 0 21772
+M 30 H 30
+S
+#21772
+A Blackened Stairwell~
+This stairway is completely devoid of light.  Twisting and turning in its
+long downward spiral, nothing ahead is visible.  Gutteral howls and yells
+echo louder as one descends into the darkness.  Slime and filth cover every
+surface, and an unwary step could plunge the unsuspecting adventurer into
+the unknown at a rapid pace.  
+~
+0 8201 0
+D4
+~
+~
+0 0 21771
+D5
+~
+~
+0 0 21773
+M 30 H 30
+S
+#21773
+A Blackened Stairwell~
+This stairway is completely devoid of light.  Twisting and turning in its
+long downward spiral, nothing ahead is visible.  Gutteral howls and yells
+echo louder as one descends into the darkness.  Slime and filth cover every
+surface, and an unwary step could plunge the unsuspecting adventurer into
+the unknown at a rapid pace.  
+~
+0 8201 0
+D4
+~
+~
+0 0 21772
+D5
+~
+~
+0 0 21774
+M 30 H 30
+S
+#21774
+A Massive Hallway~
+The stairway terminates into another hallway.  A doorway to the north
+appears to lead into a dimly lit room.  Shouts and yells eminate from
+within, and at this range, the noise is deafening.  Small torches line the
+blackened and filthy walls.  
+~
+0 8201 0
+D0
+~
+~
+0 0 21775
+D4
+~
+~
+0 0 21773
+M 30 H 30
+S
+#21775
+The Lair of the Dha'vol~
+This massive cavernous room could only be the lair of the Dha'vol. 
+Various swords and armor lay strewn about this entryway, and appear to be in
+far better condition and make than any other Trolloc's equipment.  Booming
+noise eminates from the west, and would lead one to believe the horde is
+within.  A solid door bars the way to the east, and something is written in
+the trolloc language.  
+~
+0 8200 0
+D1
+~
+~
+3 0 21776
+D2
+~
+~
+0 0 21774
+D3
+~
+~
+0 0 21777
+M 30 H 30
+S
+#21776
+A Storeroom~
+The large cavern here is filled with an assortment of items.  Carelessly
+tossed around at first glance, closer examination shows that these trollocs
+have separated the items by type and value.  Massive shelves are carved into
+the rock, storing some of the smaller items.  With the door closed, the
+shouts from the west quiet down considerably.  
+~
+0 8200 0
+D3
+~
+~
+3 0 21775
+M 30 H 30
+S
+#21777
+A Massive Cave~
+A massive cave is here.  Straw and cloth lay stewn about, yet from time
+to time a cot or make-shift bed is set up.  Several tables and roughly hewn
+chairs are scattered about the room.  Massive torches provide some light,
+yet the shadows are plentiful.  In several spots, armor lays in wait of this
+tribe's next mission from the Great Lord of the Dark himself.  
+~
+0 8200 0
+D0
+~
+~
+0 0 21778
+D1
+~
+~
+0 0 21775
+D2
+~
+~
+0 0 21780
+D3
+~
+~
+0 0 21779
+M 30 H 30
+S
+#21778
+A Bloody Dining Area~
+This room is covered in blood.  Multiple tables fill this place, and
+benches are placed on either side of each.  Massive cauldron's brew over
+open fires along the northern wall, filled with something unknown.  Pieces
+of flesh and chunks of unidentifiable meat lay stewn about on plates at the
+tables.  The walls of this cavern are black, yet most everything else has a
+tinge of deep red to it.  
+~
+0 8200 0
+D2
+~
+~
+0 0 21777
+D3
+~
+~
+39 0 21782
+M 30 H 30
+S
+#21779
+A Vile Scene~
+A much smaller cavern is here.  Several pairs of trollocs appear to be
+engaged in either bloody conflict, or their version of mating.  Young
+trollocs scream and shriek as they run about the room.  Several of the
+throwbacks they call Myrddraal can also be seen, smaller versions of the
+eyeless servants of the Great Lord of the Dark.  
+~
+0 8200 0
+D1
+~
+~
+0 0 21777
+M 30 H 30
+S
+#21780
+A Cleaner and Smaller Hallway~
+This hallway is much cleaner and well constructed than any other in this
+lair.  The walls appear to have been carved into the very rock itself, yet
+they are smooth and well constructed.  The ceiling here is much lower, and
+would require the beastial Trollocs to stoop down in order to pass.  A small
+door is to the south, and is marked in the trolloc script.  
+~
+0 8200 0
+D0
+~
+~
+0 0 21777
+D2
+~
+~
+3 0 21781
+M 30 H 30
+S
+#21781
+A Planning Room~
+A small, well designed room opens up here.  The walls of this place are
+very smooth and even, and bear a large number of maps, seemingly covering
+the whole of the continent.  A large wooden table sets in the very center,
+and a map is visible beneath a plate of frosted glass that covers the
+surface.  Several ornate chairs circle the table.  No torches line the walls
+in this room, plunging the room into inky darkness.  
+~
+0 8201 0
+D0
+~
+~
+3 0 21780
+M 30 H 30
+S
+#21782
+A Small Cell~
+This room would appear to be a small cell.  The walls are dark and bleak,
+and the doorway to the east is built solidly.  Scattered remnants of humans
+lay all about this place, and blood marks the walls.  Several messages are
+written in what would appear to be blood.  
+~
+0 8396827 0
+E
+blood~
+The message reads: "Creator shelter me as I prepare to be a feast of the
+Shadow's minions.  Light permit me to die swiftly and without pain.  Let the
+Mother's last embrace find me soon."  Perhaps a prayer?  
+~
+E
+message~
+The message reads: "Creator shelter me as I prepare to be a feast of the
+Shadow's minions.  Light permit me to die swiftly and without pain.  Let the
+Mother's last embrace find me soon."  Perhaps a prayer?  
+~
+D1
+~
+~
+39 0 21778
+M 30 H 30
+S
+#21783
+The Northern Edge of Shienar~
+The large, open field which acts as a barrier to the Great Blight spreads
+out here.  To the south, Shienar's first line of defense can be seen.  A
+massive row of garrisons stand watch against the Blight.  Solid and well
+fortified, they are meant to slow the shadow's raids, and alert their fellow
+bordermen to the south.  The jagged peaks of the Mountains of Dhoom loom to
+the north, cold and forbidding as the reach toward a blackened sky.  
+~
+0 262144 2
+D0
+~
+~
+0 0 21702
+D2
+~
+~
+0 0 21799
+S
+#21784
+A Dangerously Faint Trail~
+The trail here is hard to follow at the very least, showing only faint
+signs of use or wear in some time.  Though it is off the beaten path, it
+appears just as deadly as the rest of this place.  The cover here is thick,
+providing little forewarning of whatever might lay ahead.  Far above, a
+canopy of thick, putrid leaves blocks out almost any light.  
+~
+0 8201 3
+D0
+~
+~
+0 0 21785
+D2
+~
+~
+8 0 21704
+M 30 H 30
+S
+#21785
+A Curve East~
+The nearly hidden path continues to move through the Blight.  A hill
+appears to rise up east of here, and thick foliage covers the entire place. 
+Diseased and rotting plants grow thickly all around, and provide no
+indication of where this path will lead next.  Momentary glimpses of the
+high peaks of the Mountains of Dhoom can periodically be seen through the
+trees above.  
+~
+0 8192 3
+D1
+~
+~
+0 0 21786
+D2
+~
+~
+0 0 21784
+D3
+~
+~
+8 0 21788
+M 30 H 30
+S
+#21786
+A Steep Ascent~
+The rocky wall of a hill stands here.  The few footholds that can be seen
+leading up are damp and slick with the remnants of plants.  The trees and
+plants have grown thickly here, providing little room for a large group. 
+Overhead, the canopy of leaves is solid as ever, and the wind does not stir.
+A lone howl breaks the silence of the Great Blight, and the sound of
+something running in the distance.  
+~
+0 8201 4
+D3
+~
+~
+0 0 21785
+D4
+~
+~
+0 0 21787
+M 30 H 30
+S
+#21787
+The Trail is Lost~
+The small trail that lead up to here abruptly ends in a nearly solid wall
+of trees.  The rocky climb above would appear impossible, as the rock leans
+out a bit too much to provide any handholds.  Thick brush surrounds this
+small clearing, yet the towering trees still hold back the sun and wind. 
+Some damage appears to have been done to some of the underbrush.  
+~
+0 8201 5
+E
+damage~
+Some of the underbrush here apears to have been lightly trampled, so
+lightly that most would probably would not have noticed it.  The light
+damage leads to the east.  
+~
+D1
+~
+~
+8 0 21709
+D5
+~
+~
+0 0 21786
+M 30 H 30
+S
+#21788
+A Light Trail Through the Great Blight~
+The trail appears and disappears here.  The trees have thinned a bit, and
+the bloody sun above beats down.  The hot, putrid wind of the Great Blight
+whips down this trail, and the sound of something unseen can be heard
+constantly.  
+~
+0 8192 5
+D0
+~
+~
+0 0 21789
+D1
+~
+~
+8 0 21785
+M 30 H 30
+S
+#21789
+A Vanishing Path Through the Great Blight~
+The pathway here disappears once more, ending in thick undergrowth all
+around.  The trees and deadly grasses of the Blight surround this area
+thickly.  A lone howl breaks the quiet stir of the plants, and the Blight
+seems to hold its breath.  
+~
+0 8192 5
+D0
+~
+~
+8 0 21790
+D2
+~
+~
+0 0 21788
+M 30 H 30
+S
+#21790
+The Trail Curves East~
+The trail seems to pick up slightly, and leads off to the east.  Thick
+grass and undergrowth make the trail more easily picked out here, yet still
+it seems to appear and reappear as one continues on.  Off to the north, the
+massive black peaks of the Mountains of Dhoom stand, silent and dark against
+the strange sky above.  
+~
+0 8192 5
+D1
+~
+~
+0 0 21791
+D2
+~
+~
+8 0 21789
+M 30 H 30
+S
+#21791
+Towards the Dark Mountains~
+Ahead the pathway seems to vanish into the darkness of the Blight. 
+Periodically one of the native inhabitants of this place makes its presence
+known, either with a piercing howl or the sound of crushing underbrush.  The
+smell of death and decay fills this place like a blanket, and the strange
+sky above completes the feeling.  The pathway leads to the west as well, and
+back toward Shienar.  
+~
+0 8192 5
+D0
+~
+~
+0 0 21792
+D3
+~
+~
+0 0 21790
+M 30 H 30
+S
+#21792
+Mounting one of the Foothills~
+A small hill rises here, leading toward the dark rock of the Mountains of
+Dhoom.  The very air seems to bear the darkness and evil within this place. 
+The thick trees above provide only glimpses of the rock formation to the
+north.  The sounds of unkown creatures moving fills the air, and something
+lurks within the trees.  
+~
+0 8193 5
+D2
+~
+~
+0 0 21791
+D4
+~
+~
+0 0 21793
+M 30 H 30
+S
+#21793
+Lightly Trampled Brush~
+The path seems to fade into non-existance here, swallowed up by the
+seemingly untouched underbrush.  Thick trees surround this small clearing,
+yet it would appear that one might be able to continue on.  The mountain
+rises up to the north, barely visible through the canopy of rotted trees
+above.  
+~
+0 8193 5
+D0
+~
+~
+8 0 21794
+D5
+~
+~
+0 0 21792
+M 30 H 30
+S
+#21794
+A Rock Face Looms Ahead~
+Up ahead another hill can be seen rising, dark and rocky.  A lone howl
+echoes across the landscape of the Great Blight, and the thick trees above
+provide little light in this area.  There is no visible path here, and the
+area seems an endless sea of diseased forest.  
+~
+0 8193 5
+D0
+~
+~
+8 0 21795
+D2
+~
+~
+8 0 21793
+M 30 H 30
+S
+#21795
+A Rocky Climb~
+The floor of the Blight rises up into a hill once more.  No paths lead in
+or out of this place, those who would travel here must be adept at
+pathfinding.  The thick canopy above blocks out any view of the mountains
+ahead, yet somewhere they loom.  The Blight is restless, the sounds of
+something unseen can be heard off in the distance.  
+~
+0 8193 5
+D2
+~
+~
+8 0 21794
+D4
+~
+~
+8 0 21796
+M 30 H 30
+S
+#21796
+The Foothills of the Great Mountains of Dhoom~
+The pathway reappears here.  A broad, heavily trampled span of dirt leads
+up to the bottom of the mountain.  The trees above have thinned, and provide
+a bleak vision of the Mountains of Dhoom and the bloody sun above.  All
+around, small plants can be seen dying or dead.  
+~
+0 8192 5
+D0
+~
+~
+0 0 21797
+D5
+~
+~
+8 0 21795
+M 30 H 30
+S
+#21797
+At the Base of the Mountains of Dhoom~
+The black rock of the mountain range rises up above here.  The trees make
+a clearing several paces away from the rock face.  Only the faintest of
+hand-holds are visible, and the climb looks to be treacherous at best.  High
+above, the upper passes of the mountains can be seen against the electric
+sky.  Somewhere upon the other side, Shayol Ghul and the Dark One's escape,
+the Bore, are located.  
+~
+0 8192 5
+D2
+~
+~
+0 0 21796
+D4
+~
+~
+8 0 21798
+M 30 H 30
+S
+#21798
+The Handholds End~
+This rock ledge seems to go straight into the sky of the Great Blight. 
+Very few hand holds can be seen, and those that are found sometimes crumble
+when touched.  Far below, the floor of the Great Blight can be seen, making
+a deadly safety net in the event that someone should fall.  
+~
+0 8192 5
+D4
+~
+~
+8 0 21723
+D5
+~
+~
+8 0 21797
+M 30 H 30
+S
+#21799
+The First Line of Defense~
+A massive row of towers spreads out to the east and west here, solid and
+ready as they stand watch just south of the Great Blight.  The grass this
+far north appears to be dead or dying, and is closely cut to avoid an ambush
+on one of the garrisons.  The garrisons are spread out evenly, running a
+straight line all the way across the Blight.  
+~
+0 262144 2
+D0
+~
+~
+0 0 21783
+D1
+~
+~
+3 0 21802
+D2
+~
+~
+0 0 21806
+D3
+~
+~
+3 0 21800
+S
+#21800
+A Northern Garrison~
+This garrison represents Shienar's first line of defense against the
+Shadow.  Solid and well built, it houses some ten to twenty soldiers that
+defend the Borderlands every day.  A small table and chairs are set off to
+the side, providing a make-shift eating area, and a small hatch leads
+underground.  A spiraling stairway leads upstairs, winding its way around
+the outer edge of the building.  
+~
+0 8 0
+D1
+~
+~
+3 0 21799
+D4
+~
+~
+3 0 21801
+D5
+~
+~
+3 0 21804
+S
+#21801
+The Watch Still Stands~
+Here the watch truly stands.  A large opening on each side provides a
+clear view of all the land up to the Blight's border.  Arrow-slits can be
+seen in between each of the larger openings, in the event that cover is
+needed.  A massive mirror stands at the ready, prepared to relay messages
+down the line in the event that the Blight stirs.  
+~
+0 262144 0
+D5
+~
+~
+3 0 21800
+S
+#21802
+A Northern Garrison~
+This garrison represents Shienar's first line of defense against the
+Shadow.  Solid and well built, it houses some ten to twenty soldiers that
+defend the Borderlands every day.  A small table and chairs are set off to
+the side, providing a make-shift eating area, and a small hatch leads
+underground.  A spiraling stairway leads upstairs, winding its way around
+the outer edge of the building.  
+~
+0 262152 0
+D3
+~
+~
+3 0 21799
+D4
+~
+~
+3 0 21803
+D5
+~
+~
+3 0 21805
+S
+#21803
+The Watch Still Stands~
+Here the watch truly stands.  A large opening on each side provides a
+clear view of all the land up to the Blight's border.  Arrow-slits can be
+seen in between each of the larger openings, in the event that cover is
+needed.  A massive mirror stands at the ready, prepared to relay messages
+down the line in the event that the Blight stirs.  
+~
+0 262152 0
+D5
+~
+~
+3 0 21802
+S
+#21804
+An Underground Bunker~
+This small, underground area would appear to be the garrison's sleeping
+quarters.  The place is well lit by torches and several of the Shienaran
+soldiers lay about on cots as they catch some rest between long shifts.  The
+air here remains at a constant temperature, as it is not as affected by the
+heat or cold of the outside air.  
+~
+0 262152 0
+D4
+~
+~
+3 0 21800
+S
+#21805
+An Underground Bunker~
+This small, underground area would appear to be the garrison's sleeping
+quarters.  The place is well lit by torches and several of the Shienaran
+soldiers lay about on cots as they catch some rest between long shifts.  The
+air here remains at a constant temperature, as it is not as affected by the
+heat or cold of the outside air.  
+~
+0 262152 0
+D4
+~
+~
+3 0 21802
+S
+#21806
+A Road to Fal Dara~
+***OOC*** Shienar Linkage!!!  Please link the Shienar area south of
+here...  To whatever road leads to the blight...  Remember...  Should be a
+good distance away :P 
+~
+0 0 5
+D0
+~
+~
+0 0 21799
+D2
+~
+~
+0 0 22465
+S
+#21807
+Fade Reset Pit~
+This room will essentially serve as a 'master wandering reset' point. 
+Wandering Trollocs, fades, darkhounds, etc.  Will all reset here...  And
+then exit off into the mud via one-way exits...  
+~
+0 598019 5
+D1
+~
+~
+0 0 21785
+D3
+~
+~
+0 0 21707
+D4
+~
+~
+0 0 21740
+D5
+~
+~
+0 0 21787
+S
+#21808
+A Pass Leads in to the Rock~
+A small pathway leads down the mountain, hand holds and foot holds
+crumbling and dangerous.  The pathway also leads off to the east, and toward
+what might be a cave of some sort.  Large impressions are made upon the
+rock, and a lone howl breaks the silence.  A hot wind crashes through the
+pathway, stirring dust to reveal some of the marks, and hide others.  
+~
+0 8192 5
+E
+prints~
+Upon closer examination of the prints, they would appear to be those of a
+large dog, although they are burned into the rock itself.  They seem to lead
+back and forth in a random pattern, but there are many of them.  
+~
+E
+impression~
+Upon closer examination of the prints, they would appear to be those of a
+large dog, although they are burned into the rock itself.  They seem to lead
+back and forth in a random pattern, but there are many of them.  
+~
+D1
+~
+~
+0 0 21809
+D5
+~
+~
+0 0 21728
+M 30 H 30
+S
+#21809
+A Dark Tunnel through the Mountain~
+The pathway here leads into a dark tunnel that appears to have been
+carved straight through the mountain.  Pawprints can be seen here clearly,
+as the wind has died down in this area.  The smell of a rotted grave fills
+the air, and the heat of the Great Blight beats at any who would enter.  
+~
+0 8193 5
+D1
+~
+~
+0 0 21810
+D3
+~
+~
+0 0 21808
+M 30 H 30
+S
+#21810
+A Pass to the North~
+The small tunnel abruptly ends in another opening to the north.  The
+sounds of something unknown echo from the north.  The rock surrounding this
+tunnel sometimes creates a shower of dust, as though even the rock is
+rotting as it stands.  The pass leads on to the north, and the smell of
+death grows.  
+~
+0 8192 5
+D0
+~
+~
+0 0 21812
+D3
+~
+~
+0 0 21809
+M 30 H 30
+S
+#21811
+A Large Damp Cave~
+This large cave has the feel of a sickly rotting coffin compared to the
+drier air outside.  The heat is sweltering despite the shade.  Roughly hewn
+walls rise up to a ceiling that would permit an Ogier to stand at full
+height.  Monstrous howls and shouts can be heard from the bottom of a
+stairwell that leads into the depths of this mountain.  The walls of this
+place seem to fight against the light from any torch.  
+~
+0 8201 5
+D3
+~
+~
+0 0 21733
+D5
+~
+~
+0 0 21757
+M 30 H 30
+S
+#21812
+A Small Pass Within the Mountain~
+The pass opens up into another pass, completely surrounded by rock.  From
+this vantage point, it would appear that the pathway ends in a sheer cliff
+to the north.  Pawprints mark the pathway heavily, and the dank wind pulls
+the dust off of more.  A putrid smell fills this place, and the air is thick
+with varying smells.  
+~
+0 8192 5
+D0
+~
+~
+0 0 21813
+D2
+~
+~
+0 0 21810
+M 30 H 30
+S
+#21813
+A Small Pass Within the Mountain~
+The passage ends abruptly here in a vertical rock face to the north.  The
+tracks in the stone however, lead to a crack that appears to have been hewn
+into the rock to the east.  The fetid wind pounds its way across the
+pathway, and something stirs within the crevice.  
+~
+0 8192 5
+D1
+~
+~
+0 0 21814
+D2
+~
+~
+0 0 21812
+M 30 H 30
+S
+#21814
+A Rocky Crevice~
+This cave appears smooth on all sides.  No dust marks the paw-print
+covered floor, and an erie silence suddenly decends upon this place.  The
+passage leads off to the east, the darkness concealing whatever may lurk
+there.  To the north, a large hole is bored into the rock, and the
+paw-prints lead into it.  The smell of death hangs heavily here, but the
+faint odor of something else appears now, too faint for even those with the
+most keen sense of smell.  
+~
+0 8193 5
+D0
+~
+~
+0 0 21815
+D1
+~
+~
+0 0 21816
+D3
+~
+~
+0 0 21813
+M 30 H 30
+S
+#21815
+A Massive Tunnel~
+A sudden change in the air here can be felt.  Suddenly the air is
+somewhat cooler than that of the cave to the south.  The humidity of this
+place has also risen.  A winding pathway leads down within the rock, its
+bottom unable to be seen.  Something can be heard from somewhere below,
+distantly similar to the sound of heavy breathing.  
+~
+0 8193 5
+D2
+~
+~
+0 0 21814
+D5
+~
+~
+0 0 21817
+M 30 H 30
+S
+#21816
+A Smooth Wall of Black Rock~
+The passage ends here in a glassy smooth wall of rock.  The floor here is
+unmarked with the paws that moved through the previous passage, and no dust
+lays about this place.  The only way out of this room would appear to be to
+the west.  
+~
+0 0 5
+D3
+~
+~
+0 0 21814
+S
+#21817
+Into the Mountain~
+All noise from below ceases here.  This place feels almost cold.  The air
+is still and calm, and something can be clearly smelled now.  Something
+burning, something perhaps like, sulphur.  The moisture in this cave seems
+thick enough to drink, and leaves a sickly fetid taste upon the tongue.  
+~
+0 8193 5
+D4
+~
+~
+0 0 21815
+D5
+~
+~
+0 0 21818
+M 30 H 30
+S
+#21818
+A Massive Cavern~
+The source of the sounds can be found here.  A larger cave opens up here,
+a cold wind whipping through the place.  Pawprints mar the ground
+everywhere, and the walls bear a resemblance to a blackened mirror.  A small
+pack of Darkhounds, who appear to reside here, move from their places of
+hiding, to stare at those who were foolish enough to stumble into their
+lair.  The air is cold and icly, and the moisture that hangs almost seems on
+the point of freezing everything upon an instant.  
+~
+0 8193 5
+D4
+~
+~
+0 0 21817
+M 30 H 30
+S
+#21819
+Amidst the Black Stone Walls~
+Onward the dark pass continues, moving its way through rock as black as
+night.  The silence that comes from time to time, as though this place were
+catching its breath, could make even the most battle hardened step warily. 
+The putrid, hot wind of this place picks up the black dust from time to
+time, and swirls it up into the air.  A massive wall of rock appears to
+block the pass west of here.  
+~
+0 8192 5
+D1
+~
+~
+0 0 21730
+D3
+~
+~
+0 0 21820
+M 30 H 30
+S
+#21820
+The Pass Ends Abruptly~
+The pass ends abruptly in a sheer ledge of rock.  Debris would appear to
+create handholds in the mountain face to the north.  The wind seems to be
+still in this place, the rock walls providing some shelter from its hot
+grasp.  As a scream shatters the sudden silence, the Great Blight seems to
+come alive once more.  
+~
+0 8192 5
+D1
+~
+~
+0 0 21819
+D4
+~
+~
+0 0 21821
+M 30 H 30
+S
+#21821
+Climbing the Black Rock Face~
+~
+0 65536 5
+D4
+~
+~
+0 0 21822
+D5
+~
+~
+0 0 21820
+S
+#21822
+A Forested Pass Through the Mountain~
+***OOC*** A forest is to the north, sickly and blighty. Maze area
+~
+0 65536 5
+D0
+~
+~
+0 0 21823
+D5
+~
+~
+0 0 21821
+S
+#21823
+A Thick Forest of Death~
+***OOC*** Beginning of the maze.
+~
+0 65536 5
+D2
+~
+~
+0 0 21822
+S
+#21824
+Trolloc Reset Pit~
+This room will essentially serve as a 'master wandering reset' point. 
+Wandering Trollocs, fades, darkhounds, etc.  Will all reset here...  And
+then exit off into the mud via one-way exits...  
+~
+0 598019 5
+D1
+~
+~
+0 0 21785
+D3
+~
+~
+0 0 21707
+D4
+~
+~
+0 0 21740
+D5
+~
+~
+0 0 21787
+S
+#21825
+Darkhound Reset Pit~
+This room will essentially serve as a 'master wandering reset' point. 
+Wandering Trollocs, fades, darkhounds, etc.  Will all reset here...  And
+then exit off into the mud via one-way exits...  
+~
+0 598019 5
+D1
+~
+~
+0 0 21785
+D3
+~
+~
+0 0 21707
+D4
+~
+~
+0 0 21740
+D5
+~
+~
+0 0 21787
+S
+#21826
+Draghkar Reset Pit~
+This room will essentially serve as a 'master wandering reset' point. 
+Wandering Trollocs, fades, darkhounds, etc.  Will all reset here...  And
+then exit off into the mud via one-way exits...  
+~
+0 598019 5
+D1
+~
+~
+0 0 21785
+D3
+~
+~
+0 0 21707
+D4
+~
+~
+0 0 21740
+D5
+~
+~
+0 0 21787
+S
+#0
+
+
+
+#SPECIALS
+M 21710 spec_guard
+M 21711 spec_guard
+M 21712 spec_guard
+M 21717 spec_guard
+M 21718 spec_guard
+M 21719 spec_guard
+M 21731 spec_poison
+M 21732 spec_poison
+M 21733 spec_poison
+M 21736 spec_guard
+M 21737 spec_guard
+M 21738 spec_guard
+M 21739 spec_guard
+M 21740 spec_poison
+M 21742 spec_guard
+M 21743 spec_guard
+M 21744 spec_guard
+M 21745 spec_guard
+M 21748 spec_poison
+S
+
+
+
+#RESETS
+D 21775 1 3 0 0
+D 21776 3 3 0 0
+D 21778 3 39 0 0
+D 21780 2 3 0 0
+D 21781 0 3 0 0
+D 21782 1 39 0 0
+D 21799 1 3 0 0
+D 21799 3 3 0 0
+D 21800 1 3 0 0
+D 21800 4 3 0 0
+D 21800 5 3 0 0
+D 21801 5 3 0 0
+D 21802 3 3 0 0
+D 21802 4 3 0 0
+D 21802 5 3 0 0
+D 21803 5 3 0 0
+D 21804 4 3 0 0
+D 21805 4 3 0 0
+O 21789 0 21701 1 100
+O 21749 0 21710 1 100
+O 21781 0 21713 1 100
+M 21729 6 21714 1 100
+O 21780 0 21716 1 100
+O 21750 0 21717 1 100
+O 21780 0 21718 1 100
+O 21781 0 21719 1 100
+O 21750 0 21721 1 100
+O 21782 0 21722 1 100
+O 21780 0 21726 1 100
+O 21749 0 21727 1 100
+O 21782 0 21728 1 100
+O 21761 0 21743 1 100
+O 21783 0 21743 1 100
+P 21786 1 21783 1 100
+P 21785 1 21783 1 100
+P 21784 1 21783 1 100
+O 21778 0 21745 1 100
+O 21750 0 21750 1 100
+M 21740 2 21750 1 100
+M 21740 2 21755 1 100
+M 21717 1 21763 1 100
+E 21702 0 16 0 100
+E 21707 0 5 0 100
+E 21709 0 12 0 100
+E 21711 0 10 0 100
+E 21712 0 15 0 100
+E 21714 0 13 0 100
+E 21715 0 8 0 100
+E 21721 0 9 0 100
+E 21722 0 3 0 100
+E 21725 0 21 0 100
+E 21727 0 11 0 100
+E 21728 0 18 0 100
+M 21718 1 21763 1 100
+E 21702 0 16 0 100
+E 21707 0 5 0 100
+E 21709 0 12 0 100
+E 21711 0 10 0 100
+E 21712 0 15 0 100
+E 21714 0 13 0 100
+E 21715 0 8 0 100
+E 21721 0 9 0 100
+E 21722 0 3 0 100
+E 21725 0 21 0 100
+E 21727 0 11 0 100
+E 21728 0 18 0 100
+M 21719 1 21763 1 100
+E 21702 0 16 0 100
+E 21707 0 5 0 100
+E 21709 0 12 0 100
+E 21711 0 10 0 100
+E 21712 0 15 0 100
+E 21714 0 13 0 100
+E 21715 0 8 0 100
+E 21721 0 9 0 100
+E 21722 0 3 0 100
+E 21725 0 21 0 100
+E 21727 0 11 0 100
+E 21728 0 18 0 100
+O 21752 0 21763 0 100
+O 21756 0 21763 0 100
+M 21713 10 21764 1 100
+E 21704 0 16 0 100
+E 21712 0 15 0 100
+E 21712 0 14 0 100
+E 21721 0 9 0 100
+E 21725 0 21 0 100
+E 21728 0 18 0 100
+M 21714 20 21764 1 100
+E 21728 0 18 0 100
+E 21725 0 21 0 100
+E 21721 0 9 0 100
+M 21715 10 21764 1 100
+E 21728 0 18 0 100
+E 21725 0 21 0 100
+E 21721 0 9 0 100
+E 21702 0 16 0 100
+M 21716 15 21764 1 100
+E 21728 0 18 0 100
+E 21725 0 21 0 100
+E 21721 0 9 0 100
+E 21706 0 16 0 100
+M 21727 1 21764 1 100
+E 21766 0 16 0 100
+E 21731 0 5 0 100
+E 21733 0 12 0 100
+E 21734 0 10 0 100
+E 21736 0 15 0 100
+E 21736 0 14 0 100
+E 21737 0 7 0 100
+E 21740 0 8 0 100
+E 21742 0 6 0 100
+E 21745 0 3 0 100
+E 21745 0 4 0 100
+E 21746 0 21 0 100
+E 21748 0 18 0 100
+O 21787 0 21765 1 100
+O 21752 0 21765 0 100
+O 21756 0 21765 0 100
+M 21747 5 21766 1 100
+M 21746 5 21766 1 100
+M 21713 10 21767 1 100
+E 21704 0 16 0 100
+E 21712 0 15 0 100
+E 21712 0 14 0 100
+E 21721 0 9 0 100
+E 21725 0 21 0 100
+E 21728 0 18 0 100
+M 21714 20 21767 1 100
+E 21728 0 18 0 100
+E 21725 0 21 0 100
+E 21721 0 9 0 100
+M 21715 10 21767 1 100
+E 21728 0 18 0 100
+E 21725 0 21 0 100
+E 21721 0 9 0 100
+E 21702 0 16 0 100
+M 21716 15 21767 1 100
+E 21728 0 18 0 100
+E 21725 0 21 0 100
+E 21721 0 9 0 100
+E 21706 0 16 0 100
+O 21758 0 21767 0 100
+O 21754 0 21767 0 100
+M 21710 1 21775 1 100
+E 21702 0 16 0 100
+E 21707 0 5 0 100
+E 21708 0 12 0 100
+E 21711 0 10 0 100
+E 21712 0 15 0 100
+E 21714 0 13 0 100
+E 21717 0 8 0 100
+E 21721 0 9 0 100
+E 21722 0 3 0 100
+E 21726 0 21 0 100
+E 21727 0 11 0 100
+E 21728 0 18 0 100
+M 21711 1 21775 1 100
+E 21702 0 16 0 100
+E 21707 0 5 0 100
+E 21708 0 12 0 100
+E 21711 0 10 0 100
+E 21712 0 15 0 100
+E 21714 0 13 0 100
+E 21717 0 8 0 100
+E 21721 0 9 0 100
+E 21722 0 3 0 100
+E 21726 0 21 0 100
+E 21727 0 11 0 100
+E 21728 0 18 0 100
+M 21712 1 21775 1 100
+E 21702 0 16 0 100
+E 21707 0 5 0 100
+E 21708 0 12 0 100
+E 21711 0 10 0 100
+E 21712 0 15 0 100
+E 21714 0 13 0 100
+E 21717 0 8 0 100
+E 21721 0 9 0 100
+E 21722 0 3 0 100
+E 21726 0 21 0 100
+E 21727 0 11 0 100
+E 21728 0 18 0 100
+M 21710 10 21776 1 100
+E 21702 0 16 0 100
+E 21707 0 5 0 100
+E 21708 0 12 0 100
+E 21711 0 10 0 100
+E 21712 0 15 0 100
+E 21714 0 13 0 100
+E 21717 0 8 0 100
+E 21721 0 9 0 100
+E 21722 0 3 0 100
+E 21726 0 21 0 100
+E 21727 0 11 0 100
+E 21764 0 17 0 100
+E 21728 0 18 0 100
+O 21764 0 21776 0 100
+M 21704 10 21777 1 100
+E 21704 0 16 0 100
+E 21712 0 15 0 100
+E 21712 0 14 0 100
+E 21717 0 7 0 100
+E 21721 0 9 0 100
+E 21726 0 21 0 100
+E 21728 0 18 0 100
+M 21707 10 21777 1 100
+E 21728 0 18 0 100
+E 21726 0 21 0 100
+E 21721 0 9 0 100
+M 21705 10 21777 1 100
+E 21728 0 18 0 100
+E 21726 0 21 0 100
+E 21721 0 9 0 100
+E 21702 0 16 0 100
+M 21708 10 21777 1 100
+E 21728 0 18 0 100
+E 21726 0 21 0 100
+E 21721 0 9 0 100
+E 21706 0 16 0 100
+M 21706 10 21777 1 100
+E 21728 0 18 0 100
+E 21726 0 21 0 100
+E 21721 0 9 0 100
+E 21717 0 8 0 100
+O 21758 0 21777 0 100
+O 21759 0 21777 0 100
+M 21728 2 21777 1 100
+E 21766 0 16 0 100
+E 21731 0 5 0 100
+E 21737 0 7 0 100
+E 21741 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21748 0 18 0 100
+E 21745 0 3 0 100
+E 21746 0 4 0 100
+E 21736 0 15 0 100
+E 21736 0 14 0 100
+E 21733 0 12 0 100
+O 21755 0 21778 0 100
+O 21751 0 21778 0 100
+O 21753 0 21781 0 100
+O 21757 0 21781 0 100
+M 21702 1 21781 1 100
+E 21730 0 16 0 100
+M 21723 1 21781 1 100
+E 21730 0 16 0 100
+E 21741 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21748 0 18 0 100
+M 21724 1 21781 1 100
+E 21729 0 16 0 100
+E 21731 0 5 0 100
+E 21734 0 10 0 100
+E 21737 0 7 0 100
+E 21740 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21747 0 18 0 100
+M 21725 1 21781 1 100
+E 21730 0 16 0 100
+E 21741 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21748 0 18 0 100
+O 21749 0 21785 1 100
+O 21781 0 21788 1 100
+O 21780 0 21792 1 100
+O 21778 1 21794 1 100
+O 21780 3 21794 3 100
+O 21781 0 21796 1 100
+M 21736 5 21799 1 100
+M 21742 5 21799 1 100
+M 21743 5 21799 1 100
+M 21744 5 21799 1 100
+M 21745 5 21799 1 100
+O 21776 0 21801 1 100
+O 21775 0 21801 1 100
+M 21736 5 21801 1 100
+M 21742 5 21801 1 100
+M 21743 5 21801 1 100
+M 21744 5 21801 1 100
+M 21745 5 21801 1 100
+M 21737 2 21801 1 100
+O 21776 0 21803 1 100
+O 21775 0 21803 1 100
+M 21736 5 21803 1 100
+M 21742 5 21803 1 100
+M 21743 5 21803 1 100
+M 21744 5 21803 1 100
+M 21745 5 21803 1 100
+M 21737 2 21803 1 100
+M 21739 10 21804 5 100
+M 21738 10 21804 5 100
+M 21739 10 21805 5 100
+M 21738 10 21805 5 100
+M 21728 1 21807 1 100
+E 21766 0 16 0 10
+E 21731 0 5 0 100
+E 21734 0 10 0 100
+E 21737 0 7 0 100
+E 21741 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21748 0 18 0 100
+M 21727 1 21807 1 100
+E 21766 0 16 0 10
+E 21731 0 5 0 100
+E 21734 0 10 0 100
+E 21737 0 7 0 100
+E 21741 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21748 0 18 0 100
+M 21726 1 21807 1 100
+E 21766 0 16 0 10
+E 21731 0 5 0 100
+E 21734 0 10 0 100
+E 21737 0 7 0 100
+E 21741 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21748 0 18 0 100
+E 21736 0 15 0 100
+E 21736 0 14 0 100
+E 21733 0 12 0 100
+M 21703 1 21807 1 100
+E 21766 0 16 0 10
+E 21731 0 5 0 100
+E 21734 0 10 0 100
+E 21737 0 7 0 100
+E 21740 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21748 0 18 0 100
+E 21743 0 9 0 100
+E 21736 0 15 0 100
+E 21736 0 14 0 100
+E 21733 0 12 0 100
+M 21722 1 21807 1 100
+E 21739 0 13 0 10
+E 21731 0 5 0 100
+E 21734 0 10 0 100
+E 21737 0 7 0 100
+E 21740 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21747 0 18 0 100
+E 21745 0 3 0 100
+M 21721 1 21807 1 100
+E 21745 0 4 0 100
+E 21743 0 9 0 100
+E 21736 0 15 0 100
+E 21736 0 14 0 100
+E 21733 0 12 0 100
+E 21730 0 16 0 10
+E 21731 0 5 0 100
+E 21734 0 10 0 100
+E 21737 0 7 0 100
+E 21740 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21747 0 18 0 100
+E 21745 0 3 0 100
+M 21720 1 21807 1 100
+E 21746 0 4 0 100
+E 21743 0 9 0 100
+E 21736 0 15 0 100
+E 21736 0 14 0 100
+E 21733 0 12 0 100
+E 21729 0 16 0 100
+E 21731 0 5 0 100
+E 21734 0 10 0 100
+E 21737 0 7 0 100
+E 21740 0 8 0 100
+E 21742 0 6 0 100
+E 21746 0 21 0 100
+E 21747 0 18 0 100
+E 21745 0 3 0 100
+M 21701 1 21807 1 100
+E 21746 0 21 0 100
+E 21743 0 9 0 100
+E 21736 0 15 0 100
+E 21736 0 14 0 100
+E 21733 0 12 0 100
+E 21729 0 16 0 100
+E 21731 0 5 0 100
+E 21734 0 10 0 100
+E 21737 0 7 0 100
+E 21740 0 8 0 100
+E 21742 0 6 0 100
+E 21747 0 18 0 100
+E 21745 0 3 0 100
+M 21748 5 21818 5 100
+M 21706 15 21824 15 100
+E 21703 0 16 0 100
+E 21707 0 5 0 100
+E 21708 0 12 0 100
+E 21712 0 14 0 100
+E 21712 0 15 0 100
+E 21717 0 8 0 100
+E 21726 0 21 0 100
+E 21728 0 18 0 100
+E 21742 0 3 0 100
+M 21707 15 21824 15 100
+E 21701 0 16 0 100
+E 21707 0 5 0 100
+E 21708 0 12 0 100
+E 21715 0 8 0 100
+E 21719 0 6 0 100
+E 21724 0 21 0 100
+E 21727 0 11 0 100
+M 21714 15 21824 15 100
+E 21702 0 16 0 100
+E 21707 0 5 0 100
+E 21709 0 12 0 100
+E 21727 0 11 0 100
+E 21712 0 15 0 100
+E 21717 0 8 0 100
+E 21725 0 21 0 100
+E 21728 0 18 0 100
+M 21713 15 21824 15 100
+E 21705 0 16 0 100
+E 21707 0 5 0 100
+E 21709 0 12 0 100
+E 21712 0 14 0 100
+E 21712 0 15 0 100
+E 21715 0 8 0 100
+E 21725 0 21 0 100
+E 21728 0 18 0 100
+M 21709 15 21824 15 100
+E 21706 0 16 0 100
+E 21707 0 5 0 100
+E 21708 0 12 0 100
+E 21712 0 14 0 100
+E 21712 0 15 0 100
+E 21715 0 8 0 100
+E 21724 0 21 0 100
+E 21728 0 18 0 100
+E 21719 0 6 0 100
+E 21721 0 9 0 100
+E 21722 0 3 0 100
+M 21704 15 21824 15 100
+E 21703 0 16 0 100
+E 21707 0 5 0 100
+E 21708 0 12 0 100
+E 21712 0 14 0 100
+E 21712 0 15 0 100
+E 21717 0 8 0 100
+E 21726 0 21 0 100
+E 21728 0 18 0 100
+E 21742 0 3 0 100
+M 21708 15 21824 15 100
+E 21701 0 16 0 100
+E 21707 0 5 0 100
+E 21708 0 12 0 100
+E 21715 0 8 0 100
+E 21719 0 6 0 100
+E 21724 0 21 0 100
+E 21727 0 11 0 100
+M 21715 15 21824 15 100
+E 21702 0 16 0 100
+E 21707 0 5 0 100
+E 21709 0 12 0 100
+E 21727 0 11 0 100
+E 21712 0 15 0 100
+E 21717 0 8 0 100
+E 21725 0 21 0 100
+E 21728 0 18 0 100
+M 21705 15 21824 15 100
+E 21705 0 16 0 100
+E 21707 0 5 0 100
+E 21708 0 12 0 100
+E 21712 0 14 0 100
+E 21712 0 15 0 100
+E 21715 0 8 0 100
+E 21726 0 21 0 100
+E 21728 0 18 0 100
+M 21716 15 21824 15 100
+E 21706 0 16 0 100
+E 21707 0 5 0 100
+E 21709 0 12 0 100
+E 21712 0 14 0 100
+E 21712 0 15 0 100
+E 21715 0 8 0 100
+E 21725 0 21 0 100
+E 21728 0 18 0 100
+E 21719 0 6 0 100
+E 21721 0 9 0 100
+E 21722 0 3 0 100
+M 21733 3 21825 3 100
+M 21732 3 21825 3 100
+M 21731 3 21825 3 100
+M 21735 2 21826 1 100
+E 21767 0 21 0 100
+E 21768 0 5 0 100
+E 21769 0 10 0 100
+E 21770 0 9 0 100
+E 21771 0 7 0 100
+E 21772 0 8 0 100
+E 21773 0 12 0 100
+E 21774 0 18 0 100
+E 21742 0 6 0 100
+M 21734 2 21826 1 100
+E 21767 0 21 0 100
+E 21768 0 5 0 100
+E 21769 0 10 0 100
+E 21770 0 9 0 100
+E 21771 0 7 0 100
+E 21772 0 8 0 100
+E 21773 0 12 0 100
+E 21774 0 18 0 100
+E 21742 0 6 0 100
+M 21730 2 21826 1 100
+E 21767 0 21 0 100
+E 21768 0 5 0 100
+E 21769 0 10 0 100
+E 21770 0 9 0 100
+E 21771 0 7 0 100
+E 21772 0 8 0 100
+E 21773 0 12 0 100
+E 21774 0 18 0 100
+E 21742 0 6 0 100
+S
+
+
+
+#SHOPS
+0
+
+
+
+#MOBPROGS
+#21701
+if isimmort $n
+burp $n
+else
+if race $n centipede
+grumble
+else
+mob delay 10
+endif
+~
+~
+~
+#21702
+if isimmort $r
+burp $r
+else
+if race $r centipede
+grumble
+else
+mob delay 10
+endif
+~
+~
+~
+#21703
+if isimmort $n
+mbow $n
+else
+if race $n fade
+say Greetings in the name of our great master.
+mob assist $n
+else
+if race $n trolloc
+say Bow, trolloc swine!
+mob assist $n
+else
+if clan $n shadar
+say Greetings in the name of our Great Master.
+mob assist $n
+else
+sneer $n
+mob delay 10
+endif
+~
+~
+~
+#21704
+mob mload 21713
+mob mload 21714
+mob mload 21715
+mob mload 21716
+emote smiles coldly as his Fist appears.
+~
+~
+~
+#21705
+if isimmort $n
+hiss $n
+else
+if clan $n shadar
+mob echo The shadows seem to collect momentarily, and then subside.
+mob assist $n
+else
+mob echo The shadows seem to form a strange mist, and a howl is heard.
+mob delay 15
+endif
+~
+~
+~
+#21706
+mob echo The smell of burned sulphur wafts heavily in the air.
+if isimmort $n
+whimper $n
+else
+if clan $n shadar
+mob echo A darkhound slips from the shadows, charring the earth upon which it treads.
+mob echo A darkhound growls deeply as it watches the Blight.
+mob assist $n
+mob echo A darkhound slips back into the shadows, leaving a trail of charred stone.
+howl
+else
+mob echo A darkhound snarls and howls as it samples the air.
+mob kill $n
+endif
+ 
+~
+~
+~
+#21707
+mob echo The scent of burned sulphur wafts in the air.
+if isimmort $r
+whimper $r
+else
+if clan $r shadar
+mob echo A darkhound slips from the shadows, charring the earth upon which it treads.
+mob echo A darkhound grows deeply as it watches the Blight.
+mob assist $r
+howl
+A darkhound slips back into the shadows, leaving a trail of charred stone.
+else
+vis
+mob echo A darkhound snarls and howls as it samples the air.
+mob kill $n
+endif
+~
+~
+~
+#21708
+if isimmort $r
+mbow $r
+else
+if race $r fade
+emote smiles coldly as it continues its patrol.
+mob assist $r
+endif
+if race $r trolloc
+mob glare $r
+mob assist $r
+endif
+if clan $r shadar
+say Greetings in the name of our Great Master.
+mob assist $r
+else
+grin $n
+mob kill $n
+endif
+~
+~
+~
+#21709
+if isimmort $n
+snort $n
+else
+if race $n fade
+emote cowers from the Myrddraal, and says something garbled.
+mob assist $n
+endif
+if race $n trolloc
+emote growls at $n and continues on his way.
+mob assist $n
+endif
+if clan $n shadar
+emote bows to $n before hurrying off.
+mob assist $n
+else
+emote growls loudly at $n and raises its weapon.
+mob kill $n
+endif
+~
+~
+~
+#21710
+if isimmort $r
+snort $r
+else
+if race $r fade
+emote cowers from the Myrddraal, and says something garbled.
+mob assist $r
+endif
+if race $r trolloc
+emote growls at $r and continues on his way.
+mob assist $r
+endif
+if clan $r shadar
+emote bows to $r before hurrying off.
+mob assist $r
+else
+emote growls loudly at $r and raises its weapon.
+mob kill $n
+endif
+~
+~
+~
+#21711
+if isimmort $n
+serenade $n
+else
+if race $n fade
+say Greetings, Myrddraal.
+mob assist $n
+endif
+if race $n trolloc
+smirk
+mob assist $n
+endif
+if clan $n shadar
+emote watches $n silently, a dark grin beginning upon his mouth.
+mob assist $n
+else
+emote begins to sing an enticing song.
+if rand 50 
+mob force $n kill $r
+mob kill $n
+else
+mob force $n remove sword
+mob force $n daydream $i
+mob kill $n
+endif
+endif
+~
+~
+~
+#21712
+if uses $n weapon
+   serenade $n
+   mob force $n remove $o
+   mob force $n daydream $I
+endif
+~
+~
+~
+#21713
+#SHIENARAN WARRIOR MOBPROG
+if rand 80
+   wince
+   emote quickly steals a glance at the trapdoor.
+else
+if rand 70
+   emote looks to the east and then to the west for signals.
+   sigh
+else
+if rand 60
+   sigh
+   say Peace, the Blight is silent.
+else
+if rand 50
+  emote checks on the mirror.
+   nod sergeant
+else
+if rand 40
+   emote scans the horizon.
+   say Its quiet, sir, too quiet
+else
+if rand 30
+   emote rebinds his top-knot.
+   emote cracks his neck.
+else
+   mutter
+   emote hums a Shienaran dirge.
+endif
+~
+~
+~
+#21714
+stroke $n
+kill $n
+endif
+~
+~
+~
+#21715
+if rand  80
+emote looks over his men, 'Keep sharp!  Don't want those eyeless sneaking in on us!'
+emote scans the horizon intently.
+else
+if rand  70
+emote shouts something down to the soldiers guarding the tower.
+emote points north.
+else
+if rand  60
+emote scans the horizon intently.
+mutter
+else
+if rand  50
+emote hefts his longbow and shoots down a raven in flight.
+curse
+else
+if rand  40
+snort soldier
+say The Shadow never sleeps, lad
+else
+nod soldier
+say Strange things happen this close to the Blight
+emote scans the horizon intently.
+endif
+~
+~
+~
+#21716
+emote glances toward the trapdoor, and then back to the Blight.
+~
+~
+~
+#21717
+mob mload 21729
+echo The wormpack begins to appear!
+~
+~
+~
+#21718
+#SEARGEANT GREETING TO BLIGHTWATCH
+if race $n human
+if clan $n blightwatch
+if rand 70
+   nod $n
+   say The watch still stands
+  else
+if rand 40
+   salute $n
+  else
+   armgrasp $n
+   dirsay $n Be good seeing ya again, $n
+endif
+endif
+else 
+   eye $n
+   dirsay $n you seem a bit far from home...
+endif
+endif
+if race $n trolloc
+  or race $n fade
+  or race $n draghkar
+mob zecho A Shienaran sergeant yells '`rBLESSED PEACE!  SHADOWSPAWN RAID!`w'
+mob zecho A Shienaran sergeant yells '`rRAISE THE ALARM!  TO ARMS! TO ARMS!`w'
+   kill $n
+endif
+if race $n ogier
+dirsay $n Kiserai ti Wansho
+bow $n
+endif
+ 
+~
+~
+~
+#21719
+~
+~
+~
+#21720
+if hpcnt $n > 1
+   diab $n
+else
+kill $n
+endif
+if hpcnt $r > 1
+   diab $r
+else
+kill $r
+endif
+~
+~
+~
+#21721
+backstab $n
+backstab $r
+~
+~
+~
+#0
+
+#$
