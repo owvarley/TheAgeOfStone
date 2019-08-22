@@ -1,0 +1,26 @@
+Liquid               Color          proof      full   thirst   food     size
+----------------------------------------------------------------------------
+water~               clear~          000        001     010     000     016
+beer~                amber~          012        001     008     001     012
+red wine~            burgundy~       030        001     008     001     005
+ale~                 brown~          015        001     008     001     012
+dark ale~            dark~           016        001     008     001     012
+whiskey~             golden~         120        001     005     000     002
+lemonade~            pink~           000        001     009     002     012
+oosquai~             brown~          190        000     004     000     002
+local specialty~     clear~          151        001     003     000     002
+milk~                white~          000        002     009     003     012
+tea~                 tan~            000        001     008     000     006
+kaf~                 black~          000        001     008     000     006
+blood~               red~            000        002     -01     002     006
+salt water~          clear~          000        001     -02     000     001
+white wine~          golden~         028        001     008     001     005
+mead~                honey-colored~  034        002     008     002     012
+rose wine~           pink~           026        001     008     001     005
+punch~               pink~           005        001     008     001     005
+tmat juice~          red~            000        002     009     002     012
+apple cider~         orange~         000        002     009     003     012
+brandy~              golden~         080        001     005     000     004
+rum~                 amber~          151        001     004     000     002
+honey~               golden~         000        001     -01     002     012
+End~

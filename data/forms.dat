@@ -1,0 +1,423 @@
+#45
+## Blademaster Forms Data file
+## Written Sun Jun 27 20:47:35 1999
+## Contains 45 forms.
+## File Format
+#
+# Form              // The Name of this form.
+# aType             // The Attack/Defense Type.
+# fType             // The affect type.
+# difficulty        // The difficulty level.
+# Nation            // Specific nation?
+# toChar            // Message blademaster sees.
+# toVict            // Message victim sees.
+# toRoom            // Message the room sees.
+#
+Form     Apple Blossoms in the Wind~
+aType    0
+fType    5
+Diff     11
+Nation   any~
+CharMsg  Your Apple Blossoms in the Wind dance between your attackers!~
+VictMsg  $n dances Apple Blossoms in the Wind.~
+RoomMsg  $n dances Apple Blossoms in the Wind.~
+
+Form     Arc of the Moon~
+aType    2
+fType    1
+Diff     0
+Nation   any~
+CharMsg  You finish your attack and ready Arc of the Moon.~
+VictMsg  $n flows into Arc of the Moon.~
+RoomMsg  $n flows into Arc of the Moon.~
+
+Form     Boar Rushes Down the Mountain~
+aType    0
+fType    2
+Diff     9
+Nation   any~
+CharMsg  You thunder towards $N with Boar Rushes Down the Mountain.~
+VictMsg  $n's Boar Rushes Down the Mountain presses hard towards you.~
+RoomMsg  $n's Boar Rushes Down the Mountain presses hard towards $N.~
+
+Form     Bundling Straw~
+aType    1
+fType    3
+Diff     1
+Nation   any~
+CharMsg  You parry $N's attack with Bundling Straw.~
+VictMsg  $n's blade parries your attack with Bundling Straw.~
+RoomMsg  $n's blade locks with $N's weapon, Bundling Straw.~
+
+Form     Cat Dances on the Wall~
+aType    1
+fType    3
+Diff     9
+Nation   any~
+CharMsg  You parry with Cat Dances on the Wall.~
+VictMsg  $n's parries with Cat Dances on the Wall.~
+RoomMsg  $n's parries with Cat Dances on the Wall.~
+
+Form     Cat on Hot Sand~
+aType    1
+fType    2
+Diff     1
+Nation   any~
+CharMsg  You parry with Cat on Hot Sand.~
+VictMsg  $n's parries with Cat on Hot Sand.~
+RoomMsg  $n's parries with Cat on Hot Sand.~
+
+Form     Courtier Taps His Fan~
+aType    0
+fType    4
+Diff     6
+Nation   any~
+CharMsg  You lunge at $N with Courtier Taps His Fan!~
+VictMsg  $n's blade hacks into you with Courtier Taps His Fan!~
+RoomMsg  $n lunges forward with Courtier Taps His Fan!~
+
+Form     Creeper Embraces the Oak~
+aType    0
+fType    3
+Diff     3
+Nation   any~
+CharMsg  Your Creeper Embraces the Oak darts past $N's parry.~
+VictMsg  $n's Creeper Embraces the Oak darts past your parry.~
+RoomMsg  $n's Creeper Embraces the Oak darts past $N's parry.~
+
+Form     Dove Takes Flight~
+aType    0
+fType    1
+Diff     3
+Nation   any~
+CharMsg  You slash upwards with Dove Takes Flight.~
+VictMsg  $n slashes upwards with Dove Takes Flight.~
+RoomMsg  $n slashes upwards with Dove Takes Flight.~
+
+Form     The Falcon Stoops~
+aType    2
+fType    5
+Diff     0
+Nation   any~
+CharMsg  You duck and crouch low, the Falcon Stoops.~
+VictMsg  $n ducks and crouches low, the Falcon Stoops.~
+RoomMsg  $n ducks and crouches low, the Falcon Stoops.~
+
+Form     Falling Leaf~
+aType    0
+fType    7
+Diff     4
+Nation   any~
+CharMsg  Your Falling Leaf opens $N is a series of descending slashes.~
+VictMsg  Pain is your only reality as $n opens you with Falling Leaf.~
+RoomMsg  $n's Falling Leaf opens $N is a series of descending slashes.~
+
+
+Form     Grapevine Twines~
+aType    2
+fType    3
+Diff     7
+Nation   any~
+CharMsg  You disarm $N with the Grapevine Twines.~
+VictMsg  $n disarms you with the Grapevine Twines.~
+RoomMsg  $n disarms $N with the Grapevine Twines.~
+
+Form     Heron Spreads Its Wings~
+aType    2
+fType    5
+Diff     0
+Nation   any~
+CharMsg  You dodge and ready Heron Spreads its Wings.~
+VictMsg  $n dodges and readies Heron Spreads its Wings.~
+RoomMsg  $n dodges $N and readies Heron Spreads its Wings.~
+
+Form     Heron Wading in the Rushes~
+aType    1
+fType    5
+Diff     5
+Nation   any~
+CharMsg  $N hits you and you stab downward towards $M with Heron Wading in the Rushes.~
+VictMsg  You hit $n and $e stabs downward with Heron Wading in the Rushes.~
+RoomMsg  $N hits $n and $n stabs downward with Heron Wading in the Rushes.~
+
+Form     Hummingbird Kisses the Honeyrose~
+aType    0
+fType    1
+Diff     3
+Nation   any~
+CharMsg  You stab forward with Hummingbird Kisses the Honeyrose.~
+VictMsg  $n stabs you with Hummingbird Kisses the Honeyrose.~
+RoomMsg  $n stabs $N with Hummingbird Kisses the Honeyrose.~
+
+Form     Kingfisher Takes a Silverback~
+aType    0
+fType    2
+Diff     9
+Nation   any~
+CharMsg  You stab downward with Kingfisher Takes a Silverback.~
+VictMsg  $n stabs downward with Kingfisher Takes a Silverback.~
+RoomMsg  $n stabs downward into $N with Kingfisher Takes a Silverback.~
+
+Form     Leaf floating on the Breeze~
+aType    1
+fType    4
+Diff     1
+Nation   any~
+CharMsg  You easily dodge and parry $N with Leaf Floating on the Breeze.
+VictMsg  $n easily dodges and parries you with Leaf Floating on the Breeze.~
+RoomMsg  $n easily dodges and parries $N with Leaf Floating on the Breeze.~
+
+Form     Lightning of Three Prongs~
+aType    0
+fType    5
+Diff     4
+Nation   any~
+CharMsg  Your Lightning of the Three Prongs slashes once... twice.... THREE hits!~
+VictMsg  $n's Lightning of the Three Prongs slashes you once... twice.... THREE hits!~
+RoomMsg  $n's Lightning of the Three Prongs slashes $N once... twice.... THREE hits!~
+
+
+Form     Lion on the Hill~
+aType    2
+fType    1
+Diff     1
+Nation   any~
+CharMsg  Lion on the Hill- you grasp your blade at shoulder level, watching $M- ready.~
+VictMsg  Grasping $s blade at shoulder level, $e watches you- ready.~
+RoomMsg  $n briefly flows into a high-grasped stance to watch $N, ready.~
+
+Form     Lizard in the Thornbush~
+aType    0
+fType    3
+Diff     11
+Nation   any~
+CharMsg  You dart and pivot like a Lizard in the Thornbush!~
+VictMsg  $n darts and pivots between his attackers with Lizard in the Thornbush.~
+RoomMsg  $n darts and pivots between his attackers with Lizard in the Thornbush.~
+
+Form     Low Wind Rising~
+aType    0
+fType    3
+Diff     6
+Nation   any~
+CharMsg  You go down to one knee dodging $N's attack and attack with Low Wind Rising.~
+VictMsg  $n goes to one knee, dodging your attack and attacks with Low Wind Rising.~
+RoomMsg  $n ducks beneath $N's attack and attacks with Low Wind Rising.~
+
+Form     Moon Rises Over Water~
+aType    0
+fType    1
+Diff     3
+Nation   any~
+CharMsg  Your slash out with Moon Rises Over Water.~
+VictMsg  $n slashes out with Moon Rises Over Water.~
+RoomMsg  $n slashes out at $N with Moon Rises Over Water.~
+
+Form     Parting the Silk~
+aType    1
+fType    3
+Diff     1
+Nation   any~
+CharMsg  Your blade dances through the air, parrying with Parting the Silk.~
+VictMsg  $n's blade dances through the air, parrying you with Parting the Silk.~
+RoomMsg  $n's blade dances through the air, parrying with Parting the Silk.~
+
+Form     Ribbon in the Air~
+aType    1
+fType    2
+Diff     1
+Nation   any~
+CharMsg  You merely tap $N's attack aside with Ribbon in the Air.~
+VictMsg  $n merely taps your attack aside with Ribbon in the Air.~
+RoomMsg  $n uses minimum effort as he taps $N's attack to the side.~
+
+Form     River Undercuts the Bank~
+aType    0
+fType    1
+Diff     9
+Nation   any~
+CharMsg  You quickly drop to one knee and slash out with River Undercuts the Bank.~
+VictMsg  $n drops to one knee and slashes out with River Undercuts the Bank.~
+RoomMsg  $n drops to one knee and slashes at $N with River Undercuts the Bank.~
+
+Form     Stone Falls From the Mountain~
+aType    0
+fType    3
+Diff     6
+Nation   any~
+CharMsg  Several lunges pierce $N with Stone Falls From the Mountain.~
+VictMsg  Several lunges pierce you with $n's Stone Falls From the Mountain.~
+RoomMsg  Several lunges pierce $N with $n's Stone Falls From the Mountain.~
+
+Form     Striking the Spark~
+aType    2
+fType    3
+Diff     8
+Nation   any~
+CharMsg  Striking the Spark- with all your might, your blade crashes against $N's.~
+VictMsg  The sharp ring of steel on steel thunders as $n's blade hacks at yours.~
+RoomMsg  The sharp ring of steel on steel thunders as blades clash violently.~
+
+Form     Swallow Rides the Air~
+aType    0
+fType    1
+Diff     3
+Nation   any~
+CharMsg  Swallow Rides the Air, a quick vertical slash opens $N.~
+VictMsg  Swallow Rides the Air, $n's vertical slash opens your chest.~
+RoomMsg  Swallow Rides the Air, a quick vertical slash opens $N.~
+
+Form     Swallow Takes Flight~
+aType    0
+fType    4
+Diff     6
+Nation   any~
+CharMsg  Swallow Takes Flight slashes $N in a blur of the eye!~
+VictMsg  Before you can react, $n opens your chest Swallow Takes Flight!~
+RoomMsg  $n's Swallow Takes Flight slashes $N in a blur of the eye!~
+
+Form     The Wind Blows Over the Wall~
+aType    0
+fType    2
+Diff     3
+Nation   any~
+CharMsg  The Wind Blows Over the Wall negates $N's parry.~
+VictMsg  $n's the Wind Blows Over the Wall negates your parry.~
+RoomMsg  $n's the Wind Blows Over the Wall negates $N's parry.~
+
+Form     Thistledown Floats on the Whirlwind~
+aType    0
+fType    3
+Diff     6
+Nation   any~
+CharMsg  You leap towards $N with Thistledown Floats on the Whirlwind!~
+VictMsg  $n leaps towards you with Thistledown Floats on the Whirlwind!~
+RoomMsg  $n leaps towards $N with Thistledown Floats on the Whirlwind!~
+
+Form     Tower of the Morning~
+aType    2
+fType    1
+Diff     0
+Nation   any~
+CharMsg  You hold Tower of the Morning in wait.~
+VictMsg  $n takes a step back and plants $s blade in the earth, waiting.~
+RoomMsg  $n takes a step back and plants $s blade in the earth, waiting.~
+
+Form     Twisting the Wind~
+aType    0
+fType    4
+Diff     6
+Nation   any~
+CharMsg  Twin slashes cut $N, Twisting the Wind.~
+VictMsg  $n's twin slashes cut you, Twisting the Wind.~
+RoomMsg  $n's twin slashes cut $N, Twisting the Wind.~
+
+Form     Water Flows Downhill~
+aType    0
+fType    2
+Diff     3
+Nation   any~
+CharMsg  Your Water Flows Downhill slices past $N's parry.~
+VictMsg  $n's Water Flows Downhill cuts open your leg after you parry.~
+RoomMsg  $n's Water Flows Downhill cuts open $N's leg after $S parry.~
+
+Form     Watered Silk~
+aType    1
+fType    1
+Diff     1
+Nation   any~
+CharMsg  Your blade quickly arcs downwards, Watered Silk parries $N's attack.~
+VictMsg  $n's blade quickly arcs downwards, parrying your attack.~
+RoomMsg  $n's blade quickly arcs downwards, parrying $N's attack.~
+
+Form     Whirlwind on the Mountain~
+aType    0
+fType    3
+Diff     6
+Nation   any~
+CharMsg  Your blade spins overhead, Whirlwind on the Mountain!~
+VictMsg  $n's blade spins overhead, Whirlwind on the Mountain!~
+RoomMsg  $n's blade spins overhead towards $N, Whirlwind on the Mountain!~
+
+Form     The Wind and Rain~
+aType    0
+fType    3
+Diff     6
+Nation   any~
+CharMsg  The Wind and the Rain slices and thrusts past $N's parries!~
+VictMsg  $n the Wind and the Rain slices and thrusts past your parries!~
+RoomMsg  $n the Wind and the Rain slices and thrusts past your parries!~
+
+Form     Wood Grouse Dances~
+aType    1
+fType    3
+Diff     1
+Nation   any~
+CharMsg  Wood Grouse Dances- a side-step and pivot carry you from $N's attack.~
+VictMsg  $n dodges your attack with the Wood Grouse Dances, readying a return strike.~
+RoomMsg  $n dodges $N's attack with the Wood Grouse Dances, readying a return strike.~
+
+Form     The Westwind Blows~
+aType    1
+fType    1
+Diff     1
+Nation   any~
+CharMsg  The Westwind Blows- a quick overhead parry saves your neck.~
+VictMsg  $n's blade flows to an overhead parry to block your attack.~
+RoomMsg  $n's sword is quick to an overhead parry as $N attacks.~
+
+Form     Cutting the Clouds~
+aType    0
+fType    4
+Diff     7
+Nation   any~
+CharMsg  Cutting the Clouds, an overhead slash speeds towards $N.~
+VictMsg  Cutting the Clouds, $n's overhead slash speeds towards you.~
+RoomMsg  Cutting the Clouds, $n's overhead slash speeds towards $N.~
+
+Form     Soft Rain at Sunset~
+aType    0
+fType    5
+Diff     10
+Nation   any~
+CharMsg  A gentle stab, the Soft Rain at Sunset bleeds $N's eye.~
+VictMsg  Soft Rain at Sunset, $n gracefully sticks $s blade into your eye.~
+RoomMsg  Soft Rain at Sunset, $n gracefully sticks $s blade into $N's eye.~
+
+Form     Black Pebbles on Snow~
+aType    0
+fType    2
+Diff     3
+Nation   any~
+CharMsg  A quick slash opens $N's waist with Black Pebbles on Snow.~
+VictMsg  $n's quick slash opens your waist with Black Pebbles on Snow.~
+RoomMsg  $n's quick slash opens $N's waist with Black Pebbles on Snow.~
+
+Form     The Rose Unfolds~
+aType    0
+fType    2
+Diff     3
+Nation   any~
+CharMsg  From deep within your defense, the Rose Unfolds.~
+VictMsg  From deep within $s defense, the Rose Unfolds.~
+RoomMsg  $n looks pinned in defense before the Rose Unfolds.~
+
+Form     Dandelion in the Wind~
+aType    0
+fType    4
+Diff     6
+Nation   any~
+CharMsg  Dandelion in the Wind, a rising slash knocks aside the parry.~
+VictMsg  $n's Dandelion in the Wind knocks aside your parry and follows with an attack.~
+RoomMsg  $n's Dandelion in the Wind knocks aside $N's parry and follows with an attack.~
+
+
+Form     Kissing the Adder~
+aType    0
+fType    5
+Diff     4
+Nation   any~
+CharMsg  Your thrust impales $N, Kissing the Adder.~
+VictMsg  Blood and agony are your only reality as $s blade impales you with Kissing the Adder.~
+RoomMsg  Time stalls as $n slams $s blade to the hilt through $N, Kissing the Adder.~
+End

@@ -1,0 +1,58 @@
+#
+## Class Table Data file
+## Written Sun Apr 11 21:55:29 1999
+## Contains 3 classes.
+## File Format
+#
+# Name               // The full name of the class
+# WhoName            // Three-letter name for 'who'
+# Prime              // Prime attribute
+# Weapon             // First weapon (vnum)
+# Adept              // Maximum skill level learned via 'practice'
+# Thac0              // Thac0 for level 0
+# Thac32             // Thac0 for level 32
+# MinHp              // Min hp gained on leveling
+# MaxHp              // Max hp gained on leveling
+# BaseGrp            // Base skill group
+# DefaultGrp         // Default skill group
+#
+# attr_prime values are given in enums.h as '_STAT'
+#
+Name       channeler~
+WhoName    Cha~
+Prime      1
+Weapon     3701
+Adept      75
+Thac0      20
+Thac32     6
+MinHp      6
+MaxHp      8
+BaseGrp    channeler basics~
+DefaultGrp channeler default~
+
+Name       rogue~
+WhoName    Rog~
+Prime      3
+Weapon     3701
+Adept      75
+Thac0      20
+Thac32     -4
+MinHp      8
+MaxHp      13
+BaseGrp    rogue basics~
+DefaultGrp rogue default~
+
+Name       warrior~
+WhoName    War~
+Prime      0
+Weapon     3702
+Adept      75
+Thac0      20
+Thac32     -10
+MinHp      11
+MaxHp      15
+BaseGrp    warrior basics~
+DefaultGrp warrior default~
+
+#0
+End
