@@ -1,4 +1,0 @@
-motd Website             ~ The Mud's website is currently being worked on by
-                     `B|`w Crystal, stay tuned for an address update.~
-motd Welcome!            ~ The Age of Stone mud is still in a long
-                     `B|`w development process, please bare with us during these times!~
