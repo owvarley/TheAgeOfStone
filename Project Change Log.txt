@@ -1,0 +1,289 @@
+Project File (Changelog)
+Updated by Owen Varley
+---------------------
+
+
+------------------------------------------<02/04/02>-----------------------------------------------
+Adding new stats (STR, CON, AGL, DEX, SES, INT). 
+Created new variable for size (ch->size) Allowing 1-3 Small-large.
+Added ch-size to save.c in an attempt to save, doesnt work, will look into tomorrow.
+Score was crashing because used ch->size as string not integer.
+Created Size selection in Chargen.
+Created Region selection in Chargen.
+------------------------------------------<03/04/02>-----------------------------------------------
+Fixed saving, problem was it tried to read in the ch->size as a string not as an integer as it is
+Added Size to score, and fixed formatting of Score
+Added stat rolling
+Problems with stat rolling, very complicated method currently, need to talk to Seth about changing it
+so that the primary and secondary rolls get a bonus.
+Added reduction of all stats except the Sex specific ones by one
+Added increase/reduction of states dependant on size.
+Added rolling of stats to Chargen. Problems with primary and secondary rolls
+-------------------------------------------<04/04/02>----------------------------------------------
+Changed some messages in Chargen to make them more user-friendly
+Cleaned up the Chargen file, some more cleaning needs to be done when Chargen completed.
+Fixed rolling stats problem, and added temporary testing listing of stats.
+Adding ANSI colour to certain messages in chargen.
+-------------------------------------------<05/04/02>-----------------------------------------------
+Plan: Add abilities
+      Create abilitie table (see talent table)
+	  Create region table
+
+Nanny.c - Added abilty/Impediment selection
+act_info.c  - Changed colours of wizlist and motd
+			- Edited the do_score function to fix showing attributes
+save.c      - Edited to add saving of stats and abilities/impediment
+			  Edited to add saving of hood status
+merc.h		- Edited to sort out MAX_STATS
+
+
+
+
+
+
+
+
+	  REGION  Threefold Land~ An Aiel~        TRUE
+        CITY    Chareen~               
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+        CITY    Codarra~        
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+        CITY    Daryne~
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+        CITY    Goshien~
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+        CITY    Miagoma~
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+        CITY    Nakai~
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+        CITY    Reyn~
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+        CITY    Sharaad~
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+        CITY    Shaido~
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+        CITY    Shiande~
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+        CITY    Taardad~
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+    CITY    Tomanelle~
+        SKILL   sneak~          50      TRUE    1 0 0 0 1
+
+REGION  Cairhien~       A Cairhienin~   TRUE
+        CITY    Cairhien~    
+        CITY  Eianrod~
+        CITY  Foregate~
+        CITY  Jurene~
+        CITY  Maerone~
+        CITY  Morelle~
+        CITY  Selean~
+        CITY  Tain~  
+        CITY  Tremonsien~         
+
+REGION  Andor~          An Andoran~     TRUE
+        CITY  Arien~
+        CITY  Aringill~
+        CITY  Baerlon~
+        CITY  Breens Spring~
+        CITY  Carysford~
+        CITY    Caemlyn~                
+        SKILL   sword~          30      TRUE    0 1 0 0 -1
+      CITY  Deven Ride~
+        SKILL   bow~            30      TRUE    0 1 0 0 -1
+        CITY  Emonds Field~
+        SKILL   bow~            30      TRUE    0 1 0 0 -1
+        CITY  Four Kings~
+        CITY  Harlon Bridge~
+        CITY  Kore Springs~
+      CITY  Market Sheren~
+        CITY  New Braem~
+        CITY  Taren Ferry~             
+        SKILL   bow~            30      TRUE    0 1 0 0 -1
+        CITY  Watch Hill~
+        SKILL   bow~            30      TRUE    0 1 0 0 -1
+        CITY    Whitebridge~
+        SKILL haggle~     30  TRUE    0 1 0 0 -1            
+                    
+
+REGION  Tear~           A Tairen~       TRUE
+        CITY    Tear~                   
+        CITY    Godan~                  
+
+REGION  Arad Doman~     A Domani~       TRUE
+        CITY    Bandar Eban~            
+        SKILL   haggle~         50      FALSE   -1 0 1 0 0
+
+REGION  Murandy~        A Murandian~    TRUE
+        CITY    Lugard~         
+
+REGION  Illian~         An Illianer~    TRUE
+        CITY    Illian~                 
+
+REGION  Saldaea~        A Saldaean~     TRUE
+        CITY    Maradon~                
+        SKILL   riding~         30      TRUE    0 0 0 1 0
+
+REGION  Shienar~        A Shienaran~    TRUE
+      CITY  Ankor Dail~
+        SKILL   riding~         30      TRUE    0 0 0 1 1
+        CITY  Camron Caan~
+        SKILL   riding~         30      TRUE    0 0 0 1 1
+        CITY  Medo~
+      SKILL riding~           30    TRUE  0 0 0 1 1
+        CITY  Mos Shirare~
+        SKILL   riding~         30      TRUE    0 0 0 1 1
+        CITY    Fal Dara~               
+        SKILL   riding~         30      TRUE    0 0 0 1 1
+        CITY    Fal Moran~              
+        SKILL   riding~         30      TRUE    0 0 0 1 1
+      CITY  Fal Sion~
+        SKILL   riding~         30      TRUE    0 0 0 1 1
+
+
+REGION  Malkier~        A Malkieri~     FALSE
+        CITY    Malkier~
+        SKILL third attack~   50  TRUE    0 0 0 0 1
+        SKILL   fourth attack~  50      TRUE    0 0 0 0 1
+
+REGION  Tarabon~        A Taraboner~    TRUE
+        CITY    Elmora~ 
+        CITY  Tanchico~         
+
+REGION  Tar Valon~      Tar Valoner~    TRUE
+      CITY  Alindaer~
+        CITY  Daghain~
+        CITY  Darein~
+      CITY  Jualdhe~
+        CITY  Luagde~
+        CITY  Osenrein~
+        CITY    Tar Valon~              
+
+REGION  Amadacia~       An Amadacian~   TRUE
+        CITY      Amador~               
+        CITY    Bellon~
+        CITY    Mardecin~
+        CITY    Sienda~
+        CITY    Willar~
+ 
+REGION  Shayol Ghul~    ~       FALSE
+        CITY    Shayol Ghul~    
+        CITY  Thankan dar~      
+
+REGION  Kandor~         A Kandori~      TRUE
+        CITY  Canluum~
+        CITY    Chachin~                
+        SKILL   riding~         30      TRUE    0 0 0 1 1
+
+REGION  Arafel~         An Arafellin~   TRUE
+        CITY    Shol Arbela~            
+        SKILL   dual wield~       50    FALSE   0 0 0 1 1
+        CITY  Shol Kerin~
+        SKILL dual wield~   50    FALSE   0 0 0 1 1
+                        
+REGION  Aryth Isles~    One of the Seafolk~     FALSE
+        CITY  Aile Jafar~
+        SKILL haggle~     50  TRUE    0 0 1 0 0
+        CITY    Aile Dashar~            
+        SKILL   haggle~ 50      TRUE    0 0 1 0 0
+        CITY  Cantorin~
+      SKILL haggle~     50  TRUE    0 0 1 0 0
+      CITY  Cindaking~
+        SKILL haggle~     50  TRUE    0 0 1 0 0
+        CITY  Quain~
+        SKILL haggle~     50  TRUE    0 0 1 0 0
+        CITY    Tremalking~             
+        SKILL   haggle~         50      TRUE    0 0 1 0 0
+        
+    
+REGION  Mayene~         A Mayener~      TRUE
+        CITY    Mayene~                 
+        SKILL   haggle~         50      FALSE   0 1 0 0 0
+
+
+REGION  Ogier Stedding~ An Ogier~       TRUE
+        CITY  Chiantal~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY  Chinden~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY  Jongai~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY    Jentoine~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY  Jenshin~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY  Leitiang~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY  Mardoon~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY  Mintai~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY    Shangtai~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY  Shanjing~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY  Sholoon~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY    Taijing~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY    Taishin~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY    Tsofu~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY  Yontiang~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+        CITY  Yandar~
+        SKILL   bash~           50      TRUE    1 1 0 -1 1
+
+REGION  Seandar~        A Seanchan~     FALSE
+        CITY    Seandar~
+        SKILL   third attack~   30      FALSE   1 1 1 1 1
+        CITY    Kirendad~
+      SKILL     third attack~   30      FALSE   1 1 1 1 1
+        CITY    Noren M shar~
+        SKILL   third attack~   30      FALSE   1 1 1 1 1
+        CITY    Asinbayar~
+        SKILL   third attack~   30      FALSE   1 1 1 1 1
+        CITY    Quirat~
+        SKILL   third attack~   30      FALSE   1 1 1 1 1
+        CITY    Imfaral~
+        SKILL   third attack~   30      FALSE   1 1 1 1 1
+        CITY    Sohima~
+        SKILL   third attack~   30      FALSE   1 1 1 1 1
+        CITY    TZura~
+        SKILL   third attack~   30      FALSE   1 1 1 1 1
+        CITY    Anangore~
+        SKILL   third attack~   30      FALSE   1 1 1 1 1
+        CITY    Shon Kifar~
+        SKILL   third attack~   30      FALSE   1 1 1 1 1
+        CITY    Rampore~
+        SKILL   third attack~   30      FALSE   1 1 1 1 1
+
+REGION      Almoth Plain~ An Almoth Plainsman~	TRUE
+        CITY  Falme~
+        CITY  Katar~
+        CITY  Toman Head~
+
+REGION  Ghealdan~ A Ghealdanin~	TRUE
+    CITY    Boannda~
+    CITY    Cormaed~
+    CITY    Jarra~
+    CITY    Jehannah~
+    CITY    Samara~
+    CITY    Sehar~
+    CITY    Sidon~
+    CITY    Tallar~
+
+REGION  Plains of Maredo~ A Maredo Plainsman~	TRUE
+       CITY  Far Madding~
+
+REGION  Altara~ An Altaran~	TRUE
+        CITY    Ebou Dar~       
+        SKILL dual wield~   30  FALSE  0 0 0 1 0
+        CITY  Garens Well~
+        SKILL dual wield~   30  FALSE  0 0 0 1 0
+        CITY  Remen~
+        SKILL dual wield~   30  FALSE  0 0 0 1 0
+        CITY    Salidar~
+
+End
+
