@@ -1,0 +1,34 @@
+#!/bin/sh
+# 
+# Install the WoT executable.
+# 
+
+# Uncomment this to remove debugging information.
+# strip wot
+
+if [ -f ".installed" ]; then
+  exit 0
+fi
+
+clear
+
+cat <<EOF
+
+	The installation of WoT Mud is now complete.  To run, change to the
+/area directory and type sh ./st_main &. To login to your newly created mud 
+so that you can rename your immortal character, type "telnet localhost 5000"
+Login and create your implementor character. Then, logout, and edit the
+character player file (pfile) which will be found off of the /data/players/
+root directory.  You need only change the 'Levl' field to show '60' instead
+of '1'.  You can now relog in and have implementor access.
+
+Enjoy!
+--Gary McNickle <gary@tarmongaidon.org>
+EOF
+
+echo "" > .installed
+echo "WoT Mud installed by $(whoami) on $(date)" >> .installed
+echo "" >> .installed
+
+exit 0
+
